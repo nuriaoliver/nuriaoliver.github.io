@@ -1,0 +1,76 @@
+{{/* layouts/_default/single.orcid.html */}}
+{{ define "main" }}
+<article class="orcid-publications">
+  <header>
+    <h1>{{ .Title }}</h1>
+  </header>
+
+  {{/* Determine ORCID to use: page param first, then site param */}}
+  {{ $orcid := or .Params.orcid .Site.Params.orcid }}
+  {{ if not $orcid }}
+    <p class="error">No ORCID provided. Set `orcid` in page front matter or in site params.</p>
+  {{ else }}
+    <p>Publications for ORCID: <strong>{{ $orcid }}</strong></p>
+
+    {{/* Build API URL for works summary; public API base */}}
+    {{ $url := printf "https://pub.orcid.org/v3.0/%s/works" $orcid }}
+
+    {{ with resources.GetRemote $url }}
+      {{/* parse JSON into a native map/array */}}
+      {{ $data := . | transform.Unmarshal }}
+      {{/* The works endpoint usually returns a "group" array of work summaries */}}
+      {{ $groups := index $data "group" | default (slice) }}
+      {{ if eq (len $groups) 0 }}
+        <p>No works found (or works are private).</p>
+      {{ else }}
+        <ol class="orcid-list">
+        {{ range $gi, $g := $groups }}
+          {{ $summaries := index $g "work-summary" | default (slice) }}
+          {{ range $si, $s := $summaries }}
+            {{/* Extract common fields with safe fallbacks */}}
+            {{ $title := index (index $s "title") "title" "value" | default "Untitled" }}
+            {{ $putcode := index $s "put-code" | default "" }}
+            {{ $pubdate := index $s "publication-date" | default dict }}
+            {{ $year := index $pubdate "year" "value" | default "" }}
+            {{ $urlField := index $s "url" "value" | default "" }}
+            {{ $externalIDs := index $s "external-ids" "external-id" | default (slice) }}
+
+            <li id="orcid-work-{{ $putcode }}">
+              <article class="work">
+                <h3 class="work-title">
+                  {{ if $urlField }}
+                    <a href="{{ $urlField }}">{{ $title }}</a>
+                  {{ else }}
+                    {{ $title }}
+                  {{ end }}
+                </h3>
+
+                <p class="meta">
+                  {{- if $year }}<span class="year">{{ $year }}</span>{{ end -}}
+                  {{- if (gt (len $externalIDs) 0) }} · <span class="ids">
+                    {{ range $i, $eid := $externalIDs }}
+                      {{ $eidType := index $eid "external-id-type" | lower }}
+                      {{ $eidVal := index $eid "external-id-value" | default "" }}
+                      {{ if $eidVal }}
+                        <span class="eid">{{ $eidType }}: {{ $eidVal }}</span>{{ if lt (add $i 1) (len $externalIDs) }}, {{ end }}
+                      {{ end }}
+                    {{ end }}
+                  </span>{{ end }}
+                </p>
+
+                {{/* Optional: link to detailed work JSON on ORCID (public) */}}
+                {{ if $putcode }}
+                  <p><a href="https://pub.orcid.org/v3.0/{{ $orcid }}/work/{{ $putcode }}">View on ORCID</a></p>
+                {{ end }}
+              </article>
+            </li>
+          {{ end }}
+        {{ end }}
+        </ol>
+      {{ end }}
+    {{ else }}
+      <p class="error">Failed to fetch ORCID data for {{ $orcid }}.</p>
+    {{ end }}
+  {{ end }}
+</article>
+{{ end }}

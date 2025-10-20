@@ -1,0 +1,98 @@
+<!--
+Hugo dynamic nav partial modeled on the look & feel of https://www.nuriaoliver.com
+- Uses TailwindCSS for concise styling (recommended). If you don't use Tailwind, a small CSS snippet is included below.
+- Save this as: layouts/partials/nav.html
+- Example config menu entry (config.toml / config.yaml) is included at the bottom.
+-->
+
+<!-- layouts/partials/nav.html -->
+<nav class="bg-white border-b border-gray-200 fixed w-full z-40">
+  <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="flex justify-between h-16 items-center">
+      <!-- left: logo / name -->
+      <div class="flex items-center">
+        <a href="{{ .Site.BaseURL | default "/" }}" class="flex items-center space-x-3">
+          <!-- Simple text logo to match the clean, typographic feel -->
+          <span class="text-lg font-semibold tracking-tight">{{ with .Site.Params.brand }}{{ . }}{{ else }}{{ .Site.Title }}{{ end }}</span>
+        </a>
+      </div>
+
+      <!-- center / right: menu (desktop) -->
+      <div class="hidden md:flex md:items-center md:space-x-6">
+        {{ $current := .Page.RelPermalink }}
+        {{ with .Site.Menus.main }}
+          {{ range . }}
+            {{ $isActive := or (eq .URL $current) (and (hasPrefix $current .URL) (ne .URL "/")) }}
+            <a href="{{ .URL }}" class="text-sm font-medium hover:underline py-2 {{ if $isActive }}text-gray-900{{ else }}text-gray-600{{ end }}">
+              {{ .Name }}
+            </a>
+          {{ end }}
+        {{ end }}
+      </div>
+
+      <!-- mobile: hamburger -->
+      <div class="md:hidden">
+        <button id="nav-toggle" aria-label="Open menu" class="p-2 rounded focus:outline-none focus:ring-2 focus:ring-offset-2">
+          <svg id="nav-open" class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+          </svg>
+          <svg id="nav-close" class="h-6 w-6 hidden" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+          </svg>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- mobile menu panel (hidden by default) -->
+  <div id="nav-panel" class="hidden md:hidden border-t border-gray-100">
+    <div class="px-4 pt-4 pb-6 space-y-2">
+      {{ with .Site.Menus.main }}
+        {{ range . }}
+          <a href="{{ .URL }}" class="block text-base font-medium py-2 {{ if eq .URL $.Page.RelPermalink }}text-gray-900{{ else }}text-gray-700{{ end }}">{{ .Name }}</a>
+        {{ end }}
+      {{ end }}
+    </div>
+  </div>
+
+  <script>
+    // Minimal vanilla JS to toggle mobile menu. Keeps behaviour small & accessible.
+    (function(){
+      var toggle = document.getElementById('nav-toggle');
+      if(!toggle) return;
+      var panel = document.getElementById('nav-panel');
+      var openIcon = document.getElementById('nav-open');
+      var closeIcon = document.getElementById('nav-close');
+
+      toggle.addEventListener('click', function(){
+        var showing = panel.classList.contains('hidden');
+        if(showing){
+          panel.classList.remove('hidden');
+          openIcon.classList.add('hidden');
+          closeIcon.classList.remove('hidden');
+        } else {
+          panel.classList.add('hidden');
+          openIcon.classList.remove('hidden');
+          closeIcon.classList.add('hidden');
+        }
+      });
+    })();
+  </script>
+</nav>
+
+
+<!-- Small spacer so page content doesn't hide under the fixed nav -->
+<div class="h-16"></div>
+
+
+<!-- If you do NOT use Tailwind, add this CSS somewhere (e.g. assets/css/nav.css) -->
+<!--
+nav { background: white; border-bottom: 1px solid #e6e6e6; position: fixed; width: 100%; z-index: 40; }
+nav .container { max-width: 1100px; margin: 0 auto; padding: 0 1rem; display:flex; justify-content:space-between; align-items:center; height:64px; }
+nav .brand { font-weight:600; font-size:1.0625rem; }
+nav .menu { display:flex; gap:1rem; }
+nav .menu a { color:#666; text-decoration:none; font-size:0.95rem; }
+nav .menu a.active { color:#111; text-decoration:underline; }
+@media (max-width: 768px) { .menu { display:none; } .mobile-toggle { display:block; } }
+-->
+

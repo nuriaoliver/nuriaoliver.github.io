@@ -1,0 +1,16 @@
+{
+  // Enable Markdown link validation
+  "markdown.validate.enabled": true,
+
+  "markdown.validate.paths": [
+    "content/**/*.md"
+  ],
+
+  // Treat "docs" folder as root for Markdown previews & links
+  "markdown.preview.root": "content",
+
+  // Optional: highlight broken links
+  "markdownlint.config": {
+    "MD034": true
+  }
+}

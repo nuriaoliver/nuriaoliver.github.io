@@ -1,0 +1,103 @@
+{{ define "main" }}
+<section class="publications">
+  <h1>{{ .Title }}</h1>
+
+  {{ $pubs := site.Data.publications }}
+
+  {{ if not $pubs }}
+    <p>No publications found.</p>
+  {{ else }}
+    {{/* --- Read front matter parameters --- */}}
+    {{ $highlight_authors := .Params.highlight_authors  }}
+    {{ $include_types := .Params.include_types }}
+
+    {{/* --- Filter publications by type --- */}}
+    {{ $data := where $pubs "type" "in" $include_types }}
+
+    {{/* --- Exclude ArXiv entries (case-insensitive) --- */}}
+    {{/* Keep all entries except those where journal explicitly contains 'arXiv' */}}
+    {{ $filtered := slice }}
+    {{ range $data }}
+    {{ $j := lower (default "" .journal) }}
+    {{ if not (in $j "arxiv") }}
+        {{ $filtered = $filtered | append . }}
+    {{ end }}
+    {{ end }}
+
+    {{/* --- Sort descending by date --- */}}
+    {{ $sorted := sort $filtered "sort_date" "desc" }}
+
+    <ul class="pub-list">
+      {{ range $sorted }}
+        <li class="pub-item">
+          <div class="pub-title">
+            {{ if .doi }}
+              <a href="https://doi.org/{{ .doi }}" target="_blank" rel="noopener">{{ .title }}</a>
+            {{ else if .url }}
+              <a href="{{ .url }}" target="_blank" rel="noopener">{{ .title }}</a>
+            {{ else }}
+              {{ .title }}
+            {{ end }}
+          </div>
+
+          {{ with .authors }}
+            {{ $count := len . }}
+            <div class="pub-authors">
+              {{ range $i, $a := . }}
+                {{ if lt $i 4 }}
+                  {{ if $i }}, {{ end }}
+                  {{ if in $highlight_authors $a }}
+                    <strong>{{ $a }}</strong>
+                  {{ else }}
+                    {{ $a }}
+                  {{ end }}
+                {{ end }}
+              {{ end }}
+              {{ if gt $count 4 }}, <em>et al.</em>{{ end }}
+            </div>
+          {{ end }}
+          
+          <div class="pub-meta">
+            {{ if .journal }}<em>{{ .journal }}</em>{{ end }}
+            {{ if .date }} — {{ .date }}{{ end }}
+          </div>
+        </li>
+      {{ end }}
+    </ul>
+  {{ end }}
+</section>
+
+<style>
+.publications {
+  max-width: 800px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+.pub-list {
+  list-style: none;
+  padding-left: 0;
+}
+.pub-item {
+  margin-bottom: 1.2em;
+}
+.pub-title a {
+  font-weight: 600;
+  color: #0055aa;
+  text-decoration: none;
+}
+.pub-title a:hover {
+  text-decoration: underline;
+}
+.pub-authors {
+  font-size: 0.95em;
+  color: #444;
+}
+.pub-authors strong {
+  color: #000;
+}
+.pub-meta {
+  font-size: 0.9em;
+  color: #666;
+}
+</style>
+{{ end }}

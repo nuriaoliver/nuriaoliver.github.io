@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    {{ $styles := resources.Get "css/nav.css" | minify | fingerprint }}
+    <link rel="stylesheet" href="{{ $styles.RelPermalink }}" integrity="{{ $styles.Data.Integrity }}">
+  </head>
+  <body>
+    {{ partial "nav.html" . }}
+    {{ block "main" . }}{{ end }}
+  </body>
+</html>
