@@ -1,9 +1,5 @@
 ---
 title: High Resolution Photos
-menu:
-  main:
-    name: Photos
-    weight: 2
 ---
 
 Freely usable photos downloadable with
@@ -23,5 +19,4 @@ Other photos usable with attribution:
 [![Nuria oliver 1 (39859504533)](https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Nuria_oliver_1_%2839859504533%29.jpg/256px-Nuria_oliver_1_%2839859504533%29.jpg)](https://commons.wikimedia.org/wiki/File:Nuria_oliver_1_(39859504533).jpg "ester perez broto, CC BY-SA 2.0 <https://creativecommons.org/licenses/by-sa/2.0>, via Wikimedia Commons")
 [![Nuria oliver 2 (46772232572)](https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Nuria_oliver_2_%2846772232572%29.jpg/256px-Nuria_oliver_2_%2846772232572%29.jpg)](https://commons.wikimedia.org/wiki/File:Nuria_oliver_2_(46772232572).jpg "ester perez broto, CC BY-SA 2.0 <https://creativecommons.org/licenses/by-sa/2.0>, via Wikimedia Commons")
 
-[![](/assets/NuriaOliver_Arduino_Vannucchi_thumb.jpg)](/assets/NuriaOliver_Arduino_Vannucchi.jpg)  
-©Arduino Vannucchi  
+<img src="/img/NuriaOliver_Arduino_Vannucchi.jpg" class="img-fluid float-start me-3 mb-3" alt="Picture of Nuria Oliver">

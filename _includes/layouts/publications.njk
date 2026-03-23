@@ -1,0 +1,61 @@
+---
+layout: base.njk
+---
+<section class="publications">
+  <h1>{{ title }}</h1>
+
+  {% set filteredPubs = publications | filterPublications(include_types) | sortByDate %}
+
+  {% if not filteredPubs.length %}
+    <p>No publications found.</p>
+  {% else %}
+    {{ content | safe }}
+    <ul class="pub-list">
+      {% for pub in filteredPubs %}
+        <li class="pub-item">
+          <div class="pub-title">
+            {% if pub.doi %}
+              <a href="https://doi.org/{{ pub.doi }}" target="_blank" rel="noopener">{{ pub.title }}</a>
+            {% elif pub.url %}
+              <a href="{{ pub.url }}" target="_blank" rel="noopener">{{ pub.title }}</a>
+            {% else %}
+              {{ pub.title }}
+            {% endif %}
+          </div>
+
+          {% if pub.authors %}
+            <div class="pub-authors">
+              {% for author in pub.authors %}
+                {% if loop.index0 < 4 %}
+                  {% if loop.index0 > 0 %}, {% endif %}
+                  {% if author in highlight_authors %}
+                    <strong>{{ author }}</strong>
+                  {% else %}
+                    {{ author }}
+                  {% endif %}
+                {% endif %}
+              {% endfor %}
+              {% if pub.authors.length > 4 %}, <em>et al.</em>{% endif %}
+            </div>
+          {% endif %}
+
+          <div class="pub-meta">
+            {% if pub.journal %}<em>{{ pub.journal }}</em>{% endif %}
+            {% if pub.date %} — {{ pub.date }}{% endif %}
+          </div>
+        </li>
+      {% endfor %}
+    </ul>
+  {% endif %}
+</section>
+
+<style>
+.publications { max-width: 800px; margin: 0 auto; line-height: 1.6; }
+.pub-list { list-style: none; padding-left: 0; }
+.pub-item { margin-bottom: 1.2em; }
+.pub-title a { font-weight: 600; color: #0055aa; text-decoration: none; }
+.pub-title a:hover { text-decoration: underline; }
+.pub-authors { font-size: 0.95em; color: #444; }
+.pub-authors strong { color: #000; }
+.pub-meta { font-size: 0.9em; color: #666; }
+</style>

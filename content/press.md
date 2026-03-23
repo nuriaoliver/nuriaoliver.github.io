@@ -1,10 +1,5 @@
 ---
 title: Press Coverage
-menu:
-  main:
-    name: "Press Coverage"
-    weight: 9
-
 ---
 
 I have appeared in over

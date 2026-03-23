@@ -1,9 +1,5 @@
 ---
 title: Awards and Honors
-menu:
-  main:
-    name: Awards
-    weight: 4
 ---
 
 * King Jaume I Award in New Technologies, 2021

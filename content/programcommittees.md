@@ -1,10 +1,5 @@
 ---
 title: Program Committees and Service
-menu:
-  main:
-    name: "Program Committees"
-    weight: 8
-
 ---
 
 Over the years, I have served in the Organizing and/or Program Committee of

@@ -1,10 +1,5 @@
 ---
 title: Videos of Nuria Oliver
-menu:
-  main:
-    name: "Videos"
-    weight: 10
-
 ---
 
 Here are some of the videos that I've appeared in over the years, giving talks or interviews:

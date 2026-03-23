@@ -8,15 +8,7 @@ include_types:
   - journal-article
   - conference-paper
   - proceedings-article
-
-menu:
-  main:
-    name: Publications
-    weight: 5
 ---
-
-
-Hello
 
 In my
 [Google Scholar profile](https://scholar.google.es/citations?hl=en&user=VJlCMGYAAAAJ&view_op=list_works&gmla=AJsN-F7FS6JM3ybbVOpcRHcBE0h8D9P9krKpytAIQrPsChtiDoVUCcyfw7XrdbESRBv9A7pR_CDt7c2wHnE6gn-OkRmAb86Q1W9DJAGyettOs62rrCZU6ahv7UyvgbkBUo7R-GUTeues) you can find most of my publications.

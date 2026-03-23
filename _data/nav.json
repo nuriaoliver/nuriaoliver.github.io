@@ -1,0 +1,12 @@
+[
+  { "name": "Bio",                 "url": "/bio/" },
+  { "name": "Photos",              "url": "/pictures/" },
+  { "name": "Invited Talks",       "url": "/invitedtalks/" },
+  { "name": "Awards",              "url": "/awards/" },
+  { "name": "Publications",        "url": "/publications/" },
+  { "name": "Projects",            "url": "/projects/" },
+  { "name": "Patents",             "url": "/patents/" },
+  { "name": "Program Committees",  "url": "/programcommittees/" },
+  { "name": "Press",               "url": "/press/" },
+  { "name": "Videos",              "url": "/videos/" }
+]

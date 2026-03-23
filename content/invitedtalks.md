@@ -1,8 +1,5 @@
 ---
 title: Invited Talks
-menu:
-  main:
-    weight: 3
 ---
 
 Some of my talks can be found

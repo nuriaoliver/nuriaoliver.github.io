@@ -2,7 +2,7 @@
 title: Nuria Oliver, PhD
 ---
 
-{{< img src="img/index_default_photo.jpg" class="img-fluid float-start me-3 mb-3" alt="Picture of Nuria Oliver" >}}
+<img src="/img/index_default_photo.jpg" class="img-fluid float-start me-3 mb-3" alt="Picture of Nuria Oliver">
 
 Nuria Oliver is a computer scientist.
 She holds a Ph.D. from the Media Lab at MIT.
@@ -11,7 +11,7 @@ member of the Academia Europaea and the fourth and youngest female
 member of the Spanish Royal Academy of Engineering. In 2018 she was
 named Engineer of the Year by the Professional Association of
 Telecommunication Engineers of Spain and she received an honorary
-doctorate from the University Miguel Hernandez   
+doctorate from the University Miguel Hernandez
 
 She is well known for
 [her work](publications.md) in computational
@@ -21,7 +21,7 @@ for social good. She is the named inventor of [41 patents](patents.md). She is a
 frequent [keynote speaker](invitedtalks.md) both for technical and non-technical
 audiences. She regularly collaborates with and is featured by
 [the media.](press.md) She is very passionate about the power of technology to
-improve our quality of life, both individually and collectively ([Wikipedia](https://en.wikipedia.org/wiki/Nuria_Oliver))  
+improve our quality of life, both individually and collectively ([Wikipedia](https://en.wikipedia.org/wiki/Nuria_Oliver))
 
 She invests significant effort in [outreach
 efforts](summary2015.md) to make technology more accessible to non technical
@@ -31,5 +31,5 @@ pursue careers in technology
 [Curriculum Vitae](assets/resume/NuriaOliverCV_English_2017_short.pdf)|
 [PhD Thesis](assets/thesis/thesisNuriaOliver.pdf)|
 [Pictures](pictures.md)|
-[Other](other.md)  
+[Other](other.md)
 [¿Qué es la Inteligencia Artificial?](https://ellisalicante.org/ia)

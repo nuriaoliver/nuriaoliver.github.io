@@ -7,11 +7,6 @@ highlight_authors:
   - Oliver Nuria
 include_types:
   - patent
-  
-menu:
-  main:
-    name: "Patents"
-    weight: 7
 ---
 
 |  |  |  |
