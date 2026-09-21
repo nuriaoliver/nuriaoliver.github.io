@@ -1,7 +1,9 @@
 ---
 title: Fashionable Wearable American Sign Language Recognition System
+shortTitle: "Wearable ASL Recognition"
 category: Wearable, Mobile and Urban Computing
 years: "1999"
+description: "A wearable computer-vision system for recognizing American Sign Language."
 date: 1997-01-01
 thumbnail: wearASLPoster_sm.jpg
 ---

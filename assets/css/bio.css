@@ -1,0 +1,11 @@
+.bio-portrait {
+  max-width: 240px;
+  width: 28%;
+}
+
+@media (max-width: 575px) {
+  .bio-portrait {
+    max-width: 180px;
+    width: 42%;
+  }
+}

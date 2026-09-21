@@ -3,6 +3,7 @@ title: Curve Analogies
 date: 2001-01-01
 category: Computer Graphics
 years: "2001"
+description: "Learns statistical models of two-dimensional curves for designing new shapes."
 ---
 
 ## Abstract

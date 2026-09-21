@@ -1,7 +1,9 @@
 ---
 title: "GWindows: Light-weight Stereo Vision for Interaction"
+shortTitle: "GWindows Stereo Interaction"
 category: Perceptual and Multimodal Interfaces
 years: "2002–2003"
+description: "Lightweight stereo vision for fluid, non-desktop computer interaction."
 date: 2003-01-01
 thumbnail: engagement.jpg
 ---

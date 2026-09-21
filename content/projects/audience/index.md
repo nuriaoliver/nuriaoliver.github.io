@@ -1,7 +1,9 @@
 ---
 title: Modeling Audience Group Behavior
+shortTitle: "Audience Group Behavior"
 category: Machine Learning
 years: "1996"
+description: "A multi-agent system for modeling audience behavior and group dynamics."
 date: 1996-01-01
 thumbnail: agentscreen.gif
 ---

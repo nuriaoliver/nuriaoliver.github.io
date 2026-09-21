@@ -1,6 +1,9 @@
 const markdownIt = require("markdown-it");
+const yaml = require("yaml");
 
 module.exports = function (eleventyConfig) {
+  eleventyConfig.addDataExtension("yaml", (contents) => yaml.parse(contents));
+
   // Copy static/ to output root
   eleventyConfig.addPassthroughCopy({ static: "/" });
   // Copy nav.css
@@ -57,6 +60,44 @@ module.exports = function (eleventyConfig) {
     }));
   });
 
+  eleventyConfig.addCollection("projectsByCareerPeriod", function (collectionApi) {
+    const projects = collectionApi.getAll().filter(
+      (p) =>
+        p.data.category &&
+        p.inputPath.includes("/projects/") &&
+        !p.inputPath.endsWith("/projects/index.md")
+    );
+    const periods = [
+      { id: "telefonica", title: "Telefónica Research", start: 2007, end: 2016 },
+      { id: "microsoft", title: "Microsoft Research", start: 2000, end: 2007 },
+      { id: "mit", title: "MIT Media Lab", start: 1995, end: 2001 },
+    ];
+    const grouped = Object.fromEntries(periods.map((period) => [period.id, []]));
+
+    for (const project of projects) {
+      const firstYear = Number.parseInt(String(project.data.years || ""), 10);
+      const period =
+        firstYear >= 2007
+          ? periods.find((candidate) => candidate.id === "telefonica")
+          : firstYear >= 2002
+            ? periods.find((candidate) => candidate.id === "microsoft")
+            : periods.find((candidate) => candidate.id === "mit");
+      if (!period) continue;
+      grouped[period.id].push(project);
+    }
+
+    return periods.map((period) => ({
+      ...period,
+      projects: grouped[period.id]
+        .sort((a, b) => (b.data.years || "").localeCompare(a.data.years || ""))
+        .map((project) => ({
+          project,
+          shortTitle: project.data.shortTitle || project.data.title,
+          description: project.data.description || "Research project details and publications.",
+        })),
+    }));
+  });
+
   // Set default layout for all pages
   eleventyConfig.addGlobalData("layout", "layouts/default.njk");
 
@@ -69,6 +110,31 @@ module.exports = function (eleventyConfig) {
   // Markdown with raw HTML enabled
   const md = markdownIt({ html: true, linkify: true });
   eleventyConfig.setLibrary("md", md);
+  eleventyConfig.addFilter("markdown", function (content) {
+    return md.render(content || "");
+  });
+  eleventyConfig.addFilter("markdownInline", function (content) {
+    return md.renderInline(content || "");
+  });
+  eleventyConfig.addFilter("archiveByDecade", function (archive, category) {
+    const decades = new Map();
+
+    for (const [year, categories] of Object.entries(archive || {})) {
+      const talks = categories[category];
+      if (!talks) continue;
+      const numericYear = Number(year);
+      const decade = Math.floor(numericYear / 10) * 10;
+      if (!decades.has(decade)) decades.set(decade, []);
+      decades.get(decade).push({ year: numericYear, talks });
+    }
+
+    return [...decades.entries()]
+      .sort(([first], [second]) => second - first)
+      .map(([decade, years]) => ({
+        decade,
+        years: years.sort((first, second) => second.year - first.year),
+      }));
+  });
 
   // Filter: keep only matching types and exclude arxiv entries
   eleventyConfig.addFilter("filterPublications", function (pubs, types) {

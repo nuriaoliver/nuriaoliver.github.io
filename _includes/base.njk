@@ -7,6 +7,23 @@
     <link rel="stylesheet" href="/css/bootstrap.min.css">
     <script src="/js/bootstrap.bundle.min.js" defer></script>
     <link rel="stylesheet" href="/css/nav.css">
+    {% if page.url == '/' %}<link rel="stylesheet" href="/css/home.css">{% endif %}
+    {% if page.url == '/bio/' %}<link rel="stylesheet" href="/css/bio.css">{% endif %}
+    {% if page.url == '/summary/' %}<script src="/js/contact.js" defer></script>{% endif %}
+    {% if page.url == '/pictures/' %}<link rel="stylesheet" href="/css/photos.css">{% endif %}
+    {% if page.url == '/awards/' %}<link rel="stylesheet" href="/css/awards.css">{% endif %}
+    {% if page.url == '/invitedtalks/' %}
+    <link rel="stylesheet" href="/css/invited-talks.css">
+    <script src="/js/invited-talks.js" defer></script>
+    {% endif %}
+    {% if page.url == '/programcommittees/' %}
+    <link rel="stylesheet" href="/css/programcommittees.css">
+    <script src="/js/programcommittees.js" defer></script>
+    {% endif %}
+    {% if page.url == '/press/' %}
+    <link rel="stylesheet" href="/css/press.css">
+    <script src="/js/press.js" defer></script>
+    {% endif %}
     {% if page.url and page.url.startsWith('/projects/') and page.url != '/projects/' %}
     <script type="application/ld+json">
     {
@@ -25,7 +42,7 @@
     <header>
       {% include "nav.njk" %}
     </header>
-    <main role="main" style="padding-top: 80px;">
+    <main role="main" class="{% if page.url == '/' %}home-page{% endif %}{% if page.url == '/awards/' %} awards-page{% endif %}{% if page.url == '/programcommittees/' %} service-page{% endif %}{% if page.url == '/press/' %} press-page{% endif %}" style="padding-top: 80px;">
       <div class="container">
         {{ content | safe }}
       </div>

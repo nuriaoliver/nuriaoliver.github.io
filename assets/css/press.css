@@ -1,0 +1,132 @@
+.press-tools {
+  border-bottom: 1px solid #d9dee3;
+  border-top: 1px solid #d9dee3;
+  margin: 2rem 0 2.5rem;
+  padding: 1rem 0;
+}
+
+.press-jump {
+  border: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+  position: static;
+}
+
+.press-jump a {
+  border: 1px solid #b9c9d3;
+  border-radius: 4px;
+  color: #174f72;
+  font-weight: 600;
+  padding: 0.35rem 0.75rem;
+  text-decoration: none;
+}
+
+.press-jump a:hover,
+.press-jump a:focus-visible {
+  background: #eef6fa;
+  border-color: #39789d;
+  color: #0b2f45;
+}
+
+.press-filter {
+  align-items: center;
+  display: flex;
+  gap: 0.75rem;
+}
+
+.press-filter input {
+  border: 1px solid #aeb8c1;
+  border-radius: 4px;
+  padding: 0.55rem 0.75rem;
+  width: min(100%, 30rem);
+}
+
+#press-count {
+  color: #5a6268;
+  font-size: 0.9rem;
+  white-space: nowrap;
+}
+
+.press-page h2[id] {
+  scroll-margin-top: 5.5rem;
+}
+
+.press-decade {
+  border-top: 1px solid #d9dee3;
+}
+
+.press-decade:last-child {
+  border-bottom: 1px solid #d9dee3;
+  margin-bottom: 2.5rem;
+}
+
+.press-decade summary {
+  align-items: center;
+  color: #53646f;
+  cursor: pointer;
+  display: flex;
+  font-size: 0.8rem;
+  font-weight: 700;
+  gap: 0.75rem;
+  padding: 0.8rem 0;
+}
+
+.press-decade summary::after {
+  background: #d9dee3;
+  content: "";
+  flex: 1;
+  height: 1px;
+}
+
+.press-decade summary:hover,
+.press-decade summary:focus-visible {
+  color: #174f72;
+}
+
+.press-year {
+  color: #174f72;
+  font-size: 0.95rem;
+  font-weight: 700;
+  margin: 1rem 0 0.35rem;
+}
+
+.press-year-list {
+  margin-bottom: 1.25rem;
+}
+
+.press-year-list li {
+  margin-bottom: 0.35rem;
+}
+
+.press-tag {
+  background: #edf3f6;
+  border: 1px solid #ccd9e0;
+  border-radius: 3px;
+  color: #425967;
+  display: inline-block;
+  font-size: 0.7rem;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-right: 0.45rem;
+  padding: 0.15rem 0.35rem;
+  text-transform: uppercase;
+  vertical-align: 0.08rem;
+}
+
+.press-year-list li > p {
+  display: inline;
+  margin: 0;
+}
+
+@media (max-width: 576px) {
+  .press-filter {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  #press-count {
+    white-space: normal;
+  }
+}

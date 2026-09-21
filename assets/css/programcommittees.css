@@ -1,0 +1,40 @@
+.service-page h1 { margin-bottom: 1rem; }
+.service-page h2 {
+  border-bottom: 2px solid #9fbccc;
+  color: #173f59;
+  font-size: 1.35rem;
+  margin: 2.75rem 0 1rem;
+  padding-bottom: 0.45rem;
+}
+.service-page h3 { color: #4f6674; font-size: 1rem; margin: 1.75rem 0 0.65rem; }
+.service-page p, .service-page li { line-height: 1.6; }
+.service-list {
+  column-gap: 3rem;
+  columns: 2 22rem;
+  list-style: none;
+  margin: 1rem 0 2.25rem;
+  padding: 0;
+}
+.service-list li {
+  break-inside: avoid;
+  padding: 0.2rem 0;
+}
+.historical-service {
+  border-bottom: 1px solid #d9e1e6;
+  border-top: 1px solid #d9e1e6;
+  margin: 0.5rem 0 2.5rem;
+}
+.historical-service summary {
+  cursor: pointer;
+  color: #174f72;
+  font-size: 1rem;
+  font-weight: 700;
+  padding: 1rem 0;
+}
+.historical-service summary:hover,
+.historical-service summary:focus-visible {
+  color: #0b2f45;
+}
+.historical-service .service-list {
+  margin-top: 0;
+}

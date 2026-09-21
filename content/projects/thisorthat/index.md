@@ -1,7 +1,9 @@
 ---
 title: "ThisOrThat: Social Mobile Shopping"
+shortTitle: "ThisOrThat Social Shopping"
 category: Wearable, Mobile and Urban Computing
 years: "2008–2009"
+description: "A social-shopping mobile application that gathers trusted friends’ opinions in context."
 date: 2008-01-01
 thumbnail: home_01.jpg
 ---

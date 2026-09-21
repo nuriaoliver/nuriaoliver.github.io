@@ -2,12 +2,43 @@
 title: Awards and Honors
 ---
 
+Nuria Oliver's honors recognize her contributions to computer science,
+artificial intelligence, telecommunications, and technology for social good.
+
+## Recent recognition
+
+### 2025
+
+* [Julio Rey Pastor National Research Award](https://ellisalicante.org/2026/05/05/pr-PNI.en/) in Mathematics and Information and Communication Technologies, granted by Spain's Ministry of Science, Innovation and Universities
+* [Talgo Award for Excellence of Women in Engineering](https://www.talgo.com/es/talgo-reconoce-la-innovacion-tecnologica-la-relevancia-de-la-mujer-en-la-fp-y-la-excelencia-de-la-mujer-en-la-ingenieria-en-sus-premios-talgo-2025), 2025
+* [Extraordinary Award to Excellence](https://alicanteplaza.es/alicanteplaza/alcoy-el-comtat/el-emprendedor-inaki-berenguer-premia-a-21-estudiantes-los-mejores-de-bachillerato-de-alcoy-cocentaina-y-muro), Iñaki Berenguer Foundation, 2025
+* [Top 33 Global Leader in Responsible AI](https://www.sheshapes.ai/202526-awards), She Shapes AI
+* [Computer Science Leader Award](https://research.com/u/nuria-oliver), Research.com
+* [Social Distinguished Individual of 2025](https://hazrevista.org/innovacion-social/2025/12/nuria-oliver-personaje-social-2025-poner-personas-centro-ia/), Haz magazine
+
+### 2024
+
+* [ICMI Ten-Year Technical Impact Award](https://icmi.acm.org/2024/) for the 2014 paper “Once upon a crime: towards crime prediction from demographics and mobile data”
+* [Digital Transformation Minerva Award](https://www.ineco.com/ineco/comunicacion/noticias/minerva-entrega-sus-segundos-premios-anuales), INECO and the Spanish Ministry of Transportation
+* [Trifermed Award](https://ellisalicante.org/2024/09/18/trifermed-award.en/) for social impact
+* [Fellow of the Asia-Pacific Artificial Intelligence Association](https://www.aaia-ai.org/fellows?page=65)
+* [Barcelona Hypatia European Science Prize 2023](https://www.ae-info.org/ae/Acad_Main/Barcelona_Knowledge_Hub_Events/BARCELONA%20HYPATIA%20EUROPEAN%20SCIENCE%20PRIZE%202023), presented in 2024 by Barcelona City Council and the Academia Europaea Barcelona Knowledge Hub
+
+### 2023
+
+* [Technology Leadership Award](https://ellisalicante.org/awards/), Empren Dona
+* [Gamechanger](https://forbes.es/listas/213741/lista-forbes-los-23-protagonistas-del-cambio/), Forbes magazine
+* [Honorary Gold Top100](https://cronicaglobal.elespanol.com/vida/20230223/las-top-mujeres-lideres-espana-aniversario-premiadas/743675679_0.html)
+* [Largest D-index among female Computer Science researchers in Spain](https://research.com/scientists-rankings/computer-science/es), Research.com
+
+### 2021 and earlier
+
 * King Jaume I Award in New Technologies, 2021
 * Abie Technology Leadership Award by the AnitaB.org, 2021
 * Winner of the 500k XPRIZE Pandemic Response Challenge sponsored by Cognizant, 2021
 * Data Scientist of the Year, ESRI, Spain 2020
 * "Woman to Follow" in the Technology section by "Mujeres a Seguir", Oct 2020
-* [Data Scientist of the Year Award](https://www.datsciawards.com/finalists-2019/) by the Big Data Value Association and CeADAR
+* [Data Scientist of the Year Award](https://www.datsciawards.com/finalists-2019/) by the Big Data Value Association and CeADAR, 2019
 * Inducted to SIGCHI Academy, May 2019
 * Forinvest award, Spanish Night of Finances, March 2019
 * Member of the [Spanish Royal Academy of Engineering](http://www.raing.es/es/acad-micos/excma-sra-d-nuria-mar-oliver-ram-rez), Dec 2018
@@ -18,12 +49,15 @@ title: Awards and Honors
 * [Honorary PhD](https://www.youtube.com/watch?v=8L-EVXCc6o0) by the University Miguel Hernandez, Oct 2018
 * [FIUM Award](https://www.um.es/web/sala-prensa/-/la-facultad-de-informatica-premia-a-nuria-oliver-en-el-xxv-aniversario-de-su-primera-promocion-de-ingenieros) by the University of Murcia, June 2018
 * Telecommunications Engineer of the Year by the Association of Professional Telecommunication Engineers of Valencia, May 2018
+
+## Professional and academic honors
+
 * **[Fellow of the ACM](https://www.acm.org/media-center/2017/december/fellows-2017)**, Dec 2017
-* [Spanish 2016 Angela Ruiz Robles National Award in Computer Science](http://www.scie.es/premios-nacionales-de-informatica/edicion-2016/)
 * Medal to Business and Social Impact by the Generalitat of Valencia, Oct 2017
 * [Diversity award](http://www.evap.es/premios-evap) by the EVAP, Oct 2017
 * Named "IMPORTANTE" by Informacion of Alicante, Feb 2017
 * **Fellow of the IEEE,** Jan 2017
+* [Spanish 2016 Angela Ruiz Robles National Award in Computer Science](http://www.scie.es/premios-nacionales-de-informatica/edicion-2016/)
 * Winner of the [European Digital Woman of the Year Award](http://adaawards.com/2016-eu-finalists/), Dec 2016
 * **Fellow of the European Association of Artificial Intelligence**, Aug 2016
 * Selected as one of 10 "LasTop100" Spanish female leaders in the Academics/Scientists category (2016)
@@ -38,6 +72,9 @@ title: Awards and Honors
 * ACM Ubicomp 2014 Best Paper Award
 * [ACM Senior Member ](http://awards.acm.org/award_winners/oliver_cl65690.cfm), Jan 2014
 * ACM RecSys 2012 Best Paper Award
+
+## Earlier awards and fellowships
+
 * Named a [Rising Talent ](http://www.womens-forum.com/index.php/main/projects/10)by the [Women's Forum for Economy & Society ](http://www.womens-forum.com/). Deauville, France, October 2009
 * [Named one of the 100 Leaders of the Future ](https://nuriaoliver.com/press/CapitalMay09_NuriaOliver.pdf). Capital Magazine. May 2009.
 * MIT [TR100 Young Innovator Award ](http://www.technologyreview.com/articles/04/10/tr100computing1004.asp). MIT Technology Review's Award to the top 100 young innovators in the world. Sept 04.

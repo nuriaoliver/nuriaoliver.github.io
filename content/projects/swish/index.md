@@ -1,7 +1,9 @@
 ---
 title: "SWISH: Semantic Analysis of Window Titles and Switching History"
+shortTitle: "SWISH Window Semantics"
 category: Intelligent User Interfaces
 years: "2006"
+description: "Semantic analysis of window titles and switching history to support task management."
 date: 2006-01-01
 thumbnail: swish_architecture.jpg
 ---

@@ -1,0 +1,159 @@
+.talks-tools {
+  margin: 2rem 0 2.5rem;
+  border-top: 1px solid #d9dee3;
+  border-bottom: 1px solid #d9dee3;
+  padding: 1rem 0;
+}
+
+.talks-jump {
+  position: static;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  border: 0;
+  margin-bottom: 1rem;
+}
+
+.talks-jump a {
+  color: #174f72;
+  border: 1px solid #b9c9d3;
+  border-radius: 4px;
+  padding: 0.35rem 0.75rem;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.talks-jump a:hover,
+.talks-jump a:focus-visible {
+  color: #0b2f45;
+  border-color: #39789d;
+  background: #eef6fa;
+}
+
+.talks-filter {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.talks-filter input {
+  width: min(100%, 30rem);
+  border: 1px solid #aeb8c1;
+  border-radius: 4px;
+  padding: 0.55rem 0.75rem;
+}
+
+#talks-count {
+  color: #5a6268;
+  font-size: 0.9rem;
+  white-space: nowrap;
+}
+
+.talks-archive-group {
+  border-top: 1px solid #d9dee3;
+}
+
+.talks-archive-group:last-child {
+  border-bottom: 1px solid #d9dee3;
+  margin-bottom: 3rem;
+}
+
+.talks-archive-group summary {
+  cursor: pointer;
+  color: #174f72;
+  font-size: 1.15rem;
+  font-weight: 650;
+  padding: 1rem 0;
+}
+
+.talks-archive-group summary:hover,
+.talks-archive-group summary:focus-visible {
+  color: #0b2f45;
+}
+
+.talks-archive-content {
+  padding: 0 0 1rem 0.25rem;
+}
+
+.talks-decade {
+  border-top: 1px solid #d9dee3;
+}
+
+.talks-decade:last-child {
+  border-bottom: 1px solid #d9dee3;
+}
+
+.talks-decade summary {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  color: #6a747b;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  margin: 0;
+  padding: 0.8rem 0;
+}
+
+.talks-decade summary::after {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: #d9dee3;
+}
+
+.talks-decade summary:hover,
+.talks-decade summary:focus-visible {
+  color: #174f72;
+}
+
+.talks-type-content h5 {
+  color: #174f72;
+  font-size: 0.9rem;
+  font-weight: 700;
+  margin: 0.9rem 0 0.3rem;
+}
+
+.talks-decade h5,
+.talks-decade ul {
+  margin-left: 0.25rem;
+  margin-right: 0.25rem;
+}
+
+.talks-archive-index {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem 1rem;
+  margin: 0.25rem 0 1.5rem;
+  padding: 0;
+  list-style: none;
+}
+
+.talks-archive-index a {
+  color: #174f72;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.2rem;
+}
+
+.talks-archive-content li,
+#recent-talks ~ ul li {
+  margin-bottom: 0.45rem;
+}
+
+h2[id],
+h3[id] {
+  scroll-margin-top: 5.5rem;
+}
+
+@media (max-width: 576px) {
+  .talks-filter {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  #talks-count {
+    white-space: normal;
+  }
+
+}

@@ -1,7 +1,9 @@
 ---
 title: "Where is the food? Reinforcement Learning in a Maze World"
+shortTitle: "Reinforcement Learning in a Maze"
 category: Machine Learning
 years: "1997"
+description: "Compares reinforcement-learning algorithms in a configurable maze-world environment."
 date: 1997-01-01
 ---
 

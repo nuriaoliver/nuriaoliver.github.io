@@ -1,0 +1,57 @@
+---
+title: Invited Talks
+---
+
+<p>Nuria Oliver has delivered more than 300 invited talks to scientific,
+government, industry, educational, and public audiences. Recordings of selected
+talks are available <a href="https://www.youtube.com/results?search_query=nuria+oliver">online</a>.</p>
+
+<div class="talks-tools">
+  <nav class="talks-jump" aria-label="Invited talks sections">
+    {% for group in invitedTalks.recent %}<a href="#talks-{{ group.year }}">{{ group.year }}</a>{% endfor %}
+    <a href="#historical-archive">Archive</a>
+    <a href="#school-talks">Schools</a>
+  </nav>
+  <div class="talks-filter" role="search">
+    <label class="visually-hidden" for="talks-query">Filter talks</label>
+    <input id="talks-query" type="search" placeholder="Filter talks" autocomplete="off">
+    <span id="talks-count" role="status" aria-live="polite"></span>
+  </div>
+</div>
+
+<h2 id="recent-talks">Recent invited talks</h2>
+
+{% for group in invitedTalks.recent %}
+<h3 id="talks-{{ group.year }}">{{ group.year }}</h3>
+<ul>
+  {% for talk in group.talks %}<li>{{ talk | markdownInline | safe }}</li>{% endfor %}
+</ul>
+{% endfor %}
+
+<h2 id="historical-archive">Historical archive</h2>
+
+{% set archiveTypes = [
+  { key: "government", title: "Government, universities, courses, and technology conferences" },
+  { key: "public", title: "General public events" },
+  { key: "scientific", title: "Scientific conferences and technical talks" }
+] %}
+{% for type in archiveTypes %}
+<h3 id="archive-{{ type.key }}">{{ type.title }}</h3>
+<div class="talks-type-content">
+  {% for decade in invitedTalks.archive | archiveByDecade(type.key) %}
+  <details class="talks-decade">
+    <summary>{{ decade.decade }}s</summary>
+    {% for year in decade.years %}
+    <h5>{{ year.year }}</h5>
+    <ul>
+      {% for talk in year.talks %}<li>{{ talk | markdownInline | safe }}</li>{% endfor %}
+    </ul>
+    {% endfor %}
+  </details>
+  {% endfor %}
+</div>
+{% endfor %}
+
+<h2 id="school-talks">School and high school outreach</h2>
+{% set schoolContent %}{% include "invited-talks-school.md" %}{% endset %}
+{{ schoolContent | markdown | safe }}

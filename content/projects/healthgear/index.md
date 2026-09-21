@@ -1,7 +1,9 @@
 ---
 title: "HealthGear: Automatic Sleep Apnea Monitoring and Detection on your Mobile Phone"
+shortTitle: "HealthGear Mobile Sleep Apnea"
 category: Wearable, Mobile and Urban Computing
 years: "2005–2007"
+description: "A mobile wearable system for monitoring and analyzing sleep-apnea signals."
 date: 2005-01-01
 thumbnail: image002.jpg
 ---

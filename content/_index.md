@@ -18,7 +18,7 @@ She is well known for
 models of human behavior, human computer-interaction, intelligent
 user interfaces, mobile computing and big data
 for social good. She is the named inventor of [41 patents](patents.md). She is a
-frequent [keynote speaker](invitedtalks.md) both for technical and non-technical
+frequent [keynote speaker](/invitedtalks/) both for technical and non-technical
 audiences. She regularly collaborates with and is featured by
 [the media.](press.md) She is very passionate about the power of technology to
 improve our quality of life, both individually and collectively ([Wikipedia](https://en.wikipedia.org/wiki/Nuria_Oliver))  

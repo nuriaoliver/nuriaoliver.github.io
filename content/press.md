@@ -2,14 +2,33 @@
 title: Press Coverage
 ---
 
-I have appeared in over
-[320 media articles](https://www.google.es/search?q=nuria+oliver&source=lnms&tbm=nws&sa=X&ved=0ahUKEwjToKiljpfcAhWDbxQKHRDFCUQQ_AUICygC&biw=1674&bih=842).
-Press coverage in [printed and online media](press.htm),
-[radio/TV interviews](press.htm) and
-[blog posts](press.htm)
+I have appeared in 340 print and online articles, radio and television
+interviews, and blog posts.
 
-### Printed and Online Media
+<div class="press-tools">
+  <nav class="press-jump" aria-label="Press coverage by decade"></nav>
+  <div class="press-filter" role="search">
+    <label class="visually-hidden" for="press-query">Filter press coverage</label>
+    <input id="press-query" type="search" placeholder="Filter press coverage" autocomplete="off">
+    <span id="press-count" role="status" aria-live="polite"></span>
+  </div>
+</div>
 
+<h2 id="printed-online-media">Printed and online media</h2>
+
+* "[Nuria Oliver: We can harness the full potential of AI without sacrificing privacy](https://ellisalicante.org/2026/08/16/informacion.es/)", INFORMACION, Aug 2026
+* "[Taking the floor: Nuria Oliver](https://ellisalicante.org/2026/06/16/revista-conecta.es/)", Revista Conecta, June 2026
+* "[Nuria Oliver: There is nothing free about artificial intelligence](https://ellisalicante.org/2026/05/20/noticiasgipuzcoa.es/)", Noticias de Gipuzkoa, May 2026
+* "[Nuria Oliver: We need to rely on AI to survive as a species](https://ellisalicante.org/2026/05/17/laverdad.es/)", La Verdad, May 2026
+* "[Nuria Oliver: I am not concerned about AI technology, but about our biological vulnerability](https://ellisalicante.org/2026/04/26/lasprovincias.es/)", Las Provincias, April 2026
+* "[Nuria Oliver, Social Personality of 2025 for putting people at the center of AI](https://ellisalicante.org/2025/12/18/revistahaz.es/)", Revista Haz, Dec 2025
+* "[Nuria Oliver receives the Julio Rey Pastor Mathematics Prize for her contributions to AI](https://ellisalicante.org/2025/09/26/informacion.es/)", INFORMACION, Sept 2025
+* "[Nuria Oliver, AI expert: Artificial intelligence fascinates us because it makes us feel like gods](https://ellisalicante.org/2025/06/20/mujerhoy.es/)", Mujer Hoy, June 2025
+* "[Nuria Oliver will lead one of the groups drafting European rules for the control of AI](https://ellisalicante.org/2024/09/30/informacion.es/)", INFORMACION, Sept 2024
+* "[Nuria Oliver: We must combat the tremendously misogynistic and sexist culture of the technology sector](https://ellisalicante.org/2024/07/17/elpais.es/)", El Pais, July 2024
+* "[The Association of Women Entrepreneurs recognizes the technological leadership of Nuria Oliver and ELLIS Alicante](https://ellisalicante.org/2023/11/09/informacion.es/)", INFORMACION, Nov 2023
+* "[Nuria Oliver: We accept addictive technology and give it to our children](https://ellisalicante.org/2023/05/22/ELPAIS.en/)", El Pais, May 2023
+* "[Researcher Nuria Oliver warns of the need to prevent AI from increasing inequality](https://ellisalicante.org/2023/02/23/theobjective.es/)", The Objective, Feb 2023
 * "[Nuria
   Oliver encourages high school students to study engineering](https://www.informacion.es/alicante/2022/05/09/nuria-oliver-anima-alumnos-estudiar-65886382.html)",
   INFORMACION newspaper, March 2022
@@ -653,8 +672,15 @@ Press coverage in [printed and online media](press.htm),
 * "Nuria Oliver: la unica investigadora espanyola del Media Lab"
   by Joan Carles Ambrojo. Ciberpais. El Pais Newspaper Madrid. Spain. Nov 98
 
-### Radio, Video and TV interviews
+<h2 id="radio-video-tv">Radio, video, and TV interviews</h2>
 
+* "[Meet the Board: Nuria Oliver](https://ellisalicante.org/2025/11/18/elliseu-meet-the-board.en/)", ELLIS video profile, Nov 2025
+* "[Nuria Oliver, the pioneering Spanish AI researcher](https://ellisalicante.org/2025/09/10/rne.es/)", RNE, Sept 2025
+* "[Women who count: Nuria Oliver](https://ellisalicante.org/2025/01/26/rne.es/)", RNE, Jan 2025
+* "[Nuria Oliver will lead a group creating a code of good practice for AI in Europe](https://ellisalicante.org/2024/10/06/cope.es/)", COPE radio, Oct 2024
+* "[N. Oliver, AI expert: We need talent and investment](https://ellisalicante.org/2023/11/21/rne.es/)", RNE, Nov 2023
+* "[Nuria Oliver: Technology and human beings](https://ellisalicante.org/2023/03/08/rne.es/)", RNE, March 2023
+* "[Interview with Nuria Oliver: The challenges in Artificial Intelligence](https://ellisalicante.org/2022/12/14/plazapodcast.en/)", Plaza Podcast, Dec 2022
 * "[Interview
   in Herrera en COPE](https://www.cope.es/programas/herrera-en-cope/noticias/experta-inteligencia-artificial-las-personas-podria-aislar-fuera-necesario-20200831_872972)", COPE radio, Aug 2020
 * "[We
@@ -750,11 +776,11 @@ Press coverage in [printed and online media](press.htm),
   Onda
   Rambla. Barcelona. Spain. Nov 98.
 
-### BlogPosts and Website Entries
+<h2 id="blog-posts">Blog posts and website entries</h2>
 
 * "[Eruditos
   digitales](http://www.rcysostenibilidad.telefonica.com/blog/2015/11/11/erudits-digitales/#.VolmiDbSmfB)" in Nosotras.com, Telefonica's Sustainability Blog,
-  Fundacion Aquae, FamiliaDigital, BarcelonaDot.com
+  Fundacion Aquae, FamiliaDigital, BarcelonaDot.com. Nov 2015
 * "[Tecnologia
   y bien social](http://www.fundacionaquae.org/tv/entrevistas/tecnologia-y-bien-social)" Interview for Aquae Foundation. Sept 2015
 * "[Nuria

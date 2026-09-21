@@ -1,6 +1,7 @@
 ---
 title: 3D Modeling of Human Lip Motion
 date: 1997-05-17
+description: "A learned 3D lip model for tracking lip motion and estimating pose from video."
 ---
 
 

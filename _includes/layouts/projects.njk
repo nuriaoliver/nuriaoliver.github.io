@@ -5,8 +5,52 @@ layout: base.njk
 .projects-page h1 { margin-bottom: 1rem; }
 .projects-intro { color: #555; margin-bottom: 2rem; }
 .projects-intro a { color: #0d6efd; }
-
+.featured-projects {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  gap: 0.75rem;
+  margin: 1.25rem 0 2.5rem;
+}
+.featured-project {
+  border: 1px solid #dce5eb;
+  border-top: 3px solid #0d6efd;
+  border-radius: 8px;
+  color: inherit;
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  min-height: 165px;
+  padding: 1rem 1.1rem;
+  text-decoration: none;
+  background: #fff;
+  box-shadow: 0 2px 8px rgba(23, 79, 114, 0.06);
+  transition: border-color 0.18s ease, box-shadow 0.18s ease, transform 0.18s ease;
+}
+.featured-project:hover,
+.featured-project:focus-visible {
+  background: #fff;
+  border-color: #9fbccc;
+  box-shadow: 0 8px 22px rgba(23, 79, 114, 0.12);
+  color: inherit;
+  transform: translateY(-2px);
+}
+.featured-project strong { color: #173f59; font-size: 1rem; }
+.featured-project span { color: #555; font-size: 0.9rem; line-height: 1.45; }
+.featured-project small { color: #0d6efd; font-size: 0.78rem; margin-top: auto; }
 .category-section { margin-bottom: 3rem; }
+.period-section { margin: 3.5rem 0; }
+.period-heading {
+  color: #173f59;
+  font-size: 1.35rem;
+  margin-bottom: 1.25rem;
+  padding-bottom: 0.55rem;
+  border-bottom: 2px solid #9fbccc;
+}
+.period-note {
+  color: #68757d;
+  font-size: 0.9rem;
+  margin: -0.75rem 0 1.5rem;
+}
 .category-heading {
   font-size: 1.15rem;
   font-weight: 700;
@@ -18,42 +62,47 @@ layout: base.njk
 }
 
 .project-card {
-  border: 1px solid #e8e8e8;
+  border: 1px solid #dce5eb;
   border-radius: 8px;
-  transition: box-shadow 0.18s ease, transform 0.18s ease;
+  transition: border-color 0.18s ease, box-shadow 0.18s ease, transform 0.18s ease;
   overflow: hidden;
   color: inherit;
   text-decoration: none !important;
   display: flex;
   flex-direction: column;
   height: 100%;
+  background: #fff;
+  box-shadow: 0 2px 8px rgba(23, 79, 114, 0.04);
 }
 .project-card:hover {
-  box-shadow: 0 6px 20px rgba(0,0,0,0.10);
+  border-color: #9fbccc;
+  box-shadow: 0 8px 22px rgba(23, 79, 114, 0.12);
   transform: translateY(-3px);
   color: inherit;
 }
 .project-card-body {
-  padding: 0.75rem 1rem 1rem;
+  padding: 1rem 1.1rem 1.1rem;
   flex: 1;
   display: flex;
   flex-direction: column;
 }
 .project-card-title {
-  font-size: 0.9rem;
-  font-weight: 600;
-  color: #1a1a2e;
+  font-size: 0.96rem;
+  font-weight: 700;
+  color: #173f59;
   line-height: 1.35;
   margin-bottom: 0.5rem;
 }
-.project-years {
+.project-card-description {
+  color: #5d6970;
+  font-size: 0.86rem;
+  line-height: 1.45;
+}
+.project-card-link {
+  color: #0d6efd;
   font-size: 0.78rem;
-  color: #fff;
-  background: #6c757d;
-  border-radius: 20px;
-  padding: 1px 8px;
-  display: inline-block;
   margin-top: auto;
+  padding-top: 0.9rem;
 }
 </style>
 
@@ -63,18 +112,18 @@ layout: base.njk
     {{ content | safe }}
   </div>
 
-  {% for section in collections.projectsByCategory %}
-  <section class="category-section" id="{{ section.id }}">
-    <h2 class="category-heading">{{ section.category }}</h2>
+  {% for period in collections.projectsByCareerPeriod %}
+  <section class="period-section" id="{{ period.id }}">
+    <h2 class="period-heading">{{ period.title }}</h2>
+    <p class="period-note">Projects from {{ period.start }}{% if period.end < 2010 %}–{{ period.end }}{% else %}–{{ period.end }}{% endif %}</p>
     <div class="row row-cols-2 row-cols-sm-3 row-cols-md-4 g-3">
-      {% for p in section.projects %}
+      {% for p in period.projects %}
       <div class="col">
-        <a href="{{ p.url }}" class="project-card">
+        <a href="{{ p.project.url }}" class="project-card">
           <div class="project-card-body">
-            <div class="project-card-title">{{ p.data.title }}</div>
-            {% if p.data.years %}
-            <span class="project-years">{{ p.data.years }}</span>
-            {% endif %}
+            <div class="project-card-title">{{ p.shortTitle }}</div>
+            <div class="project-card-description">{{ p.description }}</div>
+            <span class="project-card-link">View project</span>
           </div>
         </a>
       </div>

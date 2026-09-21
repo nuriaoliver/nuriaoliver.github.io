@@ -1,8 +1,10 @@
 ---
 slug: driverbehavior
 title: Graphical Models for Driver Behavior Recognition and Prediction in a SmartCar
+shortTitle: "Driver Behavior Recognition"
 category: Human Behavior Modeling and Recognition
 years: "1999–2000"
+description: "A SmartCar testbed and graphical-model framework for recognizing driver behavior."
 date: 1999-01-01
 thumbnail: pass_video_title.gif
 ---

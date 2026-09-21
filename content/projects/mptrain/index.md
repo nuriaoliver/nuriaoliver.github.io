@@ -1,7 +1,9 @@
 ---
 title: "MPTrain: A Mobile, Physiology and Music-Based Personal Trainer on your Mobile Phone"
+shortTitle: "MPTrain Mobile Personal Trainer"
 category: Wearable, Mobile and Urban Computing
 years: "2005–2006"
+description: "A mobile personal trainer combining physiology, music, and exercise feedback."
 date: 2005-01-01
 thumbnail: MPTrai1.jpg
 ---

@@ -3,6 +3,7 @@ aliases: "/mihmms"
 title: "MIHMMs: Mutual Information Hidden Markov Models"
 category: Machine Learning
 years: "2003"
+description: "Introduces mutual-information hidden Markov models for richer sequence modeling."
 date: 2003-01-01
 ---
 

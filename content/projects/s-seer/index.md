@@ -1,7 +1,9 @@
 ---
 title: "S-Seer: Guiding Perceptual Sensing and Analysis with Value of Information"
+shortTitle: "S-Seer Perceptual Sensing"
 category: Perceptual and Multimodal Interfaces
 years: "2003–2004"
+description: "Uses value-of-information policies to guide perceptual sensing and analysis."
 date: 2003-01-01
 ---
 

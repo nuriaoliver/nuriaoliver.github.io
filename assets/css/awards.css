@@ -1,0 +1,19 @@
+.awards-page h2 {
+  border-bottom: 1px solid #d9dee3;
+  color: #174f72;
+  font-size: 1.25rem;
+  margin: 2rem 0 0.75rem;
+  padding-bottom: 0.4rem;
+}
+
+.awards-page ul {
+  padding-left: 1.25rem;
+}
+
+.awards-page li {
+  margin-bottom: 0.55rem;
+}
+
+.awards-page a {
+  text-underline-offset: 0.15rem;
+}

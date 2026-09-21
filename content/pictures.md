@@ -1,22 +1,61 @@
 ---
-title: High Resolution Photos
+title: Press & Media Photos
 ---
 
-Freely usable photos downloadable with
-[CC0 1.0 Universal
-Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/):
+<p class="photos-intro">Official photographs of Nuria Oliver for editorial, conference, and media use. Use the download link beneath each image to access the original-resolution file, and observe the licensing requirements for the relevant collection.</p>
 
-[![Nuria Oliver](https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Nuria_Oliver.jpg/256px-Nuria_Oliver.jpg)](https://commons.wikimedia.org/wiki/File:Nuria_Oliver.jpg)
-[![Nuria Oliver (45744351465)](https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Nuria_Oliver_%2845744351465%29.jpg/512px-Nuria_Oliver_%2845744351465%29.jpg)](https://commons.wikimedia.org/wiki/File:Nuria_Oliver_(45744351465).jpg)
-[![Nuria Oliver (31723393177)](https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Nuria_Oliver_%2831723393177%29.jpg/256px-Nuria_Oliver_%2831723393177%29.jpg)](https://commons.wikimedia.org/wiki/File:Nuria_Oliver_(31723393177).jpg)
-[![Picture of Nuria Oliver](https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Picture_of_Nuria_Oliver.jpg/256px-Picture_of_Nuria_Oliver.jpg)](https://commons.wikimedia.org/wiki/File:Picture_of_Nuria_Oliver.jpg)
-[![Picture of Nuria Oliver](https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Nuria_Oliver_face.jpg/512px-Nuria_Oliver_face.jpg)](https://commons.wikimedia.org/wiki/File:Nuria_Oliver_face.jpg)
+## Public domain
 
-  
+These images are released under the [CC0 1.0 Universal Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/) and may be used without attribution.
 
-Other photos usable with attribution:
+<div class="photo-grid">
+	<figure class="photo-item">
+		<img src="/img/photos/nuria-office.jpg" alt="Nuria Oliver seated at a desk with a laptop" width="512" height="371" loading="eager">
+		<figcaption>
+			<a href="https://commons.wikimedia.org/wiki/Special:Redirect/file/Nuria_Oliver_(45744351465).jpg">Download full photo</a>
+			<a href="https://commons.wikimedia.org/wiki/File:Nuria_Oliver_(45744351465).jpg">License</a>
+		</figcaption>
+	</figure>
+	<figure class="photo-item photo-item--portrait">
+		<img src="/img/photos/nuria-headshot.jpg" alt="Headshot of Nuria Oliver on a light background" width="256" height="394" loading="lazy">
+		<figcaption>
+			<a href="https://commons.wikimedia.org/wiki/Special:Redirect/file/Nuria_Oliver_(31723393177).jpg">Download full photo</a>
+			<a href="https://commons.wikimedia.org/wiki/File:Nuria_Oliver_(31723393177).jpg">License</a>
+		</figcaption>
+	</figure>
+	<figure class="photo-item photo-item--portrait">
+		<img src="/img/photos/nuria-red.jpg" alt="Nuria Oliver wearing red on a white background" width="256" height="326" loading="lazy">
+		<figcaption>
+			<a href="https://commons.wikimedia.org/wiki/Special:Redirect/file/Picture_of_Nuria_Oliver.jpg">Download full photo</a>
+			<a href="https://commons.wikimedia.org/wiki/File:Picture_of_Nuria_Oliver.jpg">License</a>
+		</figcaption>
+	</figure>
+	<figure class="photo-item">
+		<img src="/img/photos/nuria-portrait.jpg" alt="Portrait of Nuria Oliver on a white background" width="512" height="341" loading="lazy">
+		<figcaption>
+			<a href="https://commons.wikimedia.org/wiki/Special:Redirect/file/Nuria_Oliver_face.jpg">Download full photo</a>
+			<a href="https://commons.wikimedia.org/wiki/File:Nuria_Oliver_face.jpg">License</a>
+		</figcaption>
+	</figure>
+</div>
 
-[![Nuria oliver 1 (39859504533)](https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Nuria_oliver_1_%2839859504533%29.jpg/256px-Nuria_oliver_1_%2839859504533%29.jpg)](https://commons.wikimedia.org/wiki/File:Nuria_oliver_1_(39859504533).jpg "ester perez broto, CC BY-SA 2.0 <https://creativecommons.org/licenses/by-sa/2.0>, via Wikimedia Commons")
-[![Nuria oliver 2 (46772232572)](https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Nuria_oliver_2_%2846772232572%29.jpg/256px-Nuria_oliver_2_%2846772232572%29.jpg)](https://commons.wikimedia.org/wiki/File:Nuria_oliver_2_(46772232572).jpg "ester perez broto, CC BY-SA 2.0 <https://creativecommons.org/licenses/by-sa/2.0>, via Wikimedia Commons")
+## Photos with attribution
 
-<img src="/img/NuriaOliver_Arduino_Vannucchi.jpg" class="img-fluid float-start me-3 mb-3" alt="Picture of Nuria Oliver">
+These images are licensed under [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0/). Please credit **Ester Perez Broto** when using them.
+
+<div class="photo-grid photo-grid--compact">
+	<figure class="photo-item photo-item--portrait">
+		<img src="/img/photos/nuria-event-1.jpg" alt="Nuria Oliver speaking at an event" width="256" height="384" loading="lazy">
+		<figcaption>
+			<a href="https://commons.wikimedia.org/wiki/Special:Redirect/file/Nuria_oliver_1_(39859504533).jpg">Download full photo</a>
+			<a href="https://commons.wikimedia.org/wiki/File:Nuria_oliver_1_(39859504533).jpg">License</a>
+		</figcaption>
+	</figure>
+	<figure class="photo-item photo-item--portrait">
+		<img src="/img/photos/nuria-event-2.jpg" alt="Nuria Oliver at an event" width="256" height="384" loading="lazy">
+		<figcaption>
+			<a href="https://commons.wikimedia.org/wiki/Special:Redirect/file/Nuria_oliver_2_(46772232572).jpg">Download full photo</a>
+			<a href="https://commons.wikimedia.org/wiki/File:Nuria_oliver_2_(46772232572).jpg">License</a>
+		</figcaption>
+	</figure>
+</div>

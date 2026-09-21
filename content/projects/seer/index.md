@@ -1,7 +1,9 @@
 ---
 title: "Seer: Layered Representations for Learning and Inferring Office Activity from Multiple Streams of Information"
+shortTitle: "Seer Office Activity"
 category: Perceptual and Multimodal Interfaces
 years: "2002"
+description: "Layered probabilistic representations for learning office activity from multiple streams."
 date: 2002-01-01
 thumbnail: billgatespresentation.jpg
 ---

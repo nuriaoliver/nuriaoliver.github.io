@@ -1,7 +1,9 @@
 ---
 title: Classifying T'ai Chi moves with a coupled hidden Markov model
+shortTitle: "Coupled HMMs for T'ai Chi"
 category: Human Behavior Modeling and Recognition
 years: "1997"
+description: "Coupled hidden Markov models for recognizing and classifying two-handed actions."
 date: 1997-01-01
 ---
 

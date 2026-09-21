@@ -1,7 +1,9 @@
 ---
 title: Recommendation Systems Research
+shortTitle: "Recommendation Systems"
 category: Recommender Systems
 years: "2009–2010"
+description: "Research on recommender systems and the reliability of user ratings as preference signals."
 date: 2009-01-01
 thumbnail: Interface.jpg
 ---

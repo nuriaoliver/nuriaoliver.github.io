@@ -1,7 +1,9 @@
 ---
 title: "DyPERS: Dynamic Personal Enhanced Reality System"
+shortTitle: "DyPERS"
 category: Wearable, Mobile and Urban Computing
 years: "1999"
+description: "An augmented-reality system that attaches video and audio experiences to real objects."
 date: 1999-01-01
 thumbnail: mouse.gif
 ---
