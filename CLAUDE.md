@@ -32,4 +32,8 @@ This is an [Eleventy (11ty)](https://www.11ty.dev/) static site for Nuria Oliver
 
 **Project pages** live under `content/projects/<name>/index.md` (page bundle pattern). Images/PDFs co-located in the bundle are passed through to output automatically.
 
+**Redirects are mandatory for renames:** Never rename or move a published page or static asset without preserving its old URL. For content pages, add the old route to the page's `redirect_from` front matter. For static assets such as PDFs, add the old-to-new path to `data/redirects.json`. URL-encode spaces and other unsafe characters in redirect paths. The `_11ty/redirects.js` plugin merges both sources into Cloudflare's generated `_site/_redirects` file.
+
+**Use URL-safe filenames:** For all new or renamed files, use lowercase ASCII letters, numbers, and hyphens whenever possible. Avoid spaces, uppercase-only distinctions, Unicode characters, and punctuation that requires URL encoding. Keep established published filenames unchanged unless a redirect from the old URL is added at the same time.
+
 **`.eleventyignore`** excludes `content/_index.md` and `content/projects/_index.md` (Hugo legacy files kept for reference).

@@ -1,11 +1,12 @@
 const fs = require("node:fs/promises");
 const path = require("node:path");
+const staticRedirects = require("../data/redirects.json");
 
 module.exports = function redirectsPlugin(eleventyConfig) {
   let redirects = [];
 
   eleventyConfig.addCollection("redirects", (collectionApi) => {
-    const redirectsBySource = new Map();
+    const redirectsBySource = new Map(Object.entries(staticRedirects));
 
     for (const page of collectionApi.getAll()) {
       const sources = page.data.redirect_from;
