@@ -1,5 +1,1493 @@
 [
   {
+    "title": "Mind the style: Impact of communication style on human-chatbot interaction",
+    "journal": "Computers in Human Behavior: Artificial Humans",
+    "type": "journal-article",
+    "doi": "10.1016/j.chbah.2026.100362",
+    "authors": [
+      "Erik Derner",
+      "Dalibor Kučera",
+      "Aditya Gulati",
+      "Robert A. Bagheri",
+      "Nuria Oliver"
+    ],
+    "date": "2026-08",
+    "year": 2026,
+    "crossref_type": "journal-article",
+    "publisher": "Elsevier BV",
+    "volume": "9",
+    "number": "",
+    "pages": "100362",
+    "citation_count": 0,
+    "full_text_url": "https://doi.org/10.1016/j.chbah.2026.100362",
+    "sort_date": "2026-08-01"
+  },
+  {
+    "title": "<i>Aesthetics as Structural Harm:</i>\n                    Algorithmic Lookism Across Text-to-Image Generation and Classification",
+    "journal": "Proceedings of the 2026 ACM Conference on Fairness, Accountability, and Transparency",
+    "type": "conference-paper",
+    "doi": "10.1145/3805689.3806810",
+    "authors": [
+      "Miriam Doh",
+      "Aditya Gulati",
+      "Corinna Canali",
+      "Nuria Oliver"
+    ],
+    "date": "2026-06-25",
+    "year": 2026,
+    "crossref_type": "proceedings-article",
+    "publisher": "ACM",
+    "volume": "",
+    "number": "",
+    "pages": "6587-6612",
+    "citation_count": 0,
+    "full_text_url": "https://doi.org/10.1145/3805689.3806810",
+    "sort_date": "2026-06-25"
+  },
+  {
+    "title": "Between Help and Harm: An Evaluation Study of Mental Health Crisis Handling by Large Language Models",
+    "journal": "JMIR Mental Health",
+    "type": "journal-article",
+    "doi": "10.2196/88435",
+    "authors": [
+      "Adrian Arnaiz-Rodriguez",
+      "Miguel Baidal",
+      "Erik Derner",
+      "Jenn Layton Annable",
+      "Mark Ball",
+      "Mark Ince",
+      "Elvira Perez Vallejos",
+      "Nuria Oliver"
+    ],
+    "date": "2026-06-11",
+    "year": 2026,
+    "crossref_type": "journal-article",
+    "publisher": "JMIR Publications Inc.",
+    "volume": "13",
+    "number": "",
+    "pages": "e88435-e88435",
+    "citation_count": 0,
+    "full_text_url": "https://doi.org/10.2196/88435",
+    "sort_date": "2026-06-11"
+  },
+  {
+    "title": "Between and Beyond: Designing for Identity Complexity in HCI",
+    "journal": "Proceedings of the Extended Abstracts of the 2026 CHI Conference on Human Factors in Computing Systems",
+    "type": "conference-paper",
+    "doi": "10.1145/3772363.3778771",
+    "authors": [
+      "Miriam Doh",
+      "Piera Riccio",
+      "Benedikt Höltgen",
+      "Olivia Lopez Calderon",
+      "Monique Munarini",
+      "Corinna Canali",
+      "Shirley Ogolla",
+      "Nuria Oliver"
+    ],
+    "date": "2026-04-13",
+    "year": 2026,
+    "crossref_type": "proceedings-article",
+    "publisher": "ACM",
+    "volume": "",
+    "number": "",
+    "pages": "1-7",
+    "citation_count": 0,
+    "full_text_url": "https://doi.org/10.1145/3772363.3778771",
+    "sort_date": "2026-04-13"
+  },
+  {
+    "title": "Reconsidering Fairness Through Unawareness From the Perspective of Model Multiplicity",
+    "journal": "Proceedings of the 5th ACM Conference on Equity and Access in Algorithms, Mechanisms, and Optimization",
+    "type": "conference-paper",
+    "doi": "10.1145/3757887.3763007",
+    "authors": [
+      "Benedikt Höltgen",
+      "Nuria Oliver"
+    ],
+    "date": "2025-11-05",
+    "year": 2025,
+    "crossref_type": "proceedings-article",
+    "publisher": "ACM",
+    "volume": "",
+    "number": "",
+    "pages": "241-255",
+    "citation_count": 0,
+    "full_text_url": "https://doi.org/10.1145/3757887.3763007",
+    "sort_date": "2025-11-05"
+  },
+  {
+    "title": "ELIAS Pathways to Responsible and Sustainable AI – Strategic Research Agenda (SRA).",
+    "journal": "Zenodo",
+    "type": "other",
+    "doi": "10.5281/zenodo.17250218",
+    "authors": [
+      "Niculae Sebe",
+      "Adam Dahlgren Lindström",
+      "Alberto Marchesi",
+      "Bob van Sluijs",
+      "Bruno Lepri",
+      "Cecilia Zanazzo",
+      "Aygun Garayeva",
+      "Delage Charlote",
+      "Nina Peters",
+      " Daniel Gatica-Perez",
+      "Elizabeth Daly",
+      "Enver Sangineto",
+      "ENZO TARTAGLIONE",
+      "Esther Rodrigo",
+      "Florence d'Alche",
+      "GIULIA CLERICI",
+      "Gustau Camps Valls",
+      "Isabelle Siegrist",
+      "Jan-Willem van de Meent",
+      "Joao Pita Costa",
+      "Lorenzo Rosasco",
+      "Lorenzo Baraldi",
+      "Marcela Kamenska",
+      "Marius Leordeanu",
+      "MATTEO CASTIGLIONI",
+      "Michael Pfeiffer",
+      "Nicola Gatti",
+      "Nicolò Antonio Cesa-Bianchi",
+      "Nuria Oliver",
+      "Oleksii Kachaiev",
+      "Ravinithesh Reddy Annapureddy",
+      "Sašo Džeroski",
+      "Papadopoulos Akis",
+      "Elena Burceanu",
+      "Elisabeta Oneata",
+      " Diana Smeu"
+    ],
+    "citation_count": 0,
+    "full_text_url": null,
+    "date": "2025-10-02",
+    "sort_date": "2025-10-02",
+    "year": 2025
+  },
+  {
+    "title": "Towards Human-AI Complementarity in Matching Tasks",
+    "journal": "Zenodo",
+    "type": "conference-paper",
+    "doi": "10.5281/zenodo.18155491",
+    "authors": [
+      "Adrián Arnaiz-Rodríguez",
+      "Nina Corvelo Benz",
+      "Suhas Thejaswi",
+      "Nuria Oliver",
+      "Manuel Gomez-Rodriguez"
+    ],
+    "citation_count": 0,
+    "full_text_url": null,
+    "date": "2025-09-16",
+    "sort_date": "2025-09-16",
+    "year": 2025
+  },
+  {
+    "title": "When Algorithms Play Favorites: Lookism in the Generation and Perception of Faces",
+    "journal": "Zenodo",
+    "type": "conference-paper",
+    "doi": "10.5281/zenodo.18015327",
+    "authors": [
+      "Miriam Doh",
+      "Aditya Gulati",
+      "Matei Mancas",
+      "Nuria Oliver"
+    ],
+    "citation_count": 0,
+    "full_text_url": null,
+    "date": "2025-06-30",
+    "sort_date": "2025-06-30",
+    "year": 2025
+  },
+  {
+    "title": "What TikTok Claims, What Bold Glamour Does: A Filter’s Paradox",
+    "journal": "Proceedings of the 2025 ACM Conference on Fairness, Accountability, and Transparency",
+    "type": "conference-paper",
+    "doi": "10.1145/3715275.3732126",
+    "authors": [
+      "Miriam Doh",
+      "Corinna Canali",
+      "Nuria Oliver"
+    ],
+    "date": "2025-06-23",
+    "year": 2025,
+    "crossref_type": "proceedings-article",
+    "publisher": "ACM",
+    "volume": "",
+    "number": "",
+    "pages": "1902-1915",
+    "citation_count": 0,
+    "full_text_url": "https://doi.org/10.1145/3715275.3732126",
+    "sort_date": "2025-06-23"
+  },
+  {
+    "title": "The Disparate Benefits of Deep Ensembles",
+    "journal": "Zenodo",
+    "type": "conference-paper",
+    "doi": "10.5281/zenodo.18155276",
+    "authors": [
+      "Kajetan Schweighofer",
+      "Adrián Arnaiz-Rodríguez",
+      "Sepp Hochreiter",
+      "Nuria Oliver"
+    ],
+    "citation_count": 0,
+    "full_text_url": null,
+    "date": "2025-06-20",
+    "sort_date": "2025-06-20",
+    "year": 2025
+  },
+  {
+    "title": "An Art-Centric Perspective on AI-Based Content Moderation of Nudity",
+    "journal": "Lecture Notes in Computer Science",
+    "type": "book-chapter",
+    "doi": "10.1007/978-3-031-92808-6_8",
+    "authors": [
+      "Piera Riccio",
+      "Georgina Curto",
+      "Thomas Hofmann",
+      "Nuria Oliver"
+    ],
+    "date": "2025",
+    "year": 2025,
+    "crossref_type": "book-chapter",
+    "publisher": "Springer Nature Switzerland",
+    "volume": "",
+    "number": "",
+    "pages": "121-138",
+    "citation_count": 0,
+    "full_text_url": "https://doi.org/10.1007/978-3-031-92808-6_8",
+    "sort_date": "2025-01-01"
+  },
+  {
+    "title": "Enhancing Critical Thinking in Education by Means of a Socratic Chatbot",
+    "journal": "Communications in Computer and Information Science",
+    "type": "book-chapter",
+    "doi": "10.1007/978-3-031-93409-4_2",
+    "authors": [
+      "Lucile Favero",
+      "Juan Antonio Pérez-Ortiz",
+      "Tanja Käser",
+      "Nuria Oliver"
+    ],
+    "date": "2025",
+    "year": 2025,
+    "crossref_type": "book-chapter",
+    "publisher": "Springer Nature Switzerland",
+    "volume": "",
+    "number": "",
+    "pages": "17-32",
+    "citation_count": 0,
+    "full_text_url": "https://doi.org/10.1007/978-3-031-93409-4_2",
+    "sort_date": "2025-01-01"
+  },
+  {
+    "title": "Exploring the Boundaries of Content Moderation in Text-to-Image Generation",
+    "journal": null,
+    "type": "book-chapter",
+    "doi": "10.1007/978-3-031-92089-9_11",
+    "authors": [
+      "Piera Riccio",
+      "Georgina Curto",
+      "Nuria Oliver"
+    ],
+    "citation_count": 0,
+    "full_text_url": "https://doi.org/10.1007/978-3-031-92089-9_11",
+    "date": "2025",
+    "sort_date": "2025-01-01",
+    "year": 2025
+  },
+  {
+    "title": "Large Reasoning Models Are Autonomous Jailbreak Agents",
+    "journal": "ArXiv",
+    "type": "journal-article",
+    "doi": "",
+    "authors": [
+      "Thilo Hagendorff",
+      "Erik Derner",
+      "Nuria Oliver"
+    ],
+    "citation_count": 0,
+    "full_text_url": "https://publons.com/wos-op/publon/85308776/",
+    "date": "2025",
+    "sort_date": "2025-01-01",
+    "year": 2025
+  },
+  {
+    "title": "Choosing the right basis for interpretability: Psychophysical comparison between neuron-based and dictionary-based representations",
+    "journal": "arXiv (Cornell University)",
+    "type": "preprint",
+    "doi": "10.48550/arxiv.2411.03993",
+    "authors": [
+      "Julien Colin",
+      "Lore Goetschalckx",
+      "Thomas Fel",
+      "Victor Boutin",
+      "Thomas Serre",
+      "Nuria Oliver"
+    ],
+    "citation_count": 0,
+    "full_text_url": "https://www.lens.org/021-591-039-898-348",
+    "date": "2024-11-06",
+    "sort_date": "2024-11-06",
+    "year": 2024
+  },
+  {
+    "title": "The Disparate Benefits of Deep Ensembles",
+    "journal": "arXiv (Cornell University)",
+    "type": "preprint",
+    "doi": "10.48550/arxiv.2410.13831",
+    "authors": [
+      "Kajetan Schweighofer",
+      "Adrian Arnaiz-rodriguez",
+      "Sepp Hochreiter",
+      "Nuria Oliver"
+    ],
+    "citation_count": 0,
+    "full_text_url": "https://www.lens.org/037-296-563-466-583",
+    "date": "2024-10-17",
+    "sort_date": "2024-10-17",
+    "year": 2024
+  },
+  {
+    "title": "An Art-centric perspective on AI-based content moderation of nudity",
+    "journal": "arXiv (Cornell University)",
+    "type": "preprint",
+    "doi": "10.48550/arxiv.2409.17156",
+    "authors": [
+      "Piera Riccio",
+      "Georgina Curto",
+      "Thomas Hofmann",
+      "Nuria Oliver"
+    ],
+    "citation_count": 0,
+    "full_text_url": "https://www.lens.org/106-895-027-891-290",
+    "date": "2024-09-10",
+    "sort_date": "2024-09-10",
+    "year": 2024
+  },
+  {
+    "title": "Enhancing Critical Thinking in Education by means of a Socratic Chatbot",
+    "journal": "arXiv (Cornell University)",
+    "type": "preprint",
+    "doi": "10.48550/arxiv.2409.05511",
+    "authors": [
+      "Lucile Favero",
+      "Juan Antonio Pérez-ortiz",
+      "Tanja Käser",
+      "Nuria Oliver"
+    ],
+    "citation_count": 0,
+    "full_text_url": "https://www.lens.org/015-303-147-963-673",
+    "date": "2024-09-09",
+    "sort_date": "2024-09-09",
+    "year": 2024
+  },
+  {
+    "title": "Exploring the Boundaries of Content Moderation in Text-to-Image Generation",
+    "journal": "arXiv (Cornell University)",
+    "type": "preprint",
+    "doi": "10.48550/arxiv.2409.17155",
+    "authors": [
+      "Piera Riccio",
+      "Georgina Curto",
+      "Nuria Oliver"
+    ],
+    "citation_count": 0,
+    "full_text_url": "https://www.lens.org/013-703-229-448-501",
+    "date": "2024-09-09",
+    "sort_date": "2024-09-09",
+    "year": 2024
+  },
+  {
+    "title": "Author response for \"What is beautiful is still good: the attractiveness halo effect in the era of beauty filters\"",
+    "journal": null,
+    "type": "journal-article",
+    "doi": "10.1098/rsos.240882/v2/response1",
+    "authors": [
+      "Aditya Gulati",
+      "Marina Martínez-Garcia",
+      "Daniel Fernández",
+      "Miguel Angel Lozano",
+      "Bruno Lepri",
+      "Nuria Oliver"
+    ],
+    "date": "2024-08-06",
+    "year": 2024,
+    "crossref_type": "peer-review",
+    "publisher": "The Royal Society",
+    "volume": "",
+    "number": "",
+    "pages": "",
+    "citation_count": 0,
+    "full_text_url": "https://www.lens.org/088-028-203-117-725",
+    "sort_date": "2024-08-06"
+  },
+  {
+    "title": "Can ChatGPT read who you are?",
+    "journal": "Computers in Human Behavior: Artificial Humans",
+    "type": "journal-article",
+    "doi": "10.1016/j.chbah.2024.100088",
+    "authors": [
+      "Erik Derner",
+      "Dalibor Kučera",
+      "Nuria Oliver",
+      "Jan Zahálka"
+    ],
+    "citation_count": 0,
+    "full_text_url": "https://doi.org/10.1016/j.chbah.2024.100088",
+    "date": "2024-08",
+    "sort_date": "2024-08-01",
+    "year": 2024
+  },
+  {
+    "title": "What is Beautiful is Still Good: The Attractiveness Halo Effect in the era of Beauty Filters",
+    "journal": null,
+    "type": "preprint",
+    "doi": "10.21203/rs.3.rs-4698268/v1",
+    "authors": [
+      "Aditya Gulati",
+      "Marina Martinez-Garcia",
+      "Daniel Fernandez",
+      "Miguel Angel Lozano",
+      "Bruno Lepri",
+      "Nuria Oliver"
+    ],
+    "date": "2024-07-11",
+    "year": 2024,
+    "crossref_type": "posted-content",
+    "publisher": "Springer Science and Business Media LLC",
+    "volume": "",
+    "number": "",
+    "pages": "",
+    "citation_count": 0,
+    "full_text_url": "https://doi.org/10.21203/rs.3.rs-4698268/v1",
+    "sort_date": "2024-07-11"
+  },
+  {
+    "title": "Leveraging Large Language Models to Measure Gender Representation Bias in Gendered Language Corpora",
+    "journal": "arXiv (Cornell University)",
+    "type": "preprint",
+    "doi": "10.48550/arxiv.2406.13677",
+    "authors": [
+      "Erik Derner",
+      "Sara Sansalvador De La Fuente",
+      "Yoan Gutiérrez",
+      "Paloma Moreda",
+      "Nuria Oliver"
+    ],
+    "citation_count": 0,
+    "full_text_url": "https://www.lens.org/086-356-223-177-071",
+    "date": "2024-06-19",
+    "sort_date": "2024-06-19",
+    "year": 2024
+  },
+  {
+    "title": "Exposed or Erased: Algorithmic Censorship of Nudity in Art",
+    "journal": "Proceedings of the CHI Conference on Human Factors in Computing Systems",
+    "type": "conference-paper",
+    "doi": "10.1145/3613904.3642586",
+    "authors": [
+      "Piera Riccio",
+      "Thomas Hofmann",
+      "Nuria Oliver"
+    ],
+    "citation_count": 0,
+    "full_text_url": "https://www.lens.org/184-869-452-941-455",
+    "date": "2024-05-11",
+    "sort_date": "2024-05-11",
+    "year": 2024
+  },
+  {
+    "title": "Mirror, Mirror on the Wall, Who Is the Whitest of All? Racial Biases in Social Media Beauty Filters",
+    "journal": "Social Media + Society",
+    "type": "journal-article",
+    "doi": "10.1177/20563051241239295",
+    "authors": [
+      "Piera Riccio",
+      "Julien Colin",
+      "Shirley Ogolla",
+      "Nuria Oliver"
+    ],
+    "citation_count": 0,
+    "full_text_url": "https://www.lens.org/045-594-927-978-682",
+    "date": "2024-04-19",
+    "sort_date": "2024-04-19",
+    "year": 2024
+  },
+  {
+    "title": "A Techno-Feminist Perspective on the Algorithmic Censorship of Artistic Nudity",
+    "journal": "Hertziana Studies in Art History",
+    "type": "book-chapter",
+    "doi": "10.48431/hsah.0310",
+    "authors": [
+      "Piera Riccio",
+      "Nuria Oliver"
+    ],
+    "citation_count": 0,
+    "full_text_url": null,
+    "date": "2024-03-31",
+    "sort_date": "2024-03-31",
+    "year": 2024
+  },
+  {
+    "title": "Unconventional data, unprecedented insights: leveraging non-traditional data during a pandemic.",
+    "journal": "Frontiers in public health",
+    "type": "journal-article",
+    "doi": "10.3389/fpubh.2024.1350743",
+    "authors": [
+      "Kaylin Bolt",
+      "Diana Gil-gonzález",
+      "Nuria Oliver"
+    ],
+    "citation_count": 0,
+    "full_text_url": "https://www.lens.org/060-550-226-233-740",
+    "date": "2024-03-07",
+    "sort_date": "2024-03-07",
+    "year": 2024
+  },
+  {
+    "title": "Data_Sheet_1_Unconventional data, unprecedented insights: leveraging non-traditional data during a pandemic.PDF",
+    "journal": null,
+    "type": "data-set",
+    "doi": "",
+    "authors": [
+      "Kaylin Bolt",
+      "Diana Gil-González",
+      "Nuria Oliver"
+    ],
+    "citation_count": 0,
+    "full_text_url": "https://doi.org/10.3389/fpubh.2024.1350743.s001",
+    "date": "2024",
+    "sort_date": "2024-01-01",
+    "year": 2024
+  },
+  {
+    "title": "Data_Sheet_2_Unconventional data, unprecedented insights: leveraging non-traditional data during a pandemic.PDF",
+    "journal": null,
+    "type": "data-set",
+    "doi": "",
+    "authors": [
+      "Kaylin Bolt",
+      "Diana Gil-González",
+      "Nuria Oliver"
+    ],
+    "citation_count": 0,
+    "full_text_url": "https://doi.org/10.3389/fpubh.2024.1350743.s002",
+    "date": "2024",
+    "sort_date": "2024-01-01",
+    "year": 2024
+  },
+  {
+    "title": "Structural Group Unfairness: Measurement and Mitigation by means of the Effective Resistance",
+    "journal": null,
+    "type": "conference-paper",
+    "doi": "",
+    "authors": [
+      "Adrian Arnaiz-Rodriguez",
+      "Georgina Curto",
+      "Nuria Oliver"
+    ],
+    "citation_count": 0,
+    "full_text_url": "https://doi.org/10.48550/arXiv.2305.03223",
+    "date": "2024",
+    "sort_date": "2024-01-01",
+    "year": 2024
+  },
+  {
+    "title": "Predicting COVID-19 pandemic waves including vaccination data with deep learning.",
+    "journal": "Frontiers in public health",
+    "type": "journal-article",
+    "doi": "10.3389/fpubh.2023.1279364",
+    "authors": [
+      "Ahmed Begga",
+      "Òscar Garibo-i-orts",
+      "Sergi De María-garcía",
+      "Francisco Escolano",
+      "Miguel A Lozano",
+      "Nuria Oliver",
+      "J Alberto Conejero"
+    ],
+    "citation_count": 0,
+    "full_text_url": "https://www.lens.org/053-636-703-523-593",
+    "date": "2023-12-15",
+    "sort_date": "2023-12-15",
+    "year": 2023
+  },
+  {
+    "title": "Privacy and Accuracy Implications of Model Complexity and Integration in Heterogeneous Federated Learning",
+    "journal": "arXiv (Cornell University)",
+    "type": "preprint",
+    "doi": "10.48550/arxiv.2311.17750",
+    "authors": [
+      "Gergely Dániel Németh",
+      "Miguel Ángel Lozano",
+      "Novi Quadrianto",
+      "Nuria Oliver"
+    ],
+    "citation_count": 0,
+    "full_text_url": "https://www.lens.org/175-453-391-988-78X",
+    "date": "2023-11-29",
+    "sort_date": "2023-11-29",
+    "year": 2023
+  },
+  {
+    "title": "Racial Bias in the Beautyverse: Evaluation of Augmented-Reality Beauty Filters",
+    "journal": null,
+    "type": "book-chapter",
+    "doi": "10.1007/978-3-031-25066-8_43",
+    "authors": [
+      "Piera Riccio",
+      "Nuria Oliver"
+    ],
+    "citation_count": 0,
+    "full_text_url": null,
+    "date": "2023-01-01",
+    "sort_date": "2023-01-01",
+    "year": 2023
+  },
+  {
+    "title": "A Snapshot of the Frontiers of Client Selection in Federated Learning",
+    "journal": "ArXiv",
+    "type": "journal-article",
+    "doi": "",
+    "authors": [
+      "Gergely Daniel Nemeth",
+      "Miguel Angel Lozano",
+      "Novi Quadrianto",
+      "Nuria Oliver"
+    ],
+    "citation_count": 0,
+    "full_text_url": "https://publons.com/wos-op/publon/56052171/",
+    "date": "2023",
+    "sort_date": "2023-01-01",
+    "year": 2023
+  },
+  {
+    "title": "BIASeD: Bringing Irrationality into Automated System Design",
+    "journal": "ArXiv",
+    "type": "journal-article",
+    "doi": "10.48550/ARXIV.2210.01122",
+    "authors": [
+      "Aditya Gulati",
+      "Miguel Angel Lozano",
+      "Bruno Lepri",
+      "Nuria Oliver"
+    ],
+    "citation_count": 0,
+    "full_text_url": "https://publons.com/wos-op/publon/55062146/",
+    "date": "2023",
+    "sort_date": "2023-01-01",
+    "year": 2023
+  },
+  {
+    "title": "Barcelona Metròpolis. Núm. 127 (jul. 2023) ; Les noves eines d’intel·ligència artificial estan colonitzant totes les activitats, sense una regulació que permeti optimitzar-ne els beneficis i minimitzar-ne els riscos. Impactes de la intel·ligència artificial",
+    "journal": null,
+    "type": "other",
+    "doi": "",
+    "authors": [
+      "Ajuntament de Barcelona",
+      "Pau Garcia",
+      "Beatriz López",
+      "Ramon López de Mántaras",
+      "José Luis de Vicente",
+      "Filippo Bistaffa",
+      "Pedro Meseguer",
+      "Juan Antonio Rodríguez Aguilar",
+      "Pablo Martínez",
+      "Mar Santamaria",
+      "Joan Manuel del Pozo",
+      "Núria Oliver"
+    ],
+    "citation_count": 0,
+    "full_text_url": "http://hdl.handle.net/11703/131665",
+    "date": "2023",
+    "sort_date": "2023-01-01",
+    "year": 2023
+  },
+  {
+    "title": "FairShap: A Data Re-weighting Approach for Algorithmic Fairness based on Shapley Values",
+    "journal": null,
+    "type": "conference-paper",
+    "doi": "10.48550/arXiv.2303.01928",
+    "authors": [
+      "Rodriguez Adrian",
+      "Nuria Oliver"
+    ],
+    "citation_count": 0,
+    "full_text_url": "https://doi.org/10.48550/arXiv.2303.01928",
+    "date": "2023",
+    "sort_date": "2023-01-01",
+    "year": 2023
+  },
+  {
+    "title": "Image Analogies",
+    "journal": "Seminal Graphics Papers: Pushing the Boundaries, Volume 2",
+    "type": "book-chapter",
+    "doi": "10.1145/3596711.3596770",
+    "authors": [
+      "Aaron Hertzmann",
+      "Charles E. Jacobs",
+      "Nuria Oliver",
+      "Brian Curless",
+      "David H. Salesin"
+    ],
+    "date": "2023",
+    "year": 2023,
+    "crossref_type": "book-chapter",
+    "publisher": "ACM",
+    "volume": "",
+    "number": "",
+    "pages": "557-570",
+    "citation_count": 0,
+    "full_text_url": "http://dx.doi.org/10.1145/3596711.3596770",
+    "sort_date": "2023-01-01"
+  },
+  {
+    "title": "The Beauty Survey",
+    "journal": "OSF Registries",
+    "type": "other",
+    "doi": "10.17605/osf.io/aqdk9",
+    "authors": [
+      "Bruno Lepri",
+      "Miguel Angel Lozano Ortega",
+      "Aditya Gulati",
+      "Nuria Oliver"
+    ],
+    "citation_count": 0,
+    "full_text_url": null,
+    "date": "2023",
+    "sort_date": "2023-01-01",
+    "year": 2023
+  },
+  {
+    "title": "Towards Algorithmic Fairness by means of Instance-level Data Re-weighting based on Shapley Values ...",
+    "journal": null,
+    "type": "report",
+    "doi": "",
+    "authors": [
+      "Adrian Arnaiz-Rodriguez",
+      "Nuria Oliver"
+    ],
+    "citation_count": 0,
+    "full_text_url": "https://dx.doi.org/10.48550/arxiv.2303.01928",
+    "date": "2023",
+    "sort_date": "2023-01-01",
+    "year": 2023
+  },
+  {
+    "title": "Leveraging Mobile Phone Data for Migration Flows",
+    "journal": "Data Science for Migration and Mobility",
+    "type": "book-chapter",
+    "doi": "10.5871/bacad/9780197267103.003.0004",
+    "authors": [
+      "Massimiliano Luca",
+      "Gianni Barlacchi",
+      "Nuria Oliver",
+      "Bruno Lepri"
+    ],
+    "date": "2022-11-10",
+    "year": 2022,
+    "crossref_type": "book-chapter",
+    "publisher": "British Academy",
+    "volume": "",
+    "number": "",
+    "pages": "71-93",
+    "citation_count": 0,
+    "full_text_url": "https://www.lens.org/048-803-645-866-911",
+    "sort_date": "2022-11-10"
+  },
+  {
+    "title": "COVID-19 outbreaks analysis in the Valencian Region of Spain in the prelude of the third wave",
+    "journal": "Frontiers in Public Health",
+    "type": "journal-article",
+    "doi": "10.3389/fpubh.2022.1010124",
+    "authors": [
+      "David Fuente",
+      "David Hervás",
+      "Miguel Rebollo",
+      "J. Alberto Conejero",
+      "Nuria Oliver"
+    ],
+    "date": "2022-11",
+    "year": 2022,
+    "crossref_type": "journal-article",
+    "publisher": "Frontiers Media SA",
+    "volume": "10",
+    "number": "",
+    "pages": "1010124",
+    "citation_count": 0,
+    "full_text_url": "http://europepmc.org/abstract/med/36466513",
+    "sort_date": "2022-11-01"
+  },
+  {
+    "title": "Data Science against COVID-19: The Valencian Experience",
+    "journal": "Proceedings of the 30th ACM International Conference on Multimedia",
+    "type": "journal-article",
+    "doi": "10.1145/3503161.3549913",
+    "authors": [
+      "Nuria Oliver"
+    ],
+    "date": "2022-10-10",
+    "year": 2022,
+    "crossref_type": "proceedings-article",
+    "publisher": "ACM",
+    "volume": "",
+    "number": "",
+    "pages": "3-4",
+    "citation_count": 0,
+    "full_text_url": null,
+    "sort_date": "2022-10-10"
+  },
+  {
+    "title": "Racial Bias in the Beautyverse",
+    "journal": "arXiv (Cornell University)",
+    "type": "preprint",
+    "doi": "10.48550/arxiv.2209.13939",
+    "authors": [
+      "Piera Riccio",
+      "Nuria Oliver"
+    ],
+    "citation_count": 0,
+    "full_text_url": "https://www.lens.org/113-800-655-507-471",
+    "date": "2022-09-28",
+    "sort_date": "2022-09-28",
+    "year": 2022
+  },
+  {
+    "title": "Open Data Science to Fight COVID-19: Winning the 500k XPRIZE Pandemic Response Challenge (Extended Abstract)",
+    "journal": "Proceedings of the Thirty-First International Joint Conference on Artificial Intelligence",
+    "type": "conference-paper",
+    "doi": "10.24963/ijcai.2022/740",
+    "authors": [
+      "Miguel Angel Lozano",
+      "Òscar Garibo-i-Orts",
+      "Eloy Piñol",
+      "Miguel Rebollo",
+      "Kristina Polotskaya",
+      "Miguel Ángel García-March",
+      "J. Alberto Conejero",
+      "Francisco Escolano",
+      "Nuria Oliver"
+    ],
+    "date": "2022-07",
+    "year": 2022,
+    "crossref_type": "proceedings-article",
+    "publisher": "International Joint Conferences on Artificial Intelligence Organization",
+    "volume": "",
+    "number": "",
+    "pages": "5304-5308",
+    "citation_count": 0,
+    "full_text_url": "https://www.lens.org/108-738-411-256-906",
+    "sort_date": "2022-07-01"
+  },
+  {
+    "title": "Social isolation during the COVID-19 pandemic in Spain: a population study",
+    "journal": "Scientific Reports",
+    "type": "journal-article",
+    "doi": "10.1038/s41598-022-16628-y",
+    "authors": [
+      "Marina Martínez-Garcia",
+      "Emilio Sansano-Sansano",
+      "Andrea Castillo-Hornero",
+      "Ruben Femenia",
+      "Kristof Roomp",
+      "Nuria Oliver"
+    ],
+    "date": "2022-07",
+    "year": 2022,
+    "crossref_type": "journal-article",
+    "publisher": "Springer Science and Business Media LLC",
+    "volume": "12",
+    "number": "1",
+    "pages": "12543",
+    "citation_count": 0,
+    "full_text_url": "http://europepmc.org/abstract/med/35869182",
+    "sort_date": "2022-07-01"
+  },
+  {
+    "title": "The impact of control and mitigation strategies during the second wave of coronavirus infections in Spain and Italy",
+    "journal": "Scientific Reports",
+    "type": "journal-article",
+    "doi": "10.1038/s41598-022-05041-0",
+    "authors": [
+      "Marco De Nadai",
+      "Kristof Roomp",
+      "Bruno Lepri",
+      "Nuria Oliver"
+    ],
+    "date": "2022-01",
+    "year": 2022,
+    "crossref_type": "journal-article",
+    "publisher": "Springer Science and Business Media LLC",
+    "volume": "12",
+    "number": "1",
+    "pages": "1073",
+    "citation_count": 0,
+    "full_text_url": "http://europepmc.org/abstract/med/35058522",
+    "sort_date": "2022-01-01"
+  },
+  {
+    "title": "A Philosopher's Daughter Navigates a Career in AI",
+    "journal": "Communications of the ACM",
+    "type": "journal-article",
+    "doi": "10.1145/3579857",
+    "authors": [
+      "Nuria Oliver"
+    ],
+    "date": "2022",
+    "year": 2022,
+    "crossref_type": "journal-article",
+    "publisher": "Association for Computing Machinery (ACM)",
+    "volume": "66",
+    "number": "3",
+    "pages": "13-13",
+    "citation_count": 0,
+    "full_text_url": "https://publons.com/wos-op/publon/57763981/",
+    "sort_date": "2022-01-01"
+  },
+  {
+    "title": "DiffWire: Inductive Graph Rewiring via the Lovasz Bound",
+    "journal": "ArXiv",
+    "type": "journal-article",
+    "doi": "",
+    "authors": [
+      "Adrian Arnaiz-Rodriguez",
+      "Ahmed Begga",
+      "Francisco Escolano",
+      "Nuria Oliver"
+    ],
+    "citation_count": 0,
+    "full_text_url": "https://publons.com/wos-op/publon/57765079/",
+    "date": "2022",
+    "sort_date": "2022-01-01",
+    "year": 2022
+  },
+  {
+    "title": "Welcome",
+    "journal": "Communications of the ACM",
+    "type": "journal-article",
+    "doi": "10.1145/3514188",
+    "authors": [
+      "Jessica R. Cauchard",
+      "Matthias Jarke",
+      "Nuria Oliver"
+    ],
+    "date": "2022",
+    "year": 2022,
+    "crossref_type": "journal-article",
+    "publisher": "Association for Computing Machinery (ACM)",
+    "volume": "65",
+    "number": "4",
+    "pages": "32-34",
+    "citation_count": 0,
+    "full_text_url": "https://publons.com/wos-op/publon/53377961/",
+    "sort_date": "2022-01-01"
+  },
+  {
+    "title": "OpenFilter: A Framework to Democratize Research Access to Social Media AR Filters",
+    "journal": "ArXiv",
+    "type": "journal-article",
+    "doi": "",
+    "authors": [
+      "Piera Riccio",
+      "Bill Psomas",
+      "Francesco Galati",
+      "Francisco Escolano",
+      "Thomas Hofmann",
+      "Nuria Oliver"
+    ],
+    "citation_count": 0,
+    "full_text_url": "https://publons.com/wos-op/publon/57765078/",
+    "date": "2022",
+    "sort_date": "2022-01-01",
+    "year": 2022
+  },
+  {
+    "title": "Out-of-the-Lab Pervasive Computing",
+    "journal": "IEEE Pervasive Computing",
+    "type": "journal-article",
+    "doi": "10.1109/MPRV.2022.3147105",
+    "authors": [
+      "Florian Alt",
+      "Vassilis Kostakos",
+      "Nuria Oliver"
+    ],
+    "date": "2022",
+    "year": 2022,
+    "crossref_type": "journal-article",
+    "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+    "volume": "21",
+    "number": "1",
+    "pages": "7-8",
+    "citation_count": 0,
+    "full_text_url": "https://publons.com/wos-op/publon/57765081/",
+    "sort_date": "2022-01-01"
+  },
+  {
+    "title": "Data Science to help fight COVID-19",
+    "journal": "CHI Greece 2021: 1st International Conference of the ACM Greek SIGCHI Chapter",
+    "type": "book",
+    "doi": "10.1145/3489410.3489411",
+    "authors": [
+      "Nuria Oliver"
+    ],
+    "date": "2021-11-25",
+    "year": 2021,
+    "crossref_type": "proceedings-article",
+    "publisher": "ACM",
+    "volume": "",
+    "number": "",
+    "pages": "1-1",
+    "citation_count": 0,
+    "full_text_url": "https://www.lens.org/087-183-350-281-270",
+    "sort_date": "2021-11-25"
+  },
+  {
+    "title": "LAS MUJERES RESISTEN MEJOR LA PANDEMIA, PERO NO LA SINDEMIA",
+    "journal": "Sociología en tiempos de pandemia",
+    "type": "book-chapter",
+    "doi": "10.2307/j.ctv2zp4xbt.15",
+    "authors": [
+      "Capitolina Díaz",
+      "M.ª Ángeles Sallé",
+      "Cecilia Castaño",
+      "Nuria Oliver"
+    ],
+    "date": "2021-11-15",
+    "year": 2021,
+    "crossref_type": "book-chapter",
+    "publisher": "Marcial Pons, ediciones jurídicas y sociales",
+    "volume": "",
+    "number": "",
+    "pages": "161-172",
+    "citation_count": 0,
+    "full_text_url": "https://www.lens.org/071-559-438-131-834",
+    "sort_date": "2021-11-15"
+  },
+  {
+    "title": "When Philanthropy Meets Data Science: A Framework for Governance to Achieve Data-Driven Decision-Making for Public Good",
+    "journal": "SpringerBriefs in Complexity",
+    "type": "book-chapter",
+    "doi": "10.1007/978-3-030-78985-5_5",
+    "authors": [
+      "Nuria Oliver"
+    ],
+    "date": "2021-10-14",
+    "year": 2021,
+    "crossref_type": "book-chapter",
+    "publisher": "Springer International Publishing",
+    "volume": "",
+    "number": "",
+    "pages": "55-68",
+    "citation_count": 0,
+    "full_text_url": "https://www.lens.org/023-856-580-743-022",
+    "sort_date": "2021-10-14"
+  },
+  {
+    "title": "Key factors affecting people’s unwillingness to be confined during the COVID-19 pandemic in Spain: a large-scale population study",
+    "journal": "Scientific Reports",
+    "type": "journal-article",
+    "doi": "10.1038/s41598-021-97645-1",
+    "authors": [
+      "Marina Martinez-Garcia",
+      "Alejandro Rabasa",
+      "Xavier Barber",
+      "Kristina Polotskaya",
+      "Kristof Roomp",
+      "Nuria Oliver"
+    ],
+    "date": "2021-09",
+    "year": 2021,
+    "crossref_type": "journal-article",
+    "publisher": "Springer Science and Business Media LLC",
+    "volume": "11",
+    "number": "1",
+    "pages": "18626",
+    "citation_count": 0,
+    "full_text_url": "http://europepmc.org/abstract/med/34545107",
+    "sort_date": "2021-09-01"
+  },
+  {
+    "title": "Inteligencia artificial, naturalmente : un manual de convivencia entre humanos y máquinas para que la tecnología nos beneficie a todos",
+    "journal": null,
+    "type": "other",
+    "doi": "",
+    "authors": [
+      "Nuria Oliver"
+    ],
+    "citation_count": 0,
+    "full_text_url": "https://www.lens.org/196-244-162-053-711",
+    "date": "2021-06-04",
+    "sort_date": "2021-06-04",
+    "year": 2021
+  },
+  {
+    "title": "Leveraging Mobile Phone Data for Migration Flows.",
+    "journal": "arXiv: Computers and Society",
+    "type": "preprint",
+    "doi": "",
+    "authors": [
+      "Massimiliano Luca",
+      "Gianni Barlacchi",
+      "Nuria Oliver",
+      "Bruno Lepri"
+    ],
+    "citation_count": 0,
+    "full_text_url": "https://www.lens.org/168-215-864-534-917",
+    "date": "2021-05-31",
+    "sort_date": "2021-05-31",
+    "year": 2021
+  },
+  {
+    "title": "Yet another lockdown? A large-scale study on people’s unwillingness to be confined during the first 5 months of the COVID-19 pandemic in Spain",
+    "journal": null,
+    "type": "preprint",
+    "doi": "10.1101/2021.05.08.21256792",
+    "authors": [
+      "Marina Martinez-Garcia",
+      "Alejandro Rabasa",
+      "Xavier Barber",
+      "Kristina Polotskaya",
+      "Kristof Roomp",
+      "Nuria Oliver"
+    ],
+    "date": "2021-05",
+    "year": 2021,
+    "crossref_type": "posted-content",
+    "publisher": "openRxiv",
+    "volume": "",
+    "number": "",
+    "pages": "",
+    "citation_count": 0,
+    "full_text_url": "http://europepmc.org/abstract/PPR/PPR337218",
+    "sort_date": "2021-05-01"
+  },
+  {
+    "title": "Ethical machines: The human-centric use of artificial intelligence.",
+    "journal": null,
+    "type": "other",
+    "doi": "",
+    "authors": [
+      "Bruno Lepri",
+      "Nuria Oliver",
+      "Alex Pentland"
+    ],
+    "citation_count": 0,
+    "full_text_url": "https://pubmed.ncbi.nlm.nih.gov/33763636",
+    "date": "2021",
+    "sort_date": "2021-01-01",
+    "year": 2021
+  },
+  {
+    "title": "Machine Learning and Knowledge Discovery in Databases. Research Track: European Conference, ECML PKDD 2021, Bilbao, Spain, September 13–17, 2021, Proceedings, Part II",
+    "journal": "Lecture Notes in Computer Science",
+    "type": "book",
+    "doi": "10.1007/978-3-030-86520-7",
+    "authors": [
+      "Nuria Oliver",
+      "Nuria Oliver",
+      "Stefan Kramer",
+      "Stefan Krämer",
+      "Jesse Read"
+    ],
+    "date": "2021",
+    "year": 2021,
+    "crossref_type": "book",
+    "publisher": "Springer International Publishing",
+    "volume": "",
+    "number": "",
+    "pages": "",
+    "citation_count": 0,
+    "full_text_url": "https://www.lens.org/107-426-313-206-631",
+    "sort_date": "2021-01-01"
+  },
+  {
+    "title": "MobTCast: Leveraging Auxiliary Trajectory Forecasting for Human Mobility Prediction",
+    "journal": "Advances in Neural Information Processing Systems (NeurIPS Proceedings)",
+    "type": "journal-article",
+    "doi": "",
+    "authors": [
+      "Hao Xue",
+      "Flora D. Salim",
+      "Yongli Ren",
+      "Nuria Oliver"
+    ],
+    "citation_count": 0,
+    "full_text_url": "https://publons.com/wos-op/publon/57765082/",
+    "date": "2021",
+    "sort_date": "2021-01-01",
+    "year": 2021
+  },
+  {
+    "title": "Open Data Science to Fight COVID-19: Winning the 500k XPRIZE Pandemic Response Challenge",
+    "journal": "Lecture Notes in Computer Science",
+    "type": "journal-article",
+    "doi": "10.1007/978-3-030-86514-6_24",
+    "authors": [
+      "Miguel Angel Lozano",
+      "Òscar Garibo i Orts",
+      "Eloy Piñol",
+      "Miguel Rebollo",
+      "Kristina Polotskaya",
+      "Miguel Angel Garcia-March",
+      "J. Alberto Conejero",
+      "Francisco Escolano",
+      "Nuria Oliver"
+    ],
+    "date": "2021",
+    "year": 2021,
+    "crossref_type": "book-chapter",
+    "publisher": "Springer International Publishing",
+    "volume": "",
+    "number": "",
+    "pages": "384-399",
+    "citation_count": 0,
+    "full_text_url": "https://publons.com/wos-op/publon/50243984/",
+    "sort_date": "2021-01-01"
+  },
+  {
+    "title": "Hacia una inteligencia artificial \"made in Europe\"",
+    "journal": null,
+    "type": "other",
+    "doi": "",
+    "authors": [
+      "Nuria Oliver"
+    ],
+    "citation_count": 0,
+    "full_text_url": "https://www.lens.org/175-849-627-309-538",
+    "date": "2020-11-29",
+    "sort_date": "2020-11-29",
+    "year": 2020
+  },
+  {
+    "title": "Covid19Impact Survey",
+    "journal": "PsycTESTS Dataset",
+    "type": "data-set",
+    "doi": "10.1037/t78148-000",
+    "authors": [
+      "Nuria Oliver",
+      "Xavier Barber",
+      "Kirsten Roomp",
+      "Kristof Roomp"
+    ],
+    "date": "2020-11-09",
+    "year": 2020,
+    "crossref_type": "dataset",
+    "publisher": "American Psychological Association (APA)",
+    "volume": "",
+    "number": "",
+    "pages": "",
+    "citation_count": 0,
+    "full_text_url": "https://www.lens.org/143-207-959-630-760",
+    "sort_date": "2020-11-09"
+  },
+  {
+    "title": "ECAI - Malaria Parasite Mobility in Mozambique Estimated Using Mobile Phone Records.",
+    "journal": null,
+    "type": "conference-paper",
+    "doi": "",
+    "authors": [
+      "Jessica R. Floyd",
+      "Pedro Rente Lourenço",
+      "Nick W. Ruktanonchai",
+      "Andrew J. Tatem",
+      "James Colborn",
+      "Baltazar Candrinho",
+      "Nuria Oliver"
+    ],
+    "citation_count": 0,
+    "full_text_url": "https://www.lens.org/103-989-783-823-128",
+    "date": "2020-10-03",
+    "sort_date": "2020-10-03",
+    "year": 2020
+  },
+  {
+    "title": "ECAI - MobiSenseUs: Inferring Aggregate Objective and Subjective Well-Being from Mobile Data.",
+    "journal": null,
+    "type": "conference-paper",
+    "doi": "",
+    "authors": [
+      "Martin Hillebrand",
+      "Imran Khan",
+      "Filipa Peleja",
+      "Nuria Oliver"
+    ],
+    "citation_count": 0,
+    "full_text_url": "https://www.lens.org/136-238-993-128-342",
+    "date": "2020-10-03",
+    "sort_date": "2020-10-03",
+    "year": 2020
+  },
+  {
+    "title": "Understanding Individual Behaviour: From Virtual to Physical Patterns",
+    "journal": "Frontiers in Artificial Intelligence and Applications",
+    "type": "conference-paper",
+    "doi": "10.3233/FAIA200455",
+    "authors": [
+      "De Nadai Marco",
+      "Lepri Bruno",
+      "Oliver Nuria"
+    ],
+    "date": "2020-09-27",
+    "year": 2020,
+    "crossref_type": "book-chapter",
+    "publisher": "IOS Press",
+    "volume": "",
+    "number": "",
+    "pages": "",
+    "citation_count": 0,
+    "full_text_url": "https://www.lens.org/162-507-761-128-437",
+    "sort_date": "2020-09-27"
+  },
+  {
+    "title": "Assessing the Impact of the COVID-19 Pandemic in Spain: Large-Scale, Online, Self-Reported Population Survey (Preprint)",
+    "journal": null,
+    "type": "preprint",
+    "doi": "10.2196/preprints.21319",
+    "authors": [
+      "Nuria Oliver",
+      "Xavier Barber",
+      "Kirsten Roomp",
+      "Kristof Roomp"
+    ],
+    "date": "2020-06-11",
+    "year": 2020,
+    "crossref_type": "posted-content",
+    "publisher": "JMIR Publications Inc.",
+    "volume": "",
+    "number": "",
+    "pages": "",
+    "citation_count": 0,
+    "full_text_url": "https://doi.org/10.2196/preprints.21319",
+    "sort_date": "2020-06-11"
+  },
+  {
+    "title": "Mobile phone data for informing public health actions across the COVID-19 pandemic life cycle",
+    "journal": "Science Advances",
+    "type": "journal-article",
+    "doi": "10.1126/sciadv.abc0764",
+    "authors": [
+      "Nuria Oliver",
+      "Bruno Lepri",
+      "Harald Sterly",
+      "Renaud Lambiotte",
+      "Sébastien Deletaille",
+      "Marco De Nadai",
+      "Emmanuel Letouzé",
+      "Albert Ali Salah",
+      "Richard Benjamins",
+      "Ciro Cattuto",
+      "Vittoria Colizza",
+      "Nicolas de Cordes",
+      "Samuel P. Fraiberger",
+      "Till Koebe",
+      "Sune Lehmann",
+      "Juan Murillo",
+      "Alex Pentland",
+      "Phuong N Pham",
+      "Frédéric Pivetta",
+      "Jari Saramäki",
+      "Samuel V. Scarpino",
+      "Michele Tizzoni",
+      "Stefaan Verhulst",
+      "Patrick Vinck"
+    ],
+    "date": "2020-06",
+    "year": 2020,
+    "crossref_type": "journal-article",
+    "publisher": "American Association for the Advancement of Science (AAAS)",
+    "volume": "6",
+    "number": "23",
+    "pages": "eabc0764",
+    "citation_count": 0,
+    "full_text_url": "http://europepmc.org/abstract/med/32548274",
+    "sort_date": "2020-06-01"
+  },
+  {
+    "title": "ACDC-Tracing: Towards Anonymous Citizen-Driven Contact Tracing",
+    "journal": null,
+    "type": "preprint",
+    "doi": "",
+    "authors": [
+      "Roomp K",
+      "Oliver N"
+    ],
+    "citation_count": 0,
+    "full_text_url": "http://europepmc.org/abstract/PPR/PPR267698",
+    "date": "2020-04",
+    "sort_date": "2020-04-01",
+    "year": 2020
+  },
+  {
+    "title": "Mobile phone data and COVID-19: Missing an opportunity?",
+    "journal": null,
+    "type": "preprint",
+    "doi": "",
+    "authors": [
+      "Oliver N",
+      "Letouzé E",
+      "Sterly H",
+      "Delataille S",
+      "Nadai MD",
+      "Lepri B",
+      "Lambiotte R",
+      "Benjamins R",
+      "Cattuto C",
+      "Colizza V",
+      "Cordes Nd",
+      "Fraiberger SP",
+      "Koebe T",
+      "Vinck P"
+    ],
+    "citation_count": 0,
+    "full_text_url": "http://europepmc.org/abstract/PPR/PPR267495",
+    "date": "2020-03",
+    "sort_date": "2020-03-01",
+    "year": 2020
+  },
+  {
+    "title": "System and method for executing a process using accelerometer signals",
+    "journal": null,
+    "type": "patent",
+    "doi": "",
+    "authors": [
+      "Oliver Nuria",
+      "Wilson Andrew"
+    ],
+    "patent_number": "US 10551930 B2",
+    "citation_count": 0,
+    "full_text_url": "https://www.lens.org/016-337-572-597-282",
+    "date": "2020-02-04",
+    "sort_date": "2020-02-04",
+    "year": 2020
+  },
+  {
+    "title": "Artificial intelligence and cancer",
+    "journal": "Nature Cancer",
+    "type": "journal-article",
+    "doi": "10.1038/S43018-020-0034-6",
+    "authors": [
+      "Olga Troyanskaya",
+      "Zlatko Trajanoski",
+      "Anne Carpenter",
+      "Sebastian Thrun",
+      "Narges Razavian",
+      "Nuria Oliver"
+    ],
+    "date": "2020",
+    "year": 2020,
+    "crossref_type": "journal-article",
+    "publisher": "Springer Science and Business Media LLC",
+    "volume": "1",
+    "number": "2",
+    "pages": "149-152",
+    "citation_count": 0,
+    "full_text_url": "https://publons.com/wos-op/publon/41211014/",
+    "sort_date": "2020-01-01"
+  },
+  {
     "title": "Assessing the Impact of the COVID-19 Pandemic in Spain: Large-Scale, Online, Self-Reported Population Survey",
     "journal": "Journal of Medical Internet Research",
     "type": "journal-article",
@@ -10,173 +1498,4633 @@
       "Kirsten Roomp",
       "Kristof Roomp"
     ],
-    "citation_count": "58",
-    "full_text_url": "https://doi.org/10.2196/21319",
-    "date": "2020-09-10",
-    "sort_date": "2020-09-10",
-    "year": 2020
+    "date": "2020",
+    "year": 2020,
+    "crossref_type": "journal-article",
+    "publisher": "JMIR Publications Inc.",
+    "volume": "22",
+    "number": "9",
+    "pages": "e21319",
+    "citation_count": 0,
+    "full_text_url": "https://publons.com/wos-op/publon/59274294/",
+    "sort_date": "2020-01-01"
   },
   {
-    "title": "Assessing the Impact of the COVID-19 Pandemic in Spain: Large-Scale, Online, Self-Reported Population Survey (Preprint)",
-    "journal": "",
-    "type": "other",
-    "doi": "10.2196/preprints.21319",
+    "title": "Give more data, awareness and control to individual citizens, and they will help COVID-19 containment",
+    "journal": null,
+    "type": "journal-article",
+    "doi": "",
     "authors": [
+      "Mirco Nanni",
+      "Gennady L. Andrienko",
+      "Albert-Laslo Barabasi",
+      "Chiara Boldrini",
+      "Francesco Bonchi",
+      "Ciro Cattuto",
+      "Francesca Chiaromonte",
+      "Giovanni Comandè",
+      "Marco Conti",
+      "Mark Cotè",
+      "Frank Dignum",
+      "Virginia Dignum",
+      "Josep Domingo-Ferrer",
+      "Paolo Ferragina",
+      "Fosca Giannotti",
+      "Riccardo Guidotti",
+      "Dirk Helbing",
+      "Kimmo Kaski",
+      "Janos Kertesz",
+      "Sune Lehmann",
+      "Bruno Lepri",
+      "Paul Lukowicz",
+      "Stan Matwin",
+      "David Megias",
+      "Anna Monreale",
+      "Katharina Morik",
       "Nuria Oliver",
-      "Xavier Barber",
-      "Kirsten Roomp",
-      "Kristof Roomp"
+      "Andrea Passarella",
+      "Andrea Passerini",
+      "Dino Pedreschi",
+      "Alex Pentland",
+      "Fabio Pianesi",
+      "Francesca Pratesi",
+      "Salvatore Rinzivillo",
+      "Salvatore Ruggieri",
+      "Arno Siebes",
+      "Vicenc Torra",
+      "Roberto Trasarti",
+      "Jeroen van den Hoven",
+      "Alessandro Vespignani"
     ],
-    "citation_count": "1",
-    "full_text_url": "https://doi.org/10.2196/preprints.21319",
-    "date": "2020-06-11",
-    "sort_date": "2020-06-11",
+    "citation_count": 0,
+    "full_text_url": "https://hdl.handle.net/11382/566815",
+    "date": "2020",
+    "sort_date": "2020-01-01",
     "year": 2020
   },
   {
-    "title": "De-duplicating attachments on message delivery and automated repair of attachments",
+    "title": "Malaria Parasite Mobility in Mozambique Estimated Using Mobile Phone Records",
+    "journal": "Frontiers in Artificial Intelligence and Applications",
+    "type": "journal-article",
+    "doi": "10.3233/FAIA200444",
+    "authors": [
+      "Floyd Jessica R.",
+      "Lourenço Pedro Rente",
+      "Ruktanonchai Nick W.",
+      "Tatem Andrew J.",
+      "Colborn James M.",
+      "Candrinho Baltazar",
+      "Oliver Nuria"
+    ],
+    "date": "2020",
+    "year": 2020,
+    "crossref_type": "book-chapter",
+    "publisher": "IOS Press",
+    "volume": "",
+    "number": "",
+    "pages": "",
+    "citation_count": 0,
+    "full_text_url": "https://publons.com/wos-op/publon/44123310/",
+    "sort_date": "2020-01-01"
+  },
+  {
+    "title": "MobiSenseUs: Inferring Aggregate Objective and Subjective Well-Being from Mobile Data",
+    "journal": "Frontiers in Artificial Intelligence and Applications",
+    "type": "journal-article",
+    "doi": "10.3233/FAIA200297",
+    "authors": [
+      "Hillebrand Martin",
+      "Khan Imran",
+      "Peleja Filipa",
+      "Oliver Nuria"
+    ],
+    "date": "2020",
+    "year": 2020,
+    "crossref_type": "book-chapter",
+    "publisher": "IOS Press",
+    "volume": "",
+    "number": "",
+    "pages": "",
+    "citation_count": 0,
+    "full_text_url": "https://publons.com/wos-op/publon/51103285/",
+    "sort_date": "2020-01-01"
+  },
+  {
+    "title": "Understanding individual behaviour: from virtual to physical patterns",
+    "journal": "ArXiv",
+    "type": "journal-article",
+    "doi": "",
+    "authors": [
+      "Marco De Nadai",
+      "Bruno Lepri",
+      "Nuria Oliver"
+    ],
+    "citation_count": 0,
+    "full_text_url": "https://publons.com/wos-op/publon/57765090/",
+    "date": "2020",
+    "sort_date": "2020-01-01",
+    "year": 2020
+  },
+  {
+    "title": "The bridging and bonding structures of place-centric networks: Evidence from a developing country",
+    "journal": "PLOS ONE",
+    "type": "journal-article",
+    "doi": "10.1371/journal.pone.0221148",
+    "authors": [
+      "Didem Gündoğdu",
+      "Pietro Panzarasa",
+      "Nuria Oliver",
+      "Bruno Lepri"
+    ],
+    "date": "2019-09",
+    "year": 2019,
+    "crossref_type": "journal-article",
+    "publisher": "Public Library of Science (PLoS)",
+    "volume": "14",
+    "number": "9",
+    "pages": "e0221148",
+    "citation_count": 0,
+    "full_text_url": "http://europepmc.org/abstract/med/31487298",
+    "sort_date": "2019-09-01"
+  },
+  {
+    "title": "Governance in the era of data-driven decision-making algorithms",
+    "journal": null,
+    "type": "other",
+    "doi": "10.18356/7f891b82-en",
+    "authors": [
+      "Nuria Oliver"
+    ],
+    "date": "2019-07-10",
+    "year": 2019,
+    "crossref_type": "component",
+    "publisher": "United Nations Publications",
+    "volume": "",
+    "number": "",
+    "pages": "",
+    "citation_count": 0,
+    "full_text_url": "https://www.lens.org/051-670-511-321-440",
+    "sort_date": "2019-07-10"
+  },
+  {
+    "title": "Strategies and limitations in app usage and human mobility",
+    "journal": "Scientific Reports",
+    "type": "journal-article",
+    "doi": "10.1038/s41598-019-47493-x",
+    "authors": [
+      "Marco De Nadai",
+      "Angelo Cardoso",
+      "Antonio Lima",
+      "Bruno Lepri",
+      "Nuria Oliver"
+    ],
+    "date": "2019-07",
+    "year": 2019,
+    "crossref_type": "journal-article",
+    "publisher": "Springer Science and Business Media LLC",
+    "volume": "9",
+    "number": "1",
+    "pages": "10935",
+    "citation_count": 0,
+    "full_text_url": "http://europepmc.org/abstract/med/31358830",
+    "sort_date": "2019-07-01"
+  },
+  {
+    "title": "Procedimiento y sistema para determinar la relevancia de mensajes en servicios de mensajería grupal",
     "journal": null,
     "type": "patent",
     "doi": "",
     "authors": [
-      "Roomp Kristof",
-      "Pitigoi-aron Gruia",
-      "Dimitrov Ivaylo",
-      "Pai Brandon",
-      "Ho Cheng",
-      "Pasumarthy Kumar",
-      "Liu Lincoln",
-      "Dhariwal Alok",
-      "Rodrigues John"
+      "Genud Yinon",
+      "Neystadt John (eugene)",
+      "Oliver Nuria"
     ],
-    "patent_number": "US 10671568 B2",
+    "patent_number": "ES 2709686 T3",
     "citation_count": 0,
-    "full_text_url": "https://www.lens.org/100-372-364-147-568",
-    "date": "2020-06-02",
-    "sort_date": "2020-06-02",
-    "year": 2020
+    "full_text_url": "https://www.lens.org/157-633-512-306-219",
+    "date": "2019-04-17",
+    "sort_date": "2019-04-17",
+    "year": 2019
   },
   {
-    "title": "ACDC-Tracing: Towards Anonymous Citizen-Driven Contact Tracing",
+    "title": "Apps, Places and People: strategies, limitations and trade-offs in the physical and digital worlds",
+    "journal": "ArXiv",
+    "type": "journal-article",
+    "doi": "",
+    "authors": [
+      "Marco De Nadai",
+      "Angelo Cardoso",
+      "Antonio Lima",
+      "Bruno Lepri",
+      "Nuria Oliver"
+    ],
+    "citation_count": 0,
+    "full_text_url": "https://publons.com/wos-op/publon/57765083/",
+    "date": "2019",
+    "sort_date": "2019-01-01",
+    "year": 2019
+  },
+  {
+    "title": "Conversational User Interfaces and Interactions",
+    "journal": "IEEE Pervasive Computing",
+    "type": "journal-article",
+    "doi": "10.1109/MPRV.2019.2921176",
+    "authors": [
+      "James A. Landay",
+      "Nuria Oliver",
+      "Junehwa Song"
+    ],
+    "date": "2019",
+    "year": 2019,
+    "crossref_type": "journal-article",
+    "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+    "volume": "18",
+    "number": "2",
+    "pages": "8-9",
+    "citation_count": 0,
+    "full_text_url": "https://publons.com/wos-op/publon/38026903/",
+    "sort_date": "2019-01-01"
+  },
+  {
+    "title": "ESTIMATING MALARIA PARASITE MOBILITY IN MOZAMBIQUE USING MOBILE PHONE RECORDS",
+    "journal": "The American Journal of Tropical Medicine and Hygiene",
+    "type": "journal-article",
+    "doi": "",
+    "authors": [
+      "Jessica R. Floyd",
+      "Pedro Rente Lourenco",
+      "Nick W. Ruktanonchai",
+      "Andrew J. Tatem",
+      "Nuria Oliver"
+    ],
+    "citation_count": 0,
+    "full_text_url": "https://publons.com/wos-op/publon/44084018/",
+    "date": "2019",
+    "sort_date": "2019-01-01",
+    "year": 2019
+  },
+  {
+    "title": "Erratum to: Machine Learning and Data Analytics in Pervasive Health",
+    "journal": "Methods of Information in Medicine",
+    "type": "journal-article",
+    "doi": "10.1055/s-0039-1677748",
+    "authors": [
+      "Nuria Oliver",
+      "Oscar Mayora",
+      "Michael Marschollek"
+    ],
+    "date": "2019",
+    "year": 2019,
+    "crossref_type": "journal-article",
+    "publisher": "Georg Thieme Verlag KG",
+    "volume": "58",
+    "number": "01",
+    "pages": "060-060",
+    "citation_count": 0,
+    "full_text_url": "http://dx.doi.org/10.1055/s-0039-1677748",
+    "sort_date": "2019-01-01"
+  },
+  {
+    "title": "Hacia una Inteligencia Artificial por y para la sociedad",
+    "journal": "Bit Numerical Mathematics",
+    "type": "journal-article",
+    "doi": "",
+    "authors": [
+      "Nuria Oliver Rajadel"
+    ],
+    "citation_count": 0,
+    "full_text_url": "https://www.lens.org/047-297-075-417-755",
+    "date": "2019",
+    "sort_date": "2019-01-01",
+    "year": 2019
+  },
+  {
+    "title": "The Rise of Decentralized Personal Data Markets",
+    "journal": "Trusted Data",
+    "type": "journal-article",
+    "doi": "10.7551/MITPRESS/12439.003.0009",
+    "authors": [
+      "Jacopo Staiano",
+      "Guy Zyskind",
+      "Bruno Lepri",
+      "Nuria Oliver",
+      "Alex Pentland"
+    ],
+    "date": "2019",
+    "year": 2019,
+    "crossref_type": "book-chapter",
+    "publisher": "The MIT Press",
+    "volume": "",
+    "number": "",
+    "pages": "155-166",
+    "citation_count": 0,
+    "full_text_url": "https://publons.com/wos-op/publon/44084020/",
+    "sort_date": "2019-01-01"
+  },
+  {
+    "title": "METHOD AND SYSTEM FOR DETERMINING RELEVANCE OF MESSAGES IN GROUP MESSAGING SERVICES",
     "journal": null,
-    "type": "preprint",
+    "type": "patent",
+    "doi": "",
+    "authors": [
+      "Genud Yinon",
+      "Neystadt John (eugene)",
+      "Oliver Nuria"
+    ],
+    "patent_number": "EP 3217605 B1",
+    "citation_count": 0,
+    "full_text_url": "https://www.lens.org/191-904-175-056-46X",
+    "date": "2018-11-07",
+    "sort_date": "2018-11-07",
+    "year": 2018
+  },
+  {
+    "title": "Musical data: a novel approach to create music from mobile data",
+    "journal": "Proceedings of the 20th International Conference on Human-Computer Interaction with Mobile Devices and Services Adjunct",
+    "type": "conference-paper",
+    "doi": "10.1145/3236112.3236164",
+    "authors": [
+      "Alberto de Santos",
+      "Nuria Oliver"
+    ],
+    "date": "2018-09-03",
+    "year": 2018,
+    "crossref_type": "proceedings-article",
+    "publisher": "ACM",
+    "volume": "",
+    "number": "",
+    "pages": "359-364",
+    "citation_count": 0,
+    "full_text_url": "https://www.lens.org/104-424-504-233-300",
+    "sort_date": "2018-09-03"
+  },
+  {
+    "title": "Assessing the impact of machine intelligence on human behaviour: an interdisciplinary endeavour ...",
+    "journal": null,
+    "type": "report",
+    "doi": "10.48550/arxiv.1806.03192",
+    "authors": [
+      "Emilia Gómez",
+      "Carlos Castillo",
+      "Vicky Charisi",
+      "Verónica Dahl",
+      "Gustavo Deco",
+      "Blagoj Delipetrev",
+      "Nicole Dewandre",
+      "Miguel Ángel González-Ballester",
+      "Fabien Gouyon",
+      "José Hernández-Orallo",
+      "Perfecto Herrera",
+      "Anders Jonsson",
+      "Ansgar Koene",
+      "Martha Larson",
+      "Ramón López de Mántaras",
+      "Bertin Martens",
+      "Marius Miron",
+      "Rubén Moreno-Bote",
+      "Nuria Oliver",
+      "Antonio Puertas Gallardo",
+      "Heike Schweitzer",
+      "Nuria Sebastian",
+      "Xavier Serra",
+      "Joan Serrà",
+      "Songül Tolan",
+      "Karina Vold"
+    ],
+    "citation_count": 0,
+    "full_text_url": "https://dx.doi.org/10.48550/arxiv.1806.03192",
+    "date": "2018",
+    "sort_date": "2018-01-01",
+    "year": 2018
+  },
+  {
+    "title": "Machine Learning and Data Analytics in Pervasive Health",
+    "journal": "Methods of Information in Medicine",
+    "type": "journal-article",
+    "doi": "10.1055/s-0038-1673243",
+    "authors": [
+      "Nuria Oliver",
+      "Michael Marschollek",
+      "Oscar Mayora"
+    ],
+    "date": "2018",
+    "year": 2018,
+    "crossref_type": "journal-article",
+    "publisher": "Georg Thieme Verlag KG",
+    "volume": "57",
+    "number": "04",
+    "pages": "194-196",
+    "citation_count": 0,
+    "full_text_url": "http://hdl.handle.net/11582/317982",
+    "sort_date": "2018-01-01"
+  },
+  {
+    "title": "MobInsight: A Framework Using Semantic Neighborhood Features for Localized Interpretations of Urban Mobility",
+    "journal": "ACM Transactions on Interactive Intelligent Systems",
+    "type": "journal-article",
+    "doi": "10.1145/3158433",
+    "authors": [
+      "Souneil Park",
+      "Joan Serrà",
+      "Enrique Frias Martinez",
+      "Nuria Oliver"
+    ],
+    "date": "2018",
+    "year": 2018,
+    "crossref_type": "journal-article",
+    "publisher": "Association for Computing Machinery (ACM)",
+    "volume": "8",
+    "number": "3",
+    "pages": "1-25",
+    "citation_count": 0,
+    "full_text_url": "http://dx.doi.org/10.1145/3158433",
+    "sort_date": "2018-01-01"
+  },
+  {
+    "title": "Mobile Money: Understanding and Predicting its Adoption and Use in a Developing Economy",
+    "journal": null,
+    "type": "other",
+    "doi": "",
+    "authors": [
+      "Simone Centellegher",
+      "Giovanna Miritello",
+      "Daniel Villatoro",
+      "Devyani Parameshwar",
+      "Bruno Lepri",
+      "Nuria Oliver"
+    ],
+    "citation_count": 0,
+    "full_text_url": "http://arxiv.org/abs/1812.03289",
+    "date": "2018",
+    "sort_date": "2018-01-01",
+    "year": 2018
+  },
+  {
+    "title": "New Signals in Multimedia Systems and Applications",
+    "journal": "IEEE MultiMedia",
+    "type": "journal-article",
+    "doi": "10.1109/MMUL.2018.011921231",
+    "authors": [
+      "Pablo Cesar",
+      "Vivek Singh",
+      "Ramesh Jain",
+      "Nicu Sebe",
+      "Nuria Oliver"
+    ],
+    "date": "2018",
+    "year": 2018,
+    "crossref_type": "journal-article",
+    "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+    "volume": "25",
+    "number": "1",
+    "pages": "12-13",
+    "citation_count": 0,
+    "full_text_url": "https://publons.com/wos-op/publon/44084030/",
+    "sort_date": "2018-01-01"
+  },
+  {
+    "title": "On the privacy-conscientious use of mobile phone data",
+    "journal": "Scientific Data",
+    "type": "other",
+    "doi": "10.1038/sdata.2018.286",
+    "authors": [
+      "Yves-Alexandre de Montjoye",
+      "Sébastien Gambs",
+      "Vincent Blondel",
+      "Geoffrey Canright",
+      "Nicolas de Cordes",
+      "Sébastien Deletaille",
+      "Kenth Engø-Monsen",
+      "Manuel Garcia-Herranz",
+      "Jake Kendall",
+      "Cameron Kerry",
+      "Gautier Krings",
+      "Emmanuel Letouzé",
+      "Miguel Luengo-Oroz",
+      "Nuria Oliver",
+      "Luc Rocher",
+      "Alex Rutherford",
+      "Zbigniew Smoreda",
+      "Jessica Steele",
+      "Erik Wetter",
+      "Alex “Sandy” Pentland",
+      "Linus Bengtsson"
+    ],
+    "date": "2018",
+    "year": 2018,
+    "crossref_type": "journal-article",
+    "publisher": "Springer Science and Business Media LLC",
+    "volume": "5",
+    "number": "1",
+    "pages": "180286",
+    "citation_count": 0,
+    "full_text_url": "https://pubmed.ncbi.nlm.nih.gov/30532052",
+    "sort_date": "2018-01-01"
+  },
+  {
+    "title": "Pervasive Computing Paradigms for Mental Health: Selected Papers from MindCare 2016, Fabulous 2016, and IIoT 2015",
+    "journal": "Lecture Notes of the Institute for Computer Sciences, Social Informatics and Telecommunications Engineering",
+    "type": "book",
+    "doi": "10.1007/978-3-319-74935-8",
+    "authors": [
+      "MindCare 2016 Barcelona",
+      "Nuria Oliver",
+      "Silvia Serino",
+      "Aleksandar Matic",
+      "Pietro Cipresso",
+      "Nenad Filipović",
+      "Liljana Gavrilovska",
+      "Fabulous 2016 Belgrad"
+    ],
+    "date": "2018",
+    "year": 2018,
+    "crossref_type": "book",
+    "publisher": "Springer International Publishing",
+    "volume": "",
+    "number": "",
+    "pages": "",
+    "citation_count": 0,
+    "full_text_url": "https://www.lens.org/093-293-503-983-56X",
+    "sort_date": "2018-01-01"
+  },
+  {
+    "title": "Preface",
+    "journal": "Lecture Notes of the Institute for Computer Sciences, Social-Informatics and Telecommunications Engineering, LNICST",
+    "type": "book",
+    "doi": "",
+    "authors": [
+      "N. Oliver",
+      "S. Serino",
+      "A. Matic",
+      "P. Cipresso",
+      "N. Filipovic",
+      "L. Gavrilovska"
+    ],
+    "citation_count": 0,
+    "full_text_url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-85044473093&partnerID=MN8TOARS",
+    "date": "2018",
+    "sort_date": "2018-01-01",
+    "year": 2018
+  },
+  {
+    "title": "Una nueva etapa dorada para la inteligencia artificial",
+    "journal": "Harvard Deusto business review",
+    "type": "journal-article",
+    "doi": "",
+    "authors": [
+      "Nuria Oliver"
+    ],
+    "citation_count": 0,
+    "full_text_url": "https://www.lens.org/143-350-979-810-373",
+    "date": "2018",
+    "sort_date": "2018-01-01",
+    "year": 2018
+  },
+  {
+    "title": "\"OMG! How did it know that?\": Reactions to Highly-Personalized Ads",
+    "journal": "Adjunct Publication of the 25th Conference on User Modeling, Adaptation and Personalization",
+    "type": "conference-paper",
+    "doi": "10.1145/3099023.3101411",
+    "authors": [
+      "Aleksandar Matic",
+      "Martin Pielot",
+      "Nuria Oliver"
+    ],
+    "date": "2017",
+    "year": 2017,
+    "crossref_type": "proceedings-article",
+    "publisher": "ACM",
+    "volume": "",
+    "number": "",
+    "pages": "41-46",
+    "citation_count": 0,
+    "full_text_url": "http://dx.doi.org/10.1145/3099023.3101411",
+    "sort_date": "2017-01-01"
+  },
+  {
+    "title": "Beyond Interruptibility: Predicting Opportune Moments to Engage Mobile Phone Users",
+    "journal": "Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies",
+    "type": "journal-article",
+    "doi": "10.1145/3130956",
+    "authors": [
+      "Martin Pielot",
+      "Bruno Cardoso",
+      "Kleomenis Katevas",
+      "Joan Serrà",
+      "Aleksandar Matic",
+      "Nuria Oliver"
+    ],
+    "date": "2017",
+    "year": 2017,
+    "crossref_type": "journal-article",
+    "publisher": "Association for Computing Machinery (ACM)",
+    "volume": "1",
+    "number": "3",
+    "pages": "1-25",
+    "citation_count": 0,
+    "full_text_url": "http://dx.doi.org/10.1145/3130956",
+    "sort_date": "2017-01-01"
+  },
+  {
+    "title": "Big data para el bien social : oportunidades y retos",
+    "journal": null,
+    "type": "other",
+    "doi": "",
+    "authors": [
+      "Nuria Oliver"
+    ],
+    "citation_count": 0,
+    "full_text_url": "https://www.lens.org/139-693-348-765-211",
+    "date": "2017",
+    "sort_date": "2017-01-01",
+    "year": 2017
+  },
+  {
+    "title": "Fair, Transparent, and Accountable Algorithmic Decision-making Processes: The Premise, the Proposed Solutions, and the Open Challenges",
+    "journal": "Philosophy &amp; Technology",
+    "type": "journal-article",
+    "doi": "10.1007/s13347-017-0279-x",
+    "authors": [
+      "Bruno Lepri",
+      "Nuria Oliver",
+      "Emmanuel Letouzé",
+      "Alex Pentland",
+      "Patrick Vinck"
+    ],
+    "date": "2017",
+    "year": 2017,
+    "crossref_type": "journal-article",
+    "publisher": "Springer Science and Business Media LLC",
+    "volume": "31",
+    "number": "4",
+    "pages": "611-627",
+    "citation_count": 0,
+    "full_text_url": "http://dx.doi.org/10.1007/s13347-017-0279-x",
+    "sort_date": "2017-01-01"
+  },
+  {
+    "title": "MobInsight: A Framework Using Semantic Neighborhood Features for Localized Interpretations of Urban Mobility ...",
+    "journal": null,
+    "type": "report",
+    "doi": "10.48550/arxiv.1709.10299",
+    "authors": [
+      "Souneil Park",
+      "Joan Serra",
+      "Enrique Frias Martinez",
+      "Nuria Oliver"
+    ],
+    "citation_count": 0,
+    "full_text_url": "https://dx.doi.org/10.48550/arxiv.1709.10299",
+    "date": "2017",
+    "sort_date": "2017-01-01",
+    "year": 2017
+  },
+  {
+    "title": "When Simpler Data Does Not Imply Less Information: A Study of User Profiling Scenarios with Constrained View of Mobile HTTP(S) Traffic ...",
+    "journal": null,
+    "type": "journal-article",
+    "doi": "10.48550/arxiv.1710.00069",
+    "authors": [
+      "Souneil Park",
+      "Aleksandar Matic",
+      "Kamini Garg",
+      "Nuria Oliver"
+    ],
+    "citation_count": 0,
+    "full_text_url": "https://dx.doi.org/10.48550/arxiv.1710.00069",
+    "date": "2017",
+    "sort_date": "2017-01-01",
+    "year": 2017
+  },
+  {
+    "title": "Jornada de difusión del conocimiento en Big Data",
+    "journal": null,
+    "type": "other",
+    "doi": "",
+    "authors": [
+      "Nuria Oliver Ramírez",
+      "Natividad Duro Carralero"
+    ],
+    "citation_count": 0,
+    "full_text_url": "https://www.lens.org/031-615-048-270-401",
+    "date": "2016-11-04",
+    "sort_date": "2016-11-04",
+    "year": 2016
+  },
+  {
+    "title": "Data-driven Human Behavior Models: Opportunities and Challenges",
+    "journal": "Proceedings of the 4th Spanish Conference on Information Retrieval",
+    "type": "conference-paper",
+    "doi": "10.1145/2934732.2940297",
+    "authors": [
+      "Nuria Oliver"
+    ],
+    "date": "2016",
+    "year": 2016,
+    "crossref_type": "proceedings-article",
+    "publisher": "ACM",
+    "volume": "",
+    "number": "",
+    "pages": "1-1",
+    "citation_count": 0,
+    "full_text_url": null,
+    "sort_date": "2016-01-01"
+  },
+  {
+    "title": "Keynotes",
+    "journal": "2016 12th International Conference on Intelligent Environments (IE)",
+    "type": "conference-paper",
+    "doi": "10.1109/ie.2016.9",
+    "authors": [
+      "Nuria Oliver Ramirez",
+      "A. J. Brush",
+      "Andrew Hudson-Smith"
+    ],
+    "date": "2016",
+    "year": 2016,
+    "crossref_type": "proceedings-article",
+    "publisher": "IEEE",
+    "volume": "",
+    "number": "",
+    "pages": "xviii-xx",
+    "citation_count": 0,
+    "full_text_url": "http://dx.doi.org/10.1109/ie.2016.9",
+    "sort_date": "2016-01-01"
+  },
+  {
+    "title": "Message from the Industrial Track Co-Chairs",
+    "journal": "2016 17th IEEE International Conference on Mobile Data Management (MDM)",
+    "type": "conference-paper",
+    "doi": "10.1109/MDM.2016.9",
+    "authors": [
+      "A. Bifet",
+      "N. Oliver"
+    ],
+    "date": "2016",
+    "year": 2016,
+    "crossref_type": "proceedings-article",
+    "publisher": "IEEE",
+    "volume": "",
+    "number": "",
+    "pages": "xvi-xvi",
+    "citation_count": 0,
+    "full_text_url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-84981713524&partnerID=MN8TOARS",
+    "sort_date": "2016-01-01"
+  },
+  {
+    "title": "New germline mutation in CACNA1H calcium channel causing primary aldosteronism",
+    "journal": "Endocrine Abstracts",
+    "type": "journal-article",
+    "doi": "10.1530/endoabs.41.gp7",
+    "authors": [
+      "Kirsten Roomp",
+      "Kamil Grzyb",
+      "Cristina Wolf",
+      "Yara Rhayem",
+      "Nuria Oliver",
+      "Barbara Wardas",
+      "Andreas Beck",
+      "Antonio Pico",
+      "Felix Beuschlein",
+      "Alexander Skupin",
+      "Patrick May",
+      "Jochen G. Schneider"
+    ],
+    "date": "2016",
+    "year": 2016,
+    "crossref_type": "journal-article",
+    "publisher": "Bioscientifica",
+    "volume": "",
+    "number": "",
+    "pages": "",
+    "citation_count": 0,
+    "full_text_url": "http://dx.doi.org/10.1530/endoabs.41.gp7",
+    "sort_date": "2016-01-01"
+  },
+  {
+    "title": "The Mobile Territorial Lab: a multilayered and dynamic view on parents’ daily lives",
+    "journal": "EPJ Data Science",
+    "type": "journal-article",
+    "doi": "10.1140/epjds/s13688-016-0064-6",
+    "authors": [
+      "Simone Centellegher",
+      "Marco De Nadai",
+      "Michele Caraviello",
+      "Chiara Leonardi",
+      "Michele Vescovi",
+      "Yusi Ramadian",
+      "Nuria Oliver",
+      "Fabio Pianesi",
+      "Alex Pentland",
+      "Fabrizio Antonelli",
+      "Bruno Lepri"
+    ],
+    "date": "2016",
+    "year": 2016,
+    "crossref_type": "journal-article",
+    "publisher": "Springer Science and Business Media LLC",
+    "volume": "5",
+    "number": "1",
+    "pages": "3",
+    "citation_count": 0,
+    "full_text_url": "http://dx.doi.org/10.1140/epjds/s13688-016-0064-6",
+    "sort_date": "2016-01-01"
+  },
+  {
+    "title": "The Tyranny of Data? The Bright and Dark Sides of Data-Driven Decision-Making for Social Good ...",
+    "journal": null,
+    "type": "report",
+    "doi": "10.48550/arxiv.1612.00323",
+    "authors": [
+      "Bruno Lepri",
+      "Jacopo Staiano",
+      "David Sangokoya",
+      "Emmanuel Letouzé",
+      "Nuria Oliver"
+    ],
+    "citation_count": 0,
+    "full_text_url": "https://dx.doi.org/10.48550/arxiv.1612.00323",
+    "date": "2016",
+    "sort_date": "2016-01-01",
+    "year": 2016
+  },
+  {
+    "title": "The Untapped Opportunity of Mobile Network Data for Mental Health",
+    "journal": "Proceedings of the 10th EAI International Conference on Pervasive Computing Technologies for Healthcare",
+    "type": "other",
+    "doi": "10.4108/eai.16-5-2016.2263783",
+    "authors": [
+      "Aleksandar Matic",
+      "Nuria Oliver"
+    ],
+    "date": "2016",
+    "year": 2016,
+    "crossref_type": "proceedings-article",
+    "publisher": "ACM",
+    "volume": "",
+    "number": "",
+    "pages": "",
+    "citation_count": 0,
+    "full_text_url": "https://doi.org/10.4108/eai.16-5-2016.2263783",
+    "sort_date": "2016-01-01"
+  },
+  {
+    "title": "Towards Preventive Safety Systems for Cars: The Impact of Driving Habits in Accident Prediction",
+    "journal": null,
+    "type": "other",
+    "doi": "",
+    "authors": [
+      "Souneil Park",
+      "Luis F. Chiroque",
+      "Jose San Pedro",
+      "Nuria Oliver"
+    ],
+    "citation_count": 0,
+    "full_text_url": "https://www.lens.org/034-883-431-930-513",
+    "date": "2015-09-07",
+    "sort_date": "2015-09-07",
+    "year": 2015
+  },
+  {
+    "title": "Effect of gender and call duration on customer satisfaction in call center big data",
+    "journal": "Interspeech 2015",
+    "type": "conference-paper",
+    "doi": "10.21437/interspeech.2015-64",
+    "authors": [
+      "Quim Llimona",
+      "Jordi Luque",
+      "Xavier Anguera",
+      "Zoraida Hidalgo",
+      "Souneil Park",
+      "Nuria Oliver"
+    ],
+    "date": "2015-09-06",
+    "year": 2015,
+    "crossref_type": "proceedings-article",
+    "publisher": "ISCA",
+    "volume": "",
+    "number": "",
+    "pages": "1825-1829",
+    "citation_count": 0,
+    "full_text_url": "https://www.lens.org/143-472-071-134-980",
+    "sort_date": "2015-09-06"
+  },
+  {
+    "title": "Un procedimiento de caracterización de una comunicación de red social usando motivos",
+    "journal": null,
+    "type": "patent",
+    "doi": "",
+    "authors": [
+      "Oliver Ramirez Nuria",
+      "Zhao Qiankun"
+    ],
+    "patent_number": "ES 2537990 T3",
+    "citation_count": 0,
+    "full_text_url": "https://www.lens.org/080-107-428-816-492",
+    "date": "2015-06-16",
+    "sort_date": "2015-06-16",
+    "year": 2015
+  },
+  {
+    "title": "A METHOD OF CHARACTERIZING A SOCIAL NETWORK COMMUNICATION USING MOTIFS",
+    "journal": null,
+    "type": "patent",
+    "doi": "",
+    "authors": [
+      "Oliver Ramirez Nuria",
+      "Zhao Qiankun"
+    ],
+    "patent_number": "EP 2707996 B1",
+    "citation_count": 0,
+    "full_text_url": "https://www.lens.org/189-647-507-773-742",
+    "date": "2015-03-04",
+    "sort_date": "2015-03-04",
+    "year": 2015
+  },
+  {
+    "title": "Method and system for facilitating exchange of items in a network",
+    "journal": null,
+    "type": "patent",
+    "doi": "",
+    "authors": [
+      "Cherubini Mauro",
+      "Oliver Ramirez Nuria"
+    ],
+    "patent_number": "US 8942730 B2",
+    "citation_count": 0,
+    "full_text_url": "https://www.lens.org/125-297-707-227-691",
+    "date": "2015-01-27",
+    "sort_date": "2015-01-27",
+    "year": 2015
+  },
+  {
+    "title": "Method for classification of videos",
+    "journal": null,
+    "type": "patent",
+    "doi": "",
+    "authors": [
+      "Moorty Anush",
+      "Obrador Pere",
+      "Ramirez Nuria Oliver"
+    ],
+    "patent_number": "US 8942469 B2",
+    "citation_count": 0,
+    "full_text_url": "https://www.lens.org/042-506-950-789-183",
+    "date": "2015-01-27",
+    "sort_date": "2015-01-27",
+    "year": 2015
+  },
+  {
+    "title": "Boredom-Triggered Proactive Recommendations",
+    "journal": "Proceedings of the 17th International Conference on Human-Computer Interaction with Mobile Devices and Services Adjunct",
+    "type": "conference-paper",
+    "doi": "10.1145/2786567.2794340",
+    "authors": [
+      "Martin Pielot",
+      "Linas Baltrunas",
+      "Nuria Oliver"
+    ],
+    "date": "2015",
+    "year": 2015,
+    "crossref_type": "proceedings-article",
+    "publisher": "ACM",
+    "volume": "",
+    "number": "",
+    "pages": "1106-1110",
+    "citation_count": 0,
+    "full_text_url": "http://dx.doi.org/10.1145/2786567.2794340",
+    "sort_date": "2015-01-01"
+  },
+  {
+    "title": "Boredom-computer interaction: boredom proneness and the use of smartphone",
+    "journal": "Proceedings of the 2015 ACM International Joint Conference on Pervasive and Ubiquitous Computing",
+    "type": "conference-paper",
+    "doi": "10.1145/2750858.2807530",
+    "authors": [
+      "Aleksandar Matic",
+      "Martin Pielot",
+      "Nuria Oliver"
+    ],
+    "date": "2015",
+    "year": 2015,
+    "crossref_type": "proceedings-article",
+    "publisher": "ACM",
+    "volume": "",
+    "number": "",
+    "pages": "837-841",
+    "citation_count": 0,
+    "full_text_url": "http://dx.doi.org/10.1145/2750858.2807530",
+    "sort_date": "2015-01-01"
+  },
+  {
+    "title": "Campaign Optimization through Mobility Network Analysis",
+    "journal": "Advances in Geospatial Technologies",
+    "type": "journal-article",
+    "doi": "10.4018/978-1-4666-8465-2.CH002",
+    "authors": [
+      "Yaniv Altshuler",
+      "Erez Shmueli",
+      "Guy Zyskind",
+      "Oren Lederman",
+      "Nuria Oliver",
+      "Alex “Sandy” Pentland"
+    ],
+    "date": "2015",
+    "year": 2015,
+    "crossref_type": "book-chapter",
+    "publisher": "IGI Global",
+    "volume": "",
+    "number": "",
+    "pages": "33-75",
+    "citation_count": 0,
+    "full_text_url": "https://publons.com/wos-op/publon/16798220/",
+    "sort_date": "2015-01-01"
+  },
+  {
+    "title": "Effect of gender and call duration on customer satisfaction in call center big data",
+    "journal": "Proceedings of the Annual Conference of the International Speech Communication Association, INTERSPEECH",
+    "type": "conference-paper",
+    "doi": "",
+    "authors": [
+      "Q. Llimona",
+      "J. Luque",
+      "X. Anguera",
+      "Z. Hidalgo",
+      "S. Park",
+      "N. Oliver"
+    ],
+    "citation_count": 0,
+    "full_text_url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-84959082620&partnerID=MN8TOARS",
+    "date": "2015",
+    "sort_date": "2015-01-01",
+    "year": 2015
+  },
+  {
+    "title": "Frappe: Understanding the Usage and Perception of Mobile App Recommendations In-The-Wild ...",
+    "journal": null,
+    "type": "report",
+    "doi": "10.48550/arxiv.1505.03014",
+    "authors": [
+      "Linas Baltrunas",
+      "Karen Church",
+      "Alexandros Karatzoglou",
+      "Nuria Oliver"
+    ],
+    "citation_count": 0,
+    "full_text_url": "https://dx.doi.org/10.48550/arxiv.1505.03014",
+    "date": "2015",
+    "sort_date": "2015-01-01",
+    "year": 2015
+  },
+  {
+    "title": "La tecnología. Elemento clave para la necesaria transformación de la educación",
+    "journal": null,
+    "type": "other",
+    "doi": "",
+    "authors": [
+      "Nuria Oliver"
+    ],
+    "citation_count": 0,
+    "full_text_url": "https://www.lens.org/171-703-551-233-84X",
+    "date": "2015",
+    "sort_date": "2015-01-01",
+    "year": 2015
+  },
+  {
+    "title": "MobiScore: Towards Universal Credit Scoring from Mobile Phone Data",
+    "journal": "Lecture Notes in Computer Science",
+    "type": "book-chapter",
+    "doi": "10.1007/978-3-319-20267-9_16",
+    "authors": [
+      "Jose San Pedro",
+      "Davide Proserpio",
+      "Nuria Oliver"
+    ],
+    "date": "2015",
+    "year": 2015,
+    "crossref_type": "book-chapter",
+    "publisher": "Springer International Publishing",
+    "volume": "",
+    "number": "",
+    "pages": "195-207",
+    "citation_count": 0,
+    "full_text_url": "http://dx.doi.org/10.1007/978-3-319-20267-9_16",
+    "sort_date": "2015-01-01"
+  },
+  {
+    "title": "MobiTop: bringing topic-based reflection to mobile browsing habits",
+    "journal": "Proceedings of the 2015 ACM International Joint Conference on Pervasive and Ubiquitous Computing and Proceedings of the 2015 ACM International Symposium on Wearable Computers - UbiComp '15",
+    "type": "conference-paper",
+    "doi": "10.1145/2800835.2800958",
+    "authors": [
+      "Souneil Park",
+      "Jose San Pedro",
+      "Nuria Oliver"
+    ],
+    "date": "2015",
+    "year": 2015,
+    "crossref_type": "proceedings-article",
+    "publisher": "ACM Press",
+    "volume": "",
+    "number": "",
+    "pages": "1045-1050",
+    "citation_count": 0,
+    "full_text_url": "http://dx.doi.org/10.1145/2800835.2800958",
+    "sort_date": "2015-01-01"
+  },
+  {
+    "title": "Mobile Network Data for Public Health: Opportunities and Challenges.",
+    "journal": null,
+    "type": "journal-article",
+    "doi": "",
+    "authors": [
+      "Nuria Oliver",
+      "Aleksandar Matic",
+      "Enrique Frias-Martinez"
+    ],
+    "citation_count": 0,
+    "full_text_url": "https://pubmed.ncbi.nlm.nih.gov/26301211",
+    "date": "2015",
+    "sort_date": "2015-01-01",
+    "year": 2015
+  },
+  {
+    "title": "Moves on the Street: Classifying Crime Hotspots Using Aggregated Anonymized Data on People Dynamics",
+    "journal": "Big Data",
+    "type": "journal-article",
+    "doi": "10.1089/big.2014.0054",
+    "authors": [
+      "Andrey Bogomolov",
+      "Bruno Lepri",
+      "Jacopo Staiano",
+      "Emmanuel Letouzé",
+      "Nuria Oliver",
+      "Fabio Pianesi",
+      "Alex Pentland"
+    ],
+    "date": "2015",
+    "year": 2015,
+    "crossref_type": "journal-article",
+    "publisher": "SAGE Publications",
+    "volume": "3",
+    "number": "3",
+    "pages": "148-158",
+    "citation_count": 0,
+    "full_text_url": "http://hdl.handle.net/11582/300581",
+    "sort_date": "2015-01-01"
+  },
+  {
+    "title": "Natural Regularization in SVMs",
+    "journal": null,
+    "type": "other",
+    "doi": "",
+    "authors": [
+      "Nuria Oliver",
+      "Alexander J. Smola"
+    ],
+    "citation_count": 0,
+    "full_text_url": "https://www.lens.org/123-835-142-801-723",
+    "date": "2015",
+    "sort_date": "2015-01-01",
+    "year": 2015
+  },
+  {
+    "title": "Session details: Session 8 -- Tracking/Wearables and Mobile Technology",
+    "journal": "Proceedings of the 5th International Conference on Digital Health 2015",
+    "type": "conference-paper",
+    "doi": "10.1145/3246863",
+    "authors": [
+      "Nuria Oliver"
+    ],
+    "date": "2015",
+    "year": 2015,
+    "crossref_type": "proceedings-article",
+    "publisher": "ACM",
+    "volume": "",
+    "number": "",
+    "pages": "",
+    "citation_count": 0,
+    "full_text_url": "http://dx.doi.org/10.1145/3246863",
+    "sort_date": "2015-01-01"
+  },
+  {
+    "title": "Smarttention, Please! Intelligent Attention Management on Mobile Devices",
+    "journal": "Proceedings of the 17th International Conference on Human-Computer Interaction with Mobile Devices and Services Adjunct",
+    "type": "conference-paper",
+    "doi": "10.1145/2786567.2795399",
+    "authors": [
+      "Benjamin Poppinga",
+      "Martin Pielot",
+      "Niels Henze",
+      "Nuria Oliver",
+      "Karen Church",
+      "Alireza Sahami Shirazi"
+    ],
+    "date": "2015",
+    "year": 2015,
+    "crossref_type": "proceedings-article",
+    "publisher": "ACM",
+    "volume": "",
+    "number": "",
+    "pages": "1066-1069",
+    "citation_count": 0,
+    "full_text_url": "http://dx.doi.org/10.1145/2786567.2795399",
+    "sort_date": "2015-01-01"
+  },
+  {
+    "title": "When attention is not scarce - detecting boredom from mobile phone usage",
+    "journal": "Proceedings of the 2015 ACM International Joint Conference on Pervasive and Ubiquitous Computing",
+    "type": "conference-paper",
+    "doi": "10.1145/2750858.2804252",
+    "authors": [
+      "Martin Pielot",
+      "Tilman Dingler",
+      "Jose San Pedro",
+      "Nuria Oliver"
+    ],
+    "date": "2015",
+    "year": 2015,
+    "crossref_type": "proceedings-article",
+    "publisher": "ACM",
+    "volume": "",
+    "number": "",
+    "pages": "825-836",
+    "citation_count": 0,
+    "full_text_url": "http://dx.doi.org/10.1145/2750858.2804252",
+    "sort_date": "2015-01-01"
+  },
+  {
+    "title": "COLING - A Context-Aware NLP Approach For Noteworthiness Detection in Cellphone Conversations",
+    "journal": null,
+    "type": "conference-paper",
+    "doi": "",
+    "authors": [
+      "Francesca Bonin",
+      "Jose San Pedro",
+      "Nuria Oliver"
+    ],
+    "citation_count": 0,
+    "full_text_url": "https://www.lens.org/181-836-777-877-789",
+    "date": "2014-08-01",
+    "sort_date": "2014-08-01",
+    "year": 2014
+  },
+  {
+    "title": "Method to assess aesthetic quality of photographs",
+    "journal": null,
+    "type": "patent",
+    "doi": "",
+    "authors": [
+      "Obrador Pere",
+      "Oliver Nuria",
+      "Saad Michele",
+      "Suryanarayan Poonam"
+    ],
+    "patent_number": "US 8660342 B2",
+    "citation_count": 0,
+    "full_text_url": "https://www.lens.org/035-106-078-136-975",
+    "date": "2014-02-25",
+    "sort_date": "2014-02-25",
+    "year": 2014
+  },
+  {
+    "title": "A large-scale study of daily information needs captured in situ",
+    "journal": "ACM Transactions on Computer-Human Interaction",
+    "type": "journal-article",
+    "doi": "10.1145/2552193",
+    "authors": [
+      "Karen Church",
+      "Mauro Cherubini",
+      "Nuria Oliver"
+    ],
+    "date": "2014",
+    "year": 2014,
+    "crossref_type": "journal-article",
+    "publisher": "Association for Computing Machinery (ACM)",
+    "volume": "21",
+    "number": "2",
+    "pages": "1-46",
+    "citation_count": 0,
+    "full_text_url": "http://dx.doi.org/10.1145/2552193",
+    "sort_date": "2014-01-01"
+  },
+  {
+    "title": "Campaign Optimization Through Behavioral Modeling and Mobile Network Analysis",
+    "journal": "IEEE Transactions on Computational Social Systems",
+    "type": "journal-article",
+    "doi": "10.1109/tcss.2014.2377831",
+    "authors": [
+      "Yaniv Altshuler",
+      "Erez Shmueli",
+      "Guy Zyskind",
+      "Oren Lederman",
+      "Nuria Oliver",
+      "Alex Pentland"
+    ],
+    "date": "2014",
+    "year": 2014,
+    "crossref_type": "journal-article",
+    "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+    "volume": "1",
+    "number": "2",
+    "pages": "121-134",
+    "citation_count": 0,
+    "full_text_url": "http://dx.doi.org/10.1109/tcss.2014.2377831",
+    "sort_date": "2014-01-01"
+  },
+  {
+    "title": "Context-Aware NLP approach for noteworthiness detection in cellphone conversations",
+    "journal": "COLING 2014 - 25th International Conference on Computational Linguistics, Proceedings of COLING 2014: Technical Papers",
+    "type": "conference-paper",
+    "doi": "",
+    "authors": [
+      "F. Bonin",
+      "J.S. Pedro",
+      "N. Oliver"
+    ],
+    "citation_count": 0,
+    "full_text_url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-84959873403&partnerID=MN8TOARS",
+    "date": "2014",
+    "sort_date": "2014-01-01",
+    "year": 2014
+  },
+  {
+    "title": "Didn't you see my message?: predicting attentiveness to mobile instant messages",
+    "journal": "Proceedings of the SIGCHI Conference on Human Factors in Computing Systems",
+    "type": "other",
+    "doi": "10.1145/2556288.2556973",
+    "authors": [
+      "Martin Pielot",
+      "Rodrigo de Oliveira",
+      "Haewoon Kwak",
+      "Nuria Oliver"
+    ],
+    "date": "2014",
+    "year": 2014,
+    "crossref_type": "proceedings-article",
+    "publisher": "ACM",
+    "volume": "",
+    "number": "",
+    "pages": "3319-3328",
+    "citation_count": 0,
+    "full_text_url": "https://ink.library.smu.edu.sg/sis_research/6094",
+    "sort_date": "2014-01-01"
+  },
+  {
+    "title": "Flooding through the lens of mobile phone activity",
+    "journal": null,
+    "type": "conference-paper",
+    "doi": "",
+    "authors": [
+      "Yolanda Torres Fernández",
+      "David Pastor Escuredo",
+      "Alfredo Morales Guzmán",
+      "Jean-Martin Baue",
+      "Amit Wadhw",
+      "Carlos Castro Correa",
+      "Liudmyla Romanoff",
+      "Jong Gun Lee",
+      "Alex Rutherford",
+      "Vanessa Frias Martínez",
+      "Nuria Oliver",
+      "Enrique Frías Martínez",
+      "Miguel Ángel Luengo Oroz"
+    ],
+    "citation_count": 0,
+    "full_text_url": "https://oa.upm.es/36409/",
+    "date": "2014",
+    "sort_date": "2014-01-01",
+    "year": 2014
+  },
+  {
+    "title": "Flooding through the lens of mobile phone activity ...",
+    "journal": null,
+    "type": "journal-article",
+    "doi": "10.48550/arxiv.1411.6574",
+    "authors": [
+      "David Pastor-Escuredo",
+      "Alfredo Morales-Guzmán",
+      "Yolanda Torres-Fernández",
+      "Jean-Martin Bauer",
+      "Amit Wadhwa",
+      "Carlos Castro-Correa",
+      "Liudmyla Romanoff",
+      "Jong Gun Lee",
+      "Alex Rutherford",
+      "Vanessa Frias-Martinez",
+      "Nuria Oliver",
+      "Enrique Frias-Martinez",
+      "Miguel Luengo-Oroz"
+    ],
+    "citation_count": 0,
+    "full_text_url": "https://dx.doi.org/10.48550/arxiv.1411.6574",
+    "date": "2014",
+    "sort_date": "2014-01-01",
+    "year": 2014
+  },
+  {
+    "title": "Money walks: a human-centric study on the economics of personal mobile data",
+    "journal": "Proceedings of the 2014 ACM International Joint Conference on Pervasive and Ubiquitous Computing",
+    "type": "conference-paper",
+    "doi": "10.1145/2632048.2632074",
+    "authors": [
+      "Jacopo Staiano",
+      "Nuria Oliver",
+      "Bruno Lepri",
+      "Rodrigo de Oliveira",
+      "Michele Caraviello",
+      "Nicu Sebe"
+    ],
+    "date": "2014",
+    "year": 2014,
+    "crossref_type": "proceedings-article",
+    "publisher": "ACM",
+    "volume": "",
+    "number": "",
+    "pages": "583-594",
+    "citation_count": 0,
+    "full_text_url": "http://hdl.handle.net/11572/98497",
+    "sort_date": "2014-01-01"
+  },
+  {
+    "title": "Once Upon a Crime: Towards Crime Prediction from Demographics and Mobile Data",
+    "journal": null,
+    "type": "conference-paper",
+    "doi": "",
+    "authors": [
+      "Bogomolov A.",
+      "Oliver N.",
+      "Pianesi F.",
+      "Pentland A.",
+      "Bruno Lepri",
+      "Jacopo Staiano"
+    ],
+    "citation_count": 0,
+    "full_text_url": "http://hdl.handle.net/11582/250434",
+    "date": "2014",
+    "sort_date": "2014-01-01",
+    "year": 2014
+  },
+  {
+    "title": "Method for an automatic identification of urban dense areas from cell phones records",
+    "journal": null,
+    "type": "patent",
+    "doi": "",
+    "authors": [
+      "Frias Martinez Enrique",
+      "Frias Martinez Vanessa",
+      "Oliver Nuria",
+      "Vieira Marcos"
+    ],
+    "patent_number": "US 8577380 B2",
+    "citation_count": 0,
+    "full_text_url": "https://www.lens.org/119-824-892-470-929",
+    "date": "2013-11-05",
+    "sort_date": "2013-11-05",
+    "year": 2013
+  },
+  {
+    "title": "METODO DE CLASIFICACION DE IMAGENES.",
+    "journal": null,
+    "type": "patent",
+    "doi": "",
+    "authors": [
+      "Obrador Espinosa Pere",
+      "Oliver Ramirez Nuria",
+      "Schmidt-hackenberg Ludwig"
+    ],
+    "patent_number": "ES 2392292 B1",
+    "citation_count": 0,
+    "full_text_url": "https://www.lens.org/108-918-732-893-111",
+    "date": "2013-10-16",
+    "sort_date": "2013-10-16",
+    "year": 2013
+  },
+  {
+    "title": "Method of characterizing a social network communication using motifs",
+    "journal": null,
+    "type": "patent",
+    "doi": "",
+    "authors": [
+      "Ramirez Nuria Oliver",
+      "Zhao Qiankun"
+    ],
+    "patent_number": "US 8560681 B2",
+    "citation_count": 0,
+    "full_text_url": "https://www.lens.org/047-275-337-781-825",
+    "date": "2013-10-15",
+    "sort_date": "2013-10-15",
+    "year": 2013
+  },
+  {
+    "title": "METODO PARA LA CLASIFICACION DE VIDEOS.",
+    "journal": null,
+    "type": "patent",
+    "doi": "",
+    "authors": [
+      "Moorty Anush",
+      "Obrador Pere",
+      "Oliver Ramirez Nuria"
+    ],
+    "patent_number": "ES 2388413 B1",
+    "citation_count": 0,
+    "full_text_url": "https://www.lens.org/182-858-985-462-733",
+    "date": "2013-08-22",
+    "sort_date": "2013-08-22",
+    "year": 2013
+  },
+  {
+    "title": "IJCAI - CLiMF: collaborative less-is-more filtering",
+    "journal": null,
+    "type": "conference-paper",
+    "doi": "",
+    "authors": [
+      "Yue Shi",
+      "Alexandros Karatzoglou",
+      "Linas Baltrunas",
+      "Martha Larson",
+      "Nuria Oliver",
+      "Alan Hanjalic"
+    ],
+    "citation_count": 0,
+    "full_text_url": "https://www.lens.org/169-733-516-219-60X",
+    "date": "2013-08-03",
+    "sort_date": "2013-08-03",
+    "year": 2013
+  },
+  {
+    "title": "Window grouping",
+    "journal": null,
+    "type": "patent",
+    "doi": "",
+    "authors": [
+      "Oliver Nuria M",
+      "Smith Gregory R",
+      "Surendran Arungunram C",
+      "Thakkar Chintan S"
+    ],
+    "patent_number": "US 8484577 B2",
+    "citation_count": 0,
+    "full_text_url": "https://www.lens.org/001-885-394-324-187",
+    "date": "2013-07-09",
+    "sort_date": "2013-07-09",
+    "year": 2013
+  },
+  {
+    "title": "Medication compliance using persuasive computing",
+    "journal": null,
+    "type": "patent",
+    "doi": "",
+    "authors": [
+      "Cherubini Mauro",
+      "De Oliveira Rodrigo",
+      "Oliver Nuria"
+    ],
+    "patent_number": "US 8439758 B2",
+    "citation_count": 0,
+    "full_text_url": "https://www.lens.org/178-922-298-995-414",
+    "date": "2013-05-14",
+    "sort_date": "2013-05-14",
+    "year": 2013
+  },
+  {
+    "title": "METODO Y SISTEMA PARA FACILITAR EL INTERCAMBIO DE ARTICULOS EN UNA RED.",
+    "journal": null,
+    "type": "patent",
+    "doi": "",
+    "authors": [
+      "Cherubini Mauro",
+      "Oliver Ramirez Nuria"
+    ],
+    "patent_number": "ES 2376228 B1",
+    "citation_count": 0,
+    "full_text_url": "https://www.lens.org/187-765-649-771-333",
+    "date": "2013-01-29",
+    "sort_date": "2013-01-29",
+    "year": 2013
+  },
+  {
+    "title": "Monitoring group activities",
+    "journal": null,
+    "type": "patent",
+    "doi": "",
+    "authors": [
+      "Czerwinski Mary P",
+      "Fernandez Roland L",
+      "Macbeth Steven W",
+      "Meyers Brian R",
+      "Murillo Oscar E",
+      "Oliver Nuria M",
+      "Robertson George G",
+      "Tan Desney S"
+    ],
+    "patent_number": "US 8364514 B2",
+    "citation_count": 0,
+    "full_text_url": "https://www.lens.org/026-800-283-703-186",
+    "date": "2013-01-29",
+    "sort_date": "2013-01-29",
+    "year": 2013
+  },
+  {
+    "title": "Method for automatic storytelling for photo albums using social network context",
+    "journal": null,
+    "type": "patent",
+    "doi": "",
+    "authors": [
+      "De Oliveira Rodrigo",
+      "Obrador Pere",
+      "Oliver Nuria"
+    ],
+    "patent_number": "US 8345934 B2",
+    "citation_count": 0,
+    "full_text_url": "https://www.lens.org/152-533-401-367-836",
+    "date": "2013-01-01",
+    "sort_date": "2013-01-01",
+    "year": 2013
+  },
+  {
+    "title": "CLiMF: Collaborative less-is-more filtering",
+    "journal": "IJCAI International Joint Conference on Artificial Intelligence",
+    "type": "conference-paper",
+    "doi": "",
+    "authors": [
+      "Y. Shi",
+      "A. Karatzoglou",
+      "L. Baltrunas",
+      "M. Larson",
+      "N. Oliver",
+      "A. Hanjalic"
+    ],
+    "citation_count": 0,
+    "full_text_url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-84896062143&partnerID=MN8TOARS",
+    "date": "2013",
+    "sort_date": "2013-01-01",
+    "year": 2013
+  },
+  {
+    "title": "Event Detection in Communication and Transportation Data",
+    "journal": "Lecture Notes in Computer Science",
+    "type": "book-chapter",
+    "doi": "10.1007/978-3-642-38628-2_98",
+    "authors": [
+      "Joachim Neumann",
+      "Manqi Zao",
+      "Alexandros Karatzoglou",
+      "Nuria Oliver"
+    ],
+    "date": "2013",
+    "year": 2013,
+    "crossref_type": "book-chapter",
+    "publisher": "Springer Berlin Heidelberg",
+    "volume": "",
+    "number": "",
+    "pages": "827-838",
+    "citation_count": 0,
+    "full_text_url": "http://dx.doi.org/10.1007/978-3-642-38628-2_98",
+    "sort_date": "2013-01-01"
+  },
+  {
+    "title": "Influence of personality on satisfaction with mobile phone services",
+    "journal": "ACM Transactions on Computer-Human Interaction",
+    "type": "journal-article",
+    "doi": "10.1145/2463579.2463581",
+    "authors": [
+      "Rodrigo De Oliveira",
+      "Mauro Cherubini",
+      "Nuria Oliver"
+    ],
+    "date": "2013",
+    "year": 2013,
+    "crossref_type": "journal-article",
+    "publisher": "Association for Computing Machinery (ACM)",
+    "volume": "20",
+    "number": "2",
+    "pages": "1-23",
+    "citation_count": 0,
+    "full_text_url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-84878523895&partnerID=MN8TOARS",
+    "sort_date": "2013-01-01"
+  },
+  {
+    "title": "The power of the data: opportunities and challenges in big and personal data mining",
+    "journal": "Proceedings of the 1st ACM international workshop on Personal data meets distributed multimedia",
+    "type": "conference-paper",
+    "doi": "10.1145/2509352.2509402",
+    "authors": [
+      "Nuria Oliver"
+    ],
+    "date": "2013",
+    "year": 2013,
+    "crossref_type": "proceedings-article",
+    "publisher": "ACM",
+    "volume": "",
+    "number": "",
+    "pages": "1-2",
+    "citation_count": 0,
+    "full_text_url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-84887199525&partnerID=MN8TOARS",
+    "sort_date": "2013-01-01"
+  },
+  {
+    "title": "CLiMF: learning to maximize reciprocal rank with collaborative less-is-more filtering",
+    "journal": "Proceedings of the sixth ACM conference on Recommender systems",
+    "type": "conference-paper",
+    "doi": "10.1145/2365952.2365981",
+    "authors": [
+      "Yue Shi",
+      "Alexandros Karatzoglou",
+      "Linas Baltrunas",
+      "Martha Larson",
+      "Nuria Oliver",
+      "Alan Hanjalic"
+    ],
+    "date": "2012",
+    "year": 2012,
+    "crossref_type": "proceedings-article",
+    "publisher": "ACM",
+    "volume": "",
+    "number": "",
+    "pages": "139-146",
+    "citation_count": 0,
+    "full_text_url": "http://dx.doi.org/10.1145/2365952.2365981",
+    "sort_date": "2012-01-01"
+  },
+  {
+    "title": "I wanted to settle a bet!: understanding why and how people use mobile search in social settings",
+    "journal": "Proceedings of the 14th international conference on Human-computer interaction with mobile devices and services",
+    "type": "conference-paper",
+    "doi": "10.1145/2371574.2371635",
+    "authors": [
+      "Karen Church",
+      "Antony Cousin",
+      "Nuria Oliver"
+    ],
+    "date": "2012",
+    "year": 2012,
+    "crossref_type": "proceedings-article",
+    "publisher": "ACM",
+    "volume": "",
+    "number": "",
+    "pages": "393-402",
+    "citation_count": 0,
+    "full_text_url": "http://dx.doi.org/10.1145/2371574.2371635",
+    "sort_date": "2012-01-01"
+  },
+  {
+    "title": "I-UxSED - Influence of Usability on Customer Satisfaction: A Case Study on Mobile Phone Services.",
+    "journal": null,
+    "type": "book",
+    "doi": "",
+    "authors": [
+      "Rodrigo de Oliveira",
+      "Mauro Cherubini",
+      "Nuria Oliver"
+    ],
+    "citation_count": 0,
+    "full_text_url": "https://www.lens.org/176-712-492-407-948",
+    "date": "2012",
+    "sort_date": "2012-01-01",
+    "year": 2012
+  },
+  {
+    "title": "Influence of usability on customer satisfaction: A case study on mobile phone services",
+    "journal": "CEUR Workshop Proceedings",
+    "type": "conference-paper",
+    "doi": "",
+    "authors": [
+      "R. De Oliveira",
+      "M. Cherubini",
+      "N. Oliver"
+    ],
+    "citation_count": 0,
+    "full_text_url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-84875335180&partnerID=MN8TOARS",
+    "date": "2012",
+    "sort_date": "2012-01-01",
+    "year": 2012
+  },
+  {
+    "title": "Leveraging user comments for aesthetic aware image search reranking",
+    "journal": "Proceedings of the 21st international conference on World Wide Web",
+    "type": "conference-paper",
+    "doi": "10.1145/2187836.2187896",
+    "authors": [
+      "Jose San Pedro",
+      "Tom Yeh",
+      "Nuria Oliver"
+    ],
+    "date": "2012",
+    "year": 2012,
+    "crossref_type": "proceedings-article",
+    "publisher": "ACM",
+    "volume": "",
+    "number": "",
+    "pages": "439-448",
+    "citation_count": 0,
+    "full_text_url": "http://dx.doi.org/10.1145/2187836.2187896",
+    "sort_date": "2012-01-01"
+  },
+  {
+    "title": "Rethinking mobile search: Towards casual, shared, social mobile search experiences",
+    "journal": "CEUR Workshop Proceedings",
+    "type": "conference-paper",
+    "doi": "",
+    "authors": [
+      "S. Reis",
+      "K. Church",
+      "N. Oliver"
+    ],
+    "citation_count": 0,
+    "full_text_url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-84891917630&partnerID=MN8TOARS",
+    "date": "2012",
+    "sort_date": "2012-01-01",
+    "year": 2012
+  },
+  {
+    "title": "TFMAP: optimizing MAP for top-n context-aware recommendation",
+    "journal": "Proceedings of the 35th international ACM SIGIR conference on Research and development in information retrieval",
+    "type": "conference-paper",
+    "doi": "10.1145/2348283.2348308",
+    "authors": [
+      "Yue Shi",
+      "Alexandros Karatzoglou",
+      "Linas Baltrunas",
+      "Martha Larson",
+      "Alan Hanjalic",
+      "Nuria Oliver"
+    ],
+    "date": "2012",
+    "year": 2012,
+    "crossref_type": "proceedings-article",
+    "publisher": "ACM",
+    "volume": "",
+    "number": "",
+    "pages": "155-164",
+    "citation_count": 0,
+    "full_text_url": "http://dx.doi.org/10.1145/2348283.2348308",
+    "sort_date": "2012-01-01"
+  },
+  {
+    "title": "Towards Category-Based Aesthetic Models of Photographs",
+    "journal": "Lecture Notes in Computer Science",
+    "type": "book",
+    "doi": "10.1007/978-3-642-27355-1_9",
+    "authors": [
+      "Pere Obrador",
+      "Michele A. Saad",
+      "Poonam Suryanarayan",
+      "Nuria Oliver"
+    ],
+    "date": "2012",
+    "year": 2012,
+    "crossref_type": "book-chapter",
+    "publisher": "Springer Berlin Heidelberg",
+    "volume": "",
+    "number": "",
+    "pages": "63-76",
+    "citation_count": 0,
+    "full_text_url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-84855815890&partnerID=MN8TOARS",
+    "sort_date": "2012-01-01"
+  },
+  {
+    "title": "6. Save Everything: Supporting Human Memory with a Personal Digital Lifetime Store",
+    "journal": "Personal Information Management",
+    "type": "book-chapter",
+    "doi": "10.1515/9780295800684-006",
+    "authors": [
+      "Desney Tan",
+      "Emma Berry",
+      "Mary Czerwinski",
+      "Gordon Bell",
+      "Jim Gemmell",
+      "Steve Hodges",
+      "Narinder Kapur",
+      "Brian Meyers",
+      "Nuria Oliver",
+      "George Robertson",
+      "Ken Wood"
+    ],
+    "date": "2011-12-31",
+    "year": 2011,
+    "crossref_type": "book-chapter",
+    "publisher": "University of Washington Press",
+    "volume": "",
+    "number": "",
+    "pages": "89-107",
+    "citation_count": 0,
+    "full_text_url": "https://www.lens.org/109-874-298-403-291",
+    "sort_date": "2011-12-31"
+  },
+  {
+    "title": "Proceedings of the 19th international conference on User modeling, adaption, and personalization",
+    "journal": null,
+    "type": "other",
+    "doi": "",
+    "authors": [
+      "Joseph A. Konstan",
+      "Ricardo Conejo",
+      "Jose L. Marzo",
+      "Nuria Oliver"
+    ],
+    "citation_count": 0,
+    "full_text_url": "https://www.lens.org/006-978-834-239-387",
+    "date": "2011-07-11",
+    "sort_date": "2011-07-11",
+    "year": 2011
+  },
+  {
+    "title": "Activity-centric granular application functionality",
+    "journal": null,
+    "type": "patent",
+    "doi": "",
+    "authors": [
+      "Fernandez Roland L",
+      "Macbeth Steven W",
+      "Meyers Brian R",
+      "Murillo Oscar E",
+      "Oliver Nuria M",
+      "Pedersen Elin R",
+      "Robertson George G",
+      "Tan Desney S"
+    ],
+    "patent_number": "US 7970637 B2",
+    "citation_count": 0,
+    "full_text_url": "https://www.lens.org/104-674-594-497-087",
+    "date": "2011-06-28",
+    "sort_date": "2011-06-28",
+    "year": 2011
+  },
+  {
+    "title": "Get prep questions to ask doctor",
+    "journal": null,
+    "type": "patent",
+    "doi": "",
+    "authors": [
+      "Argon Pablo",
+      "Chitsaz Behrooz",
+      "Choing Hong L",
+      "Hamilton James R",
+      "Heckerman David E",
+      "Karkanias Chris Demetrios",
+      "Oliver Nuria M",
+      "Rosenbloom Oren",
+      "Sadovsky Vladimir G",
+      "Van Hoof Hubert"
+    ],
+    "patent_number": "US 7908151 B2",
+    "citation_count": 0,
+    "full_text_url": "https://www.lens.org/061-756-428-289-603",
+    "date": "2011-03-15",
+    "sort_date": "2011-03-15",
+    "year": 2011
+  },
+  {
+    "title": "Systems and methods for guiding allocation of computational resources in automated perceptual systems",
+    "journal": null,
+    "type": "patent",
+    "doi": "",
+    "authors": [
+      "Horvitz Eric J",
+      "Oliver Nuria M"
+    ],
+    "patent_number": "US 7873724 B2",
+    "citation_count": 0,
+    "full_text_url": "https://www.lens.org/136-793-523-695-855",
+    "date": "2011-01-18",
+    "sort_date": "2011-01-18",
+    "year": 2011
+  },
+  {
+    "title": "Parsing location histories",
+    "journal": null,
+    "type": "patent",
+    "doi": "",
+    "authors": [
+      "Cutler Ross G",
+      "Douceur John R",
+      "Hariharan Ramaswamy",
+      "Oliver Nuria M",
+      "Ringger Eric K",
+      "Robbins Daniel C",
+      "Toyama Kentaro",
+      "Uyttendaele Matthew T"
+    ],
+    "patent_number": "US 7868786 B2",
+    "citation_count": 0,
+    "full_text_url": "https://www.lens.org/148-769-643-362-137",
+    "date": "2011-01-11",
+    "sort_date": "2011-01-11",
+    "year": 2011
+  },
+  {
+    "title": "Automatic synchronization of electronic and audio books via TTS alignment and silence filtering",
+    "journal": "2011 IEEE International Conference on Multimedia and Expo",
+    "type": "conference-paper",
+    "doi": "10.1109/icme.2011.6012185",
+    "authors": [
+      "Xavier Anguera",
+      "Nestor Perez",
+      "Andreu Urruela",
+      "Nuria Oliver"
+    ],
+    "date": "2011",
+    "year": 2011,
+    "crossref_type": "proceedings-article",
+    "publisher": "IEEE",
+    "volume": "",
+    "number": "",
+    "pages": "1-6",
+    "citation_count": 0,
+    "full_text_url": "http://dx.doi.org/10.1109/icme.2011.6012185",
+    "sort_date": "2011-01-01"
+  },
+  {
+    "title": "Barriers and bridges in the adoption of today's mobile phone contextual services",
+    "journal": "Proceedings of the 13th International Conference on Human Computer Interaction with Mobile Devices and Services",
+    "type": "conference-paper",
+    "doi": "10.1145/2037373.2037400",
+    "authors": [
+      "Mauro Cherubini",
+      "Rodrigo de Oliveira",
+      "Anna Hiltunen",
+      "Nuria Oliver"
+    ],
+    "date": "2011",
+    "year": 2011,
+    "crossref_type": "proceedings-article",
+    "publisher": "ACM",
+    "volume": "",
+    "number": "",
+    "pages": "167-176",
+    "citation_count": 0,
+    "full_text_url": "http://dx.doi.org/10.1145/2037373.2037400",
+    "sort_date": "2011-01-01"
+  },
+  {
+    "title": "FamCHAI: An Adaptive Calendar Dialogue System",
+    "journal": "Lecture Notes in Computer Science",
+    "type": "conference-paper",
+    "doi": "10.1007/978-3-642-22362-4_51",
+    "authors": [
+      "Ramin Yaghoubzadeh"
+    ],
+    "date": "2011",
+    "year": 2011,
+    "crossref_type": "book-chapter",
+    "publisher": "Springer Berlin Heidelberg",
+    "volume": "",
+    "number": "",
+    "pages": "458-461",
+    "citation_count": 0,
+    "full_text_url": "https://pub.uni-bielefeld.de/record/2286837",
+    "sort_date": "2011-01-01"
+  },
+  {
+    "title": "Multimodal fusion for video copy detection",
+    "journal": "Proceedings of the 19th ACM international conference on Multimedia",
+    "type": "conference-paper",
+    "doi": "10.1145/2072298.2071979",
+    "authors": [
+      "Xavier Anguera",
+      "Juan Manuel Barrios",
+      "Tomasz Adamek",
+      "Nuria Oliver"
+    ],
+    "date": "2011",
+    "year": 2011,
+    "crossref_type": "proceedings-article",
+    "publisher": "ACM",
+    "volume": "",
+    "number": "",
+    "pages": "1221-1224",
+    "citation_count": 0,
+    "full_text_url": "http://dx.doi.org/10.1145/2072298.2071979",
+    "sort_date": "2011-01-01"
+  },
+  {
+    "title": "Real-time synchronisation of multimedia streams in a mobile device",
+    "journal": "2011 IEEE International Conference on Multimedia and Expo",
+    "type": "conference-paper",
+    "doi": "10.1109/icme.2011.6011966",
+    "authors": [
+      "Robert Macrae",
+      "Joachim Neumann",
+      "Xavier Anguera",
+      "Nuria Oliver",
+      "Simon Dixon"
+    ],
+    "date": "2011",
+    "year": 2011,
+    "crossref_type": "proceedings-article",
+    "publisher": "IEEE",
+    "volume": "",
+    "number": "",
+    "pages": "1-6",
+    "citation_count": 0,
+    "full_text_url": "http://dx.doi.org/10.1109/icme.2011.6011966",
+    "sort_date": "2011-01-01"
+  },
+  {
+    "title": "Spoken WordCloud: Clustering recurrent patterns in speech",
+    "journal": "2011 9th International Workshop on Content-Based Multimedia Indexing (CBMI)",
+    "type": "conference-paper",
+    "doi": "10.1109/cbmi.2011.5972534",
+    "authors": [
+      "Remi Flamary",
+      "Xavier Anguera",
+      "Nuria Oliver"
+    ],
+    "date": "2011",
+    "year": 2011,
+    "crossref_type": "proceedings-article",
+    "publisher": "IEEE",
+    "volume": "",
+    "number": "",
+    "pages": "133-138",
+    "citation_count": 0,
+    "full_text_url": "http://dx.doi.org/10.1109/cbmi.2011.5972534",
+    "sort_date": "2011-01-01"
+  },
+  {
+    "title": "Towards a psychographic user model from mobile phone usage",
+    "journal": "CHI '11 Extended Abstracts on Human Factors in Computing Systems",
+    "type": "conference-paper",
+    "doi": "10.1145/1979742.1979920",
+    "authors": [
+      "Rodrigo de Oliveira",
+      "Alexandros Karatzoglou",
+      "Pedro Concejero Cerezo",
+      "Ana Armenta Lopez de Vicuña",
+      "Nuria Oliver"
+    ],
+    "date": "2011",
+    "year": 2011,
+    "crossref_type": "proceedings-article",
+    "publisher": "ACM",
+    "volume": "",
+    "number": "",
+    "pages": "2191-2196",
+    "citation_count": 0,
+    "full_text_url": "http://dx.doi.org/10.1145/1979742.1979920",
+    "sort_date": "2011-01-01"
+  },
+  {
+    "title": "Understanding mobile information needs on a large-scale: tools, experiences and challenges",
+    "journal": "Proceedings of the 2nd international workshop on Research in the large",
+    "type": "conference-paper",
+    "doi": "10.1145/2025528.2025530",
+    "authors": [
+      "Karen Church",
+      "Mauro Cherubini",
+      "Joachim Neumann",
+      "Nuria Oliver"
+    ],
+    "date": "2011",
+    "year": 2011,
+    "crossref_type": "proceedings-article",
+    "publisher": "ACM",
+    "volume": "",
+    "number": "",
+    "pages": "1-4",
+    "citation_count": 0,
+    "full_text_url": "http://dx.doi.org/10.1145/2025528.2025530",
+    "sort_date": "2011-01-01"
+  },
+  {
+    "title": "Understanding mobile web and mobile search use in today's dynamic mobile landscape",
+    "journal": "Proceedings of the 13th International Conference on Human Computer Interaction with Mobile Devices and Services",
+    "type": "conference-paper",
+    "doi": "10.1145/2037373.2037385",
+    "authors": [
+      "Karen Church",
+      "Nuria Oliver"
+    ],
+    "date": "2011",
+    "year": 2011,
+    "crossref_type": "proceedings-article",
+    "publisher": "ACM",
+    "volume": "",
+    "number": "",
+    "pages": "67-76",
+    "citation_count": 0,
+    "full_text_url": "http://dx.doi.org/10.1145/2037373.2037385",
+    "sort_date": "2011-01-01"
+  },
+  {
+    "title": "Understanding portal-based mobile search: a case study",
+    "journal": "Proceedings of the 2nd international workshop on Research in the large",
+    "type": "conference-paper",
+    "doi": "10.1145/2025528.2025535",
+    "authors": [
+      "Karen Church",
+      "Nuria Oliver"
+    ],
+    "date": "2011",
+    "year": 2011,
+    "crossref_type": "proceedings-article",
+    "publisher": "ACM",
+    "volume": "",
+    "number": "",
+    "pages": "21-24",
+    "citation_count": 0,
+    "full_text_url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-80054025658&partnerID=MN8TOARS",
+    "sort_date": "2011-01-01"
+  },
+  {
+    "title": "Urban Computing and Smart Cities: Opportunities and Challenges in Modelling Large-Scale Aggregated Human Behavior",
+    "journal": "Lecture Notes in Computer Science",
+    "type": "book",
+    "doi": "10.1007/978-3-642-25446-8_2",
+    "authors": [
+      "Nuria Oliver"
+    ],
+    "date": "2011",
+    "year": 2011,
+    "crossref_type": "book-chapter",
+    "publisher": "Springer Berlin Heidelberg",
+    "volume": "",
+    "number": "",
+    "pages": "16-17",
+    "citation_count": 0,
+    "full_text_url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-81855225357&partnerID=MN8TOARS",
+    "sort_date": "2011-01-01"
+  },
+  {
+    "title": "User Modeling, Adaption and Personalization: 19th International Conference, UMAP 2011, Girona, Spain, July 11-15, 2011. Proceedings",
+    "journal": "Lecture Notes in Computer Science",
+    "type": "book",
+    "doi": "10.1007/978-3-642-22362-4",
+    "authors": [
+      "Joseph A. Konstan",
+      "Ricardo Conejo",
+      "Jose L. Marzo",
+      "Nuria Oliver"
+    ],
+    "date": "2011",
+    "year": 2011,
+    "crossref_type": "book",
+    "publisher": "Springer Berlin Heidelberg",
+    "volume": "",
+    "number": "",
+    "pages": "",
+    "citation_count": 0,
+    "full_text_url": "https://www.lens.org/005-021-014-851-987",
+    "sort_date": "2011-01-01"
+  },
+  {
+    "title": "User modeling, adaptation, and personalization",
+    "journal": null,
+    "type": "conference-paper",
+    "doi": "",
+    "authors": [
+      "Joseph A. Konstan",
+      "Ricardo Conejo",
+      "Jose L. Marzo",
+      "0000-0001-5985-691X"
+    ],
+    "citation_count": 0,
+    "full_text_url": null,
+    "date": "2011",
+    "sort_date": "2011-01-01",
+    "year": 2011
+  },
+  {
+    "title": "Activity-centric domain scoping",
+    "journal": null,
+    "type": "patent",
+    "doi": "",
+    "authors": [
+      "Fernandez Roland L",
+      "Macbeth Steven W",
+      "Meyers Brian R",
+      "Murillo Oscar E",
+      "Oliver Nuria M",
+      "Robertson George G",
+      "Tan Desney S"
+    ],
+    "patent_number": "US 7836002 B2",
+    "citation_count": 0,
+    "full_text_url": "https://www.lens.org/072-773-189-724-623",
+    "date": "2010-11-16",
+    "sort_date": "2010-11-16",
+    "year": 2010
+  },
+  {
+    "title": "MoviPill: improving medication compliance for elders using a mobile persuasive social game",
+    "journal": "Proceedings of the 12th ACM international conference on Ubiquitous computing",
+    "type": "conference-paper",
+    "doi": "10.1145/1864349.1864371",
+    "authors": [
+      "Rodrigo de Oliveira",
+      "Mauro Cherubini",
+      "Nuria Oliver"
+    ],
+    "date": "2010-09-26",
+    "year": 2010,
+    "crossref_type": "proceedings-article",
+    "publisher": "ACM",
+    "volume": "",
+    "number": "",
+    "pages": "251-260",
+    "citation_count": 0,
+    "full_text_url": "https://www.lens.org/002-470-590-593-968",
+    "sort_date": "2010-09-26"
+  },
+  {
+    "title": "Mobile exercise enhancement with virtual competition",
+    "journal": null,
+    "type": "patent",
+    "doi": "",
+    "authors": [
+      "Oliveira Rodrigo De",
+      "Oliver Nuria"
+    ],
+    "patent_number": "US 7766794 B2",
+    "citation_count": 0,
+    "full_text_url": "https://www.lens.org/160-648-672-370-519",
+    "date": "2010-08-03",
+    "sort_date": "2010-08-03",
+    "year": 2010
+  },
+  {
+    "title": "Creating and managing activity-centric workflow",
+    "journal": null,
+    "type": "patent",
+    "doi": "",
+    "authors": [
+      "Czerwinski Mary P",
+      "Fernandez Roland L",
+      "Macbeth Steven W",
+      "Meyers Brian R",
+      "Murillo Oscar E",
+      "Oliver Nuria M",
+      "Pedersen Elin R",
+      "Robertson George G",
+      "Spence Jeanine E",
+      "Tan Desney S"
+    ],
+    "patent_number": "US 7761393 B2",
+    "citation_count": 0,
+    "full_text_url": "https://www.lens.org/044-258-503-478-204",
+    "date": "2010-07-20",
+    "sort_date": "2010-07-20",
+    "year": 2010
+  },
+  {
+    "title": "System and method for executing a game process",
+    "journal": null,
+    "type": "patent",
+    "doi": "",
+    "authors": [
+      "Oliver Nuria M",
+      "Wilson Andrew D"
+    ],
+    "patent_number": "US 2010/0138798 A1",
+    "citation_count": 0,
+    "full_text_url": "https://www.lens.org/004-259-661-260-888",
+    "date": "2010-06-03",
+    "sort_date": "2010-06-03",
+    "year": 2010
+  },
+  {
+    "title": "Using music to influence a person's exercise performance",
+    "journal": null,
+    "type": "patent",
+    "doi": "",
+    "authors": [
+      "Flores-mangas Fernando",
+      "Oliver Nuria Maria"
+    ],
+    "patent_number": "US 7728214 B2",
+    "citation_count": 0,
+    "full_text_url": "https://www.lens.org/127-756-136-021-157",
+    "date": "2010-06-01",
+    "sort_date": "2010-06-01",
+    "year": 2010
+  },
+  {
+    "title": "MIR 2010 - Proceedings of the 2010 ACM SIGMM International Conference on Multimedia Information Retrieval: Foreword",
+    "journal": null,
+    "type": "conference-paper",
+    "doi": "",
+    "authors": [
+      "James Z. Wang",
+      "Nozha Boujemaa",
+      "Nuria Oliver Ramirez",
+      "Apostol Natsev"
+    ],
+    "citation_count": 0,
+    "full_text_url": "https://www.lens.org/006-287-807-070-739",
+    "date": "2010-05-21",
+    "sort_date": "2010-05-21",
+    "year": 2010
+  },
+  {
+    "title": "Proceedings of the international conference on Multimedia information retrieval",
+    "journal": null,
+    "type": "conference-paper",
+    "doi": "",
+    "authors": [
+      "James Z. Wang",
+      "Nozha Boujemaa",
+      "Nuria Oliver Ramirez",
+      "Apostol Natsev"
+    ],
+    "citation_count": 0,
+    "full_text_url": "https://www.lens.org/181-580-621-478-03X",
+    "date": "2010-03-29",
+    "sort_date": "2010-03-29",
+    "year": 2010
+  },
+  {
+    "title": "Algorithm for providing music to influence a user's exercise performance",
+    "journal": null,
+    "type": "patent",
+    "doi": "",
+    "authors": [
+      "Flores-mangas Fernando",
+      "Oliver Nuria Maria"
+    ],
+    "patent_number": "US 7683252 B2",
+    "citation_count": 0,
+    "full_text_url": "https://www.lens.org/187-378-267-223-18X",
+    "date": "2010-03-23",
+    "sort_date": "2010-03-23",
+    "year": 2010
+  },
+  {
+    "title": "AAAI Spring Symposium: Artificial Intelligence for Development - A Gender-Centric Analysis of Calling Behavior in a Developing Economy Using Call Detail Records",
+    "journal": null,
+    "type": "conference-paper",
+    "doi": "",
+    "authors": [
+      "Vanessa Frias-martinez",
+      "Enrique Frias-martinez",
+      "Nuria Oliver"
+    ],
+    "citation_count": 0,
+    "full_text_url": "https://www.lens.org/129-874-064-872-795",
+    "date": "2010-03-16",
+    "sort_date": "2010-03-16",
+    "year": 2010
+  },
+  {
+    "title": "Architecture for controlling a computer using hand gestures",
+    "journal": null,
+    "type": "patent",
+    "doi": "",
+    "authors": [
+      "Oliver Nuria M",
+      "Wilson Andrew D"
+    ],
+    "patent_number": "US 7665041 B2",
+    "citation_count": 0,
+    "full_text_url": "https://www.lens.org/153-639-410-942-152",
+    "date": "2010-02-16",
+    "sort_date": "2010-02-16",
+    "year": 2010
+  },
+  {
+    "title": "A gender-centric analysis of calling behavior in a developing economy using Call Detail Records",
+    "journal": "AAAI Spring Symposium - Technical Report",
+    "type": "conference-paper",
+    "doi": "",
+    "authors": [
+      "V. Frias-Martinez",
+      "E. Frias-Martinez",
+      "N. Oliver"
+    ],
+    "citation_count": 0,
+    "full_text_url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-77957970524&partnerID=MN8TOARS",
+    "date": "2010",
+    "sort_date": "2010-01-01",
+    "year": 2010
+  },
+  {
+    "title": "A study of mobile mood awareness and communication through MobiMood",
+    "journal": null,
+    "type": "journal-article",
+    "doi": "",
+    "authors": [
+      "Karen Church",
+      "Eve Hoggan",
+      "Nuria Oliver"
+    ],
+    "citation_count": 0,
+    "full_text_url": "https://pure.au.dk/portal/en/publications/662e7f7a-b758-4ada-9fb9-640c090f3716",
+    "date": "2010",
+    "sort_date": "2010-01-01",
+    "year": 2010
+  },
+  {
+    "title": "AAAI Spring Symposium: Artificial Intelligence for Development - Human Mobility in Advanced and Developing Economies: A Comparative Analysis",
+    "journal": null,
+    "type": "conference-paper",
+    "doi": "",
+    "authors": [
+      "Alberto Rubio",
+      "Vanessa Frias-martinez",
+      "Enrique Frias-martinez",
+      "Nuria Oliver"
+    ],
+    "citation_count": 0,
+    "full_text_url": "https://www.lens.org/146-086-740-185-579",
+    "date": "2010",
+    "sort_date": "2010-01-01",
+    "year": 2010
+  },
+  {
+    "title": "Audience Dependent Photo Collection Summarization",
+    "journal": null,
+    "type": "other",
+    "doi": "",
+    "authors": [
+      "Pere Obrador",
+      "Rodrigo de Oliveira",
+      "Nuria Oliver"
+    ],
+    "citation_count": 0,
+    "full_text_url": "https://www.lens.org/132-727-678-760-083",
+    "date": "2010",
+    "sort_date": "2010-01-01",
+    "year": 2010
+  },
+  {
+    "title": "Characterizing Dense Urban Areas from Mobile Phone-Call Data: Discovery and Social Dynamics",
+    "journal": "2010 IEEE Second International Conference on Social Computing",
+    "type": "conference-paper",
+    "doi": "10.1109/socialcom.2010.41",
+    "authors": [
+      "Marcos R. Vieira",
+      "Vanessa Frias-Martinez",
+      "Nuria Oliver",
+      "Enrique Frias-Martinez"
+    ],
+    "date": "2010",
+    "year": 2010,
+    "crossref_type": "proceedings-article",
+    "publisher": "IEEE",
+    "volume": "",
+    "number": "",
+    "pages": "241-248",
+    "citation_count": 0,
+    "full_text_url": "http://dx.doi.org/10.1109/socialcom.2010.41",
+    "sort_date": "2010-01-01"
+  },
+  {
+    "title": "Communication motifs: a tool to characterize social communications",
+    "journal": "Proceedings of the 19th ACM international conference on Information and knowledge management",
+    "type": "conference-paper",
+    "doi": "10.1145/1871437.1871694",
+    "authors": [
+      "Qiankun Zhao",
+      "Yuan Tian",
+      "Qi He",
+      "Nuria Oliver",
+      "Ruoming Jin",
+      "Wang-Chien Lee"
+    ],
+    "date": "2010",
+    "year": 2010,
+    "crossref_type": "proceedings-article",
+    "publisher": "ACM",
+    "volume": "",
+    "number": "",
+    "pages": "1645-1648",
+    "citation_count": 0,
+    "full_text_url": "http://dx.doi.org/10.1145/1871437.1871694",
+    "sort_date": "2010-01-01"
+  },
+  {
+    "title": "Data Mining Methods for Recommender Systems",
+    "journal": "Recommender Systems Handbook",
+    "type": "book-chapter",
+    "doi": "10.1007/978-0-387-85820-3_2",
+    "authors": [
+      "Xavier Amatriain",
+      "Alejandro Jaimes*",
+      "Nuria Oliver",
+      "Josep M. Pujol"
+    ],
+    "date": "2010",
+    "year": 2010,
+    "crossref_type": "book-chapter",
+    "publisher": "Springer US",
+    "volume": "",
+    "number": "",
+    "pages": "39-71",
+    "citation_count": 0,
+    "full_text_url": "http://dx.doi.org/10.1007/978-0-387-85820-3_2",
+    "sort_date": "2010-01-01"
+  },
+  {
+    "title": "Designing social mobile interfaces: experiences with MobiMood, a mobile mood sharing application",
+    "journal": null,
+    "type": "journal-article",
+    "doi": "",
+    "authors": [
+      "Karen Church",
+      "Eve Hoggan",
+      "Nuria Oliver"
+    ],
+    "citation_count": 0,
+    "full_text_url": "https://pure.au.dk/portal/en/publications/6df12f48-450a-465d-b5d7-944877e7485f",
+    "date": "2010",
+    "sort_date": "2010-01-01",
+    "year": 2010
+  },
+  {
+    "title": "Exploring social networks as an infrastructure for transportation networks",
+    "journal": null,
+    "type": "other",
+    "doi": "",
+    "authors": [
+      "Mauro Cherubini",
+      "M. Zhu",
+      "Nuria Oliver",
+      "Manuel Cebrian"
+    ],
+    "citation_count": 0,
+    "full_text_url": "https://www.lens.org/000-713-351-268-659",
+    "date": "2010",
+    "sort_date": "2010-01-01",
+    "year": 2010
+  },
+  {
+    "title": "Gaze and Gestures in Telepresence: multimodality, embodiment, and roles of collaboration",
+    "journal": "ArXiv",
+    "type": "journal-article",
+    "doi": "",
+    "authors": [
+      "Mauro Cherubini",
+      "Rodrigo de Oliveira",
+      "Nuria Oliver",
+      "Christian Ferran"
+    ],
+    "citation_count": 0,
+    "full_text_url": "https://publons.com/wos-op/publon/57251425/",
+    "date": "2010",
+    "sort_date": "2010-01-01",
+    "year": 2010
+  },
+  {
+    "title": "Gaze and Gestures in Telepresence: multimodality, embodiment, and roles of collaboration ...",
+    "journal": null,
+    "type": "report",
+    "doi": "10.48550/arxiv.1001.3150",
+    "authors": [
+      "Mauro Cherubini",
+      "Rodrigo de Oliveira",
+      "Nuria Oliver",
+      "Christian Ferran"
+    ],
+    "citation_count": 0,
+    "full_text_url": "https://dx.doi.org/10.48550/arxiv.1001.3150",
+    "date": "2010",
+    "sort_date": "2010-01-01",
+    "year": 2010
+  },
+  {
+    "title": "Human mobility in advanced and developing economies: A comparative analysis",
+    "journal": "AAAI Spring Symposium - Technical Report",
+    "type": "conference-paper",
+    "doi": "",
+    "authors": [
+      "A. Rubio",
+      "V. Frias-Martinez",
+      "E. Frias-Martinez",
+      "N. Oliver"
+    ],
+    "citation_count": 0,
+    "full_text_url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-77957963935&partnerID=MN8TOARS",
+    "date": "2010",
+    "sort_date": "2010-01-01",
+    "year": 2010
+  },
+  {
+    "title": "Looking at near-duplicate videos from a human-centric perspective",
+    "journal": "ACM Transactions on Multimedia Computing, Communications, and Applications",
+    "type": "journal-article",
+    "doi": "10.1145/1823746.1823749",
+    "authors": [
+      "Rodrigo De Oliveira",
+      "Mauro Cherubini",
+      "Nuria Oliver"
+    ],
+    "date": "2010",
+    "year": 2010,
+    "crossref_type": "journal-article",
+    "publisher": "Association for Computing Machinery (ACM)",
+    "volume": "6",
+    "number": "3",
+    "pages": "1-22",
+    "citation_count": 0,
+    "full_text_url": "http://dx.doi.org/10.1145/1823746.1823749",
+    "sort_date": "2010-01-01"
+  },
+  {
+    "title": "MuViSync: Realtime music video alignment",
+    "journal": "2010 IEEE International Conference on Multimedia and Expo",
+    "type": "conference-paper",
+    "doi": "10.1109/icme.2010.5583863",
+    "authors": [
+      "Robert Macrae",
+      "Xavier Anguera",
+      "Nuria Oliver"
+    ],
+    "date": "2010",
+    "year": 2010,
+    "crossref_type": "proceedings-article",
+    "publisher": "IEEE",
+    "volume": "",
+    "number": "",
+    "pages": "534-539",
+    "citation_count": 0,
+    "full_text_url": "http://dx.doi.org/10.1109/icme.2010.5583863",
+    "sort_date": "2010-01-01"
+  },
+  {
+    "title": "Multiverse recommendation: n-dimensional tensor factorization for context-aware collaborative filtering",
+    "journal": "Proceedings of the fourth ACM conference on Recommender systems",
+    "type": "conference-paper",
+    "doi": "10.1145/1864708.1864727",
+    "authors": [
+      "Alexandros Karatzoglou",
+      "Xavier Amatriain",
+      "Linas Baltrunas",
+      "Nuria Oliver"
+    ],
+    "date": "2010",
+    "year": 2010,
+    "crossref_type": "proceedings-article",
+    "publisher": "ACM",
+    "volume": "",
+    "number": "",
+    "pages": "79-86",
+    "citation_count": 0,
+    "full_text_url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-78649941975&partnerID=MN8TOARS",
+    "sort_date": "2010-01-01"
+  },
+  {
+    "title": "Partial sequence matching using an Unbounded Dynamic Time Warping algorithm",
+    "journal": "2010 IEEE International Conference on Acoustics, Speech and Signal Processing",
+    "type": "conference-paper",
+    "doi": "10.1109/ICASSP.2010.5495917",
+    "authors": [
+      "Xavier Anguera",
+      "Robert Macrae",
+      "Nuria Oliver"
+    ],
+    "date": "2010",
+    "year": 2010,
+    "crossref_type": "proceedings-article",
+    "publisher": "IEEE",
+    "volume": "",
+    "number": "",
+    "pages": "3582-3585",
+    "citation_count": 0,
+    "full_text_url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-78049393142&partnerID=MN8TOARS",
+    "sort_date": "2010-01-01"
+  },
+  {
+    "title": "Proceedings of the 11th ACM SIGMM International Conference on Multimedia Information Retrieval, MIR 2010, Philadelphia, Pennsylvania, USA, March 29-31, 2010",
+    "journal": null,
+    "type": "conference-paper",
+    "doi": "",
+    "authors": [
+      "James Z. Wang",
+      "Nozha Boujemaa",
+      "Nuria Oliver Ramirez",
+      "Apostol Natsev"
+    ],
+    "citation_count": 0,
+    "full_text_url": "https://www.lens.org/149-616-138-973-753",
+    "date": "2010",
+    "sort_date": "2010-01-01",
+    "year": 2010
+  },
+  {
+    "title": "Session details: Oral session 1: multimedia analysis",
+    "journal": "Proceedings of the international conference on Multimedia information retrieval",
+    "type": "conference-paper",
+    "doi": "10.1145/3257110",
+    "authors": [
+      "Nuria Oliver Ramirez"
+    ],
+    "date": "2010",
+    "year": 2010,
+    "crossref_type": "proceedings-article",
+    "publisher": "ACM",
+    "volume": "",
+    "number": "",
+    "pages": "",
+    "citation_count": 0,
+    "full_text_url": "http://dx.doi.org/10.1145/3257110",
+    "sort_date": "2010-01-01"
+  },
+  {
+    "title": "Social tagging revamped: supporting the users' need of self-promotion through persuasive techniques",
+    "journal": "Proceedings of the SIGCHI Conference on Human Factors in Computing Systems",
+    "type": "conference-paper",
+    "doi": "10.1145/1753326.1753473",
+    "authors": [
+      "Mauro Cherubini",
+      "Alejandro Gutierrez",
+      "Rodrigo de Oliveira",
+      "Nuria Oliver"
+    ],
+    "date": "2010",
+    "year": 2010,
+    "crossref_type": "proceedings-article",
+    "publisher": "ACM",
+    "volume": "",
+    "number": "",
+    "pages": "985-994",
+    "citation_count": 0,
+    "full_text_url": "http://dx.doi.org/10.1145/1753326.1753473",
+    "sort_date": "2010-01-01"
+  },
+  {
+    "title": "SocialSearchBrowser: a novel mobile search and information discovery tool",
+    "journal": "Proceedings of the 15th international conference on Intelligent user interfaces",
+    "type": "conference-paper",
+    "doi": "10.1145/1719970.1719985",
+    "authors": [
+      "Karen Church",
+      "Joachim Neumann",
+      "Mauro Cherubini",
+      "Nuria Oliver"
+    ],
+    "date": "2010",
+    "year": 2010,
+    "crossref_type": "proceedings-article",
+    "publisher": "ACM",
+    "volume": "",
+    "number": "",
+    "pages": "101-110",
+    "citation_count": 0,
+    "full_text_url": "http://dx.doi.org/10.1145/1719970.1719985",
+    "sort_date": "2010-01-01"
+  },
+  {
+    "title": "Supporting personal photo storytelling for social albums",
+    "journal": "Proceedings of the 18th ACM international conference on Multimedia",
+    "type": "conference-paper",
+    "doi": "10.1145/1873951.1874025",
+    "authors": [
+      "Pere Obrador",
+      "Rodrigo de Oliveira",
+      "Nuria Oliver"
+    ],
+    "date": "2010",
+    "year": 2010,
+    "crossref_type": "proceedings-article",
+    "publisher": "ACM",
+    "volume": "",
+    "number": "",
+    "pages": "561-570",
+    "citation_count": 0,
+    "full_text_url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-78650995475&partnerID=MN8TOARS",
+    "sort_date": "2010-01-01"
+  },
+  {
+    "title": "TRECVID - Telefonica Research at TRECVID 2010 Content-Based Copy Detection",
+    "journal": null,
+    "type": "book",
+    "doi": "",
+    "authors": [
+      "Ehsan Younessian",
+      "Tomasz Adamek",
+      "Xavier Anguera",
+      "Nuria Oliver"
+    ],
+    "citation_count": 0,
+    "full_text_url": "https://www.lens.org/010-663-920-460-529",
+    "date": "2010",
+    "sort_date": "2010-01-01",
+    "year": 2010
+  },
+  {
+    "title": "Telefonica research at TRECVID 2010 content-based copy detection",
+    "journal": "2010 TREC Video Retrieval Evaluation Notebook Papers",
+    "type": "conference-paper",
+    "doi": "",
+    "authors": [
+      "E. Younessian",
+      "X. Anguera",
+      "T. Adamek",
+      "N. Oliver",
+      "D. Marimon"
+    ],
+    "citation_count": 0,
+    "full_text_url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-84905190513&partnerID=MN8TOARS",
+    "date": "2010",
+    "sort_date": "2010-01-01",
+    "year": 2010
+  },
+  {
+    "title": "The \"Map Trap\"?: an evaluation of map versus text-based interfaces for location-based mobile search services",
+    "journal": "Proceedings of the 19th international conference on World wide web",
+    "type": "conference-paper",
+    "doi": "10.1145/1772690.1772718",
+    "authors": [
+      "Karen Church",
+      "Joachim Neumann",
+      "Mauro Cherubini",
+      "Nuria Oliver"
+    ],
+    "date": "2010",
+    "year": 2010,
+    "crossref_type": "proceedings-article",
+    "publisher": "ACM",
+    "volume": "",
+    "number": "",
+    "pages": "261-270",
+    "citation_count": 0,
+    "full_text_url": "http://dx.doi.org/10.1145/1772690.1772718",
+    "sort_date": "2010-01-01"
+  },
+  {
+    "title": "The role of image composition in image aesthetics",
+    "journal": "2010 IEEE International Conference on Image Processing",
+    "type": "conference-paper",
+    "doi": "10.1109/ICIP.2010.5654231",
+    "authors": [
+      "Pere Obrador",
+      "Ludwig Schmidt-Hackenberg",
+      "Nuria Oliver"
+    ],
+    "date": "2010",
+    "year": 2010,
+    "crossref_type": "proceedings-article",
+    "publisher": "IEEE",
+    "volume": "",
+    "number": "",
+    "pages": "3185-3188",
+    "citation_count": 0,
+    "full_text_url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-78651086261&partnerID=MN8TOARS",
+    "sort_date": "2010-01-01"
+  },
+  {
+    "title": "Towards Computational Models of the Visual Aesthetic Appeal of Consumer Videos",
+    "journal": "Lecture Notes in Computer Science",
+    "type": "book",
+    "doi": "10.1007/978-3-642-15555-0_1",
+    "authors": [
+      "Anush K. Moorthy",
+      "Pere Obrador",
+      "Nuria Oliver"
+    ],
+    "date": "2010",
+    "year": 2010,
+    "crossref_type": "book-chapter",
+    "publisher": "Springer Berlin Heidelberg",
+    "volume": "",
+    "number": "",
+    "pages": "1-14",
+    "citation_count": 0,
+    "full_text_url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-78149337570&partnerID=MN8TOARS",
+    "sort_date": "2010-01-01"
+  },
+  {
+    "title": "User Modeling for Telecommunication Applications: Experiences and Practical Implications",
+    "journal": "Lecture Notes in Computer Science",
+    "type": "book-chapter",
+    "doi": "10.1007/978-3-642-13470-8_30",
+    "authors": [
+      "Heath Hohwald",
+      "Enrique Frías-Martínez",
+      "Nuria Oliver"
+    ],
+    "date": "2010",
+    "year": 2010,
+    "crossref_type": "book-chapter",
+    "publisher": "Springer Berlin Heidelberg",
+    "volume": "",
+    "number": "",
+    "pages": "327-338",
+    "citation_count": 0,
+    "full_text_url": "http://dx.doi.org/10.1007/978-3-642-13470-8_30",
+    "sort_date": "2010-01-01"
+  },
+  {
+    "title": "Resource availability for user activities across devices",
+    "journal": null,
+    "type": "patent",
+    "doi": "",
+    "authors": [
+      "Czerwinski Mary P",
+      "Fernandez Roland L",
+      "Macbeth Steven W",
+      "Meyers Brian R",
+      "Murillo Oscar E",
+      "Oliver Nuria M",
+      "Robertson George G",
+      "Tan Desney S"
+    ],
+    "patent_number": "US 7620610 B2",
+    "citation_count": 0,
+    "full_text_url": "https://www.lens.org/051-768-538-398-427",
+    "date": "2009-11-17",
+    "sort_date": "2009-11-17",
+    "year": 2009
+  },
+  {
+    "title": "Entrevista a Nuria Oliver Ramírez, directora de Telefónica de I+D Barcelona",
+    "journal": null,
+    "type": "other",
+    "doi": "",
+    "authors": [
+      "María Felisa Verdejo Maíllo",
+      "Nuria Oliver Ramírez"
+    ],
+    "citation_count": 0,
+    "full_text_url": "https://www.lens.org/028-292-228-754-161",
+    "date": "2009-11-04",
+    "sort_date": "2009-11-04",
+    "year": 2009
+  },
+  {
+    "title": "Rate it again: increasing recommendation accuracy by user re-rating",
+    "journal": "Proceedings of the third ACM conference on Recommender systems",
+    "type": "conference-paper",
+    "doi": "10.1145/1639714.1639744",
+    "authors": [
+      "Xavier Amatriain",
+      "Josep M. Pujol",
+      "Nava Tintarev",
+      "Nuria Oliver"
+    ],
+    "date": "2009-10-23",
+    "year": 2009,
+    "crossref_type": "proceedings-article",
+    "publisher": "ACM",
+    "volume": "",
+    "number": "",
+    "pages": "173-180",
+    "citation_count": 0,
+    "full_text_url": "https://www.lens.org/003-416-449-709-510",
+    "sort_date": "2009-10-23"
+  },
+  {
+    "title": "IJCAI - Sensing and predicting the pulse of the city through shared bicycling",
+    "journal": null,
+    "type": "conference-paper",
+    "doi": "",
+    "authors": [
+      "Jon E. Froehlich",
+      "Joachim Neumann",
+      "Nuria Oliver"
+    ],
+    "citation_count": 0,
+    "full_text_url": "https://www.lens.org/189-622-118-396-903",
+    "date": "2009-07-11",
+    "sort_date": "2009-07-11",
+    "year": 2009
+  },
+  {
+    "title": "A Refined Experience Sampling Method to Capture Mobile User Experience",
+    "journal": "ArXiv",
+    "type": "journal-article",
+    "doi": "",
+    "authors": [
+      "Mauro Cherubini",
+      "Nuria Oliver"
+    ],
+    "citation_count": 0,
+    "full_text_url": "https://publons.com/wos-op/publon/21647437/",
+    "date": "2009",
+    "sort_date": "2009-01-01",
+    "year": 2009
+  },
+  {
+    "title": "A Refined Experience Sampling Method to Capture Mobile User Experience ...",
+    "journal": null,
+    "type": "report",
+    "doi": "10.48550/arxiv.0906.4125",
+    "authors": [
+      "Mauro Cherubini",
+      "Nuria Oliver"
+    ],
+    "citation_count": 0,
+    "full_text_url": "https://dx.doi.org/10.48550/arxiv.0906.4125",
+    "date": "2009",
+    "sort_date": "2009-01-01",
+    "year": 2009
+  },
+  {
+    "title": "Explicit vs. Implicit tagging for user modeling",
+    "journal": "CEUR Workshop Proceedings",
+    "type": "conference-paper",
+    "doi": "",
+    "authors": [
+      "E. Frias-Martinez",
+      "M. Cebrian",
+      "J.M. Pascual",
+      "N. Oliver"
+    ],
+    "citation_count": 0,
+    "full_text_url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-84887259906&partnerID=MN8TOARS",
+    "date": "2009",
+    "sort_date": "2009-01-01",
+    "year": 2009
+  },
+  {
+    "title": "How Did You Get to Know That? A Traceable Word-of-Mouth Algorithm",
+    "journal": "2009 International Conference on Computational Science and Engineering",
+    "type": "conference-paper",
+    "doi": "10.1109/CSE.2009.176",
+    "authors": [
+      "Manuel Cebrian",
+      "Enrique Frias-Martinez",
+      "Heath Hohwald",
+      "Ruben Lara",
+      "Nuria Oliver"
+    ],
+    "date": "2009",
+    "year": 2009,
+    "crossref_type": "proceedings-article",
+    "publisher": "IEEE",
+    "volume": "",
+    "number": "",
+    "pages": "292-297",
+    "citation_count": 0,
+    "full_text_url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-70849113299&partnerID=MN8TOARS",
+    "sort_date": "2009-01-01"
+  },
+  {
+    "title": "Human Perception of Near-Duplicate Videos",
+    "journal": "Lecture Notes in Computer Science",
+    "type": "book",
+    "doi": "10.1007/978-3-642-03658-3_6",
+    "authors": [
+      "Rodrigo de Oliveira",
+      "Mauro Cherubini",
+      "Nuria Oliver"
+    ],
+    "date": "2009",
+    "year": 2009,
+    "crossref_type": "book-chapter",
+    "publisher": "Springer Berlin Heidelberg",
+    "volume": "",
+    "number": "",
+    "pages": "21-24",
+    "citation_count": 0,
+    "full_text_url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-70349580826&partnerID=MN8TOARS",
+    "sort_date": "2009-01-01"
+  },
+  {
+    "title": "I Like It... I Like It Not: Evaluating User Ratings Noise in Recommender Systems",
+    "journal": "Lecture Notes in Computer Science",
+    "type": "book-chapter",
+    "doi": "10.1007/978-3-642-02247-0_24",
+    "authors": [
+      "Xavier Amatriain",
+      "Josep M. Pujol",
+      "Nuria Oliver"
+    ],
+    "date": "2009",
+    "year": 2009,
+    "crossref_type": "book-chapter",
+    "publisher": "Springer Berlin Heidelberg",
+    "volume": "",
+    "number": "",
+    "pages": "247-258",
+    "citation_count": 0,
+    "full_text_url": "http://dx.doi.org/10.1007/978-3-642-02247-0_24",
+    "sort_date": "2009-01-01"
+  },
+  {
+    "title": "IUI 2009 : 2009 International Conference on Intelligent User Interfaces : Sanibel Island, FL, USA, February 8-11, 2009",
+    "journal": null,
+    "type": "book",
+    "doi": "",
+    "authors": [
+      "Daniel S. Weld",
+      "Nuria Oliver"
+    ],
+    "citation_count": 0,
+    "full_text_url": "https://www.lens.org/030-231-910-874-513",
+    "date": "2009",
+    "sort_date": "2009-01-01",
+    "year": 2009
+  },
+  {
+    "title": "Inferring Unobservable Inter-community Links in Large Social Networks",
+    "journal": "2009 International Conference on Computational Science and Engineering",
+    "type": "conference-paper",
+    "doi": "10.1109/cse.2009.197",
+    "authors": [
+      "Heath Hohwald",
+      "Manuel Cebrian",
+      "Arturo Canales",
+      "Rubén Lara",
+      "Nuria Oliver"
+    ],
+    "date": "2009",
+    "year": 2009,
+    "crossref_type": "proceedings-article",
+    "publisher": "IEEE",
+    "volume": "",
+    "number": "",
+    "pages": "375-380",
+    "citation_count": 0,
+    "full_text_url": "http://dx.doi.org/10.1109/cse.2009.197",
+    "sort_date": "2009-01-01"
+  },
+  {
+    "title": "Introducing Causality and Traceability in Word-of-Mouth Algorithms",
+    "journal": null,
+    "type": "other",
+    "doi": "",
+    "authors": [
+      "Heath Hohwald",
+      "Enrique Frias-Martinez",
+      "Manuel Cebrian",
+      "Nuria Oliver"
+    ],
+    "citation_count": 0,
+    "full_text_url": "https://www.lens.org/171-174-736-988-957",
+    "date": "2009",
+    "sort_date": "2009-01-01",
+    "year": 2009
+  },
+  {
+    "title": "Measuring the Collective Potential of Populations From Dynamic Social Interaction Data",
+    "journal": "IEEE Journal of Selected Topics in Signal Processing",
+    "type": "journal-article",
+    "doi": "10.1109/jstsp.2010.2053093",
+    "authors": [
+      "Manuel Cebrian",
+      "Mayank Lahiri",
+      "Nuria Oliver",
+      "Alex Pentland"
+    ],
+    "date": "2009",
+    "year": 2009,
+    "crossref_type": "journal-article",
+    "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+    "volume": "4",
+    "number": "4",
+    "pages": "677-686",
+    "citation_count": 0,
+    "full_text_url": "http://hdl.handle.net/1721.1/67652",
+    "sort_date": "2009-01-01"
+  },
+  {
+    "title": "Multimodal video copy detection applied to social media",
+    "journal": "Proceedings of the first SIGMM workshop on Social media",
+    "type": "conference-paper",
+    "doi": "10.1145/1631144.1631157",
+    "authors": [
+      "Xavier Anguera",
+      "Pere Obrador",
+      "Nuria Oliver"
+    ],
+    "date": "2009",
+    "year": 2009,
+    "crossref_type": "proceedings-article",
+    "publisher": "ACM",
+    "volume": "",
+    "number": "",
+    "pages": "57-64",
+    "citation_count": 0,
+    "full_text_url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-72149093489&partnerID=MN8TOARS",
+    "sort_date": "2009-01-01"
+  },
+  {
+    "title": "PMPC@UMAP - Explicit vs. Implicit Tagging for User Modeling.",
+    "journal": null,
+    "type": "book",
+    "doi": "",
+    "authors": [
+      "Enrique Frias-Martinez",
+      "Manuel Cebrian",
+      "J. Moises Pascual",
+      "Nuria Oliver"
+    ],
+    "citation_count": 0,
+    "full_text_url": "https://www.lens.org/088-646-914-272-279",
+    "date": "2009",
+    "sort_date": "2009-01-01",
+    "year": 2009
+  },
+  {
+    "title": "Proceedings of the 14th International Conference on Intelligent User Interfaces : February 8-11, 2009, Sanibel Island, Florida, USA",
+    "journal": null,
+    "type": "book",
     "doi": "",
     "authors": [],
     "citation_count": 0,
     "full_text_url": null,
-    "date": "2020-04-16",
-    "sort_date": "2020-04-16",
-    "year": 2020
-  },
-  {
-    "title": "Efficient encoding of structured data",
-    "journal": null,
-    "type": "patent",
-    "doi": "",
-    "authors": [
-      "Nagy Alexander F",
-      "Chandrasekaran Ashok",
-      "Roomp Kristof",
-      "Wijaya Novia Rosalinda"
-    ],
-    "patent_number": "US 8751687 B2",
-    "citation_count": 0,
-    "full_text_url": "https://www.lens.org/186-270-325-064-244",
-    "date": "2014-06-10",
-    "sort_date": "2014-06-10",
-    "year": 2014
-  },
-  {
-    "title": "Searchable storage system",
-    "journal": null,
-    "type": "patent",
-    "doi": "",
-    "authors": [
-      "Hoffman William R",
-      "Jager Marcus J",
-      "Maccormick John P",
-      "Roomp Kristof",
-      "Thekkath Chandramohan A"
-    ],
-    "patent_number": "US 7698258 B2",
-    "citation_count": 0,
-    "full_text_url": "https://www.lens.org/086-256-817-416-959",
-    "date": "2010-04-13",
-    "sort_date": "2010-04-13",
-    "year": 2010
-  },
-  {
-    "title": "Data replication in a distributed system",
-    "journal": null,
-    "type": "patent",
-    "doi": "",
-    "authors": [
-      "Hoffman William R",
-      "Jager Marcus J",
-      "Maccormick John P",
-      "Roomp Kristof",
-      "Thekkath Chandramohan A",
-      "Zhou Lidong"
-    ],
-    "patent_number": "US 7636868 B2",
-    "citation_count": 0,
-    "full_text_url": "https://www.lens.org/053-244-433-998-499",
-    "date": "2009-12-22",
-    "sort_date": "2009-12-22",
+    "date": "2009",
+    "sort_date": "2009-01-01",
     "year": 2009
   },
   {
-    "title": "Niobe: A practical replication protocol",
-    "journal": "ACM Transactions on Storage",
-    "type": "journal-article",
-    "doi": "10.1145/1326542.1326543",
+    "title": "Sensing and predicting the pulse of the city through shared bicycling",
+    "journal": "IJCAI International Joint Conference on Artificial Intelligence",
+    "type": "conference-paper",
+    "doi": "",
     "authors": [
-      "J. MacCormick",
-      "C.A. Thekkath",
-      "M. Jager",
-      "K. Roomp",
-      "L. Zhou",
-      "R. Peterson"
+      "J. Froehlich",
+      "J. Neumann",
+      "N. Oliver"
     ],
-    "citation_count": "17",
-    "full_text_url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-40749108998&partnerID=MN8TOARS",
+    "citation_count": 0,
+    "full_text_url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-78751693683&partnerID=MN8TOARS",
+    "date": "2009",
+    "sort_date": "2009-01-01",
+    "year": 2009
+  },
+  {
+    "title": "Shopping Uncertainties in a Mobile and Social Context ...",
+    "journal": null,
+    "type": "report",
+    "doi": "10.48550/arxiv.0906.2307",
+    "authors": [
+      "Mauro Cherubini",
+      "Rodrigo de Oliveira",
+      "Nuria Oliver"
+    ],
+    "citation_count": 0,
+    "full_text_url": "https://dx.doi.org/10.48550/arxiv.0906.2307",
+    "date": "2009",
+    "sort_date": "2009-01-01",
+    "year": 2009
+  },
+  {
+    "title": "TRECVID - Telefonica Research Content-Based Copy Detection TRECVID Submission.",
+    "journal": null,
+    "type": "book",
+    "doi": "",
+    "authors": [
+      "Xavier Anguera",
+      "Pere Obrador",
+      "Tomasz Adamek",
+      "David Marimon",
+      "Nuria Oliver"
+    ],
+    "citation_count": 0,
+    "full_text_url": "https://www.lens.org/097-976-809-237-55X",
+    "date": "2009",
+    "sort_date": "2009-01-01",
+    "year": 2009
+  },
+  {
+    "title": "Telefonica research content-based copy detection TRECVID submission",
+    "journal": "2009 TREC Video Retrieval Evaluation Notebook Papers",
+    "type": "conference-paper",
+    "doi": "",
+    "authors": [
+      "X. Anguera",
+      "P. Obrador",
+      "T. Adamek",
+      "D. Marimon",
+      "N. Oliver"
+    ],
+    "citation_count": 0,
+    "full_text_url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-84905674908&partnerID=MN8TOARS",
+    "date": "2009",
+    "sort_date": "2009-01-01",
+    "year": 2009
+  },
+  {
+    "title": "Text versus speech: a comparison of tagging input modalities for camera phones",
+    "journal": "Proceedings of the 11th International Conference on Human-Computer Interaction with Mobile Devices and Services",
+    "type": "conference-paper",
+    "doi": "10.1145/1613858.1613860",
+    "authors": [
+      "Mauro Cherubini",
+      "Xavier Anguera",
+      "Nuria Oliver",
+      "Rodrigo de Oliveira"
+    ],
+    "date": "2009",
+    "year": 2009,
+    "crossref_type": "proceedings-article",
+    "publisher": "ACM",
+    "volume": "",
+    "number": "",
+    "pages": "1-10",
+    "citation_count": 0,
+    "full_text_url": "http://dx.doi.org/10.1145/1613858.1613860",
+    "sort_date": "2009-01-01"
+  },
+  {
+    "title": "The role of tags and image aesthetics in social image search",
+    "journal": null,
+    "type": "conference-paper",
+    "doi": "10.1145/1631144.1631158",
+    "authors": [
+      "Pere Obrador",
+      "Xavier Anguera",
+      "Rodrigo de Oliveira",
+      "Nuria Oliver"
+    ],
+    "citation_count": 0,
+    "full_text_url": "http://dx.doi.org/10.1145/1631144.1631158",
+    "date": "2009",
+    "sort_date": "2009-01-01",
+    "year": 2009
+  },
+  {
+    "title": "The wisdom of the few ; a collaborative filtering approach based on expert opinions from the web",
+    "journal": null,
+    "type": "conference-paper",
+    "doi": "",
+    "authors": [
+      "Xavier Amatriain",
+      "Neal Lathia",
+      "Josep M. Pujol",
+      "Haewoon Kwak",
+      "Nuria Oliver"
+    ],
+    "citation_count": 0,
+    "full_text_url": "http://dx.doi.org/10.1145/1571941.1572033",
+    "date": "2009",
+    "sort_date": "2009-01-01",
+    "year": 2009
+  },
+  {
+    "title": "The wisdom of the few: a collaborative filtering approach based on expert opinions from the web",
+    "journal": "Proceedings of the 32nd international ACM SIGIR conference on Research and development in information retrieval",
+    "type": "other",
+    "doi": "10.1145/1571941.1572033",
+    "authors": [
+      "Xavier Amatriain",
+      "Neal Lathia",
+      "Josep M. Pujol",
+      "Haewoon Kwak",
+      "Nuria Oliver"
+    ],
+    "date": "2009",
+    "year": 2009,
+    "crossref_type": "proceedings-article",
+    "publisher": "ACM",
+    "volume": "",
+    "number": "",
+    "pages": "532-539",
+    "citation_count": 0,
+    "full_text_url": "https://ink.library.smu.edu.sg/sis_research/6103",
+    "sort_date": "2009-01-01"
+  },
+  {
+    "title": "Towards Wearable Physiological Monitoring on a Mobile Phone",
+    "journal": "Mobile Health Solutions for Biomedical Applications",
+    "type": "book",
+    "doi": "10.4018/978-1-60566-332-6.ch011",
+    "authors": [
+      "Nuria Oliver",
+      "Fernando Flores-Mangas",
+      "Rodrigo de Oliveira"
+    ],
+    "crossref_type": "book-chapter",
+    "publisher": "IGI Global",
+    "volume": "",
+    "number": "",
+    "pages": "208-243",
+    "citation_count": 0,
+    "full_text_url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-77956480874&partnerID=MN8TOARS",
+    "date": "2009",
+    "sort_date": "2009-01-01",
+    "year": 2009
+  },
+  {
+    "title": "Understanding near-duplicate videos: a user-centric approach",
+    "journal": "Proceedings of the 17th ACM international conference on Multimedia",
+    "type": "conference-paper",
+    "doi": "10.1145/1631272.1631280",
+    "authors": [
+      "Mauro Cherubini",
+      "Rodrigo de Oliveira",
+      "Nuria Oliver"
+    ],
+    "date": "2009",
+    "year": 2009,
+    "crossref_type": "proceedings-article",
+    "publisher": "ACM",
+    "volume": "",
+    "number": "",
+    "pages": "35-44",
+    "citation_count": 0,
+    "full_text_url": "http://dx.doi.org/10.1145/1631272.1631280",
+    "sort_date": "2009-01-01"
+  },
+  {
+    "title": "Visual interfaces for improved mobile search",
+    "journal": null,
+    "type": "conference-paper",
+    "doi": "",
+    "authors": [
+      "Karen Church",
+      "Barry Smyth",
+      "Nuria Oliver"
+    ],
+    "citation_count": 0,
+    "full_text_url": "http://hdl.handle.net/10197/1208",
+    "date": "2009",
+    "sort_date": "2009-01-01",
+    "year": 2009
+  },
+  {
+    "title": "MAMI: multimodal annotations on a camera phone",
+    "journal": "Proceedings of the 10th international conference on Human computer interaction with mobile devices and services",
+    "type": "conference-paper",
+    "doi": "10.1145/1409240.1409293",
+    "authors": [
+      "Xavier Anguera",
+      "Nuria Oliver"
+    ],
+    "date": "2008",
+    "year": 2008,
+    "crossref_type": "proceedings-article",
+    "publisher": "ACM",
+    "volume": "",
+    "number": "",
+    "pages": "379-382",
+    "citation_count": 0,
+    "full_text_url": "http://dx.doi.org/10.1145/1409240.1409293",
+    "sort_date": "2008-01-01"
+  },
+  {
+    "title": "Measuring the Pulse of the City through Shared Bicycle Programs",
+    "journal": null,
+    "type": "other",
+    "doi": "",
+    "authors": [
+      "Jon E. Froehlich",
+      "Joachim Neumann",
+      "Nuria Oliver"
+    ],
+    "citation_count": 0,
+    "full_text_url": "https://www.lens.org/196-032-982-522-136",
     "date": "2008",
     "sort_date": "2008-01-01",
     "year": 2008
   },
   {
-    "title": "RelAltTab: Assisting users in switching windows",
-    "journal": "International Conference on Intelligent User Interfaces, Proceedings IUI",
+    "title": "Multimodal and Mobile Personal Image Retrieval: A User Study",
+    "journal": null,
+    "type": "other",
+    "doi": "",
+    "authors": [
+      "Xavier Anguera",
+      "Nuria Oliver",
+      "Mauro Cherubini"
+    ],
+    "citation_count": 0,
+    "full_text_url": "https://www.lens.org/022-987-684-749-406",
+    "date": "2008",
+    "sort_date": "2008-01-01",
+    "year": 2008
+  },
+  {
+    "title": "Multimodal photo annotation and retrieval on a mobile phone",
+    "journal": "Proceedings of the 1st ACM international conference on Multimedia information retrieval",
+    "type": "conference-paper",
+    "doi": "10.1145/1460096.1460127",
+    "authors": [
+      "Xavier Anguera",
+      "JieJun Xu",
+      "Nuria Oliver"
+    ],
+    "date": "2008",
+    "year": 2008,
+    "crossref_type": "proceedings-article",
+    "publisher": "ACM",
+    "volume": "",
+    "number": "",
+    "pages": "188-194",
+    "citation_count": 0,
+    "full_text_url": "http://dx.doi.org/10.1145/1460096.1460127",
+    "sort_date": "2008-01-01"
+  },
+  {
+    "title": "RelAltTab: assisting users in switching windows",
+    "journal": "Proceedings of the 13th international conference on Intelligent user interfaces",
     "type": "conference-paper",
     "doi": "10.1145/1378773.1378836",
     "authors": [
-      "N. Oliver",
-      "M. Czerwinski",
-      "G. Smith",
-      "K. Roomp"
+      "Nuria Oliver",
+      "Mary Czerwinski",
+      "Greg Smith",
+      "Kristof Roomp"
     ],
-    "citation_count": "9",
-    "full_text_url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-57349177884&partnerID=MN8TOARS",
     "date": "2008",
-    "sort_date": "2008-01-01",
-    "year": 2008
+    "year": 2008,
+    "crossref_type": "proceedings-article",
+    "publisher": "ACM",
+    "volume": "",
+    "number": "",
+    "pages": "385-388",
+    "citation_count": 0,
+    "full_text_url": "http://dx.doi.org/10.1145/1378773.1378836",
+    "sort_date": "2008-01-01"
   },
   {
-    "title": "Caching based on access rights in connection with a content management server system or the like",
+    "title": "TripleBeat: enhancing exercise performance with persuasion",
+    "journal": "Proceedings of the 10th international conference on Human computer interaction with mobile devices and services",
+    "type": "conference-paper",
+    "doi": "10.1145/1409240.1409268",
+    "authors": [
+      "Rodrigo de Oliveira",
+      "Nuria Oliver"
+    ],
+    "date": "2008",
+    "year": 2008,
+    "crossref_type": "proceedings-article",
+    "publisher": "ACM",
+    "volume": "",
+    "number": "",
+    "pages": "255-264",
+    "citation_count": 0,
+    "full_text_url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-65449131261&partnerID=MN8TOARS",
+    "sort_date": "2008-01-01"
+  },
+  {
+    "title": "Layered models for context awareness",
     "journal": null,
     "type": "patent",
     "doi": "",
     "authors": [
-      "Wall Larry Marvin",
-      "Buhlmann Glen",
-      "Duncan Nicholas",
-      "Roomp Kristof"
+      "Garg Ashutosh",
+      "Horvitz Eric J",
+      "Oliver Nuria M"
     ],
-    "patent_number": "US 7149849 B2",
+    "patent_number": "US 7203635 B2",
     "citation_count": 0,
-    "full_text_url": "https://www.lens.org/169-344-041-711-967",
-    "date": "2006-12-12",
-    "sort_date": "2006-12-12",
+    "full_text_url": "https://www.lens.org/045-958-939-306-538",
+    "date": "2007-04-10",
+    "sort_date": "2007-04-10",
+    "year": 2007
+  },
+  {
+    "title": "HealthGear: Automatic Sleep Apnea Detection and Monitoring with a Mobile Phone",
+    "journal": "Journal of Communications",
+    "type": "journal-article",
+    "doi": "10.4304/jcm.2.2.1-9",
+    "authors": [
+      "Nuria Oliver",
+      "Fernando Flores-Mangas"
+    ],
+    "date": "2007-03-01",
+    "year": 2007,
+    "crossref_type": "journal-article",
+    "publisher": "Academy Publisher",
+    "volume": "2",
+    "number": "2",
+    "pages": "",
+    "citation_count": 0,
+    "full_text_url": "https://www.lens.org/014-138-634-630-275",
+    "sort_date": "2007-03-01"
+  },
+  {
+    "title": "Personal Information Management: Challenges and Opportunities (eds. William Jones and Jaime Teevan) - Save Everything: Supporting Human Memory with a Personal Digital Lifetime Store",
+    "journal": null,
+    "type": "book",
+    "doi": "",
+    "authors": [
+      "Desney S. Tan",
+      "Emma Berry",
+      "Mary Czerwinski",
+      "Gordon Bell",
+      "Jim Gemmell",
+      "Steve Hodges",
+      "Narinder Kapur",
+      "Brian R. Meyers",
+      "Nuria Oliver",
+      "Ken Woodberry"
+    ],
+    "citation_count": 0,
+    "full_text_url": "https://www.lens.org/100-457-012-220-496",
+    "date": "2007-01-01",
+    "sort_date": "2007-01-01",
+    "year": 2007
+  },
+  {
+    "title": "Enhancing Exercise Performance through Real-time Physiological Monitoring and Music: A User Study",
+    "journal": null,
+    "type": "other",
+    "doi": "",
+    "authors": [
+      "Nuria Oliver",
+      "Lucas Kreger-Stickles"
+    ],
+    "citation_count": 0,
+    "full_text_url": "https://doi.org/10.1109/PCTHEALTH.2006.361660",
+    "date": "2007",
+    "sort_date": "2007-01-01",
+    "year": 2007
+  },
+  {
+    "title": "Health-OS:: a position paper",
+    "journal": "Proceedings of the 1st ACM SIGMOBILE international workshop on Systems and networking support for healthcare and assisted living environments",
+    "type": "conference-paper",
+    "doi": "10.1145/1248054.1248077",
+    "authors": [
+      "Darko Kirovski",
+      "Nuria Oliver",
+      "Mike Sinclair",
+      "Desney Tan"
+    ],
+    "date": "2007",
+    "year": 2007,
+    "crossref_type": "proceedings-article",
+    "publisher": "ACM",
+    "volume": "",
+    "number": "",
+    "pages": "76-78",
+    "citation_count": 0,
+    "full_text_url": "http://dx.doi.org/10.1145/1248054.1248077",
+    "sort_date": "2007-01-01"
+  },
+  {
+    "title": "Personal Information Management Edited by William Jones and Jaime Teevan - Supporting Human Memory with a Personal Digital Lifetime Store",
+    "journal": null,
+    "type": "book",
+    "doi": "",
+    "authors": [
+      "Desney S. Tan",
+      "Emma Berry",
+      "Mary Czerwinski",
+      "Gordon Bell",
+      "Jim Cemmell",
+      "Steve Hodges",
+      "Narinder Kapur",
+      "Brian R. Meyers",
+      "Nuria Oliver",
+      "George G. Robertson",
+      "Ken Woodberry"
+    ],
+    "citation_count": 0,
+    "full_text_url": "https://www.lens.org/090-708-283-172-935",
+    "date": "2007",
+    "sort_date": "2007-01-01",
+    "year": 2007
+  },
+  {
+    "title": "Save everything: Supporting human memory with a personal digital lifetime store",
+    "journal": "Personal Information Management",
+    "type": "book",
+    "doi": "",
+    "authors": [
+      "D. Tan",
+      "E. Berry",
+      "M. Czerwinski",
+      "G. Bell",
+      "J. Gemmell",
+      "S. Hodges",
+      "N. Kapur",
+      "B. Meyers",
+      "N. Oliver",
+      "G. Robertson",
+      "K. Wood"
+    ],
+    "citation_count": 0,
+    "full_text_url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-73849126733&partnerID=MN8TOARS",
+    "date": "2007",
+    "sort_date": "2007-01-01",
+    "year": 2007
+  },
+  {
+    "title": "Maximizing mutual information between observations and hidden states to minimize classification errors",
+    "journal": null,
+    "type": "patent",
+    "doi": "",
+    "authors": [
+      "Garg Ashutosh",
+      "Oliver Nuria M"
+    ],
+    "patent_number": "US 7007001 B2",
+    "citation_count": 0,
+    "full_text_url": "https://www.lens.org/038-794-149-418-306",
+    "date": "2006-02-28",
+    "sort_date": "2006-02-28",
     "year": 2006
+  },
+  {
+    "title": "HealthGear: A Real-time Wearable System for Monitoring and Analyzing Physiological Signals",
+    "journal": "International Workshop on Wearable and Implantable Body Sensor Networks (BSN'06)",
+    "type": "conference-paper",
+    "doi": "10.1109/bsn.2006.27",
+    "authors": [
+      "N. Oliver",
+      "F. Flores-Mangas"
+    ],
+    "crossref_type": "proceedings-article",
+    "publisher": "IEEE",
+    "volume": "",
+    "number": "",
+    "pages": "61-64",
+    "citation_count": 0,
+    "full_text_url": "http://dx.doi.org/10.1109/bsn.2006.27",
+    "date": "2006",
+    "sort_date": "2006-01-01",
+    "year": 2006
+  },
+  {
+    "title": "ISMIR - PAPA: Physiology and Purpose-Aware Automatic Playlist Generation.",
+    "journal": null,
+    "type": "conference-paper",
+    "doi": "",
+    "authors": [
+      "Nuria Oliver",
+      "Lucas Kreger-Stickles"
+    ],
+    "citation_count": 0,
+    "full_text_url": "https://www.lens.org/079-459-964-185-317",
+    "date": "2006",
+    "sort_date": "2006-01-01",
+    "year": 2006
+  },
+  {
+    "title": "MPTrain: a mobile, music and physiology-based personal trainer",
+    "journal": "Proceedings of the 8th conference on Human-computer interaction with mobile devices and services",
+    "type": "conference-paper",
+    "doi": "10.1145/1152215.1152221",
+    "authors": [
+      "Nuria Oliver",
+      "Fernando Flores-Mangas"
+    ],
+    "date": "2006",
+    "year": 2006,
+    "crossref_type": "proceedings-article",
+    "publisher": "ACM",
+    "volume": "",
+    "number": "",
+    "pages": "21-28",
+    "citation_count": 0,
+    "full_text_url": "http://dx.doi.org/10.1145/1152215.1152221",
+    "sort_date": "2006-01-01"
+  },
+  {
+    "title": "Non-Photorealistic Rendering",
+    "journal": "SpringerReference",
+    "type": "journal-article",
+    "doi": "10.1007/SPRINGERREFERENCE_62539",
+    "authors": [],
+    "crossref_type": "reference-entry",
+    "publisher": "Springer-Verlag",
+    "volume": "",
+    "number": "",
+    "pages": "",
+    "citation_count": 0,
+    "full_text_url": "https://publons.com/wos-op/publon/44123264/",
+    "date": "2006",
+    "sort_date": "2006-01-01",
+    "year": 2006
+  },
+  {
+    "title": "PAPA: Physiology and purpose-aware automatic playlist generation",
+    "journal": "ISMIR 2006 - 7th International Conference on Music Information Retrieval",
+    "type": "conference-paper",
+    "doi": "",
+    "authors": [
+      "N. Oliver",
+      "L. Kreger-Stickles"
+    ],
+    "citation_count": 0,
+    "full_text_url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-84873416236&partnerID=MN8TOARS",
+    "date": "2006",
+    "sort_date": "2006-01-01",
+    "year": 2006
+  },
+  {
+    "title": "SWISH: semantic analysis of window titles and switching history",
+    "journal": "Proceedings of the 11th international conference on Intelligent user interfaces",
+    "type": "conference-paper",
+    "doi": "10.1145/1111449.1111492",
+    "authors": [
+      "Nuria Oliver",
+      "Greg Smith",
+      "Chintan Thakkar",
+      "Arun C. Surendran"
+    ],
+    "date": "2006",
+    "year": 2006,
+    "crossref_type": "proceedings-article",
+    "publisher": "ACM",
+    "volume": "",
+    "number": "",
+    "pages": "194-201",
+    "citation_count": 0,
+    "full_text_url": "http://dx.doi.org/10.1145/1111449.1111492",
+    "sort_date": "2006-01-01"
+  },
+  {
+    "title": "A comparison of HMMs and dynamic Bayesian networks for recognizing office activities",
+    "journal": "Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics)",
+    "type": "book",
+    "doi": "",
+    "authors": [
+      "N. Oliver",
+      "E. Horvitz"
+    ],
+    "citation_count": 0,
+    "full_text_url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-26944464568&partnerID=MN8TOARS",
+    "date": "2005",
+    "sort_date": "2005-01-01",
+    "year": 2005
+  },
+  {
+    "title": "S-SEER: Selective Perception in a Multimodal Office Activity Recognition System",
+    "journal": "Lecture Notes in Computer Science",
+    "type": "book-chapter",
+    "doi": "10.1007/978-3-540-30568-2_11",
+    "authors": [
+      "Nuria Oliver",
+      "Eric Horvitz"
+    ],
+    "date": "2005",
+    "year": 2005,
+    "crossref_type": "book-chapter",
+    "publisher": "Springer Berlin Heidelberg",
+    "volume": "",
+    "number": "",
+    "pages": "122-135",
+    "citation_count": 0,
+    "full_text_url": "http://dx.doi.org/10.1007/978-3-540-30568-2_11",
+    "sort_date": "2005-01-01"
+  },
+  {
+    "title": "Layered representations for learning and inferring office activity from multiple sensory channels",
+    "journal": "Computer Vision and Image Understanding",
+    "type": "journal-article",
+    "doi": "10.1016/j.cviu.2004.02.004",
+    "authors": [
+      "Nuria Oliver",
+      "Ashutosh Garg",
+      "Eric Horvitz"
+    ],
+    "date": "2004",
+    "year": 2004,
+    "crossref_type": "journal-article",
+    "publisher": "Elsevier BV",
+    "volume": "96",
+    "number": "2",
+    "pages": "163-180",
+    "citation_count": 0,
+    "full_text_url": "https://doi.org/10.1016/j.cviu.2004.02.004",
+    "sort_date": "2004-01-01"
+  },
+  {
+    "title": "Selective perception policies for guiding sensing and computation in multimodal systems: a comparative analysis",
+    "journal": "Proceedings of the 5th international conference on Multimodal interfaces",
+    "type": "conference-paper",
+    "doi": "10.1145/958432.958442",
+    "authors": [
+      "Nuria Oliver",
+      "Eric Horvitz"
+    ],
+    "date": "2003-11-05",
+    "year": 2003,
+    "crossref_type": "proceedings-article",
+    "publisher": "ACM",
+    "volume": "",
+    "number": "",
+    "pages": "36-43",
+    "citation_count": 0,
+    "full_text_url": "https://www.lens.org/008-776-832-619-949",
+    "sort_date": "2003-11-05"
+  },
+  {
+    "title": "GWINDOWS: Towards Robust Perception-Based UI",
+    "journal": "2003 Conference on Computer Vision and Pattern Recognition Workshop",
+    "type": "conference-paper",
+    "doi": "10.1109/cvprw.2003.10048",
+    "authors": [
+      "Andrew Wilson",
+      "Nuria Oliver"
+    ],
+    "date": "2003",
+    "year": 2003,
+    "crossref_type": "proceedings-article",
+    "publisher": "IEEE",
+    "volume": "",
+    "number": "",
+    "pages": "46-46",
+    "citation_count": 0,
+    "full_text_url": "http://dx.doi.org/10.1109/cvprw.2003.10048",
+    "sort_date": "2003-01-01"
+  },
+  {
+    "title": "GWindows: robust stereo vision for gesture-based control of windows",
+    "journal": "Proceedings of the 5th international conference on Multimodal interfaces",
+    "type": "conference-paper",
+    "doi": "10.1145/958432.958473",
+    "authors": [
+      "Andrew Wilson",
+      "Nuria Oliver"
+    ],
+    "date": "2003",
+    "year": 2003,
+    "crossref_type": "proceedings-article",
+    "publisher": "ACM",
+    "volume": "",
+    "number": "",
+    "pages": "211-218",
+    "citation_count": 0,
+    "full_text_url": null,
+    "sort_date": "2003-01-01"
+  },
+  {
+    "title": "GWindows: Robust stereo vision for gesture-based control of windows",
+    "journal": "ICMI'03: Fifth International Conference on Multimodal Interfaces",
+    "type": "conference-paper",
+    "doi": "",
+    "authors": [
+      "A. Wilson",
+      "N. Oliver"
+    ],
+    "citation_count": 0,
+    "full_text_url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-18844384402&partnerID=MN8TOARS",
+    "date": "2003",
+    "sort_date": "2003-01-01",
+    "year": 2003
+  },
+  {
+    "title": "Layered representations for human activity recognition",
+    "journal": "Proceedings. Fourth IEEE International Conference on Multimodal Interfaces",
+    "type": "conference-paper",
+    "doi": "10.1109/icmi.2002.1166960",
+    "authors": [
+      "N. Oliver",
+      "E. Horvitz",
+      "A. Garg"
+    ],
+    "crossref_type": "proceedings-article",
+    "publisher": "IEEE Comput. Soc",
+    "volume": "",
+    "number": "",
+    "pages": "3-8",
+    "citation_count": 0,
+    "full_text_url": "http://dx.doi.org/10.1109/icmi.2002.1166960",
+    "date": "2003",
+    "sort_date": "2003-01-01",
+    "year": 2003
+  },
+  {
+    "title": "Layered Representations for Recognizing Office Activity",
+    "journal": null,
+    "type": "other",
+    "doi": "",
+    "authors": [
+      "Nuria Oliver",
+      "Eric Horvitz",
+      "Ashutosh Garg"
+    ],
+    "citation_count": 0,
+    "full_text_url": "https://www.lens.org/066-837-949-648-217",
+    "date": "2002-10-01",
+    "sort_date": "2002-10-01",
+    "year": 2002
+  },
+  {
+    "title": "Hierarchical Representations for Learning and Inferring Office Activity from Multiple Sensory Channels",
+    "journal": null,
+    "type": "other",
+    "doi": "",
+    "authors": [
+      "Nuria Oliver",
+      "Eric Horvitz",
+      "Ashutosh Garg"
+    ],
+    "citation_count": 0,
+    "full_text_url": "https://www.lens.org/070-494-212-439-296",
+    "date": "2002-02-01",
+    "sort_date": "2002-02-01",
+    "year": 2002
+  },
+  {
+    "title": "ICML - MMIHMM: Maximum Mutual Information Hidden Markov Models",
+    "journal": null,
+    "type": "conference-paper",
+    "doi": "",
+    "authors": [
+      "Nuria Oliver",
+      "Ashutosh Garg"
+    ],
+    "citation_count": 0,
+    "full_text_url": "https://www.lens.org/100-605-166-529-359",
+    "date": "2002-02-01",
+    "sort_date": "2002-02-01",
+    "year": 2002
+  },
+  {
+    "title": "3D modeling and tracking of human lip motions",
+    "journal": "Sixth International Conference on Computer Vision (IEEE Cat. No.98CH36271)",
+    "type": "conference-paper",
+    "doi": "10.1109/iccv.1998.710740",
+    "authors": [
+      "S. Basu",
+      "N. Oliver",
+      "A. Pentland"
+    ],
+    "crossref_type": "proceedings-article",
+    "publisher": "Narosa Publishing House",
+    "volume": "",
+    "number": "",
+    "pages": "337-343",
+    "citation_count": 0,
+    "full_text_url": "http://dx.doi.org/10.1109/iccv.1998.710740",
+    "date": "2002",
+    "sort_date": "2002-01-01",
+    "year": 2002
+  },
+  {
+    "title": "Coupled hidden Markov models for complex action recognition",
+    "journal": "Proceedings of IEEE Computer Society Conference on Computer Vision and Pattern Recognition",
+    "type": "conference-paper",
+    "doi": "10.1109/cvpr.1997.609450",
+    "authors": [
+      "M. Brand",
+      "N. Oliver",
+      "A. Pentland"
+    ],
+    "crossref_type": "proceedings-article",
+    "publisher": "IEEE Comput. Soc",
+    "volume": "",
+    "number": "",
+    "pages": "994-999",
+    "citation_count": 0,
+    "full_text_url": "http://dx.doi.org/10.1109/cvpr.1997.609450",
+    "date": "2002",
+    "sort_date": "2002-01-01",
+    "year": 2002
+  },
+  {
+    "title": "Curve Analogies ...",
+    "journal": null,
+    "type": "journal-article",
+    "doi": "10.2312/egwr/egwr02/233-246",
+    "authors": [
+      "Aaron Hertzmann",
+      "Nuria Oliver",
+      "Brian Curless",
+      "Steven M. Seitz"
+    ],
+    "citation_count": 0,
+    "full_text_url": "https://dx.doi.org/10.2312/egwr/egwr02/233-246",
+    "date": "2002",
+    "sort_date": "2002-01-01",
+    "year": 2002
+  },
+  {
+    "title": "Graphical models for driver behavior recognition in a SmartCar",
+    "journal": null,
+    "type": "conference-paper",
+    "doi": "10.1109/ivs.2000.898310",
+    "authors": [
+      "N. Oliver",
+      "A.P. Pentland"
+    ],
+    "citation_count": 0,
+    "full_text_url": "http://dx.doi.org/10.1109/ivs.2000.898310",
+    "date": "2002",
+    "sort_date": "2002-01-01",
+    "year": 2002
+  },
+  {
+    "title": "LAFTER: lips and face real time tracker",
+    "journal": "Proceedings of IEEE Computer Society Conference on Computer Vision and Pattern Recognition",
+    "type": "conference-paper",
+    "doi": "10.1109/cvpr.1997.609309",
+    "authors": [
+      "N. Oliver",
+      "A.P. Pentland",
+      "F. Berard"
+    ],
+    "crossref_type": "proceedings-article",
+    "publisher": "IEEE Comput. Soc",
+    "volume": "",
+    "number": "",
+    "pages": "123-129",
+    "citation_count": 0,
+    "full_text_url": "http://dx.doi.org/10.1109/cvpr.1997.609309",
+    "date": "2002",
+    "sort_date": "2002-01-01",
+    "year": 2002
+  },
+  {
+    "title": "Shape analogies",
+    "journal": "ACM SIGGRAPH 2002 conference abstracts and applications",
+    "type": "conference-paper",
+    "doi": "10.1145/1242073.1242260",
+    "authors": [
+      "Aaron Hertzmann",
+      "Nuria Oliver",
+      "Brian Curless",
+      "Steven M. Seitz"
+    ],
+    "date": "2002",
+    "year": 2002,
+    "crossref_type": "proceedings-article",
+    "publisher": "ACM",
+    "volume": "",
+    "number": "",
+    "pages": "247-247",
+    "citation_count": 0,
+    "full_text_url": "http://dx.doi.org/10.1145/1242073.1242260",
+    "sort_date": "2002-01-01"
+  },
+  {
+    "title": "Sensory-augmented computing: wearing the museum's guide",
+    "journal": "IEEE Micro",
+    "type": "journal-article",
+    "doi": "10.1109/40.928764",
+    "authors": [
+      "B. Schiele",
+      "T. Jebara",
+      "N. Oliver"
+    ],
+    "date": "2001",
+    "year": 2001,
+    "crossref_type": "journal-article",
+    "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+    "volume": "21",
+    "number": "3",
+    "pages": "44-52",
+    "citation_count": 0,
+    "full_text_url": "http://hdl.handle.net/11858/00-001M-0000-0027-9E5F-D",
+    "sort_date": "2001-01-01"
+  },
+  {
+    "title": "Natural Regularization from Generative Models",
+    "journal": "Advances in Large-Margin Classifiers",
+    "type": "book-chapter",
+    "doi": "10.7551/mitpress/1113.003.0007",
+    "authors": [
+      "Nuria Oliver",
+      "Bernhard Schölkopf",
+      "Alexander J. Smola"
+    ],
+    "date": "2000-09-29",
+    "year": 2000,
+    "crossref_type": "book-chapter",
+    "publisher": "The MIT Press",
+    "volume": "",
+    "number": "",
+    "pages": "51-60",
+    "citation_count": 0,
+    "full_text_url": "https://www.lens.org/168-204-358-057-931",
+    "sort_date": "2000-09-29"
+  },
+  {
+    "title": "&lt;title&gt;Driver behavior recognition and prediction in a SmartCar&lt;/title&gt;",
+    "journal": "SPIE Proceedings",
+    "type": "conference-paper",
+    "doi": "10.1117/12.389351",
+    "authors": [
+      "Nuria Oliver",
+      "Alexander P. Pentland"
+    ],
+    "date": "2000",
+    "year": 2000,
+    "crossref_type": "proceedings-article",
+    "publisher": "SPIE",
+    "volume": "4023",
+    "number": "",
+    "pages": "280-290",
+    "citation_count": 0,
+    "full_text_url": "http://dx.doi.org/10.1117/12.389351",
+    "sort_date": "2000-01-01"
+  },
+  {
+    "title": "LAFTER: a real-time face and lips tracker with facial expression recognition",
+    "journal": "Pattern Recognition",
+    "type": "journal-article",
+    "doi": "10.1016/s0031-3203(99)00113-2",
+    "authors": [
+      "Nuria Oliver",
+      "Alex Pentland",
+      "François Bérard"
+    ],
+    "date": "2000",
+    "year": 2000,
+    "crossref_type": "journal-article",
+    "publisher": "Elsevier BV",
+    "volume": "33",
+    "number": "8",
+    "pages": "1369-1382",
+    "citation_count": 0,
+    "full_text_url": "https://doi.org/10.1016/s0031-3203%2899%2900113-2",
+    "sort_date": "2000-01-01"
+  },
+  {
+    "title": "Towards perceptual intelligence : statistical modeling of human individual and interactive behaviors",
+    "journal": null,
+    "type": "supervised-student-publication",
+    "doi": "",
+    "authors": [
+      "Nuria, 1970- Oliver"
+    ],
+    "citation_count": 0,
+    "full_text_url": "http://hdl.handle.net/1721.1/69423",
+    "date": "2000",
+    "sort_date": "2000-01-01",
+    "year": 2000
+  },
+  {
+    "title": "A Bayesian Computer Vision System for Modeling Human Interactions",
+    "journal": "Lecture Notes in Computer Science",
+    "type": "book-chapter",
+    "doi": "10.1007/3-540-49256-9_16",
+    "authors": [
+      "Nuria Oliver",
+      "Barbara Rosario",
+      "Alex Pentland"
+    ],
+    "date": "1999",
+    "year": 1999,
+    "crossref_type": "book-chapter",
+    "publisher": "Springer Berlin Heidelberg",
+    "volume": "",
+    "number": "",
+    "pages": "255-272",
+    "citation_count": 0,
+    "full_text_url": "http://dx.doi.org/10.1007/3-540-49256-9_16",
+    "sort_date": "1999-01-01"
+  },
+  {
+    "title": "A synthetic agent system for Bayesian modeling of human interactions",
+    "journal": "Proceedings of the third annual conference on Autonomous Agents",
+    "type": "conference-paper",
+    "doi": "10.1145/301136.301225",
+    "authors": [
+      "Barbara Rosario",
+      "Nuria Oliver",
+      "Alex Pentland"
+    ],
+    "date": "1999",
+    "year": 1999,
+    "crossref_type": "proceedings-article",
+    "publisher": "ACM",
+    "volume": "",
+    "number": "",
+    "pages": "342-343",
+    "citation_count": 0,
+    "full_text_url": "http://dx.doi.org/10.1145/301136.301225",
+    "sort_date": "1999-01-01"
+  },
+  {
+    "title": "An Interactive Computer Vision System DyPERS: Dynamic Personal Enhanced Reality System",
+    "journal": "Lecture Notes in Computer Science",
+    "type": "book-chapter",
+    "doi": "10.1007/3-540-49256-9_4",
+    "authors": [
+      "Bernt Schiele",
+      "Nuria Oliver",
+      "Tony Jebara",
+      "Alex Pentland"
+    ],
+    "date": "1999",
+    "year": 1999,
+    "crossref_type": "book-chapter",
+    "publisher": "Springer Berlin Heidelberg",
+    "volume": "",
+    "number": "",
+    "pages": "51-65",
+    "citation_count": 0,
+    "full_text_url": "http://dx.doi.org/10.1007/3-540-49256-9_4",
+    "sort_date": "1999-01-01"
+  },
+  {
+    "title": "Augmented Realities Integrating User and Physical Models",
+    "journal": "Augmented Reality",
+    "type": "journal-article",
+    "doi": "10.1201/9781439863992-14",
+    "authors": [
+      "T Starner",
+      "B Schiele",
+      "BJ Rhodes",
+      "T Jebara",
+      "N Oliver",
+      "J Weaver",
+      "A Pentland"
+    ],
+    "date": "1999",
+    "year": 1999,
+    "crossref_type": "book-chapter",
+    "publisher": "A K Peters/CRC Press",
+    "volume": "",
+    "number": "",
+    "pages": "93-100",
+    "citation_count": 0,
+    "full_text_url": "https://publons.com/wos-op/publon/44084015/",
+    "sort_date": "1999-01-01"
+  },
+  {
+    "title": "Cyborg controversy",
+    "journal": "Technology Review",
+    "type": "journal-article",
+    "doi": "",
+    "authors": [
+      "S Basu",
+      "RW DeVaul",
+      "L Giambrone",
+      "L Najjar",
+      "N Oliver",
+      "R Post",
+      "B Rhodes",
+      "K Russell",
+      "N Sawhney",
+      "A Sherstinsky",
+      "F Sparacino",
+      "T Starner",
+      "J Weaver",
+      "C Wren"
+    ],
+    "citation_count": 0,
+    "full_text_url": "https://publons.com/wos-op/publon/44123247/",
+    "date": "1999",
+    "sort_date": "1999-01-01",
+    "year": 1999
+  },
+  {
+    "title": "Graphical models for recognizing human interactions",
+    "journal": "Advances in Neural Information Processing Systems",
+    "type": "conference-paper",
+    "doi": "",
+    "authors": [
+      "N.M. Oliver",
+      "B. Rosario",
+      "A. Pentland"
+    ],
+    "citation_count": 0,
+    "full_text_url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-14044264546&partnerID=MN8TOARS",
+    "date": "1999",
+    "sort_date": "1999-01-01",
+    "year": 1999
+  },
+  {
+    "title": "Synthetic agent system for Bayesian modeling human interactions",
+    "journal": "Proceedings of the International Conference on Autonomous Agents",
+    "type": "conference-paper",
+    "doi": "",
+    "authors": [
+      "Barbara Rosario",
+      "Nuria Oliver",
+      "Alex Pentland"
+    ],
+    "citation_count": 0,
+    "full_text_url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-0032659276&partnerID=MN8TOARS",
+    "date": "1999",
+    "sort_date": "1999-01-01",
+    "year": 1999
+  },
+  {
+    "title": "NIPS - Graphical Models for Recognizing Human Interactions",
+    "journal": null,
+    "type": "conference-paper",
+    "doi": "",
+    "authors": [
+      "Nuria Oliver",
+      "Barbara Rosario",
+      "Alex Pentland"
+    ],
+    "citation_count": 0,
+    "full_text_url": "https://www.lens.org/140-248-648-520-371",
+    "date": "1998-12-01",
+    "sort_date": "1998-12-01",
+    "year": 1998
+  },
+  {
+    "title": "Coding Human Lip Motions with a Learned 3D Model",
+    "journal": null,
+    "type": "other",
+    "doi": "",
+    "authors": [
+      "Sumit Basu",
+      "Nuria Oliver",
+      "Alex Pentland"
+    ],
+    "citation_count": 0,
+    "full_text_url": "https://www.lens.org/120-088-715-132-868",
+    "date": "1998-10-01",
+    "sort_date": "1998-10-01",
+    "year": 1998
+  },
+  {
+    "title": "3D lip shapes from video: A combined physical–statistical model",
+    "journal": "Speech Communication",
+    "type": "journal-article",
+    "doi": "10.1016/s0167-6393(98)00055-7",
+    "authors": [
+      "Sumit Basu",
+      "Nuria Oliver",
+      "Alex Pentland"
+    ],
+    "date": "1998",
+    "year": 1998,
+    "crossref_type": "journal-article",
+    "publisher": "Elsevier BV",
+    "volume": "26",
+    "number": "1-2",
+    "pages": "131-148",
+    "citation_count": 0,
+    "full_text_url": "https://doi.org/10.1016/s0167-6393%2898%2900055-7",
+    "sort_date": "1998-01-01"
+  },
+  {
+    "title": "DyPERS: Dynamic Personal Enhanced Reality System",
+    "journal": null,
+    "type": "other",
+    "doi": "",
+    "authors": [
+      "Alex Pentland",
+      "Bernt Schiele",
+      "Tony Jebara",
+      "Nuria Oliver"
+    ],
+    "citation_count": 0,
+    "full_text_url": "https://www.lens.org/023-507-169-326-514",
+    "date": "1998",
+    "sort_date": "1998-01-01",
+    "year": 1998
+  },
+  {
+    "title": "3D modeling and tracking of human lip motions",
+    "journal": "Sixth International Conference on Computer Vision (IEEE Cat. No.98CH36271)",
+    "type": "conference-paper",
+    "doi": "10.1109/ICCV.1998.710740",
+    "authors": [
+      "S. Basu",
+      "N. Oliver",
+      "A. Pentland"
+    ],
+    "crossref_type": "proceedings-article",
+    "publisher": "Narosa Publishing House",
+    "volume": "",
+    "number": "",
+    "pages": "337-343",
+    "citation_count": 0,
+    "full_text_url": "https://www.lens.org/169-935-000-722-330",
+    "date": "1998",
+    "sort_date": "1998-01-01",
+    "year": 1998
+  },
+  {
+    "title": "Real-time 3-D interpretation of human behavior",
+    "journal": "SCIA - PROCEEDINGS OF THE SCANDINAVIAN CONFERENCE ON IMAGE ANALYSIS, VOLS 1 AND 2",
+    "type": "journal-article",
+    "doi": "",
+    "authors": [
+      "A Pentland",
+      "A Azarbayjani",
+      "N Oliver",
+      "M Brand"
+    ],
+    "citation_count": 0,
+    "full_text_url": "https://publons.com/wos-op/publon/44084004/",
+    "date": "1997",
+    "sort_date": "1997-01-01",
+    "year": 1997
+  },
+  {
+    "title": "Smart Spaces",
+    "journal": null,
+    "type": "other",
+    "doi": "",
+    "authors": [
+      "Ali Azarbayejani",
+      "Christopher R. Wren",
+      "Andrew D. Wilson",
+      "Dave Becker",
+      "Nuria Oliver",
+      "Deb Roy",
+      "Flavia Sparacino",
+      "François Bérard"
+    ],
+    "citation_count": 0,
+    "full_text_url": "https://www.lens.org/037-631-279-688-790",
+    "date": "1996-08-08",
+    "sort_date": "1996-08-08",
+    "year": 1996
+  },
+  {
+    "title": "Redes neuronales: un camino abierto a la inteligencia articifial",
+    "journal": "Creatividad en la generación de los 90: XXIII Congreso Internacional Univ'90",
+    "type": "book-chapter",
+    "doi": "",
+    "authors": [
+      "Nuria Oliver",
+      "Carmen Sánchez Avila"
+    ],
+    "citation_count": 0,
+    "full_text_url": null,
+    "date": "1990-01",
+    "sort_date": "1990-01-01",
+    "year": 1990
+  },
+  {
+    "title": "Natural Regularisation from Generative Models",
+    "journal": null,
+    "type": "book-chapter",
+    "doi": "",
+    "authors": [
+      "Nuria Oliver",
+      "Bernhard Schoelkopf",
+      "Alexander Smola"
+    ],
+    "citation_count": 0,
+    "full_text_url": "http://hdl.handle.net/1885/90429"
   }
 ]
