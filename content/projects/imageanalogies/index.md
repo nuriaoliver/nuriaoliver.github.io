@@ -33,4 +33,4 @@ A. Hertzmann. Ph.D. thesis, New York University, May 2001.
 
 ## Videos
 
-- [Texture-by-numbers demo](http://www.mrl.nyu.edu/projects/image-analogies/analogies.mpg) (25 MB, 2:08)
+- [Texture-by-numbers demo](analogies.mp4) (6.2 MB, 2:08)
