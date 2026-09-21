@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
-  const archiveHeading = document.querySelector("#historical-archive");
+  const archiveHeading = document.querySelector("#talks-by-setting");
   const queryInput = document.querySelector("#talks-query");
   const count = document.querySelector("#talks-count");
 
@@ -52,21 +52,6 @@ document.addEventListener("DOMContentLoaded", () => {
     categorySummary.textContent = `${categorySummary.textContent} (${categoryCount})`;
   }
 
-  const archiveIndex = document.createElement("ul");
-  archiveIndex.className = "talks-archive-index";
-  for (const group of archiveGroups) {
-    const item = document.createElement("li");
-    const link = document.createElement("a");
-    link.href = `#${group.id}`;
-    link.textContent = group.querySelector(":scope > summary").textContent;
-    link.addEventListener("click", () => {
-      group.open = true;
-    });
-    item.append(link);
-    archiveIndex.append(item);
-  }
-  archiveHeading.after(archiveIndex);
-
   for (const link of document.querySelectorAll('.talks-jump a[href^="#"]')) {
     link.addEventListener("click", () => {
       const target = document.querySelector(link.hash);
@@ -74,7 +59,9 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   }
 
-  const hashTarget = document.querySelector(window.location.hash);
+  const hashTarget = window.location.hash
+    ? document.querySelector(window.location.hash)
+    : null;
   if (hashTarget?.classList.contains("talks-archive-group")) hashTarget.open = true;
 
   const decadeGroups = [...document.querySelectorAll(".talks-decade")];

@@ -61,9 +61,10 @@
 .talks-archive-group summary {
   cursor: pointer;
   color: #174f72;
-  font-size: 1.15rem;
-  font-weight: 650;
-  padding: 1rem 0;
+  font-size: 1.05rem;
+  font-weight: 600;
+  line-height: 1.35;
+  padding: 0.9rem 0;
 }
 
 .talks-archive-group summary:hover,
@@ -121,19 +122,8 @@
   margin-right: 0.25rem;
 }
 
-.talks-archive-index {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.6rem 1rem;
-  margin: 0.25rem 0 1.5rem;
-  padding: 0;
-  list-style: none;
-}
-
-.talks-archive-index a {
-  color: #174f72;
-  text-decoration-thickness: 1px;
-  text-underline-offset: 0.2rem;
+#school-talks {
+  margin-top: 2.5rem;
 }
 
 .talks-archive-content li,
