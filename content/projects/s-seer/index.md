@@ -16,11 +16,11 @@ In this project, we explore the use of Expected Value of Information (EVI) to co
 
 ## Publications
 
-[Selective Perception Policies for Guiding Sensing and Computation in Multimodal Systems: A Comparative Analysis](cviuSpecIssue-S-Seer.pdf)
+[Selective Perception Policies for Guiding Sensing and Computation in Multimodal Systems: A Comparative Analysis](/publications/#oliver2005selective)
 Nuria Oliver and Eric Horvitz.
 *Computer Vision and Image Understanding (CVIU)*.
 
-[Layered Representations for Learning and Inferring Office Activity from Multiple Sensory Channels](oliver_cviuSpecIssue.pdf)
+[Layered Representations for Learning and Inferring Office Activity from Multiple Sensory Channels](/publications/#oliver2004layered)
 Nuria Oliver, Ashutosh Garg and Eric Horvitz.
 *Computer Vision and Image Understanding (CVIU)*.
 
@@ -28,7 +28,7 @@ Nuria Oliver, Ashutosh Garg and Eric Horvitz.
 Nuria Oliver and Eric Horvitz.
 *ICMI 2003*, Vancouver, BC, November 2003.
 
-[Layered Representations for Human Activity Recognition](assets/seer/olivern_layered.pdf)
+[Layered Representations for Human Activity Recognition](/papers/icmi2002.pdf)
 Nuria Oliver, Eric Horvitz and Ashutosh Garg.
 *ICMI 2002*, Pittsburgh, October 2002.
 

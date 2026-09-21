@@ -167,6 +167,9 @@ module.exports = function (eleventyConfig) {
     return content;
   });
 
+  // Validate the final URLs after link-rewriting transforms have run.
+  require("./_11ty/link-validator")(eleventyConfig);
+
   return {
     dir: {
       input: "content",

@@ -15,6 +15,6 @@ This paper describes a method for learning statistical models of 2D curves, and 
 
 ## Publications
 
-[Curve Analogies](assets/papers/egwr2002.pdf)
+[Curve Analogies](/papers/egwr2002.pdf)
 A. Hertzmann, N. Oliver, S. Seitz and B. Curless.
 *Eurographics Workshop on Rendering*, 2002.

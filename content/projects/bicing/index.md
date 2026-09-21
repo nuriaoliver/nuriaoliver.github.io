@@ -29,11 +29,11 @@ City-wide urban infrastructures are increasingly reliant on networked technology
 
 ## Publications
 
-["Sensing and Predicting the Pulse of the City through Shared Bicycling"](papers/IJCAI09_Bicing.pdf)
+["Sensing and Predicting the Pulse of the City through Shared Bicycling"](/publications/#froehlich2009bicycling)
 Froehlich, J., Neumann, J., and Oliver, N.
 *IJCAI 2009*, Pasadena, CA, July 2009. Acceptance rate: 25.7%.
 
-["Measuring the Pulse of the City through Shared Bicycle Programs"](papers/UrbanSense08.pdf)
+["Measuring the Pulse of the City through Shared Bicycle Programs"](/publications/#froehlich2008bicycle)
 Froehlich, J., Neumann, J., and Oliver, N.
 *UrbanSense08 Workshop*, Raleigh, NC, November 2008.
 

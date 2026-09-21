@@ -23,7 +23,7 @@ Many state-of-the-art recommender systems rely on user ratings as ground truth o
 
 ### Publications
 
-["I Like It, I Like It Not": Evaluating User Ratings Noise in Recommender Systems](LikeIt_umap09.pdf)
+["I Like It, I Like It Not": Evaluating User Ratings Noise in Recommender Systems](/publications/#amatriain2009ilikeit)
 Amatriain, X., Pujol, J.M. and Oliver, N.
 *UMAP 2009*, Trento, Italy, June 2009.
 

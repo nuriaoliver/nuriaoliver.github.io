@@ -19,6 +19,6 @@ RelAltTab is an enhanced Alt+Tab prototype that assists users in switching windo
 
 ## Publications
 
-[RelAltTab: Assisting Users in Switching Windows](assets/papers/iui2008.pdf)
+[RelAltTab: Assisting Users in Switching Windows](/papers/iui2008.pdf)
 Nuria Oliver, Mary Czerwinski, Greg Smith and Kristof Roomp.
 *IUI 2008*.

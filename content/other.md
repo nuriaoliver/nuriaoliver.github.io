@@ -11,12 +11,12 @@ redirect_from:
 * ["Image
   Analogies"](http://www.mrl.nyu.edu/projects/image-analogies/lf) Proceed. of SIGGRAPH '01 (August 2001)
 * ["Sensory Augmented Computing: Wearing the Museum 's Guide" "To
-  appear in the IEEE Micro Intl. Journal"](assets/papers/micro4.pdf)
+  appear in the IEEE Micro Intl. Journal"](/papers/micro4.pdf)
 * ["Driver Behavior Recognition in a Smart Car" "Proceed. of the Intl.
   Conf. on Intelligent Vehicles 2000 (IV '00)"](assets/driverbehavior/iv2000.pdf)
 * ["Human Interaction Recognition using Graphical Models" "Intl.
   Journal on Pattern Analysis and Machine Intelligence, PAMI (Sept
-  2000)"](assets/papers/PAMI_visual_surveillance-109636-1.pdf)
+  2000)"](/papers/PAMI_visual_surveillance-109636-1.pdf)
 * ["Redes de Bayes y Modelos Graficos"](ftp://ftp.research.microsoft.com/users/nuria/invitedTalks/INTERMEDIA2001/bayesNets.zip)
 
 Smart Clothes Fashion Show

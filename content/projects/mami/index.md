@@ -21,14 +21,14 @@ We present MAMI (Multimodal Automatic Mobile Indexing), a mobile-phone prototype
 
 ## Publications
 
-["Multimodal Photo Annotation and Retrieval on a Mobile Phone"](mobileIR_final.pdf)
+["Multimodal Photo Annotation and Retrieval on a Mobile Phone"](/publications/#anguera2008photo)
 Xavier Anguera, JieJun Xu and Nuria Oliver.
 *Int. Conf. on Multimedia Information Retrieval (MIR'08)*, October 2008.
 
-[MAMI: Multimodal Annotations on a Camera Phone](mhci2008_mami.pdf)
+[MAMI: Multimodal Annotations on a Camera Phone](/publications/#anguera2008mami)
 Xavier Anguera and Nuria Oliver.
 *Int. Conf. on Mobile HCI*, Amsterdam, September 2008.
 
-[Mobile and Multimodal Personal Image Retrieval: A User Study](mobileIR_final.pdf)
+[Mobile and Multimodal Personal Image Retrieval: A User Study](/publications/#anguera2008photo)
 Xavier Anguera, Nuria Oliver and Mauro Cherubini.
 *Workshop on Mobile Information Retrieval (MobIR'08), SIGIR 2008*, Singapore, July 2008.

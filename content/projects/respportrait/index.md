@@ -27,6 +27,6 @@ The sensing technology is a computer vision system that tracks the viewer's head
 
 ## Publications
 
-[Responsive Portraits](paper.html)
+[Responsive Portraits](/publications/#sparacino1997responsive)
 Flavia Sparacino, Nuria Oliver, Alex Pentland and Glorianna Davenport.
 *ISEA97*, Chicago, September 1997.

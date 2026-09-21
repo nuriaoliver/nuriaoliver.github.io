@@ -27,15 +27,15 @@ See also the successor system: [TripleBeat](/projects/triplebeat/).
 
 ## Publications
 
-[MPTrain: A Mobile Music and Physiology Based Personal Trainer](fp003-oliver.pdf)
+[MPTrain: A Mobile Music and Physiology Based Personal Trainer](/publications/#oliver2006mptrain)
 Nuria Oliver and Fernando Flores-Mangas.
 *MobileHCI 2006*, Helsinki, Finland, September 2006.
 
-[PAPA: Physiology and Purpose-Aware Automatic Playlist Generation](ismir2006.pdf)
+[PAPA: Physiology and Purpose-Aware Automatic Playlist Generation](/publications/#oliver2006papa)
 Nuria Oliver and Lucas Kreger-Stickles.
 *ISMIR 2006*, Victoria, Canada, October 2006.
 
-[Enhancing Exercise Performance through Real-time Physiological Monitoring and Music: A User Study](pervHealth2006.pdf)
+[Enhancing Exercise Performance through Real-time Physiological Monitoring and Music: A User Study](/publications/#oliver2006exercise)
 Nuria Oliver and Lucas Kreger-Stickles.
 *Pervasive Health 2006*, Innsbruck, Austria, November 2006.
 

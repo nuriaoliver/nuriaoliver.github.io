@@ -16,6 +16,6 @@ This paper proposes a new family of Hidden Markov Models (HMMs) named Mutual Inf
 
 ## Publications
 
-[MIHMMs: Mutual Information Hidden Markov Models](assets/papers/icml2002.pdf)
+[MIHMMs: Mutual Information Hidden Markov Models](/papers/icml2002.pdf)
 N. Oliver and A. Garg.
 *ICML 2002 Conference Proceedings*.

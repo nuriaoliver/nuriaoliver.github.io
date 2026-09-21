@@ -56,6 +56,7 @@ export default function () {
     const year    = parseInt(f(e, 'year'), 10) || 0;
     const doi     = (f(e, 'doi') || '').trim();
     const url     = (f(e, 'url') || '').trim();
+    const file    = (f(e, 'file') || '').trim();
     const link    = doi ? `https://doi.org/${doi}` : url;
     const note    = f(e, 'note');
     const hasAward = /award|prize/i.test(note);
@@ -86,6 +87,7 @@ export default function () {
       publisher   : f(e, 'publisher'),
       doi,
       url,
+      file,
       link,
       note,
       hasAward,

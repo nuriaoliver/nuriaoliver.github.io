@@ -21,11 +21,11 @@ In this project we develop hierarchical probabilistic representations for modeli
 
 ## Publications
 
-[A Comparison of HMMs and DBNs for Recognizing Office Activities](oliver-um05.pdf)
+[A Comparison of HMMs and DBNs for Recognizing Office Activities](/publications/#oliver2005hmm)
 Nuria Oliver and Eric Horvitz.
 *User Modeling 2005 (UM'05)*, Edinburgh, July 2005.
 
-[Selective Perception Policies for Guiding Sensing and Computation in Multimodal Systems: A Comparative Analysis](oliver_cviuSpecIssue.pdf)
+[Selective Perception Policies for Guiding Sensing and Computation in Multimodal Systems: A Comparative Analysis](/publications/#oliver2005selective)
 Nuria Oliver and Eric Horvitz.
 *Computer Vision and Image Understanding (CVIU)*, Vol. 100, Issue 1–2, 2005.
 
@@ -33,7 +33,7 @@ Nuria Oliver and Eric Horvitz.
 Nuria Oliver and Eric Horvitz.
 *ICMI 2003*, Vancouver, November 2003.
 
-[Layered Representations for Human Activity Recognition](olivern_layered.pdf)
+[Layered Representations for Human Activity Recognition](/papers/icmi2002.pdf)
 Nuria Oliver, Eric Horvitz and Ashutosh Garg.
 *ICMI 2002*, Pittsburgh, October 2002.
 

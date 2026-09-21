@@ -162,7 +162,7 @@ layout: base.njk
           {% set filterType = entry.type %}
         {% endif %}
 
-        <div class="pub-entry" data-type="{{ filterType }}">
+        <div id="pub-{{ entry.key }}" class="pub-entry" data-type="{{ filterType }}">
 
           {# badges #}
           <div class="pub-badges">
@@ -192,6 +192,9 @@ layout: base.njk
               <a href="{{ entry.link }}" target="_blank" rel="noopener">{{ entry.title }}</a>
             {% else %}
               {{ entry.title }}
+            {% endif %}
+            {% if entry.file %}
+              <a href="{{ entry.file }}" target="_blank" rel="noopener">Full text</a>
             {% endif %}
           </div>
 
