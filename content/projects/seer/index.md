@@ -42,4 +42,4 @@ Nuria Oliver, Eric Horvitz and Ashutosh Garg.
 
 ## Videos
 
-- [Live demonstration during Bill Gates' IJCAI 2001 keynote](video/cvpr2001video_short.mpg)
+- [Live demonstration during Bill Gates' IJCAI 2001 keynote](cvpr2001video-short.mp4)

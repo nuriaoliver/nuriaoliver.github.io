@@ -44,7 +44,7 @@ Nuria Oliver, Barbara Rosario and Alex Pentland.
 
 Examples of interactions recognized by the system:
 
-- [Follow](follow2_title.mpeg)
-- [Meet, talk and continue together](meet1_title.mpeg)
-- [Meet, talk and go on separately](meet_go_on1_title.mpeg)
-- [Change direction, meet, talk and go on separately](ch_dir32_1.mpeg)
+- [Follow](follow2-title.mp4)
+- [Meet, talk and continue together](meet1-title.mp4)
+- [Meet, talk and go on separately](meet-go-on1-title.mp4)
+- [Change direction, meet, talk and go on separately](ch-dir32-1.mp4)

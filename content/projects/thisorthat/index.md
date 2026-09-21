@@ -19,7 +19,7 @@ ThisOrThat is a mobile application for social shopping that leverages social net
 
 ## Videos
 
-- [ThisOrThat demo](thisorthat.mov)
+- [ThisOrThat demo](thisorthat.mp4)
 
 ## Publications
 

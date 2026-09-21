@@ -41,4 +41,4 @@ Nuria Oliver and Lucas Kreger-Stickles.
 
 ## Videos
 
-- [MPTrain demo](mpTrain%20v1_18%20w-attribution.wmv) (Windows Media format)
+- [MPTrain demo](mptrain-v1-18.mp4)

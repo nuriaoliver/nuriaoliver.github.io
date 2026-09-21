@@ -29,9 +29,8 @@ HealthGear is a real-time wearable system for monitoring, visualizing, and analy
 
 ## Videos
 
-- [HealthGear demo](healthGearISWC05.mpg) (MPEG format)
-- [Anonymized HealthGear demo](healthGearPervasive06.wmv) (Windows Media format)
+- [HealthGear demo](healthgear-iswc05.mp4)
+- [Anonymized HealthGear demo](healthgear-pervasive06.mp4)
 
 ## Presentations
 
-- [HealthGear slide deck](healthGear_final.ppt) (PowerPoint)

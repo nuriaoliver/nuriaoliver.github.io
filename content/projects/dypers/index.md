@@ -69,7 +69,7 @@ Examples of objects and situations DyPERS can recognize and augment:
 
 ## Videos
 
-[![](dypers.jpg)](dypers.mpg)
+[![](dypers.jpg)](dypers.mp4)
 
 ## Publications
 

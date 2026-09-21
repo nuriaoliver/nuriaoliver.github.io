@@ -37,5 +37,5 @@ Nuria Oliver, Eric Horvitz and Ashutosh Garg.
 
 ## Videos
 
-- [S-Seer in action](s-seer.wmv) (June 2004)
-- [Live demonstration during Bill Gates' IJCAI 2001 keynote](video/cvpr2001video_short.mpg)
+- [S-Seer in action](s-seer.mp4) (June 2004)
+- [Live demonstration during Bill Gates' IJCAI 2001 keynote](cvpr2001video-short.mp4)

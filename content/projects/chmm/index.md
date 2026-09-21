@@ -20,6 +20,6 @@ We present algorithms for coupling and training hidden Markov models (HMMs) to m
 
 Examples of gestures robustly classified by CHMMs:
 
-- [Brush knee](lbk.mpg)
-- [Cobra](lc.mpg)
-- [Single whip](lsw.mpg)
+- [Brush knee](lbk.mp4)
+- [Cobra](lc.mp4)
+- [Single whip](lsw.mp4)

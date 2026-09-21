@@ -32,4 +32,4 @@ Nuria Oliver and Alex Pentland.
 
 ## Videos
 
-- [Passing maneuver with system interpretation](pass_video_title.mpg) — labels in the bottom-right corner indicate the current HMM state at each moment.
+- [Passing maneuver with system interpretation](pass-video-title.mp4) — labels in the bottom-right corner indicate the current HMM state at each moment.

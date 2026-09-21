@@ -27,9 +27,9 @@ Andy Wilson and Nuria Oliver.
 
 ## Videos
 
-- [High resolution (1.5 Mbps)](GWindows%20video%201500k.WMV)
-- [Low resolution (384 Kbps)](GWindows%20video%20384k.WMV)
+- [High resolution (1.5 Mbps)](gwindows-video-1500k.mp4)
+- [Low resolution (384 Kbps)](gwindows-video-384k.mp4)
 
 ## Press
 
-- [CNN Headline News, "Hot Wired"](videos/GWindows-CNN-7-March-2003.wmv), March 7, 2003.
+- [CNN Headline News, "Hot Wired"](gwindows-cnn-7-march-2003.mp4), March 7, 2003.
