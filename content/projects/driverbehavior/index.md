@@ -1,54 +1,30 @@
 ---
 slug: driverbehavior
 title: Graphical Models for Driver Behavior Recognition and Prediction in a SmartCar
+category: Human Behavior Modeling and Recognition
+years: "1999–2000"
+date: 1999-01-01
+thumbnail: pass_video_title.gif
 ---
 
-Nuria Oliver and [Alex Pentland](http://www.media.mit.edu/~pentland)
+*Nuria Oliver and Alex Pentland — MIT Media Lab / Microsoft Research*
 
-Abstract
---------
+## Abstract
 
-I have developed a SmartCar testbed platform: a real-time data acquisition and
-playback system and a machine learning --dynamical graphical models-- framework
-for modeling and recognizing driver maneuvers at a tactical level, with
-particular focus on how contextual information affects the driver's performance.
-The SmartCar's perceptual input is multi-modal: four video signals capture the
-surrounding traffic, the driver's head position and the driver's viewpoint; and
-a real-time data acquisition system records the car's brake, gear, steering
-wheel angle, speed and acceleration throttle signals. We have carried out
-driving experiments with the instrumented car over a period of 2 months. Over 70
-drivers have driven the SmartCar for 1.25 hours in the greater Boston area.
-Dynamical Graphical models, HMMs and potentially extensions (CHMMs), have been
-trained using the experimental driving data to create models of seven different
-driver maneuvers: passing, changing lanes right and left, turning right and
-left, starting and stopping. These models are essential to build more realistic
-automated cars in car simulators, to improve the human-machine interface in
-driver assistance systems, to prevent potential dangerous situations and to
-create more realistic automated cars in car simulators.
+We developed a SmartCar testbed platform: a real-time data acquisition and playback system combined with a machine learning framework using dynamical graphical models for recognizing driver maneuvers at a tactical level, with particular focus on how contextual information affects driver performance. The SmartCar's perceptual input is multimodal: four video signals capture surrounding traffic, the driver's head position, and the driver's viewpoint; a real-time data acquisition system records brake, gear, steering wheel angle, speed, and throttle signals.
 
-Related Papers
---------------
+Over two months, more than 70 drivers operated the SmartCar for 1.25 hours each in the greater Boston area. HMMs and CHMMs were trained on this experimental data to create models of seven driver maneuvers: passing, changing lanes left and right, turning left and right, starting, and stopping. These models are essential for building more realistic car simulators, improving human-machine interfaces in driver assistance systems, and preventing dangerous driving situations.
 
-![](iv2000_revab2t.gif)
-Intelligent Vehicles 2000. Detroit. Michigan. October 2000
+## Publications
 
-### [A Graphical Models for Driver Behavior Recognition in a SmartCar](iv2000.pdf)
+[A Graphical Model for Driver Behavior Recognition in a SmartCar](iv2000.pdf)
+Nuria Oliver and Alex Pentland.
+*Intelligent Vehicles 2000*, Detroit, Michigan, October 2000.
 
-![](or00_small.gif)
-AeroSense 2000. Enhanced and Synthetic Vision 2000. Orlando. April 2000
+[Driver Behavior Recognition and Prediction in a SmartCar](spie2000.pdf)
+Nuria Oliver and Alex Pentland.
+*AeroSense 2000 / Enhanced and Synthetic Vision*, Orlando, April 2000.
 
-### [A Driver Behavior Recognition and Prediction in a SmartCar](spie2000.pdf)
+## Videos
 
-Videos
-------
-
-The following mpeg movie illustrates a passing maneuver with the interpretation
-that the system provides. On the bottom right corner of the .mpg movie you'll
-see a label, indicating what is happening in terms of simple actions. Each of
-these labels corresponds to one state in our HMM models.
-
-### [Passing in the highway](pass_video_title.mpg)
-
-#### Last revised April00
-
-Nuria Oliver / Microsoft Research
+- [Passing maneuver with system interpretation](pass_video_title.mpg) — labels in the bottom-right corner indicate the current HMM state at each moment.

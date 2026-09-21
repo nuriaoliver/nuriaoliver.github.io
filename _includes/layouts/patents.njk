@@ -1,0 +1,160 @@
+---
+layout: base.njk
+---
+<style>
+  .patents-page { max-width: 860px; margin: 0 auto; }
+
+  /* header row */
+  .pat-header {
+    display: flex; align-items: baseline;
+    justify-content: space-between; margin-bottom: 1.5rem;
+  }
+
+  /* legend */
+  .pat-legend { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 1.5rem; }
+  .pat-badge {
+    display: inline-block;
+    font-size: 0.72rem; font-weight: 600;
+    text-transform: uppercase; letter-spacing: .05em;
+    padding: 2px 9px; border-radius: 10px;
+  }
+  .pb-us   { background: #dbeafe; color: #1d4ed8; }
+  .pb-wipo { background: #dcfce7; color: #15803d; }
+  .pb-ep   { background: #fef3c7; color: #b45309; }
+
+  /* year group */
+  .pat-year-group { margin-top: 2rem; }
+  .pat-year-row {
+    display: flex; align-items: center; gap: 14px; margin-bottom: 0.8rem;
+  }
+  .pat-year-num {
+    font-size: 1.35rem; font-weight: 700; color: #0969da; flex-shrink: 0;
+  }
+  .pat-year-line { flex: 1; height: 1px; background: #d0d7de; }
+
+  /* entry */
+  .pat-entry {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 0 14px;
+    padding: 0.85rem 0;
+    border-bottom: 1px solid #f0f1f3;
+    align-items: start;
+  }
+  .pat-entry:last-child { border-bottom: none; }
+
+  .pat-num-col { min-width: 100px; }
+  .pat-number {
+    font-size: 0.8rem; font-family: monospace;
+    background: #f6f8fa; border: 1px solid #d0d7de;
+    border-radius: 6px; padding: 3px 8px;
+    display: inline-block; white-space: nowrap;
+    color: #24292f;
+  }
+  .pat-number a { color: inherit; text-decoration: none; }
+  .pat-number a:hover { text-decoration: underline; color: #0969da; }
+
+  .pat-title { font-size: 0.97rem; font-weight: 600; line-height: 1.4; margin-bottom: 4px; }
+  .pat-title a { color: #1a1a2e; text-decoration: none; }
+  .pat-title a:hover { color: #0969da; text-decoration: underline; }
+
+  .pat-inventors { font-size: 0.86rem; color: #57606a; margin-bottom: 3px; }
+  .pat-inventors strong { color: #1a1a2e; font-weight: 600; }
+
+  .pat-note { font-size: 0.8rem; color: #8b949e; }
+
+  @media (max-width: 540px) {
+    .pat-entry { grid-template-columns: 1fr; }
+    .pat-num-col { margin-bottom: 6px; }
+  }
+</style>
+
+<div class="patents-page">
+
+  <div class="pat-header">
+    <h1 class="mb-0">{{ title }}</h1>
+    <span class="text-muted" style="font-size:.9rem">{{ bib.totalPatents }} patents</span>
+  </div>
+
+  {% if content and content | trim %}
+    <div class="mb-4 text-muted" style="font-size:.95rem">{{ content | safe }}</div>
+  {% endif %}
+
+  <div class="pat-legend">
+    <span class="pat-badge pb-us">US Patent</span>
+    <span class="pat-badge pb-wipo">WIPO / PCT</span>
+    <span class="pat-badge pb-ep">European Patent</span>
+  </div>
+
+  {# Group by year #}
+  {% set lastYear = 0 %}
+  {% for pat in bib.patents %}
+
+    {% if pat.year != lastYear %}
+      {% if lastYear != 0 %}</div>{% endif %}
+      <div class="pat-year-group">
+        <div class="pat-year-row">
+          <span class="pat-year-num">{{ pat.year }}</span>
+          <div class="pat-year-line"></div>
+        </div>
+      {% set lastYear = pat.year %}
+    {% endif %}
+
+    {# classify badge #}
+    {% if pat.patentType == "patentwipo" %}
+      {% set badgeClass = "pb-wipo" %}
+      {% set badgeLabel = "WIPO" %}
+    {% elif pat.patentType == "patenteuro" %}
+      {% set badgeClass = "pb-ep" %}
+      {% set badgeLabel = "EP" %}
+    {% else %}
+      {% set badgeClass = "pb-us" %}
+      {% set badgeLabel = "US" %}
+    {% endif %}
+
+    <div class="pat-entry">
+
+      {# left column: number + badge #}
+      <div class="pat-num-col">
+        <span class="pat-badge pat-badge-sm {{ badgeClass }}" style="margin-bottom:5px;display:block">{{ badgeLabel }}</span>
+        <span class="pat-number">
+          {% if pat.patentUrl %}
+            <a href="{{ pat.patentUrl }}" target="_blank" rel="noopener">{{ pat.patentNumber }}</a>
+          {% else %}
+            {{ pat.patentNumber }}
+          {% endif %}
+        </span>
+      </div>
+
+      {# right column: title, inventors, note #}
+      <div>
+        <div class="pat-title">
+          {% if pat.patentUrl %}
+            <a href="{{ pat.patentUrl }}" target="_blank" rel="noopener">{{ pat.title }}</a>
+          {% else %}
+            {{ pat.title }}
+          {% endif %}
+        </div>
+
+        <div class="pat-inventors">
+          {% for author in pat.authors %}
+            {% if loop.index0 > 0 %},&nbsp;{% endif %}
+            {% if author == "Nuria Oliver" or author == "Oliver Nuria" or author == "N. Oliver" %}
+              <strong>{{ author }}</strong>
+            {% else %}
+              {{ author }}
+            {% endif %}
+          {% endfor %}
+        </div>
+
+        {% if pat.note %}
+          <div class="pat-note">{{ pat.note }}</div>
+        {% endif %}
+      </div>
+
+    </div>{# .pat-entry #}
+
+  {% endfor %}
+  {% if lastYear != 0 %}</div>{% endif %}
+
+</div>{# .patents-page #}

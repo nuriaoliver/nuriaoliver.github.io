@@ -1,70 +1,45 @@
 ---
 slug: humanbehavior
 title: "A Bayesian Computer Vision System for Modeling Human Interactions"
+category: Human Behavior Modeling and Recognition
+years: "1998"
+date: 1998-01-01
+thumbnail: follow1.gif
 ---
 
-Nuria Oliver, Barbara Rosario and Alex Pentland
+*Nuria Oliver, Barbara Rosario and Alex Pentland — MIT Media Lab / Microsoft Research*
 
-Abstract
---------
+## Abstract
 
-In [this paper](icvs99.pdf)
-we describe a real-time computer vision and machine learning system for modeling
-and recognizing human behaviors in a visual surveillance task. The system is
-particularly concerned with detecting when interactions between people occur,
-and classifying the type of interaction. Examples of interesting interaction
-behaviors include following another person, altering one's path to meet another,
-and so forth.
+We describe a real-time computer vision and machine learning system for modeling and recognizing human behaviors in a visual surveillance task. The system is particularly concerned with detecting when interactions between people occur and classifying the type of interaction. Examples include following another person, altering one's path to meet another, and so forth.
 
-Our system combines top-down with bottom-up information in a closed feedback
-loop, with both components employing a statistical Bayesian approach. We propose
-and compare two different state-based learning architectures, namely HMMs and
-CHMMs, for modeling behaviors and interactions. The CHMM model is shown to work
-much more efficiently and accurately.
+Our system combines top-down with bottom-up information in a closed feedback loop, with both components employing a statistical Bayesian approach. We propose and compare two state-based learning architectures — HMMs and CHMMs — for modeling behaviors and interactions. The CHMM model is shown to work much more efficiently and accurately.
 
-Finally, a synthetic agent training system is used to develop a priori models
-for recognizing human behaviors and interactions. We demonstrate the ability to
-use these a priori models to accurately classify real human behaviors and
-interactions with no additional tuning or training.
+A synthetic agent training system is used to develop a priori models for recognizing human behaviors and interactions. We demonstrate the ability to use these a priori models to accurately classify real human behaviors and interactions with no additional tuning or training.
 
-Related Papers
---------------
+## Publications
 
-![](cvpr98.gif) CVPR98 Workshop on Interpretation of Visual
-Motion Santa Barbara. June 1998  
-[A
-Bayesian Computer Vision System for Recognizing Human Interactions](ftp://whitechapel.media.mit.edu/pub/tech-reports/TR-459.ps.Z)
+[A Bayesian Computer Vision System for Recognizing Human Interactions](ftp://whitechapel.media.mit.edu/pub/tech-reports/TR-459.ps.Z)
+Nuria Oliver, Barbara Rosario and Alex Pentland.
+*CVPR 1998 Workshop on Interpretation of Visual Motion*, Santa Barbara, June 1998.
 
-![](nips-logo.gif) NIPS98 Denver (Colorado). December 1998  
 [Graphical Models for Recognizing Human Interactions](nips98.pdf)
+Nuria Oliver, Barbara Rosario and Alex Pentland.
+*NIPS 1998*, Denver, December 1998.
 
-![](icvs99.gif) ICVS99 Gran Canaria. Spain. January 1999  
 [A Bayesian Computer Vision System for Modeling Human Interactions](icvs99.pdf)
-
-![](agents-logo.GIF) Autonomous Agents 99. Seattle. May 1999
+Nuria Oliver, Barbara Rosario and Alex Pentland.
+*ICVS 1999*, Gran Canaria, January 1999.
 
 [A Synthetic Agent System for Bayesian Modeling of Human Interactions](aa99.pdf)
+Nuria Oliver, Barbara Rosario and Alex Pentland.
+*Autonomous Agents 1999*, Seattle, May 1999.
 
-Videos
-------
+## Videos
 
-Here are some examples of the interactions that our system recognizes as well as
-the video interpretation of the interacions by the system. On the bottom right
-corner of each .mpg movie you'll see a label, indicating what is happening in
-terms of simple actions. Each of these labels corresponds to one state in our
-CHMMs models.
+Examples of interactions recognized by the system:
 
-![](follow1.gif)[Follow](follow2_title.mpeg)
-
-[![](meet2.gif)
-Meet, talk and continue together](meet1_title.mpeg)
-
-[![](meet_go_on1_title.gif)
-Meet, talk and go on separately](meet_go_on1_title.mpeg)
-
-[![](chdir.gif)
-Change direction, meet, talk and go on separately](ch_dir32_1.mpeg)
-
-Last revised Dec98
-
-Nuria Oliver / Microsoft Research
+- [Follow](follow2_title.mpeg)
+- [Meet, talk and continue together](meet1_title.mpeg)
+- [Meet, talk and go on separately](meet_go_on1_title.mpeg)
+- [Change direction, meet, talk and go on separately](ch_dir32_1.mpeg)

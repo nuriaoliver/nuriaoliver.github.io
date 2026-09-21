@@ -10,11 +10,56 @@ module.exports = function (eleventyConfig) {
     "content/**/*.{jpg,jpeg,png,gif,svg,webp,pdf,mp4,gif}"
   );
 
+  // Collection: projects grouped by category in defined order
+  const PROJECT_CATEGORY_ORDER = [
+    "Wearable, Mobile and Urban Computing",
+    "Multimedia Analysis, Search and Retrieval",
+    "Data Mining, Social Network Analysis and User Modeling",
+    "Recommender Systems",
+    "Intelligent User Interfaces",
+    "Perceptual and Multimodal Interfaces",
+    "Human Behavior Modeling and Recognition",
+    "Computer Graphics",
+    "Machine Learning",
+  ];
+
+  eleventyConfig.addCollection("projectsByCategory", function (collectionApi) {
+    const projects = collectionApi.getAll().filter(
+      (p) =>
+        p.data.category &&
+        p.inputPath.includes("/projects/") &&
+        !p.inputPath.endsWith("/projects/index.md")
+    );
+
+    const grouped = {};
+    for (const p of projects) {
+      const cat = p.data.category;
+      if (!grouped[cat]) grouped[cat] = [];
+      grouped[cat].push(p);
+    }
+
+    // Sort each group by date descending
+    for (const cat of Object.keys(grouped)) {
+      grouped[cat].sort((a, b) =>
+        (b.data.date || "") > (a.data.date || "") ? 1 : -1
+      );
+    }
+
+    return PROJECT_CATEGORY_ORDER.filter((cat) => grouped[cat]).map((cat) => ({
+      category: cat,
+      id: cat.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, ""),
+      projects: grouped[cat],
+    }));
+  });
+
   // Set default layout for all pages
   eleventyConfig.addGlobalData("layout", "layouts/default.njk");
 
-  // Layout alias: front matter `layout: publications` → layouts/publications.njk
+  // Layout aliases
   eleventyConfig.addLayoutAlias("publications", "layouts/publications.njk");
+  eleventyConfig.addLayoutAlias("patents",      "layouts/patents.njk");
+  eleventyConfig.addLayoutAlias("projects",     "layouts/projects.njk");
+  eleventyConfig.addLayoutAlias("project",      "layouts/project.njk");
 
   // Markdown with raw HTML enabled
   const md = markdownIt({ html: true, linkify: true });
@@ -39,7 +84,12 @@ module.exports = function (eleventyConfig) {
   // Transform: rewrite .md hrefs to clean URL paths
   eleventyConfig.addTransform("fixMdLinks", function (content, outputPath) {
     if (outputPath && outputPath.endsWith(".html")) {
-      return content.replace(/href="([^"#?]*?)\.md"/g, (_, p1) => `href="${p1}/"`);
+      return content
+        .replace(/href="([^"#?]*?)\.md"/g, (_, path) => `href="${path}/"`)
+        .replace(
+          /href="(awards|bio|invitedtalks|patents|pictures|press|programcommittees|projects|publications|summary|summary2015|videos)\.htm(#[^"]*)?"/g,
+          (_, path, hash = "") => `href="/${path}/${hash}"`
+        );
     }
     return content;
   });

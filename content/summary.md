@@ -45,7 +45,7 @@ Education
 > MIT Media Lab   
 > Work on machine learning, AI, computer vision, computational perception,
 > wearable computers   
-> [My Ph.D. thesis in PDF format](assets/thesis/thesisNuriaOliver.pdf)
+> [My Ph.D. thesis in PDF format](https://www.nuriaoliver.com/thesis/thesisNuriaOliver.pdf)
 >
 > S.M. Electrical Engineering and Computer Science   
 > Honors: Best EECS graduate student of Spain   

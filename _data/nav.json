@@ -8,5 +8,6 @@
   { "name": "Patents",             "url": "/patents/" },
   { "name": "Program Committees",  "url": "/programcommittees/" },
   { "name": "Press",               "url": "/press/" },
-  { "name": "Videos",              "url": "/videos/" }
+  { "name": "Videos",              "url": "/videos/" },
+  { "name": "Summary & Contact",   "url": "/summary/" }
 ]

@@ -1,54 +1,32 @@
 ---
 title: "HealthGear: Automatic Sleep Apnea Monitoring and Detection on your Mobile Phone"
-categories: Wearable, Mobile and Urban Computing
+category: Wearable, Mobile and Urban Computing
+years: "2005–2007"
 date: 2005-01-01
+thumbnail: image002.jpg
 ---
 
+## Abstract
 
-Abstract
---------
-
-HealthGear is a real-time wearable system for monitoring, visualizing and
-analyzing physiological signals. HealthGear consists of a set of non-invasive
-physiological sensors wirelessly connected via Bluetooth to a cell phone which
-stores, transmits and analyzes the physiological data, and presents it to the
-user in an intelligible way. We have developed a first prototype using a blood
-oximeter to monitor the user's blood oxygen level and pulse while sleeping. We
-have developed two different algorithms for automatically detecting sleep apnea
-events, and we have evaluated the performance of the overall system (HW and SW)
-in a sleep study with 20 volunteers.
+HealthGear is a real-time wearable system for monitoring, visualizing, and analyzing physiological signals. It consists of a set of non-invasive physiological sensors wirelessly connected via Bluetooth to a cell phone, which stores, transmits, and analyzes the physiological data and presents it to the user in an intelligible way. We developed a first prototype using a blood oximeter to monitor the user's blood oxygen level and pulse while sleeping, along with two different algorithms for automatically detecting sleep apnea events. We evaluated the performance of the overall system in a sleep study with 20 volunteers.
 
 ![](image002.jpg)
 
-Fig. 1 HealthGear's Hardware
+*HealthGear hardware.*
 
-Related Papers
---------------
+## Publications
 
-[HealthGear: A Real-time Wearable System for
-Monitoring and Analyzing Physiological Signals](healthGear.pdf)(long version)
+[HealthGear: A Real-time Wearable System for Monitoring and Analyzing Physiological Signals](healthGear.pdf)
+(full version)
 
-[HealthGear: A Real-time Wearable System for
-Monitoring and Analyzing Physiological Signals(short version)](noliver-healthgear.pdf)
+[HealthGear: A Real-time Wearable System for Monitoring and Analyzing Physiological Signals](noliver-healthgear.pdf)
+(short version)
 
-Videos
-------
+## Videos
 
-[HealthGear](healthGearISWC05.mpg) video (mpg format)
+- [HealthGear demo](healthGearISWC05.mpg) (MPEG format)
+- [Anonymized HealthGear demo](healthGearPervasive06.wmv) (Windows Media format)
 
-[Anonymized HealthGear video](healthGearPervasive06.wmv) (Window
-Media format)
+## Presentations
 
-Press
------
-
-HealthGear in Scoble News: 
-
-<http://www.podtech.net/home/technology/2486/second-part-of-cool-microsoft-researchs-techfest-tour>
-
-<http://www.podtech.net/home/technology/2487/editors-choice-part-iii-of-microsoft-research-techfest-tour>
-
-Presentations
--------------
-
-HealthGear ([Powerpoint Presentation](healthGear_final.ppt))
+- [HealthGear slide deck](healthGear_final.ppt) (PowerPoint)

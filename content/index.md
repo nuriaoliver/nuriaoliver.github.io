@@ -28,8 +28,8 @@ efforts](summary2015.md) to make technology more accessible to non technical
 audiences and to inspire young people --and particularly girls-- to
 pursue careers in technology
 
-[Curriculum Vitae](assets/resume/NuriaOliverCV_English_2017_short.pdf)|
-[PhD Thesis](assets/thesis/thesisNuriaOliver.pdf)|
+[Curriculum Vitae](https://www.nuriaoliver.com/resume/NuriaOliverCV_English_2017_short.pdf)|
+[PhD Thesis](https://www.nuriaoliver.com/thesis/thesisNuriaOliver.pdf)|
 [Pictures](pictures.md)|
 [Other](other.md)
 [¿Qué es la Inteligencia Artificial?](https://ellisalicante.org/ia)

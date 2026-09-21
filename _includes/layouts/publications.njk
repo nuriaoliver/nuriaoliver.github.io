@@ -1,61 +1,274 @@
 ---
 layout: base.njk
 ---
-<section class="publications">
-  <h1>{{ title }}</h1>
+<style>
+  .pub-page { max-width: 860px; margin: 0 auto; }
 
-  {% set filteredPubs = publications | filterPublications(include_types) | sortByDate %}
+  /* ── filter bar ─────────────────────────────────────────────── */
+  .pub-filters { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 1.25rem; }
+  .pf-btn {
+    border: 1.5px solid #d0d7de;
+    border-radius: 20px;
+    padding: 4px 14px;
+    font-size: 0.82rem;
+    font-weight: 500;
+    background: #fff;
+    color: #57606a;
+    cursor: pointer;
+    transition: all .15s;
+    user-select: none;
+  }
+  .pf-btn:hover { background: #f6f8fa; border-color: #aab0b8; }
+  .pf-btn.active { background: #0969da; color: #fff; border-color: #0969da; }
 
-  {% if not filteredPubs.length %}
-    <p>No publications found.</p>
-  {% else %}
-    {{ content | safe }}
-    <ul class="pub-list">
-      {% for pub in filteredPubs %}
-        <li class="pub-item">
-          <div class="pub-title">
-            {% if pub.doi %}
-              <a href="https://doi.org/{{ pub.doi }}" target="_blank" rel="noopener">{{ pub.title }}</a>
-            {% elif pub.url %}
-              <a href="{{ pub.url }}" target="_blank" rel="noopener">{{ pub.title }}</a>
-            {% else %}
-              {{ pub.title }}
+  /* ── year heading ───────────────────────────────────────────── */
+  .pub-year-group { margin-top: 2.2rem; }
+  .pub-year-row {
+    display: flex; align-items: center; gap: 14px;
+    margin-bottom: 1rem;
+  }
+  .pub-year-num {
+    font-size: 1.45rem; font-weight: 700; color: #0969da;
+    flex-shrink: 0; line-height: 1;
+  }
+  .pub-year-line { flex: 1; height: 1px; background: #d0d7de; }
+
+  /* ── entry card ─────────────────────────────────────────────── */
+  .pub-entry {
+    padding: 0.85rem 0;
+    border-bottom: 1px solid #f0f1f3;
+  }
+  .pub-entry:last-child { border-bottom: none; }
+  .pub-badges { margin-bottom: 5px; display: flex; flex-wrap: wrap; gap: 5px; align-items: center; }
+
+  /* type badges */
+  .pb {
+    display: inline-block;
+    font-size: 0.68rem; font-weight: 600;
+    text-transform: uppercase; letter-spacing: .06em;
+    padding: 2px 9px; border-radius: 10px;
+  }
+  .pb-journal    { background: #dbeafe; color: #1d4ed8; }
+  .pb-conference { background: #dcfce7; color: #15803d; }
+  .pb-chapter    { background: #fef3c7; color: #b45309; }
+  .pb-book       { background: #ede9fe; color: #6d28d9; }
+  .pb-thesis     { background: #f1f5f9; color: #475569; }
+  .pb-techreport { background: #f1f5f9; color: #475569; }
+  .pb-preprint   { background: #fce7f3; color: #9d174d; }
+
+  /* award badge */
+  .pb-award {
+    display: inline-flex; align-items: center; gap: 4px;
+    font-size: 0.72rem; font-weight: 600;
+    padding: 2px 9px; border-radius: 10px;
+    background: #fffbeb; color: #b45309;
+    border: 1px solid #fcd34d;
+  }
+
+  /* title */
+  .pub-title {
+    font-size: 1rem; font-weight: 600; line-height: 1.45;
+    margin: 2px 0 5px;
+  }
+  .pub-title a { color: #1a1a2e; text-decoration: none; }
+  .pub-title a:hover { color: #0969da; text-decoration: underline; }
+
+  /* authors */
+  .pub-authors { font-size: 0.88rem; color: #57606a; margin-bottom: 3px; }
+  .pub-authors strong { color: #1a1a2e; font-weight: 600; }
+
+  /* venue line */
+  .pub-venue { font-size: 0.84rem; color: #6e7781; }
+  .pub-venue em { font-style: italic; }
+  .pub-venue .pub-vol { color: #8b949e; }
+
+  /* no results */
+  .pub-none { text-align: center; padding: 3rem; color: #8b949e; }
+
+  /* count */
+  #pub-count { font-size: 0.85rem; color: #8b949e; margin-bottom: 1.5rem; }
+</style>
+
+<div class="pub-page">
+
+  <div class="d-flex align-items-baseline justify-content-between mb-3">
+    <h1 class="mb-0">{{ title }}</h1>
+    <span class="text-muted" style="font-size:.9rem">{{ bib.totalPubs }} publications</span>
+  </div>
+
+  {% if content and content | trim %}
+    <div class="mb-4 text-muted" style="font-size:.95rem">{{ content | safe }}</div>
+  {% endif %}
+
+  {# ── Filter buttons ─────────────────────────────────────────── #}
+  <div class="pub-filters" role="group" aria-label="Filter publications by type">
+    <button class="pf-btn active" data-filter="all"
+            onclick="filterPubs(this,'all')">
+      All&nbsp;<span class="text-muted fw-normal">({{ bib.totalPubs }})</span>
+    </button>
+    {% if bib.typeCounts.journal %}
+    <button class="pf-btn" data-filter="journal"
+            onclick="filterPubs(this,'journal')">
+      Journal Articles&nbsp;<span class="text-muted fw-normal">({{ bib.typeCounts.journal }})</span>
+    </button>
+    {% endif %}
+    {% if bib.typeCounts.conference %}
+    <button class="pf-btn" data-filter="conference"
+            onclick="filterPubs(this,'conference')">
+      Conference Papers&nbsp;<span class="text-muted fw-normal">({{ bib.typeCounts.conference }})</span>
+    </button>
+    {% endif %}
+    {% if bib.typeCounts.chapter %}
+    <button class="pf-btn" data-filter="chapter"
+            onclick="filterPubs(this,'chapter')">
+      Book Chapters&nbsp;<span class="text-muted fw-normal">({{ bib.typeCounts.chapter }})</span>
+    </button>
+    {% endif %}
+    {% if bib.typeCounts.book %}
+    <button class="pf-btn" data-filter="book"
+            onclick="filterPubs(this,'book')">
+      Books&nbsp;<span class="text-muted fw-normal">({{ bib.typeCounts.book }})</span>
+    </button>
+    {% endif %}
+    {% if bib.typeCounts.preprint %}
+    <button class="pf-btn" data-filter="preprint"
+            onclick="filterPubs(this,'preprint')">
+      Preprints&nbsp;<span class="text-muted fw-normal">({{ bib.typeCounts.preprint }})</span>
+    </button>
+    {% endif %}
+    {% if bib.typeCounts.thesis or bib.typeCounts.techreport %}
+    <button class="pf-btn" data-filter="other"
+            onclick="filterPubs(this,'other')">
+      Other
+    </button>
+    {% endif %}
+  </div>
+
+  <div id="pub-count">Showing {{ bib.totalPubs }} publications</div>
+
+  {# ── Year groups ────────────────────────────────────────────── #}
+  {% for group in bib.pubYearGroups %}
+    <div class="pub-year-group" data-year="{{ group.year }}">
+      <div class="pub-year-row">
+        <span class="pub-year-num">{{ group.year }}</span>
+        <div class="pub-year-line"></div>
+      </div>
+
+      {% for entry in group.entries %}
+        {# determine extra 'data-type' to also catch thesis/techreport under 'other' #}
+        {% if entry.type == "thesis" or entry.type == "techreport" %}
+          {% set filterType = "other" %}
+        {% else %}
+          {% set filterType = entry.type %}
+        {% endif %}
+
+        <div class="pub-entry" data-type="{{ filterType }}">
+
+          {# badges #}
+          <div class="pub-badges">
+            {% if entry.type == "journal" %}
+              <span class="pb pb-journal">Journal</span>
+            {% elif entry.type == "conference" %}
+              <span class="pb pb-conference">Conference</span>
+            {% elif entry.type == "chapter" %}
+              <span class="pb pb-chapter">Book Chapter</span>
+            {% elif entry.type == "book" %}
+              <span class="pb pb-book">Book</span>
+            {% elif entry.type == "thesis" %}
+              <span class="pb pb-thesis">PhD Thesis</span>
+            {% elif entry.type == "techreport" %}
+              <span class="pb pb-techreport">Tech Report</span>
+            {% elif entry.type == "preprint" %}
+              <span class="pb pb-preprint">Preprint</span>
+            {% endif %}
+            {% if entry.hasAward %}
+              <span class="pb-award">★ {{ entry.note }}</span>
             {% endif %}
           </div>
 
-          {% if pub.authors %}
-            <div class="pub-authors">
-              {% for author in pub.authors %}
-                {% if loop.index0 < 4 %}
-                  {% if loop.index0 > 0 %}, {% endif %}
-                  {% if author in highlight_authors %}
-                    <strong>{{ author }}</strong>
-                  {% else %}
-                    {{ author }}
-                  {% endif %}
-                {% endif %}
-              {% endfor %}
-              {% if pub.authors.length > 4 %}, <em>et al.</em>{% endif %}
-            </div>
-          {% endif %}
-
-          <div class="pub-meta">
-            {% if pub.journal %}<em>{{ pub.journal }}</em>{% endif %}
-            {% if pub.date %} — {{ pub.date }}{% endif %}
+          {# title #}
+          <div class="pub-title">
+            {% if entry.link %}
+              <a href="{{ entry.link }}" target="_blank" rel="noopener">{{ entry.title }}</a>
+            {% else %}
+              {{ entry.title }}
+            {% endif %}
           </div>
-        </li>
-      {% endfor %}
-    </ul>
-  {% endif %}
-</section>
 
-<style>
-.publications { max-width: 800px; margin: 0 auto; line-height: 1.6; }
-.pub-list { list-style: none; padding-left: 0; }
-.pub-item { margin-bottom: 1.2em; }
-.pub-title a { font-weight: 600; color: #0055aa; text-decoration: none; }
-.pub-title a:hover { text-decoration: underline; }
-.pub-authors { font-size: 0.95em; color: #444; }
-.pub-authors strong { color: #000; }
-.pub-meta { font-size: 0.9em; color: #666; }
-</style>
+          {# authors — bold Nuria Oliver #}
+          <div class="pub-authors">
+            {% for author in entry.authors %}
+              {% if loop.index0 > 0 %},&nbsp;{% endif %}
+              {% if author == "Nuria Oliver" or author == "N. Oliver" or author == "Oliver Nuria" %}
+                <strong>{{ author }}</strong>
+              {% else %}
+                {{ author }}
+              {% endif %}
+            {% endfor %}
+          </div>
+
+          {# venue / metadata #}
+          <div class="pub-venue">
+            {% if entry.type == "chapter" %}
+              In&nbsp;<em>{{ entry.venue }}</em>{% if entry.publisher %},&nbsp;{{ entry.publisher }}{% endif %}
+            {% elif entry.type == "thesis" %}
+              PhD Thesis,&nbsp;<em>{{ entry.venue }}</em>
+            {% elif entry.type == "techreport" %}
+              Technical Report,&nbsp;<em>{{ entry.venue }}</em>
+            {% elif entry.venue %}
+              <em>{{ entry.venue }}</em>
+            {% endif %}
+            {% if entry.volume %}
+              <span class="pub-vol">&nbsp;Vol.&nbsp;{{ entry.volume }}
+                {% if entry.number %},&nbsp;No.&nbsp;{{ entry.number }}{% endif %}
+              </span>
+            {% endif %}
+            {% if entry.pages %}<span class="pub-vol">,&nbsp;pp.&nbsp;{{ entry.pages }}</span>{% endif %}
+            {% if not entry.hasAward and entry.note and entry.note | trim %}
+              &nbsp;—&nbsp;<span style="color:#b45309">{{ entry.note }}</span>
+            {% endif %}
+          </div>
+
+        </div>{# .pub-entry #}
+      {% endfor %}
+
+    </div>{# .pub-year-group #}
+  {% endfor %}
+
+  <div class="pub-none" id="pub-none" style="display:none">
+    No publications match the selected filter.
+  </div>
+
+</div>{# .pub-page #}
+
+<script>
+(function () {
+  var entries = document.querySelectorAll('.pub-entry');
+  var groups  = document.querySelectorAll('.pub-year-group');
+  var countEl = document.getElementById('pub-count');
+  var noneEl  = document.getElementById('pub-none');
+
+  window.filterPubs = function (btn, type) {
+    // toggle active button
+    document.querySelectorAll('.pf-btn').forEach(function (b) {
+      b.classList.toggle('active', b === btn);
+    });
+
+    var shown = 0;
+    entries.forEach(function (el) {
+      var show = type === 'all' || el.dataset.type === type;
+      el.style.display = show ? '' : 'none';
+      if (show) shown++;
+    });
+
+    groups.forEach(function (g) {
+      var hasVisible = Array.from(g.querySelectorAll('.pub-entry'))
+        .some(function (el) { return el.style.display !== 'none'; });
+      g.style.display = hasVisible ? '' : 'none';
+    });
+
+    countEl.textContent = 'Showing ' + shown + ' publication' + (shown !== 1 ? 's' : '');
+    noneEl.style.display = shown === 0 ? '' : 'none';
+  };
+}());
+</script>
