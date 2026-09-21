@@ -20,7 +20,7 @@ We present a framework for processing images by example, called "image analogies
 
 ## Publications
 
-[Image Analogies](http://www.mrl.nyu.edu/publications/image-analogies/)
+[Image Analogies](/papers/analogies.pdf)
 A. Hertzmann, C. Jacobs, N. Oliver, B. Curless, D. Salesin.
 *SIGGRAPH 2001 Conference Proceedings*.
 

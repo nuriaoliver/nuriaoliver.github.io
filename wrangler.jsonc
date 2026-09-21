@@ -1,0 +1,9 @@
+{
+  "$schema": "./node_modules/wrangler/config-schema.json",
+  "name": "nuriaoliver-github-io",
+  "compatibility_date": "2026-09-21",
+  "assets": {
+    "directory": "./_site",
+    "html_handling": "auto-trailing-slash"
+  }
+}

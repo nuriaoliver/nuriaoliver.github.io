@@ -5,8 +5,12 @@
   },
   "scripts": {
     "clean": "node -e \"require('node:fs').rmSync('_site', { recursive: true, force: true })\"",
-    "build": "npm run clean && eleventy",
-    "start": "eleventy --serve"
+    "build": "npm run clean && eleventy && npm run validate:assets",
+    "validate:assets": "node scripts/validate-asset-sizes.mjs _site",
+    "test": "node --test",
+    "start": "eleventy --serve",
+    "deploy": "npx wrangler deploy",
+    "deploy:preview": "npx wrangler versions upload"
   },
   "dependencies": {
     "@11ty/eleventy": "^3.1.6",
