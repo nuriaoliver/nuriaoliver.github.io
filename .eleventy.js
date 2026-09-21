@@ -5,6 +5,11 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy({ static: "/" });
   // Copy nav.css
   eleventyConfig.addPassthroughCopy({ "assets/css": "/css" });
+  // Copy compiled Bootstrap assets from the pinned npm package
+  eleventyConfig.addPassthroughCopy({
+    "node_modules/bootstrap/dist/css/bootstrap.min.css": "/css/bootstrap.min.css",
+    "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js": "/js/bootstrap.bundle.min.js",
+  });
   // Copy images and PDFs from content page bundles
   eleventyConfig.addPassthroughCopy(
     "content/**/*.{jpg,jpeg,png,gif,svg,webp,pdf,mp4,gif}"
