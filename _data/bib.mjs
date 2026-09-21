@@ -59,7 +59,8 @@ export default function () {
     const file    = (f(e, 'file') || '').trim();
     const link    = doi ? `https://doi.org/${doi}` : url;
     const note    = f(e, 'note');
-    const hasAward = /award|prize/i.test(note);
+    const citationCount = parseInt(f(e, 'citation_count'), 10) || 0;
+    const hasAward = /award|prize|spotlight|honou?rable mention|distinguished paper/i.test(note) || citationCount >= 1000;
 
     // authors: the parser returns an array of {firstName,lastName,...}
     const rawAuthors = e.fields.author || [];
@@ -90,6 +91,8 @@ export default function () {
       file,
       link,
       note,
+      citationCount,
+      citationCountLabel: citationCount.toLocaleString('en-US'),
       hasAward,
       // patent
       patentNumber,
@@ -106,6 +109,7 @@ export default function () {
 
   const typeCounts = {};
   for (const e of publications) typeCounts[e.type] = (typeCounts[e.type] || 0) + 1;
+  const highlightedCount = publications.filter(e => e.hasAward).length;
 
   const yearMap = {};
   for (const e of publications) {
@@ -125,6 +129,7 @@ export default function () {
     publications,
     pubYearGroups,
     typeCounts,
+    highlightedCount,
     totalPubs   : publications.length,
     patents,
     totalPatents: patents.length,

@@ -11,7 +11,7 @@ period, with research areas retained within each period. More recent work is
 represented in the [major ELLIS Alicante projects](#major-ellis-alicante-projects)
 and my [publications](/publications/).
 
-## Major ELLIS Alicante projects
+<h2 id="major-ellis-alicante-projects">Major ELLIS Alicante projects</h2>
 
 The following projects represent major recent work led or co-led by Nuria Oliver
 through ELLIS Alicante.

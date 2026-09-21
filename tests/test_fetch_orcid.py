@@ -125,3 +125,26 @@ def test_bibtex_api_round_trip_preserves_patents(tmp_path):
     reparsed = bibtexparser.loads(source.read_text(encoding="utf-8"), parser=parser)
     assert {entry["ENTRYTYPE"] for entry in reparsed.entries} == {"patent", "article"}
     assert {entry["ID"] for entry in reparsed.entries} == {"existing", "author2026distinct"}
+
+
+def test_bibtex_writer_orders_entries_by_citation_key(tmp_path):
+    source = tmp_path / "publications.bib"
+    source.write_text(
+        "@article{zulu,\n  author = {Nuria Oliver},\n  title = {Existing Article},\n  year = {2020}\n}\n",
+        encoding="utf-8",
+    )
+    database = load_bibliography(source)
+    candidate = {
+        "title": "Distinct Published Article",
+        "authors": ["Example Author", "Nuria Oliver"],
+        "year": 2026,
+        "doi": "10.1000/distinct",
+        "crossref_type": "journal-article",
+        "journal": "Example Journal",
+    }
+
+    add_candidates(source, database, [candidate], [0])
+
+    parser = bibtexparser.bparser.BibTexParser(ignore_nonstandard_types=False)
+    reparsed = bibtexparser.loads(source.read_text(encoding="utf-8"), parser=parser)
+    assert [entry["ID"] for entry in reparsed.entries] == ["author2026distinct", "zulu"]

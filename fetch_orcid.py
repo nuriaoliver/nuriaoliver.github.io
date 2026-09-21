@@ -457,7 +457,7 @@ def add_candidates(bib_path, bib_database, candidates, selected_indexes):
     bib_database.entries.extend(entries)
     writer = BibTexWriter()
     writer.indent = "  "
-    writer.order_entries_by = None
+    writer.order_entries_by = ("ID",)
     with Path(bib_path).open("w", encoding="utf-8", newline="\n") as bib_file:
         bibtexparser.dump(bib_database, bib_file, writer=writer)
     return entries

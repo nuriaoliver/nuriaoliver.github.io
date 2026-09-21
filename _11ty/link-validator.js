@@ -79,7 +79,6 @@ function isKnownUrl(url, validUrls) {
 
 module.exports = function linkValidator(eleventyConfig) {
   const linksByOutputPath = new Map();
-  const anchorsByOutputPath = new Map();
   const inputByOutputPath = new Map();
 
   eleventyConfig.addTransform("collectInternalLinks", function collectInternalLinks(content, outputPath) {
@@ -96,7 +95,6 @@ module.exports = function linkValidator(eleventyConfig) {
 
     const resolvedOutputPath = path.resolve(outputPath);
     linksByOutputPath.set(resolvedOutputPath, links);
-    anchorsByOutputPath.set(resolvedOutputPath, collectAnchors(content));
     inputByOutputPath.set(resolvedOutputPath, this.page && this.page.inputPath);
     return content;
   });
@@ -111,10 +109,16 @@ module.exports = function linkValidator(eleventyConfig) {
     for (const [outputPath, links] of linksByOutputPath) {
       for (const link of links) {
         const targetOutputPath = path.resolve(outputDirectory, link.path.replace(/^\/+/, ""));
-        const targetCandidates = [targetOutputPath];
-        if (link.path.endsWith("/")) targetCandidates.push(path.join(targetOutputPath, "index.html"));
-        else targetCandidates.push(path.join(targetOutputPath, "index.html"));
-        const targetPath = targetCandidates.find((candidate) => fs.existsSync(candidate));
+        const targetCandidates = link.path.endsWith("/")
+          ? [path.join(targetOutputPath, "index.html"), targetOutputPath]
+          : [targetOutputPath, path.join(targetOutputPath, "index.html")];
+        const targetPath = targetCandidates.find((candidate) => {
+          try {
+            return fs.statSync(candidate).isFile();
+          } catch {
+            return false;
+          }
+        });
         const url = `${link.path}${link.fragment ? `#${link.fragment}` : ""}`;
 
         if (!isKnownUrl(link.path, validUrls)) {
@@ -123,7 +127,9 @@ module.exports = function linkValidator(eleventyConfig) {
             url,
           });
         } else if (link.fragment) {
-          const anchors = targetPath ? anchorsByOutputPath.get(targetPath) : null;
+          const anchors = targetPath
+            ? collectAnchors(fs.readFileSync(targetPath, "utf8"))
+            : null;
           if (!anchors || !anchors.has(link.fragment)) {
             failures.push({
               source: inputByOutputPath.get(outputPath) || path.relative(process.cwd(), outputPath),

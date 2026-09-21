@@ -106,6 +106,12 @@ layout: base.njk
             onclick="filterPubs(this,'all')">
       All&nbsp;<span class="text-muted fw-normal">({{ bib.totalPubs }})</span>
     </button>
+    {% if bib.highlightedCount %}
+    <button class="pf-btn" data-filter="highlighted"
+            onclick="filterPubs(this,'highlighted')">
+      Highlighted&nbsp;<span class="text-muted fw-normal">({{ bib.highlightedCount }})</span>
+    </button>
+    {% endif %}
     {% if bib.typeCounts.journal %}
     <button class="pf-btn" data-filter="journal"
             onclick="filterPubs(this,'journal')">
@@ -162,7 +168,7 @@ layout: base.njk
           {% set filterType = entry.type %}
         {% endif %}
 
-        <div id="pub-{{ entry.key }}" class="pub-entry" data-type="{{ filterType }}">
+        <div id="{{ entry.key }}" class="pub-entry" data-type="{{ filterType }}" data-highlighted="{{ entry.hasAward }}">
 
           {# badges #}
           <div class="pub-badges">
@@ -182,7 +188,12 @@ layout: base.njk
               <span class="pb pb-preprint">Preprint</span>
             {% endif %}
             {% if entry.hasAward %}
-              <span class="pb-award">★ {{ entry.note }}</span>
+              {% if entry.note and entry.note | trim %}
+                <span class="pb-award">★ {{ entry.note }}</span>
+              {% endif %}
+              {% if entry.citationCount >= 1000 %}
+                <span class="pb-award">★ {{ entry.citationCountLabel }} citations</span>
+              {% endif %}
             {% endif %}
           </div>
 
@@ -259,7 +270,8 @@ layout: base.njk
 
     var shown = 0;
     entries.forEach(function (el) {
-      var show = type === 'all' || el.dataset.type === type;
+      var show = type === 'all' ||
+        (type === 'highlighted' ? el.dataset.highlighted === 'true' : el.dataset.type === type);
       el.style.display = show ? '' : 'none';
       if (show) shown++;
     });
