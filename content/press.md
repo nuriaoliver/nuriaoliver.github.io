@@ -386,7 +386,7 @@ and commentary on my work in artificial intelligence and its impact on society.
   of scientists in Spain"](http://www.expansion.com/agencia/europa_press/2017/03/08/20170308134645.html) Expansion, March 2017
 * ["Nuria Oliver: Networking data scientists for social good"](http://www.dataiq.co.uk/article/nuria-oliver-networking-data-scientists-social-good)
   dataIQ, March 2017
-* ["Nuria Oliver"](assets/press/InformacionMarch2017.pdf)
+* ["Nuria Oliver"](/press/informacionmarch2017.pdf)
   INFORMACION, March 2017
 * "[Nuria
   Oliver: you do not need to act as a man to be successful
@@ -456,7 +456,7 @@ and commentary on my work in artificial intelligence and its impact on society.
   newspaper. Feb 2016
 * ["Nuria Oliver"](http://elpais.com/elpais/2015/12/04/eps/1449250756_177381.html) Extensive interview for EL PAIS Sunday Magazine.
   Dec 2015
-* "[The Decisive Debate](assets/press/MarieClaire_Dec2015.pdf)"
+* "[The Decisive Debate](/press/marieclaire-dec2015.pdf)"
   Questions to 4 presidential candidates. Marie Claire magazine. Dec
   2015
 * ["Mobile Antennas for Social Good"](http://www.levante-emv.com/valencia/2015/11/27/antenas-moviles-social/1347087.html#) Levante Newspaper. Nov 2015
@@ -464,9 +464,9 @@ and commentary on my work in artificial intelligence and its impact on society.
   and smartphones: when technology is able to understand our emotions](http://blog.corriereinnovazione.corriere.it/2015/11/04/algoritmi-e-smartphone-quando-la-tecnologia-e-in-grado-di-capire-i-nostri-stati-emotivi/?refresh_ce-cp)"
   Il corriere della sera. Nov 2015
 * "[Artificial
-  Intelligence](assets/press/MUYINTERESANTE_Noviembre2015_NuriaOliver.pdf)" Muy Interesante Magazine. Nov 2015
+  Intelligence](/press/muyinteresante-noviembre2015-nuriaoliver.pdf)" Muy Interesante Magazine. Nov 2015
 * "[Do companies
-  value experience?](assets/press/Nuria%20Oliver%20en%20Yo%20Dona.pdf)" Debate for Yo Dona magazine with Marta
+  value experience?](/press/nuria-oliver-en-yo-dona.pdf)" Debate for Yo Dona magazine with Marta
   Robles. Nov 2015
 * "[Nuria
   Oliver, Directora Cientifica en Telefonica I+D](http://www.protectia.eu/entrevistas/nuria-oliver-telefonica/)" Protectia. Sept
@@ -536,7 +536,7 @@ and commentary on my work in artificial intelligence and its impact on society.
 * ["Los datos de los moviles predicen en que barrio de Londres se producira un
   crimen"](http://esmateria.com/2014/09/21/los-datos-de-los-moviles-predicen-en-que-barrio-de-londres-se-va-cometer-un-crimen/)Materia. Sept 2014
 * ["Researchers use cell-phone data, not precogs, to predict crime in London"](http://www.engadget.com/2014/09/18/london-crime-prediction/)Engadget. Sept 2014
-* ["Una mina de datos y buenas acciones](http://telefonicacatalunya.com/wp-content/uploads/2014/09/ActualidadEconomica_Una_mina_de_datos_y_bunas_acciones.pdf)" Actualidad Economica. Sept 2014
+* ["Una mina de datos y buenas acciones](/press/actualidadeconomica-una-mina-de-datos-y-bunas-acciones.pdf)" Actualidad Economica. Sept 2014
 * ["Researchers Test Personal Data Market to Find Out How Much your Information
   is Woth"](http://www.technologyreview.com/view/528866/researchers-test-personal-data-market-to-find-out-how-much-your-information-is-worth/)MIT Technology Review. July 2014
 * ["How much would you auction your personal data for?"](http://www.vocativ.com/tech/infosec/much-auction-personal-data/)Vocative. July 2014
@@ -566,90 +566,90 @@ and commentary on my work in artificial intelligence and its impact on society.
 * ["Para talentos, los de casa"](http://www.elmundo.es/elmundo/2012/04/13/alicante/1334307227.html). Article in EL MUNDO newspaper. April 2012.
 * ["13 most influential young women in Spain](http://www.hoymujer.com/Hoy/mujeres-hoy/imagen/661550/Cuestion-influencia-ONLINE-661436012012.html)". Mujer Hoy Magazine. January
   2012.
-* ["Female Scientists"](assets/press/MujerHoyExtractApril2010.pdf).
+* ["Female Scientists"](/press/mujerhoyextractapril2010.pdf).
   Mujer Hoy Magazine. April 2010
 * ["Women's Forum Rising Talents"](press/LeFigaroMadameOct2009.pdf).
   Le Figaro Madame. October 2009
 * ["100 Leaders for the
-  Future"](assets/press/CapitalMay09_NuriaOliver.pdf). El Capital Magazine. May 2009
+  Future"](/press/capitalmay09-nuriaoliver.pdf). El Capital Magazine. May 2009
 * ["El boom de Internet en los
-  telefonos celulares"](assets/press/channelnewsperu_2009-05.pdf). Channel News Peru. May 22nd 2009
+  telefonos celulares"](/press/channelnewsperu-2009-05.pdf). Channel News Peru. May 22nd 2009
 * ["Summary of my talk at
-  BDigital Congress"](assets/press/actualidad_noticias_may2009.pdf)AHCIET, Ibero-American Association of Research
+  BDigital Congress"](/press/actualidad-noticias-may2009.pdf)AHCIET, Ibero-American Association of Research
   Centers and Telecommunication Enterprises. May 2009
 * "[I do research
-  to improve people's quality of life](assets/press/InterviewsInnovationBarcelonaCity2009.pdf)". Barcelona Innova Interview. 2009
+  to improve people's quality of life](/press/interviewsinnovationbarcelonacity2009.pdf)". Barcelona Innova Interview. 2009
 * ["Telefonica develops solutions for
-  Bicing".](assets/press/ElPaisBicingOct08.pdf)El Pais Newspaper. Oct 2008
+  Bicing".](/press/elpaisbicingoct08.pdf)El Pais Newspaper. Oct 2008
 * ["Telefonica works on 3D
-  video and social shopping".](assets/press/ExpansionCatalunyaOct08_1.pdf)Expansion Newspaper. Oct 2008
+  video and social shopping".](/press/expansioncatalunyaoct08-1.pdf)Expansion Newspaper. Oct 2008
 * ["Telefonica predicts that
-  the mobile phone will be used to do social shopping".](assets/press/ExpansionCatalunyaOct08.pdf)Expansion Newspaper. Oct 2008
+  the mobile phone will be used to do social shopping".](/press/expansioncatalunyaoct08.pdf)Expansion Newspaper. Oct 2008
 * ["Ciencia y Empresa, un maridaje con
-  potencial"](assets/press/CapitalJune08.pdf)Capital Magazine. June 2008
-* ["Innovate, now for real"](assets/press/Pulso2008_1.pdf) Pulso
+  potencial"](/press/capitaljune08.pdf)Capital Magazine. June 2008
+* ["Innovate, now for real"](/press/pulso2008-1.pdf) Pulso
   Magazine. 2008
 * "Nuria Oliver" LA CAIXA Foundation Magazine. June 2008
 * ["Cheque en blanco para formar a los
-  futuros gestores de empresas"](assets/press/cinco_dias_2008-05.pdf)Cinco Dias Newspaper. May 2008
+  futuros gestores de empresas"](/press/cinco-dias-2008-05.pdf)Cinco Dias Newspaper. May 2008
 * "Repatriar jovenes talentos" La Vanguardia Newspaper. March 2008
-* ["Nuria Oliver"](assets/press/LaVerdadJan08.pdf) Interview for La
+* ["Nuria Oliver"](/press/laverdadjan08.pdf) Interview for La
   Verdad Newspaper. Feb 2008
 * ["Nuria Oliver deja a Bill
-  Gates por Alierta"](assets/press/nuriaoliverExpansionJan08.pdf)by Noemi Gomez. Expansion newspaper. Jan 2008
+  Gates por Alierta"](/press/nuriaoliverexpansionjan08.pdf)by Noemi Gomez. Expansion newspaper. Jan 2008
 * ["Telefonica repatria jovenes
-  investigadores"](assets/press/CyberpaisJan08.pdf)by Tomas del Clos. EL PAIS newspaper. Jan 2008
+  investigadores"](/press/cyberpaisjan08.pdf)by Tomas del Clos. EL PAIS newspaper. Jan 2008
 * "Telefonica invierte 100 millones en Catalunya" EL PAIS newspaper. Nov
   2007
 * ["Telefonica
-  I+D le 'roba ' talento a Microsoft"](assets/press/Expansion_Catalunya_28_Noviembre_2007.pdf)Expansion Catalunya newspaper. Nov
+  I+D le 'roba ' talento a Microsoft"](/press/expansion-catalunya-28-noviembre-2007.pdf)Expansion Catalunya newspaper. Nov
   2007
 * ["Microsoft Researchers show off
-  Wireless Projects"](assets/press/PCWorld%202007-07-16.pdf)PCWorld Magazine Article. July 2007
+  Wireless Projects"](/press/pcworld-2007-07-16.pdf)PCWorld Magazine Article. July 2007
 * ["Microsoft TechFest,
   Editor 's Choice, 2007"](press/NuriaOliverPodTech_net2007.mht)  Scooble Show. PodTech.net. March 2007
 * "HealthGear and MPTrain" Interview and demo for ABC "Good Morning
   America". July 2007
 * ["El cerebro que nos cambio el
-  mundo"](assets/press/LaVanguardiaJun07.pdf)by David Dusster. La Vanguardia Magazine. June 2007
-* ["Women at the top"](assets/press/MujeryCienciaJune2007.pdf) Women and
+  mundo"](/press/lavanguardiajun07.pdf)by David Dusster. La Vanguardia Magazine. June 2007
+* ["Women at the top"](/press/mujerycienciajune2007.pdf) Women and
   Science. June 2007
 * "Nuria Oliver" Interview for QUO Magazine. April 2006
-* ["Interview in Noche Sin Tregua"](assets/press/ParamountComedyFeb09.pdf)
-  [Paramount Comedy](assets/press/ParamountComedyFeb09.pdf). February 2006
+* ["Interview in Noche Sin Tregua"](/press/paramountcomedyfeb09.pdf)
+  [Paramount Comedy](/press/paramountcomedyfeb09.pdf). February 2006
 * "Viaje al Centro de Microsoft"
   [11 page article about Microsoft](http://elpais.com/diario/2006/01/22/eps/1137914810_850215.html) with a
   [page-size picture](assets/press/EPS_Ins_08%20(Custom).jpg) and
   [paragraph about me and my research](assets/press/EPS_Ins_09%20(Custom).jpg).
   EL PAIS EPS. Jan 2006
-* ["Nuria Oliver"](assets/journalism/caixaNewsLetterSept2005.pdf)
+* ["Nuria Oliver"](/press/caixanewslettersept2005.pdf)
   La Caixa Newsletter. Sept 2005
 * "[Interview
-  with Nuria Oliver](assets/press/CEDI%202005-09-15%20entrevista%20nuria%20oliver.pdf)" CEDI. Sept 2005
+  with Nuria Oliver](/press/cedi-2005-09-15-entrevista-nuria-oliver.pdf)" CEDI. Sept 2005
 * "Nuria Oliver. Interview with an expert in AI". Muy Interesante
   Magazine. Aug 2005.
-  [Page 1.](assets/journalism/muyInteresanteAug2005_1.pdf)
-  [Page 2.](assets/journalism/muyInteresanteAug2005_2.pdf)
-  [Page 3.](assets/journalism/muyInteresanteAug2005_3.pdf)
+  [Page 1.](/press/muyinteresanteaug2005-1.pdf)
+  [Page 2.](/press/muyinteresanteaug2005-2.pdf)
+  [Page 3.](/press/muyinteresanteaug2005-3.pdf)
 * ["Nuria Oliver". Long
   interview (6 pages) in the Economy Magazine "Actualidad Economica". Feb 2005](assets/journalism/actualidadEconomicaFeb05.jpg)
-* ["Nuria Oliver"](assets/press/dotnet_mania_2005-05.pdf)
+* ["Nuria Oliver"](/press/dotnet-mania-2005-05.pdf)
   DotNetMania Magazine. Jan 2005
-* ["Artificial Intelligence"](assets/press/de%20cerca%202005-01-09.pdf). Invited
+* ["Artificial Intelligence"](/press/de-cerca-2005-01-09.pdf). Invited
   guest in the 1 hour long program named "De Cerca", TVE2. Jan 2005
 * "Nuria Oliver". Featured on an article on RONDA magazine (Iberia
   airlines magazine). Dec, 2004
-* ["Ciencia Actual: Nuria Oliver"](assets/press/LaVerdad04.pdf) by
+* ["Ciencia Actual: Nuria Oliver"](/press/laverdad04.pdf) by
   J.A. Lozano. La Verdad newspaper. 2004
 * ["Una espanyola en la cima
-  digital".](assets/journalism/elpaisSept2004.pdf)Interview on EL PAIS newspaper. Sept 24, 2004
+  digital".](/press/elpaissept2004.pdf)Interview on EL PAIS newspaper. Sept 24, 2004
 * "TR 100 Award" Award by Technology Review. MIT. Sept 2004
 * “Microsoft researchers from far-flung labs share work in Redmond" by Dan
   Richman. Seattle P-I newspaper, Feb 2003
 * CNN Headline News, 'Hot-wired ' and CNN Headline News National Cable,
   March 7, 2003
 * ["We need to provide
-  intelligence, perception and emotion to computers"](assets/press/MicrosoftPerspectivesSpring2002.pdf). Interview with Nuria
+  intelligence, perception and emotion to computers"](/press/microsoftperspectivesspring2002.pdf). Interview with Nuria
   Oliver. Microsoft Perspectives. Spring 2002
 * Interview for "El PAIS" newspaper. El PAIS newspaper. Valencia. May
   01
@@ -669,13 +669,13 @@ and commentary on my work in artificial intelligence and its impact on society.
 * "[La vida en un chip"](assets/journalism/GUjunio99.jpg)
   by Maria Jose Falco. Gaceta Universitaria Newspaper. Madrid. Spain.
   June 99
-* "[El increible mundo de Nuria Oliver](assets/press/1999-01%20Tiempo%20de%20Hoy%20Mundo%20de%20Nuria%20Oliver.pdf)" by Ana Maria Pascual.
+* "[El increible mundo de Nuria Oliver](/press/1999-01-tiempo-de-hoy-mundo-de-nuria-oliver.pdf)" by Ana Maria Pascual.
   Tiempo Magazine. Madrid. Spain. Jan 99
 * ["Nuria Oliver,
   investigadora del Media Lab de MIT"](journalism/canarias7_16enero98.html)by Monica Torres. Canarias7
   Newspaper. Gran Canaria. Spain. Jan 99
   [Article](journalism/canarias7_16enero98.html)
-* "[Nuria Oliver, investigadora del Media Lab](assets/press/1999-01%20Tecno%202000%20Num%2087%20Entrevista.pdf)" by Juan Carlos
+* "[Nuria Oliver, investigadora del Media Lab](/press/1999-01-tecno-2000-num-87-entrevista.pdf)" by Juan Carlos
   Gonzalez.
   Tecno 2000 Magazine. Barcelona. Spain. Jan 99
 * "Una espanola disena ropas inteligentes en el Media Lab de MIT"
@@ -763,9 +763,9 @@ and commentary on my work in artificial intelligence and its impact on society.
 * "HealthGear and MPTrain" Interview and demo for
   [ABC
   "Good Morning America"](http://abcnews.go.com/blogs/topics/show/good-morning-america/). July 2007
-* ["Interview in Noche Sin Tregua"](assets/press/ParamountComedyFeb09.pdf)
-  [Paramount Comedy](assets/press/ParamountComedyFeb09.pdf). February 2006
-* ["Artificial Intelligence"](assets/press/de%20cerca%202005-01-09.pdf). Invited guest in
+* ["Interview in Noche Sin Tregua"](/press/paramountcomedyfeb09.pdf)
+  [Paramount Comedy](/press/paramountcomedyfeb09.pdf). February 2006
+* ["Artificial Intelligence"](/press/de-cerca-2005-01-09.pdf). Invited guest in
   the 1 hour long program named "De Cerca", TVE2. Jan 2005
 * "Nuria Oliver, Top Researcher in AI", Interview for Radio 9. Spain. Dec 2005
 * "Nuria Oliver" Interview for the Radio Program hosted by Olga Viza. RNE1.
