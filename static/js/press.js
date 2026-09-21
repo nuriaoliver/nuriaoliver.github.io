@@ -21,6 +21,19 @@ document.addEventListener("DOMContentLoaded", () => {
     return year >= 70 ? 1900 + year : 2000 + year;
   };
 
+  const getDate = (text) => {
+    const match = text.match(
+      /\b(Jan(?:uary)?|Feb(?:ruary)?|Mar(?:ch)?|Apr(?:il)?|May|June?|July?|Aug(?:ust)?|Sept?(?:ember)?|Oct(?:ober)?|Nov(?:ember)?|Dec(?:ember)?)\s+(?:(\d{1,2}),\s+)?((?:19|20)\d{2})\b/i
+    );
+    if (!match) return 0;
+    const months = {
+      jan: 0, feb: 1, mar: 2, apr: 3, may: 4, jun: 5,
+      jul: 6, aug: 7, sep: 8, oct: 9, nov: 10, dec: 11,
+    };
+    const month = months[match[1].slice(0, 3).toLowerCase()];
+    return Date.UTC(Number(match[3]), month, Number(match[2] || 1));
+  };
+
   const pressItems = [];
   const decadeGroups = [];
   const yearGroups = [];
@@ -88,6 +101,7 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 
     for (const [year, items] of sortedYears) {
+      items.sort((first, second) => getDate(second.textContent) - getDate(first.textContent));
       const yearHeading = document.createElement("h3");
       yearHeading.className = "press-year";
       yearHeading.textContent = year;

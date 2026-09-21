@@ -6,8 +6,8 @@ redirect_from:
   - /videos/
 ---
 
-I have appeared in 340 print and online articles, radio and television
-interviews, and blog posts.
+This archive brings together selected press coverage, interviews, broadcasts,
+and commentary on my work in artificial intelligence and its impact on society.
 
 <div class="press-tools">
   <nav class="press-jump" aria-label="Press coverage by decade"></nav>
@@ -20,11 +20,18 @@ interviews, and blog posts.
 
 <h2 id="printed-online-media">Printed and online media</h2>
 
-* "[Nuria Oliver: We can harness the full potential of AI without sacrificing privacy](https://ellisalicante.org/2026/08/16/informacion.es/)", INFORMACION, Aug 2026
-* "[Taking the floor: Nuria Oliver](https://ellisalicante.org/2026/06/16/revista-conecta.es/)", Revista Conecta, June 2026
-* "[Nuria Oliver: There is nothing free about artificial intelligence](https://ellisalicante.org/2026/05/20/noticiasgipuzcoa.es/)", Noticias de Gipuzkoa, May 2026
-* "[Nuria Oliver: We need to rely on AI to survive as a species](https://ellisalicante.org/2026/05/17/laverdad.es/)", La Verdad, May 2026
-* "[Nuria Oliver: I am not concerned about AI technology, but about our biological vulnerability](https://ellisalicante.org/2026/04/26/lasprovincias.es/)", Las Provincias, April 2026
+* "[It is hard to imagine a scenario in which AI could end humanity](https://www.elcorreo.com/sociedad/miles-agentes-ia-decidir-controlar-red-electrica-20260919132507-nt.html)", El Correo, Sept 19, 2026
+* "[Self-regulation of AI is not the solution; it is what companies want](https://www.lavozdegalicia.es/noticia/sociedad/2026/09/14/nuria-oliver-autorregulacion-ia-solucion-quieren-empresas/00031789392186097619822.htm)", La Voz de Galicia, Sept 14, 2026
+* "[Nuria Oliver: We can harness the full potential of AI without sacrificing privacy](https://ellisalicante.org/2026/08/16/informacion.es/)", INFORMACION, Aug 16, 2026
+* "[An unprecedented ecosystem of aesthetic pressure: the consequences of AI measuring beauty](https://elpais.com/smoda/belleza/2026-06-16/un-ecosistema-de-presion-estetica-sin-precedentes-las-consecuencias-de-que-la-ia-mida-la-belleza-y-condicione-la-autoestima.html)", El País S Moda, June 16, 2026
+* "[Conversations with chatbots are used to train other AI models](https://www.laopiniondemalaga.es/malaga/2026/05/25/nuria-oliver-ingeniera-conversaciones-chatbot-130596756.html)", La Opinión de Málaga, May 25, 2026
+* "[Nuria Oliver: There is nothing free about artificial intelligence](https://ellisalicante.org/2026/05/20/noticiasgipuzcoa.es/)", Noticias de Gipuzkoa, May 20, 2026
+* "[Nuria Oliver: We need to rely on AI to survive as a species](https://ellisalicante.org/2026/05/17/laverdad.es/)", La Verdad, May 17, 2026
+* "[We are losing key skills through excessive and indiscriminate use of technology](https://www.lavanguardia.com/neo/ia/20260515/11538005/nuria-oliver-pionera-inteligencia-artificial-perdiendo-habilidades-clave-excesivo-e-indiscriminado-tecnologia.html)", La Vanguardia, May 15, 2026
+* "[Nuria Oliver: I am not concerned about AI technology, but about our biological vulnerability](https://ellisalicante.org/2026/04/26/lasprovincias.es/)", Las Provincias, April 26, 2026
+* "[Ode to the process](https://www.informacion.es/opinion/2026/03/21/oda-proceso-128232603.html)", INFORMACION, March 21, 2026
+* "[Your favorite chatbot is not your friend](https://elpais.com/opinion/2026-01-23/tu-chatbot-favorito-no-es-tu-amigo.html)", El País, Jan 23, 2026
+* "[Artificial intelligence and digital rights: progress or mirage?](https://theconversation.com/inteligencia-artificial-y-derechos-digitales-progreso-o-espejismo-272967)", The Conversation, Jan 19, 2026
 * "[Nuria Oliver, Social Personality of 2025 for putting people at the center of AI](https://ellisalicante.org/2025/12/18/revistahaz.es/)", Revista Haz, Dec 2025
 * "[Nuria Oliver receives the Julio Rey Pastor Mathematics Prize for her contributions to AI](https://ellisalicante.org/2025/09/26/informacion.es/)", INFORMACION, Sept 2025
 * "[Nuria Oliver, AI expert: Artificial intelligence fascinates us because it makes us feel like gods](https://ellisalicante.org/2025/06/20/mujerhoy.es/)", Mujer Hoy, June 2025
@@ -678,6 +685,9 @@ interviews, and blog posts.
 
 <h2 id="radio-video-tv">Radio, video, and TV interviews</h2>
 
+* "[Brain implants raise ethical dilemmas about the privacy of neural data](https://www.cope.es/programas/herrera-en-cope/audios/nuria-ingeniera-telecomunicaciones-implantacion-tecnologia-cerebro-genera-dilemas-eticos-existe-neuroderecho-privacidad-datos-no-deben-comercializarse-consentimiento-20260921_3439154.amp.html)", Herrera en COPE, Sept 21, 2026
+* "[Why are large AI companies slowing the development of their models?](https://www.rtve.es/play/videos/la-tarde-en-24h/grandes-empresas-ia-apuestan-frenar-desarrollo-modelos/17224712/)", La tarde en 24h, RTVE, Sept 2026
+* "[Your favorite chatbot is not your friend](https://cadenaser.com/comunitat-valenciana/2026/04/28/tu-chatbot-favorito-no-es-tu-amigo-radio-alicante/)", Radio Alicante, Cadena SER, April 28, 2026
 * "[Meet the Board: Nuria Oliver](https://ellisalicante.org/2025/11/18/elliseu-meet-the-board.en/)", ELLIS video profile, Nov 2025
 * "[Nuria Oliver, the pioneering Spanish AI researcher](https://ellisalicante.org/2025/09/10/rne.es/)", RNE, Sept 2025
 * "[Women who count: Nuria Oliver](https://ellisalicante.org/2025/01/26/rne.es/)", RNE, Jan 2025
