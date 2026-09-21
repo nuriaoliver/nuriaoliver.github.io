@@ -29,8 +29,8 @@ Cherubini, M., de Oliveira, R. and Oliver, N.
 
 ## Press
 
-- ["Telefonica works on 3D video and social shopping"](assets/press/ExpansionCatalunyaOct08_1.pdf). *Expansión*, October 2008.
-- ["Telefonica predicts that the mobile phone will be used to do social shopping"](assets/press/ExpansionCatalunyaOct08.pdf). *Expansión*, October 2008.
+- ["Telefonica works on 3D video and social shopping"](expansioncatalunyaoct08-1.pdf). *Expansión*, October 2008.
+- ["Telefonica predicts that the mobile phone will be used to do social shopping"](expansioncatalunyaoct08.pdf). *Expansión*, October 2008.
 
 ## Team
 

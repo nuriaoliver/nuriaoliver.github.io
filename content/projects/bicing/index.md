@@ -39,6 +39,6 @@ Froehlich, J., Neumann, J., and Oliver, N.
 
 ## Press
 
-- ["Telefonica develops solutions for Bicing"](press/ElPaisBicingOct08.pdf). *El País*, October 2008.
-- ["Telefonica works on 3D video and social shopping"](press/ExpansionCatalunyaOct08_1.pdf). *Expansión*, October 2008.
-- ["Telefonica predicts that the mobile phone will be used to do social shopping"](press/ExpansionCatalunyaOct08.pdf). *Expansión*, October 2008.
+- ["Telefonica develops solutions for Bicing"](elpaisbicingoct08.pdf). *El País*, October 2008.
+- ["Telefonica works on 3D video and social shopping"](expansioncatalunyaoct08-1.pdf). *Expansión*, October 2008.
+- ["Telefonica predicts that the mobile phone will be used to do social shopping"](expansioncatalunyaoct08.pdf). *Expansión*, October 2008.

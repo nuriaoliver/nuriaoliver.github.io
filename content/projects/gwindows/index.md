@@ -21,7 +21,7 @@ Perceptual user interfaces promise modes of fluid computer-human interaction tha
 
 ## Publications
 
-[GWindows: Towards Robust Perception-Based UI](cvprChi03.pdf)
+[GWindows: Towards Robust Perception-Based UI](/papers/wilson2003gwindows.pdf)
 Andy Wilson and Nuria Oliver.
 *CVPR 2003 Workshop on Computer Vision for HCI*.
 
@@ -32,4 +32,4 @@ Andy Wilson and Nuria Oliver.
 
 ## Press
 
-- [CNN Headline News, "Hot Wired"](assets/videos/GWindows-CNN-7-March-2003.wmv), March 7, 2003.
+- [CNN Headline News, "Hot Wired"](videos/GWindows-CNN-7-March-2003.wmv), March 7, 2003.

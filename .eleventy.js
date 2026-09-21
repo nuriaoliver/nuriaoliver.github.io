@@ -17,7 +17,7 @@ module.exports = function (eleventyConfig) {
   });
   // Copy images and PDFs from content page bundles
   eleventyConfig.addPassthroughCopy(
-    "content/**/*.{jpg,jpeg,png,gif,svg,webp,pdf,mp4,gif}"
+    "content/**/*.{jpg,jpeg,png,gif,svg,webp,pdf,mp4,mpg,mpeg,wmv,ppt}"
   );
 
   // Collection: projects grouped by category in defined order

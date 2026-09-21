@@ -37,6 +37,6 @@ Nearest-neighbor collaborative filtering suffers from several shortcomings, incl
 
 ### Publications
 
-["The Wisdom of the Few: A Collaborative Filtering Approach Based on Expert Opinions from the Web"](wisdomFew_sigir09.pdf)
+["The Wisdom of the Few: A Collaborative Filtering Approach Based on Expert Opinions from the Web"](/papers/amatriain2009wisdom.pdf)
 Amatriain, X., Lathia, N., Pujol, J.M., Kwak, H. and Oliver, N.
 *SIGIR 2009*, Boston, July 2009.

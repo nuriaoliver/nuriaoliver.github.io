@@ -42,7 +42,7 @@
     <header>
       {% include "nav.njk" %}
     </header>
-    <main role="main" class="{% if page.url == '/' %}home-page{% endif %}{% if page.url == '/awards/' %} awards-page{% endif %}{% if page.url == '/programcommittees/' %} service-page{% endif %}{% if page.url == '/press/' %} press-page{% endif %}" style="padding-top: 80px;">
+    <main role="main" class="{% if page.url == '/' %}home-page{% endif %}{% if page.url == '/awards/' %} awards-page{% endif %}{% if page.url == '/programcommittees/' %} service-page{% endif %}{% if page.url == '/press/' %} press-page{% endif %}">
       <div class="container">
         {{ content | safe }}
       </div>

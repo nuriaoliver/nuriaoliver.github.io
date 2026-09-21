@@ -3,6 +3,13 @@ _site/
 
 # Dependencies
 node_modules/
+.venv/
+venv/
+
+# Python caches
+__pycache__/
+**/__pycache__/
+*.py[cod]
 
 # Hugo artifacts (legacy)
 public/

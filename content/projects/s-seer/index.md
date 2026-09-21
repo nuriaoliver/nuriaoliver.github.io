@@ -24,7 +24,7 @@ Nuria Oliver and Eric Horvitz.
 Nuria Oliver, Ashutosh Garg and Eric Horvitz.
 *Computer Vision and Image Understanding (CVIU)*.
 
-[Selective Perception Policies for Guiding Sensing and Computation in Multimodal Systems: A Comparative Analysis](icmi2003.pdf)
+[Selective Perception Policies for Guiding Sensing and Computation in Multimodal Systems: A Comparative Analysis](/papers/oliver2005selective.pdf)
 Nuria Oliver and Eric Horvitz.
 *ICMI 2003*, Vancouver, BC, November 2003.
 
@@ -32,10 +32,10 @@ Nuria Oliver and Eric Horvitz.
 Nuria Oliver, Eric Horvitz and Ashutosh Garg.
 *ICMI 2002*, Pittsburgh, October 2002.
 
-[Paper presented at CVPR 2001](assets/seer/11_oliver.pdf) (Cues in Communication Workshop)
+[Paper presented at CVPR 2001](/papers/oliver2002hierarchical.pdf) (Cues in Communication Workshop)
 Nuria Oliver, Eric Horvitz and Ashutosh Garg.
 
 ## Videos
 
 - [S-Seer in action](s-seer.wmv) (June 2004)
-- [Live demonstration during Bill Gates' IJCAI 2001 keynote](assets/seer/video/cvpr2001video_short.mpg)
+- [Live demonstration during Bill Gates' IJCAI 2001 keynote](video/cvpr2001video_short.mpg)

@@ -1,2 +1,8 @@
-content/_index.md
-content/projects/_index.md
+.venv/**
+venv/**
+**/__pycache__/**
+**/*.py[cod]
+node_modules/**
+_site/**
+public/**
+resources/**

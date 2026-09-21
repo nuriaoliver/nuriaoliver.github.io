@@ -29,7 +29,7 @@ Nuria Oliver and Eric Horvitz.
 Nuria Oliver and Eric Horvitz.
 *Computer Vision and Image Understanding (CVIU)*, Vol. 100, Issue 1–2, 2005.
 
-[Selective Perception Policies for Limiting Computation in Multimodal Systems: A Comparative Analysis](icmi2003.pdf)
+[Selective Perception Policies for Limiting Computation in Multimodal Systems: A Comparative Analysis](/papers/oliver2005selective.pdf)
 Nuria Oliver and Eric Horvitz.
 *ICMI 2003*, Vancouver, November 2003.
 
@@ -37,7 +37,7 @@ Nuria Oliver and Eric Horvitz.
 Nuria Oliver, Eric Horvitz and Ashutosh Garg.
 *ICMI 2002*, Pittsburgh, October 2002.
 
-[Paper presented at CVPR 2001](11_oliver.pdf) (Cues in Communication Workshop)
+[Paper presented at CVPR 2001](/papers/oliver2002hierarchical.pdf) (Cues in Communication Workshop)
 Nuria Oliver, Eric Horvitz and Ashutosh Garg.
 
 ## Videos
