@@ -619,8 +619,8 @@ and commentary on my work in artificial intelligence and its impact on society.
   [Paramount Comedy](/press/paramountcomedyfeb09.pdf). February 2006
 * "Viaje al Centro de Microsoft"
   [11 page article about Microsoft](http://elpais.com/diario/2006/01/22/eps/1137914810_850215.html) with a
-  [page-size picture](assets/press/EPS_Ins_08%20(Custom).jpg) and
-  [paragraph about me and my research](assets/press/EPS_Ins_09%20(Custom).jpg).
+  [page-size picture](/press/eps-ins-08-custom.pdf) and
+  [paragraph about me and my research](/press/eps-ins-09-custom.pdf).
   EL PAIS EPS. Jan 2006
 * ["Nuria Oliver"](/press/caixanewslettersept2005.pdf)
   La Caixa Newsletter. Sept 2005
@@ -632,7 +632,7 @@ and commentary on my work in artificial intelligence and its impact on society.
   [Page 2.](/press/muyinteresanteaug2005-2.pdf)
   [Page 3.](/press/muyinteresanteaug2005-3.pdf)
 * ["Nuria Oliver". Long
-  interview (6 pages) in the Economy Magazine "Actualidad Economica". Feb 2005](assets/journalism/actualidadEconomicaFeb05.jpg)
+  interview (6 pages) in the Economy Magazine "Actualidad Economica". Feb 2005](/press/actualidadeconomica-feb05.pdf)
 * ["Nuria Oliver"](/press/dotnet-mania-2005-05.pdf)
   DotNetMania Magazine. Jan 2005
 * ["Artificial Intelligence"](/press/de-cerca-2005-01-09.pdf). Invited
@@ -666,15 +666,15 @@ and commentary on my work in artificial intelligence and its impact on society.
   99
 * Interview for PCWeek by Ana Oliva PCWeek Magazine. Madrid. Jan
   99
-* "[La vida en un chip"](assets/journalism/GUjunio99.jpg)
+* "[La vida en un chip"](/press/gujunio99.pdf)
   by Maria Jose Falco. Gaceta Universitaria Newspaper. Madrid. Spain.
   June 99
 * "[El increible mundo de Nuria Oliver](/press/1999-01-tiempo-de-hoy-mundo-de-nuria-oliver.pdf)" by Ana Maria Pascual.
   Tiempo Magazine. Madrid. Spain. Jan 99
 * ["Nuria Oliver,
-  investigadora del Media Lab de MIT"](journalism/canarias7_16enero98.html)by Monica Torres. Canarias7
+  investigadora del Media Lab de MIT"](/press/canarias7-16enero98.pdf)by Monica Torres. Canarias7
   Newspaper. Gran Canaria. Spain. Jan 99
-  [Article](journalism/canarias7_16enero98.html)
+  [Article](/press/canarias7-16enero98.pdf)
 * "[Nuria Oliver, investigadora del Media Lab](/press/1999-01-tecno-2000-num-87-entrevista.pdf)" by Juan Carlos
   Gonzalez.
   Tecno 2000 Magazine. Barcelona. Spain. Jan 99

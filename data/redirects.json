@@ -116,5 +116,10 @@
   "/projects/seer/video/cvpr2001video_short.mpg": "/projects/seer/cvpr2001video-short.mp4",
   "/projects/s-seer/s-seer.wmv": "/projects/s-seer/s-seer.mp4",
   "/projects/s-seer/video/cvpr2001video_short.mpg": "/projects/s-seer/cvpr2001video-short.mp4",
-  "/projects/thisorthat/thisorthat.mov": "/projects/thisorthat/thisorthat.mp4"
+  "/projects/thisorthat/thisorthat.mov": "/projects/thisorthat/thisorthat.mp4",
+  "/press/assets/journalism/actualidadEconomicaFeb05.jpg": "/press/actualidadeconomica-feb05.pdf",
+  "/press/assets/journalism/GUjunio99.jpg": "/press/gujunio99.pdf",
+  "/press/assets/press/EPS_Ins_08%20(Custom).jpg": "/press/eps-ins-08-custom.pdf",
+  "/press/assets/press/EPS_Ins_09%20(Custom).jpg": "/press/eps-ins-09-custom.pdf",
+  "/press/journalism/canarias7_16enero98.html": "/press/canarias7-16enero98.pdf"
 }

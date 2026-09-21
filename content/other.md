@@ -13,7 +13,7 @@ redirect_from:
 * ["Sensory Augmented Computing: Wearing the Museum 's Guide" "To
   appear in the IEEE Micro Intl. Journal"](/papers/micro4.pdf)
 * ["Driver Behavior Recognition in a Smart Car" "Proceed. of the Intl.
-  Conf. on Intelligent Vehicles 2000 (IV '00)"](assets/driverbehavior/iv2000.pdf)
+  Conf. on Intelligent Vehicles 2000 (IV '00)"](/assets/other/driverbehavior/iv2000.pdf)
 * ["Human Interaction Recognition using Graphical Models" "Intl.
   Journal on Pattern Analysis and Machine Intelligence, PAMI (Sept
   2000)"](/papers/PAMI_visual_surveillance-109636-1.pdf)
@@ -25,4 +25,4 @@ Smart Clothes Fashion Show
 I was able to combine my passion for technology and fashion in the First
 Smart Clothes Fashion Show that took place at the MIT 's Media Lab
 
-![](assets/fashionShowBody.JPG)![](assets/fashionShow1.gif)
+![](/assets/other/fashionshowbody.jpg)![](/assets/other/fashionshow1.gif)
