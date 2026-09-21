@@ -1,5 +1,8 @@
 ---
 title: "ThisOrThat: Social Mobile Shopping"
+redirect_from:
+  - /thisorthat
+  - /thisorthat/
 shortTitle: "ThisOrThat Social Shopping"
 category: Wearable, Mobile and Urban Computing
 years: "2008–2009"

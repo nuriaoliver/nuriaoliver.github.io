@@ -1,5 +1,9 @@
 ---
 title: Invited Talks
+redirect_from:
+  - /invitedtalks.htm
+  - /summary2015.htm
+  - /summary2015/
 ---
 
 <p>Nuria Oliver has delivered more than 300 invited talks to scientific,
@@ -9,7 +13,7 @@ talks are available <a href="https://www.youtube.com/results?search_query=nuria+
 <div class="talks-tools">
   <nav class="talks-jump" aria-label="Invited talks sections">
     {% for group in invitedTalks.recent %}<a href="#talks-{{ group.year }}">{{ group.year }}</a>{% endfor %}
-    <a href="#historical-archive">Archive</a>
+    <a href="#talks-by-setting">By setting</a>
     <a href="#school-talks">Schools</a>
   </nav>
   <div class="talks-filter" role="search">
@@ -28,7 +32,7 @@ talks are available <a href="https://www.youtube.com/results?search_query=nuria+
 </ul>
 {% endfor %}
 
-<h2 id="historical-archive">Historical archive</h2>
+<h2 id="talks-by-setting">Talks by audience and setting</h2>
 
 {% set archiveTypes = [
   { key: "government", title: "Government, universities, courses, and technology conferences" },

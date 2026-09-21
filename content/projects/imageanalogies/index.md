@@ -1,5 +1,8 @@
 ---
 title: Image Analogies
+redirect_from:
+  - /imageanalogies
+  - /imageanalogies/
 date: 2000-01-01
 category: Computer Graphics
 years: "2000"

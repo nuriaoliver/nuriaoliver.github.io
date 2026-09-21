@@ -1,5 +1,7 @@
 ---
 title: Press & Media Photos
+redirect_from:
+  - /pictures.htm
 ---
 
 <p class="photos-intro">Official photographs of Nuria Oliver for editorial, conference, and media use. Use the download link beneath each image to access the original-resolution file, and observe the licensing requirements for the relevant collection.</p>

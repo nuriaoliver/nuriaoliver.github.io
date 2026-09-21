@@ -1,5 +1,8 @@
 ---
 title: "MPTrain: A Mobile, Physiology and Music-Based Personal Trainer on your Mobile Phone"
+redirect_from:
+  - /mptrain
+  - /mptrain/
 shortTitle: "MPTrain Mobile Personal Trainer"
 category: Wearable, Mobile and Urban Computing
 years: "2005–2006"

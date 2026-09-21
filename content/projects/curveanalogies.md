@@ -1,5 +1,8 @@
 ---
 title: Curve Analogies
+redirect_from:
+  - /curveanalogies
+  - /curveanalogies/
 date: 2001-01-01
 category: Computer Graphics
 years: "2001"

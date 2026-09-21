@@ -1,5 +1,8 @@
 ---
 title: "DyPERS: Dynamic Personal Enhanced Reality System"
+redirect_from:
+  - /dypers
+  - /dypers/
 shortTitle: "DyPERS"
 category: Wearable, Mobile and Urban Computing
 years: "1999"

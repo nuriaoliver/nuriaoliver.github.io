@@ -1,5 +1,8 @@
 ---
 title: Responsive Portraits
+redirect_from:
+  - /respportrait
+  - /respportrait/
 shortTitle: "Responsive Portraits"
 category: Human Behavior Modeling and Recognition
 years: "1997"

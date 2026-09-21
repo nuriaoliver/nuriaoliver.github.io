@@ -1,5 +1,8 @@
 ---
 title: "RelAltTab: Assisting Users in Switching Windows"
+redirect_from:
+  - /realttab
+  - /realttab/
 shortTitle: "RelAltTab Window Switching"
 category: Intelligent User Interfaces
 years: "2007"

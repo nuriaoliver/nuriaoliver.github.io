@@ -1,5 +1,9 @@
 ---
 title: Press Coverage
+redirect_from:
+  - /press.htm
+  - /videos.htm
+  - /videos/
 ---
 
 I have appeared in 340 print and online articles, radio and television

@@ -1,5 +1,7 @@
 ---
 title: Course Materials
+redirect_from:
+  - /other.htm
 ---
 
 * ["Perceptual Intelligence"](ftp://ftp.research.microsoft.com/users/nuria/invitedTalks/INTERMEDIA2001/thesisDefensePresentation.zip)

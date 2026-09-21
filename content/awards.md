@@ -1,5 +1,7 @@
 ---
 title: Awards and Honors
+redirect_from:
+  - /awards.htm
 ---
 
 Nuria Oliver's honors recognize her contributions to computer science,

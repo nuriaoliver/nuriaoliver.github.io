@@ -1,5 +1,7 @@
 ---
 title: Program Committees and Service
+redirect_from:
+  - /programcommittees.htm
 ---
 
 Over the years, I have served as a conference chair, program committee member,

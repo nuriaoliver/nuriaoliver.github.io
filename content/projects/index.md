@@ -1,6 +1,8 @@
 ---
 title: Projects
 layout: projects
+redirect_from:
+  - /projects.htm
 ---
 
 These projects trace my research career from the MIT Media Lab through Microsoft

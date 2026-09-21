@@ -1,5 +1,8 @@
 ---
 title: "LAFTER: Lips and Face Real Time Tracking and Facial Expression Recognition"
+redirect_from:
+  - /lafter
+  - /lafter/
 shortTitle: "LAFTER Face Tracking"
 category: Human Behavior Modeling and Recognition
 years: "1996–1997"

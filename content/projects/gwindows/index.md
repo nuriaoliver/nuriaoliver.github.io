@@ -1,5 +1,8 @@
 ---
 title: "GWindows: Light-weight Stereo Vision for Interaction"
+redirect_from:
+  - /gwindows
+  - /gwindows/
 shortTitle: "GWindows Stereo Interaction"
 category: Perceptual and Multimodal Interfaces
 years: "2002–2003"

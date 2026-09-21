@@ -1,5 +1,8 @@
 ---
 title: "S-Seer: Guiding Perceptual Sensing and Analysis with Value of Information"
+redirect_from:
+  - /s-seer
+  - /s-seer/
 shortTitle: "S-Seer Perceptual Sensing"
 category: Perceptual and Multimodal Interfaces
 years: "2003–2004"

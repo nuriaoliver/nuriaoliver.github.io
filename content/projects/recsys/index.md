@@ -1,5 +1,8 @@
 ---
 title: Recommendation Systems Research
+redirect_from:
+  - /recsys
+  - /recsys/
 shortTitle: "Recommendation Systems"
 category: Recommender Systems
 years: "2009–2010"

@@ -1,5 +1,8 @@
 ---
 title: "Where is the food? Reinforcement Learning in a Maze World"
+redirect_from:
+  - /mazeworld
+  - /mazeworld/
 shortTitle: "Reinforcement Learning in a Maze"
 category: Machine Learning
 years: "1997"

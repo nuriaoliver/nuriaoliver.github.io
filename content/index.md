@@ -1,5 +1,7 @@
 ---
 title: Nuria Oliver, PhD
+redirect_from:
+  - /index.htm
 ---
 
 <section class="home-intro" aria-labelledby="home-title">

@@ -1,6 +1,9 @@
 ---
 slug: humanbehavior
 title: "A Bayesian Computer Vision System for Modeling Human Interactions"
+redirect_from:
+  - /humanbehavior
+  - /humanbehavior/
 shortTitle: "Human Interaction Modeling"
 category: Human Behavior Modeling and Recognition
 years: "1998"

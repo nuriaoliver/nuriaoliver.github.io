@@ -1,5 +1,8 @@
 ---
 title: Classifying T'ai Chi moves with a coupled hidden Markov model
+redirect_from:
+  - /chmm
+  - /chmm/
 shortTitle: "Coupled HMMs for T'ai Chi"
 category: Human Behavior Modeling and Recognition
 years: "1997"

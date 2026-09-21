@@ -1,5 +1,7 @@
 ---
 title: Contact
+redirect_from:
+  - /summary.htm
 ---
 
 For professional, research, speaking, or media enquiries, please use one of the channels below.

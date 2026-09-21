@@ -1,7 +1,9 @@
 const markdownIt = require("markdown-it");
 const yaml = require("yaml");
+const redirectsPlugin = require("./_11ty/redirects");
 
 module.exports = function (eleventyConfig) {
+  eleventyConfig.addPlugin(redirectsPlugin);
   eleventyConfig.addDataExtension("yaml", (contents) => yaml.parse(contents));
 
   // Copy static/ to output root

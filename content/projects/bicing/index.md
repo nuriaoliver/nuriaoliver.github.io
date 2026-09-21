@@ -1,5 +1,8 @@
 ---
 title: "Bicing: Understanding Human Behavior through Shared Bicycle Programs"
+redirect_from:
+  - /bicing
+  - /bicing/
 shortTitle: "Bicing: Shared Bicycle Behavior"
 date: 2008-01-01
 category: Wearable, Mobile and Urban Computing

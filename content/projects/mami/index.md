@@ -1,5 +1,8 @@
 ---
 title: "MAMI: Multimodal Automatic Mobile Annotations"
+redirect_from:
+  - /mami
+  - /mami/
 shortTitle: "MAMI Mobile Annotations"
 category: Wearable, Mobile and Urban Computing
 years: "2008–2009"

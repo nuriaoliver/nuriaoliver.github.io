@@ -1,5 +1,7 @@
 ---
 title: Biography
+redirect_from:
+  - /bio.htm
 ---
 
 <img src="NuriaOliverFaceShotBlue.jpg" class="bio-portrait img-fluid float-start me-3 mb-3" alt="Portrait of Nuria Oliver">

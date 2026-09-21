@@ -1,5 +1,8 @@
 ---
 title: TripleBeat
+redirect_from:
+  - /triplebeat
+  - /triplebeat/
 shortTitle: "TripleBeat Mobile Training"
 category: Wearable, Mobile and Urban Computing
 years: "2006–2007"

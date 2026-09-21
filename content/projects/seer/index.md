@@ -1,5 +1,8 @@
 ---
 title: "Seer: Layered Representations for Learning and Inferring Office Activity from Multiple Streams of Information"
+redirect_from:
+  - /seer
+  - /seer/
 shortTitle: "Seer Office Activity"
 category: Perceptual and Multimodal Interfaces
 years: "2002"

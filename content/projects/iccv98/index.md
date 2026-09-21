@@ -1,5 +1,8 @@
 ---
 title: 3D Modeling of Human Lip Motion
+redirect_from:
+  - /iccv98
+  - /iccv98/
 date: 1997-05-17
 description: "A learned 3D lip model for tracking lip motion and estimating pose from video."
 ---

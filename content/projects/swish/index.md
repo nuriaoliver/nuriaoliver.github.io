@@ -1,5 +1,8 @@
 ---
 title: "SWISH: Semantic Analysis of Window Titles and Switching History"
+redirect_from:
+  - /swish
+  - /swish/
 shortTitle: "SWISH Window Semantics"
 category: Intelligent User Interfaces
 years: "2006"

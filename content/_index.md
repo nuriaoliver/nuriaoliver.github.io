@@ -24,7 +24,7 @@ audiences. She regularly collaborates with and is featured by
 improve our quality of life, both individually and collectively ([Wikipedia](https://en.wikipedia.org/wiki/Nuria_Oliver))  
 
 She invests significant effort in [outreach
-efforts](summary2015.md) to make technology more accessible to non technical
+efforts](/invitedtalks/#school-talks) to make technology more accessible to non technical
 audiences and to inspire young people --and particularly girls-- to
 pursue careers in technology
 

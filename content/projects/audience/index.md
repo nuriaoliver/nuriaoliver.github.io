@@ -1,5 +1,8 @@
 ---
 title: Modeling Audience Group Behavior
+redirect_from:
+  - /audience
+  - /audience/
 shortTitle: "Audience Group Behavior"
 category: Machine Learning
 years: "1996"

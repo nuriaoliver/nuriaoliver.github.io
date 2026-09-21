@@ -1,5 +1,8 @@
 ---
 title: Fashionable Wearable American Sign Language Recognition System
+redirect_from:
+  - /wearasl
+  - /wearasl/
 shortTitle: "Wearable ASL Recognition"
 category: Wearable, Mobile and Urban Computing
 years: "1999"

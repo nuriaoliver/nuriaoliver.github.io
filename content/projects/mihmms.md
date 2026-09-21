@@ -1,6 +1,9 @@
 ---
 aliases: "/mihmms"
 title: "MIHMMs: Mutual Information Hidden Markov Models"
+redirect_from:
+  - /mihmms
+  - /mihmms/
 category: Machine Learning
 years: "2003"
 description: "Introduces mutual-information hidden Markov models for richer sequence modeling."
