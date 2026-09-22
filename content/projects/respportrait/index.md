@@ -3,9 +3,11 @@ title: Responsive Portraits
 redirect_from:
   - /respportrait
   - /respportrait/
+  - /respportrait/paper.html
 shortTitle: "Responsive Portraits"
 category: Human Behavior Modeling and Recognition
 years: "1997"
+careerPeriod: mit
 description: "Interactive portraits that respond to a viewer’s movement and expression."
 date: 1997-01-01
 thumbnail: iseaback2.gif

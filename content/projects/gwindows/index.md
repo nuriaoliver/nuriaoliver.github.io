@@ -6,6 +6,7 @@ redirect_from:
 shortTitle: "GWindows Stereo Interaction"
 category: Perceptual and Multimodal Interfaces
 years: "2002–2003"
+careerPeriod: microsoft
 description: "Lightweight stereo vision for fluid, non-desktop computer interaction."
 date: 2003-01-01
 thumbnail: engagement.jpg

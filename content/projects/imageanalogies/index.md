@@ -6,6 +6,7 @@ redirect_from:
 date: 2000-01-01
 category: Computer Graphics
 years: "2000"
+careerPeriod: mit
 description: "Learns image filters by example to create new visual transformations automatically."
 ---
 

@@ -6,6 +6,7 @@ redirect_from:
 shortTitle: "Audience Group Behavior"
 category: Machine Learning
 years: "1996"
+careerPeriod: mit
 description: "A multi-agent system for modeling audience behavior and group dynamics."
 date: 1996-01-01
 thumbnail: agentscreen.gif

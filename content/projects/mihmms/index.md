@@ -6,6 +6,7 @@ redirect_from:
   - /mihmms/
 category: Machine Learning
 years: "2003"
+careerPeriod: microsoft
 description: "Introduces mutual-information hidden Markov models for richer sequence modeling."
 date: 2003-01-01
 ---

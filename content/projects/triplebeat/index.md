@@ -6,6 +6,7 @@ redirect_from:
 shortTitle: "TripleBeat Mobile Training"
 category: Wearable, Mobile and Urban Computing
 years: "2006–2007"
+careerPeriod: microsoft
 description: "A mobile personal trainer combining music, competition, and physiological feedback."
 date: 2008-01-01
 thumbnail: phones.jpg

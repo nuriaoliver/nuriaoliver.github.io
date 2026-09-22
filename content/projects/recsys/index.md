@@ -6,6 +6,7 @@ redirect_from:
 shortTitle: "Recommendation Systems"
 category: Recommender Systems
 years: "2009–2010"
+careerPeriod: telefonica
 description: "Research on recommender systems and the reliability of user ratings as preference signals."
 date: 2009-01-01
 thumbnail: Interface.jpg

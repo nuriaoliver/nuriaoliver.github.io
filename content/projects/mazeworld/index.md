@@ -6,6 +6,7 @@ redirect_from:
 shortTitle: "Reinforcement Learning in a Maze"
 category: Machine Learning
 years: "1997"
+careerPeriod: mit
 description: "Compares reinforcement-learning algorithms in a configurable maze-world environment."
 date: 1997-01-01
 ---

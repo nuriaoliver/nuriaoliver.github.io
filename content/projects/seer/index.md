@@ -6,6 +6,7 @@ redirect_from:
 shortTitle: "Seer Office Activity"
 category: Perceptual and Multimodal Interfaces
 years: "2002"
+careerPeriod: microsoft
 description: "Layered probabilistic representations for learning office activity from multiple streams."
 date: 2002-01-01
 thumbnail: billgatespresentation.jpg

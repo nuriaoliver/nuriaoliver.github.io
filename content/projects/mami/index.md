@@ -6,6 +6,7 @@ redirect_from:
 shortTitle: "MAMI Mobile Annotations"
 category: Wearable, Mobile and Urban Computing
 years: "2008–2009"
+careerPeriod: telefonica
 description: "A mobile-phone prototype for annotating and searching digital photos with speech."
 date: 2008-01-01
 thumbnail: MAMI_annotate.jpg

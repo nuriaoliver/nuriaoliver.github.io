@@ -7,7 +7,7 @@ redirect_from:
 * ["Perceptual Intelligence"](ftp://ftp.research.microsoft.com/users/nuria/invitedTalks/INTERMEDIA2001/thesisDefensePresentation.zip)
 * ["Towards Perceptual
   Intelligence: Statistical Modeling of Human Individual and
-  Interactive Behavior" "Ph.D. Thesis (MIT, April 2000)"](https://www.nuriaoliver.com/thesis/thesisNuriaOliver.pdf)
+  Interactive Behavior" "Ph.D. Thesis (MIT, April 2000)"](/papers/nuria-oliver-thesis.pdf)
 * ["Image
   Analogies"](http://www.mrl.nyu.edu/projects/image-analogies/lf) Proceed. of SIGGRAPH '01 (August 2001)
 * ["Sensory Augmented Computing: Wearing the Museum 's Guide" "To

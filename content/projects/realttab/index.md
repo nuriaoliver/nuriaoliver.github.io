@@ -6,6 +6,7 @@ redirect_from:
 shortTitle: "RelAltTab Window Switching"
 category: Intelligent User Interfaces
 years: "2007"
+careerPeriod: microsoft
 description: "An enhanced Alt-Tab interface that helps users switch to related windows."
 date: 2007-01-01
 thumbnail: RelAltTab_preview.jpg

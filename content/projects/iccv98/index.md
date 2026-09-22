@@ -1,5 +1,6 @@
 ---
 title: 3D Modeling of Human Lip Motion
+careerPeriod: mit
 redirect_from:
   - /iccv98
   - /iccv98/

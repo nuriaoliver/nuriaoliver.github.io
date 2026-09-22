@@ -7,6 +7,7 @@ shortTitle: "Bicing: Shared Bicycle Behavior"
 date: 2008-01-01
 category: Wearable, Mobile and Urban Computing
 years: "2008–2009"
+careerPeriod: telefonica
 description: "Uses shared-bicycle data to uncover and predict urban mobility behavior."
 thumbnail: image005.jpg
 ---

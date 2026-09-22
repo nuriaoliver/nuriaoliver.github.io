@@ -6,6 +6,7 @@ redirect_from:
 shortTitle: "LAFTER Face Tracking"
 category: Human Behavior Modeling and Recognition
 years: "1996–1997"
+careerPeriod: mit
 description: "Real-time tracking of lips and faces with facial-expression recognition."
 date: 1996-01-01
 ---

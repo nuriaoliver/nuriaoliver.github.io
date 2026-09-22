@@ -6,6 +6,7 @@ redirect_from:
 shortTitle: "DyPERS"
 category: Wearable, Mobile and Urban Computing
 years: "1999"
+careerPeriod: mit
 description: "An augmented-reality system that attaches video and audio experiences to real objects."
 date: 1999-01-01
 thumbnail: mouse.gif

@@ -7,6 +7,7 @@ redirect_from:
 shortTitle: "Human Interaction Modeling"
 category: Human Behavior Modeling and Recognition
 years: "1998"
+careerPeriod: mit
 description: "A real-time computer-vision system for modeling and recognizing human interactions."
 date: 1998-01-01
 thumbnail: follow1.gif

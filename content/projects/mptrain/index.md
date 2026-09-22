@@ -6,6 +6,7 @@ redirect_from:
 shortTitle: "MPTrain Mobile Personal Trainer"
 category: Wearable, Mobile and Urban Computing
 years: "2005–2006"
+careerPeriod: microsoft
 description: "A mobile personal trainer combining physiology, music, and exercise feedback."
 date: 2005-01-01
 thumbnail: MPTrai1.jpg

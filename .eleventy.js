@@ -17,7 +17,7 @@ module.exports = function (eleventyConfig) {
   });
   // Copy images and PDFs from content page bundles
   eleventyConfig.addPassthroughCopy(
-    "content/**/*.{jpg,jpeg,png,gif,svg,webp,pdf,mp4,mpg,mpeg,wmv,ppt}"
+    "content/**/*.{jpg,jpeg,png,gif,svg,webp,pdf,mp4,ppt}"
   );
 
   // Collection: projects grouped by category in defined order
@@ -77,14 +77,14 @@ module.exports = function (eleventyConfig) {
     const grouped = Object.fromEntries(periods.map((period) => [period.id, []]));
 
     for (const project of projects) {
-      const firstYear = Number.parseInt(String(project.data.years || ""), 10);
-      const period =
-        firstYear >= 2007
-          ? periods.find((candidate) => candidate.id === "telefonica")
-          : firstYear >= 2002
-            ? periods.find((candidate) => candidate.id === "microsoft")
-            : periods.find((candidate) => candidate.id === "mit");
-      if (!period) continue;
+      const period = periods.find(
+        (candidate) => candidate.id === project.data.careerPeriod,
+      );
+      if (!period) {
+        throw new Error(
+          `Project ${project.inputPath} must define careerPeriod as mit, microsoft, or telefonica`,
+        );
+      }
       grouped[period.id].push(project);
     }
 
@@ -111,6 +111,27 @@ module.exports = function (eleventyConfig) {
 
   // Markdown with raw HTML enabled
   const md = markdownIt({ html: true, linkify: true });
+  const defaultLinkOpen = md.renderer.rules.link_open || function (tokens, index, options, env, self) {
+    return self.renderToken(tokens, index, options);
+  };
+  const defaultLinkClose = md.renderer.rules.link_close || function (tokens, index, options, env, self) {
+    return self.renderToken(tokens, index, options);
+  };
+  md.renderer.rules.link_open = function (tokens, index, options, env, self) {
+    const href = tokens[index].attrGet("href") || "";
+    if (/\.mp4(?:[?#].*)?$/i.test(href)) {
+      env.renderingVideoLink = true;
+      return `<video class="project-video" controls preload="metadata" src="${md.utils.escapeHtml(href)}">`;
+    }
+    return defaultLinkOpen(tokens, index, options, env, self);
+  };
+  md.renderer.rules.link_close = function (tokens, index, options, env, self) {
+    if (env.renderingVideoLink) {
+      env.renderingVideoLink = false;
+      return "</video>";
+    }
+    return defaultLinkClose(tokens, index, options, env, self);
+  };
   eleventyConfig.setLibrary("md", md);
   eleventyConfig.addFilter("markdown", function (content) {
     return md.render(content || "");

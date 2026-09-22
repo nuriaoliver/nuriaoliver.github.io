@@ -6,6 +6,7 @@ redirect_from:
 date: 2001-01-01
 category: Computer Graphics
 years: "2001"
+careerPeriod: mit
 description: "Learns statistical models of two-dimensional curves for designing new shapes."
 ---
 

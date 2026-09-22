@@ -70,6 +70,6 @@ redirect_from:
 		<a href="https://orcid.org/0000-0001-5985-691X">ORCID</a>
 		<a href="https://scholar.google.com/citations?user=VJlCMGYAAAAJ&amp;hl=en">Google Scholar</a>
 		<a href="https://en.wikipedia.org/wiki/Nuria_Oliver">Wikipedia</a>
-		<a href="https://www.nuriaoliver.com/thesis/thesisNuriaOliver.pdf">PhD thesis</a>
+		<a href="/papers/nuria-oliver-thesis.pdf">PhD thesis</a>
 	</nav>
 </section>
