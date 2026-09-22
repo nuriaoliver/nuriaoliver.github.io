@@ -38,10 +38,24 @@ function formatAuthor(a) {
 // ── Main export ───────────────────────────────────────────────────────────────
 export default function () {
   const bibPath = join(__dirname, '..', 'data', 'nuriabib.bib');
+  const publicationFilesPath = join(__dirname, '..', 'data', 'publication-files.json');
+  const publicationFiles = JSON.parse(readFileSync(publicationFilesPath, 'utf-8'));
   const { entries: raw } = parse(
     readFileSync(bibPath, 'utf-8'),
     { sentenceCase: false }   // preserve original title casing
   );
+
+  // Keep the CV source byte-for-byte mergeable; resolve repeated keys only for rendering.
+  const entriesByKey = new Map();
+  for (const entry of raw) {
+    const current = entriesByKey.get(entry.key);
+    const populatedFields = Object.values(entry.fields).filter(value => value != null && value !== '').length;
+    const currentPopulatedFields = current
+      ? Object.values(current.fields).filter(value => value != null && value !== '').length
+      : -1;
+    if (!current || populatedFields > currentPopulatedFields) entriesByKey.set(entry.key, entry);
+  }
+  const uniqueEntries = [...entriesByKey.values()];
 
   const f = (e, name) => {
     const v = e.fields[name];
@@ -50,17 +64,23 @@ export default function () {
     return v;
   };
 
-  const all = raw.map(e => {
+  const all = uniqueEntries.map(e => {
     const bibType = e.type;
     const type    = TYPE_MAP[bibType] || 'other';
     const year    = parseInt(f(e, 'year'), 10) || 0;
     const doi     = (f(e, 'doi') || '').trim();
     const url     = (f(e, 'url') || '').trim();
-    const file    = (f(e, 'file') || '').trim();
+    const file    = publicationFiles[e.key] || '';
     const link    = doi ? `https://doi.org/${doi}` : url;
     const note    = f(e, 'note');
-    const citationCount = parseInt(f(e, 'citation_count'), 10) || 0;
-    const hasAward = /award|prize|spotlight|honou?rable mention|distinguished paper/i.test(note) || citationCount >= 1000;
+    const award   = f(e, 'award');
+    const awardYear = parseInt(f(e, 'awardyear'), 10) || 0;
+    const altmetric = f(e, 'altmetric');
+    const altmetricScore = parseInt(altmetric.match(/\d+/)?.[0], 10) || 0;
+    const altmetricTopPercent = parseInt(altmetric.match(/top\s+(\d+)\\?%/i)?.[1], 10) || 0;
+    const citationCount = parseInt(f(e, 'cites') || f(e, 'citation_count'), 10) || 0;
+    const hasAward = Boolean(award) || /award|prize|spotlight|honou?rable mention|distinguished paper/i.test(note);
+    const isHighlighted = hasAward || altmetricScore > 0 || citationCount >= 1000;
 
     // authors: the parser returns an array of {firstName,lastName,...}
     const rawAuthors = e.fields.author || [];
@@ -91,9 +111,15 @@ export default function () {
       file,
       link,
       note,
+      award,
+      awardYear,
+      altmetric,
+      altmetricScore,
+      altmetricTopPercent,
       citationCount,
       citationCountLabel: citationCount.toLocaleString('en-US'),
       hasAward,
+      isHighlighted,
       // patent
       patentNumber,
       patentType  : patentTypeField.toLowerCase(),
@@ -109,7 +135,7 @@ export default function () {
 
   const typeCounts = {};
   for (const e of publications) typeCounts[e.type] = (typeCounts[e.type] || 0) + 1;
-  const highlightedCount = publications.filter(e => e.hasAward).length;
+  const highlightedCount = publications.filter(e => e.isHighlighted).length;
 
   const yearMap = {};
   for (const e of publications) {

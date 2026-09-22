@@ -76,6 +76,18 @@ layout: base.njk
     background: #fffbeb; color: #b45309;
     border: 1px solid #fcd34d;
   }
+  .pb-altmetric {
+    display: inline-flex; align-items: center;
+    font-size: 0.72rem; font-weight: 600;
+    padding: 2px 9px; border-radius: 10px;
+    background: #fdf2f8; color: #be185d;
+    border: 1px solid #f9a8d4;
+    cursor: help;
+    font-family: inherit;
+    line-height: inherit;
+  }
+  .pb-altmetric:hover { background: #fce7f3; }
+  .pb-altmetric:focus-visible { outline: 2px solid #be185d; outline-offset: 2px; }
 
   /* title */
   .pub-title {
@@ -180,7 +192,7 @@ layout: base.njk
           {% set filterType = entry.type %}
         {% endif %}
 
-        <div id="{{ entry.key }}" class="pub-entry" data-type="{{ filterType }}" data-highlighted="{{ entry.hasAward }}">
+        <div id="{{ entry.key }}" class="pub-entry" data-type="{{ filterType }}" data-highlighted="{{ entry.isHighlighted }}">
 
           {# badges #}
           <div class="pub-badges">
@@ -200,12 +212,22 @@ layout: base.njk
               <span class="pb pb-preprint">Preprint</span>
             {% endif %}
             {% if entry.hasAward %}
-              {% if entry.note and entry.note | trim %}
+              {% if entry.award and entry.award | trim %}
+                <span class="pb-award">★ {{ entry.award }}{% if entry.awardYear %} ({{ entry.awardYear }}){% endif %}</span>
+              {% elif entry.note and entry.note | trim %}
                 <span class="pb-award">★ {{ entry.note }}</span>
               {% endif %}
-              {% if entry.citationCount >= 1000 %}
-                <span class="pb-award">★ {{ entry.citationCountLabel }} citations</span>
-              {% endif %}
+            {% endif %}
+            {% if entry.altmetricScore %}
+              <button type="button" class="pb-altmetric"
+                      data-bs-toggle="popover" data-bs-trigger="focus"
+                      data-bs-title="What is Altmetric?"
+                      data-bs-content="Altmetric tracks online attention to research, including mentions in news, social media, policy documents, blogs, and Wikipedia. Top {{ entry.altmetricTopPercent }}% means this publication received more attention than most comparable research outputs.">
+                Altmetric{% if entry.altmetricTopPercent %} top {{ entry.altmetricTopPercent }}%{% endif %}
+              </button>
+            {% endif %}
+            {% if entry.citationCount >= 1000 %}
+              <span class="pb-award">★ {{ entry.citationCountLabel }} citations</span>
             {% endif %}
           </div>
 
@@ -297,5 +319,11 @@ layout: base.njk
     countEl.textContent = 'Showing ' + shown + ' publication' + (shown !== 1 ? 's' : '');
     noneEl.style.display = shown === 0 ? '' : 'none';
   };
+
+  window.addEventListener('DOMContentLoaded', function () {
+    document.querySelectorAll('[data-bs-toggle="popover"]').forEach(function (el) {
+      new bootstrap.Popover(el, { placement: 'top' });
+    });
+  });
 }());
 </script>
