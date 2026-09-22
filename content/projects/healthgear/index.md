@@ -22,11 +22,7 @@ HealthGear is a real-time wearable system for monitoring, visualizing, and analy
 
 ## Publications
 
-[HealthGear: A Real-time Wearable System for Monitoring and Analyzing Physiological Signals](/papers/oliver2005healthgearreport.pdf)
-(full version)
-
-[HealthGear: A Real-time Wearable System for Monitoring and Analyzing Physiological Signals](/papers/oliver2006healthgearwearable.pdf)
-(short version)
+[[publication:oliver2006healthgear]]
 
 ## Videos
 

@@ -23,13 +23,9 @@ Over two months, more than 70 drivers operated the SmartCar for 1.25 hours each 
 
 ## Publications
 
-[A Graphical Model for Driver Behavior Recognition in a SmartCar](/papers/oliver2000graphical.pdf)
-Nuria Oliver and Alex Pentland.
-*Intelligent Vehicles 2000*, Detroit, Michigan, October 2000.
+[[publication:oliver2000graphical]]
 
-[Driver Behavior Recognition and Prediction in a SmartCar](/papers/oliver2000driver.pdf)
-Nuria Oliver and Alex Pentland.
-*AeroSense 2000 / Enhanced and Synthetic Vision*, Orlando, April 2000.
+[[publication:oliver2000driver]]
 
 ## Videos
 

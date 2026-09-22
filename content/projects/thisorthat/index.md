@@ -24,9 +24,7 @@ ThisOrThat is a mobile application for social shopping that leverages social net
 
 ## Publications
 
-["Shopping Uncertainties in a Mobile and Social Context"](/papers/Pervasive2009.pdf)
-Cherubini, M., de Oliveira, R. and Oliver, N.
-*Pervasive 2009*, Nara, Japan, 2009.
+[[publication:cherubini2009shopping]]
 
 ## Press
 

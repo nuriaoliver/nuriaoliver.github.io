@@ -8,27 +8,31 @@ shortTitle: "Responsive Portraits"
 category: Human Behavior Modeling and Recognition
 years: "1997"
 careerPeriod: mit
-description: "Interactive portraits that respond to a viewer’s movement and expression."
+description: "Computer-vision driven portraits that change their pose and expression in response to a viewer."
 date: 1997-01-01
-thumbnail: iseaback2.gif
+thumbnail: responsive-portrait-viewpoint.png
 ---
 
 *Flavia Sparacino, Nuria Oliver, Alex Pentland and Glorianna Davenport — MIT Media Lab*
 
 Presented at ISEA97, Chicago, September 1997.
 
-## Abstract
+## Overview
 
-Modern techniques for high-resolution still image display offer new expressive possibilities for photographic portraiture and exhibition. "Responsive Portraits" challenge the notion of static photographic portraiture as the unique, ideal visual representation of its subject. Editors are usually confronted with choosing one ideal portrait from a limited set of pictures that all contribute to defining a character. In our view, the entire set of a subject's typical portraits should be kept for interactive exhibitions.
+Responsive Portraits was an early interactive portrait project from the MIT Media Lab. Instead of showing one fixed photograph, the portrait changed as a visitor moved, looked, or made facial expressions.
 
-A responsive portrait consists of a multiplicity of views whose dynamic presentation results from the interaction between the viewer and the image. The viewer's proximity to the image, head movements, and facial expressions elicit dynamic responses from the portrait, driven by the portrait's own set of autonomous behaviors. This type of interaction reproduces an encounter between two people: the viewer and the character portrayed.
+The system used real-time computer vision to estimate the viewer's distance, head movement, point of view, and expression. Those signals selected different portrait poses and responses, making the image feel more like an encounter than a static display.
 
-The sensing technology is a computer vision system that tracks the viewer's head movements and facial expressions as she interacts with the digital portrait — reversing the notion of "who is watching whom": the object becomes the subject, the subject is observed. Face recognition techniques allow the portrayed character to keep a record of previous encounters with a visitor and adjust its response based on the history of their interactions.
+<figure>
+  <img src="responsive-portrait-expression.png" alt="Extracted Responsive Portraits image showing a direct portrait expression" loading="lazy">
+  <figcaption>The portrait looks directly at the viewer.</figcaption>
+</figure>
 
-![](iseaback2.gif)
+<figure>
+  <img src="responsive-portrait-viewpoint.png" alt="Extracted Responsive Portraits image showing an expressive gesture with raised hands" loading="lazy">
+  <figcaption>The portrait reacts with a playful, expressive gesture.</figcaption>
+</figure>
 
 ## Publications
 
-[Responsive Portraits](/publications/#sparacino1997responsive)
-Flavia Sparacino, Nuria Oliver, Alex Pentland and Glorianna Davenport.
-*ISEA97*, Chicago, September 1997.
+[[publication:sparacino1997responsive]]

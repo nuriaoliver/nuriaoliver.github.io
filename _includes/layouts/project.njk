@@ -9,6 +9,85 @@ layout: base.njk
   max-height: 75vh;
   max-width: 100%;
 }
+.publication-card {
+  border: 1px solid #d0d7de;
+  border-radius: 8px;
+  margin: 0.75rem 0;
+  padding: 0.65rem 0.75rem;
+  position: relative;
+}
+.publication-card__topline {
+  padding-right: 6rem;
+}
+.publication-card__eyebrow {
+  color: #57606a;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+.publication-card__badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  margin-top: 0.25rem;
+}
+.pb-award {
+  display: inline-flex; align-items: center; gap: 4px;
+  font-size: 0.72rem; font-weight: 600;
+  padding: 2px 9px; border-radius: 10px;
+  background: #fffbeb; color: #b45309;
+  border: 1px solid #fcd34d;
+}
+.pb-altmetric {
+  display: inline-flex; align-items: center;
+  font-size: 0.72rem; font-weight: 600;
+  padding: 2px 9px; border-radius: 10px;
+  background: #fdf2f8; color: #be185d;
+  border: 1px solid #f9a8d4;
+  cursor: help;
+  font-family: inherit;
+  line-height: inherit;
+}
+.pb-altmetric:hover { background: #fce7f3; }
+.pb-altmetric:focus-visible { outline: 2px solid #be185d; outline-offset: 2px; }
+.publication-card__title {
+  font-size: 1rem;
+  line-height: 1.35;
+  margin: 0.2rem 0 0.2rem;
+}
+.publication-card__title a {
+  color: #1a1a2e;
+  text-decoration: none;
+}
+.publication-card__title a:hover { color: #0969da; text-decoration: underline; }
+.publication-card__authors,
+.publication-card__details {
+  color: #57606a;
+  font-size: 0.88rem;
+}
+.publication-card__actions {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 0.35rem;
+  justify-content: flex-end;
+  margin: 0;
+  position: absolute;
+  right: 0.75rem;
+  top: 0.6rem;
+}
+.publication-card__actions a {
+  border: 1px solid #54aeff;
+  border-radius: 999px;
+  color: #0969da;
+  font-size: 0.72rem;
+  font-weight: 600;
+  line-height: 1.2;
+  padding: 0.18rem 0.55rem;
+  text-decoration: none;
+  white-space: nowrap;
+}
+.publication-card__actions a:hover { background: #ddf4ff; color: #0550ae; }
 </style>
 
 <nav aria-label="breadcrumb">
@@ -22,3 +101,11 @@ layout: base.njk
 <h1>{{ title }}</h1>
 
 {{ content | safe }}
+
+<script>
+window.addEventListener('DOMContentLoaded', function () {
+  document.querySelectorAll('[data-bs-toggle="popover"]').forEach(function (el) {
+    new bootstrap.Popover(el, { placement: 'top' });
+  });
+});
+</script>

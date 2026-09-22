@@ -25,9 +25,7 @@ We present a framework for processing images by example, called "image analogies
 
 ## Publications
 
-[Image Analogies](/papers/analogies.pdf)
-A. Hertzmann, C. Jacobs, N. Oliver, B. Curless, D. Salesin.
-*SIGGRAPH 2001 Conference Proceedings*.
+[[publication:hertzmann2001image]]
 
 [Algorithms for Rendering in Artistic Styles](http://www.mrl.nyu.edu/publications/hertzmann-thesis/)
 A. Hertzmann. Ph.D. thesis, New York University, May 2001.

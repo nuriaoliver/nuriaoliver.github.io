@@ -25,21 +25,11 @@ A synthetic agent training system is used to develop a priori models for recogni
 
 ## Publications
 
-[A Bayesian Computer Vision System for Recognizing Human Interactions](ftp://whitechapel.media.mit.edu/pub/tech-reports/TR-459.ps.Z)
-Nuria Oliver, Barbara Rosario and Alex Pentland.
-*CVPR 1998 Workshop on Interpretation of Visual Motion*, Santa Barbara, June 1998.
+[[publication:oliver1999bayesian]]
 
-[Graphical Models for Recognizing Human Interactions](/papers/nips98.pdf)
-Nuria Oliver, Barbara Rosario and Alex Pentland.
-*NIPS 1998*, Denver, December 1998.
+[[publication:oliver1999graphical]]
 
-[A Bayesian Computer Vision System for Modeling Human Interactions](/papers/icvs99.pdf)
-Nuria Oliver, Barbara Rosario and Alex Pentland.
-*ICVS 1999*, Gran Canaria, January 1999.
-
-[A Synthetic Agent System for Bayesian Modeling of Human Interactions](/papers/aa99.pdf)
-Nuria Oliver, Barbara Rosario and Alex Pentland.
-*Autonomous Agents 1999*, Seattle, May 1999.
+[[publication:rosario1999synthetic]]
 
 ## Videos
 

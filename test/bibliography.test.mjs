@@ -21,7 +21,7 @@ test("renders one entry per bibliography key", () => {
 });
 
 test("overlays every local publication file by bibliography key", () => {
-  assert.equal(Object.keys(publicationFiles).length, 55);
+  assert.equal(Object.keys(publicationFiles).length, 56);
 
   for (const [key, file] of Object.entries(publicationFiles)) {
     assert.equal(entriesByKey.get(key)?.file, file, `${key} should use ${file}`);

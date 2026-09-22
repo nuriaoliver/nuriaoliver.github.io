@@ -1,6 +1,7 @@
 const markdownIt = require("markdown-it");
 const yaml = require("yaml");
 const redirectsPlugin = require("./_11ty/redirects");
+const { addPublicationWidgets } = require("./_11ty/publication-widget");
 
 module.exports = function (eleventyConfig) {
   eleventyConfig.addPlugin(redirectsPlugin);
@@ -111,6 +112,7 @@ module.exports = function (eleventyConfig) {
 
   // Markdown with raw HTML enabled
   const md = markdownIt({ html: true, linkify: true });
+  addPublicationWidgets(md);
   const defaultLinkOpen = md.renderer.rules.link_open || function (tokens, index, options, env, self) {
     return self.renderToken(tokens, index, options);
   };

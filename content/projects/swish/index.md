@@ -22,6 +22,4 @@ We built a prototype named SWISH that: (1) constantly monitors desktop activity 
 
 ## Publications
 
-[SWISH: Semantic Analysis of Window Titles and Switching History](/papers/iui2006-oliver.pdf)
-Nuria Oliver, Greg Smith, Chintan Thakkar and Arun C. Surendran.
-*IUI 2006*.
+[[publication:oliver2006swish]]

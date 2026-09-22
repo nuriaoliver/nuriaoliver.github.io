@@ -19,7 +19,6 @@ LAFTER is a real-time system for finding and tracking a human face and mouth, an
 
 ## Publications
 
-[LAFTER: A Real-time Face and Lips Tracker with Facial Expression Recognition](/papers/prec_lafter.pdf)
-Nuria Oliver, Francois Berard and Alex Pentland.
-*Pattern Recognition Journal*, 33:1369–1382, 2000.
+[[publication:oliver2000lafter]]
+
 **Winner of the Special Mention Award from the Pattern Recognition Society as an outstanding publication.**

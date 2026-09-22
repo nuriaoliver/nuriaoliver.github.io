@@ -74,10 +74,6 @@ Examples of objects and situations DyPERS can recognize and augment:
 
 ## Publications
 
-["DyPERS: Dynamic Personal Enhanced Reality System"](/papers/dypers_icvs99.pdf)
-Bernt Schiele, Nuria Oliver, Tony Jebara and Alex Pentland.
-*ICVS 1999*, Gran Canaria, Spain, January 1999.
+[[publication:schiele1999dypers]]
 
-["Sensory Augmented Computing: Wearing the Museum's Guide"](/papers/micro4.pdf)
-Bernt Schiele, Tony Jebara and Nuria Oliver.
-*IEEE Micro*, 2001.
+[[publication:schiele2001sensory]]

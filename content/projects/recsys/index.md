@@ -24,9 +24,7 @@ Many state-of-the-art recommender systems rely on user ratings as ground truth o
 
 ### Publications
 
-["I Like It, I Like It Not": Evaluating User Ratings Noise in Recommender Systems](/publications/#amatriain2009ilikeit)
-Amatriain, X., Pujol, J.M. and Oliver, N.
-*UMAP 2009*, Trento, Italy, June 2009.
+[[publication:amatriain2009noise]]
 
 ---
 
@@ -38,6 +36,4 @@ Nearest-neighbor collaborative filtering suffers from several shortcomings, incl
 
 ### Publications
 
-["The Wisdom of the Few: A Collaborative Filtering Approach Based on Expert Opinions from the Web"](/papers/amatriain2009wisdom.pdf)
-Amatriain, X., Lathia, N., Pujol, J.M., Kwak, H. and Oliver, N.
-*SIGIR 2009*, Boston, July 2009.
+[[publication:amatriain2009wisdom]]
