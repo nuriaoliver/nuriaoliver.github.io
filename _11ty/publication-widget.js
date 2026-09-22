@@ -179,19 +179,24 @@ function renderPublicationWidget(key) {
 
   const fields = entry.fields;
   const files = getPublicationFiles();
-  const title = fields.title || key;
+  const titleText = fields.title || key;
   const authors = formatAuthors(fields.author);
   const venue = fields.journal || fields.booktitle || fields.school || fields.institution || "";
   const year = fields.year || "";
   const doi = fields.doi || "";
+  const url = fields.url || "";
   const file = files[key] || "";
-  const publicationUrl = `/publications/#${encodeURIComponent(key)}`;
-  const primaryUrl = doi ? `https://doi.org/${encodeURIComponent(doi)}` : (fields.url || "");
+  const doiUrl = doi ? `https://doi.org/${encodeURIComponent(doi)}` : "";
+  const titleUrl = file || url || doiUrl;
   const details = [venue, year].filter(Boolean).join(" · ");
   const actions = [
     file ? `<a href="${escapeHtml(file)}">PDF</a>` : "",
-    primaryUrl ? `<a href="${escapeHtml(primaryUrl)}" target="_blank" rel="noopener">${doi ? "DOI" : "External link"}</a>` : "",
+    url ? `<a href="${escapeHtml(url)}" target="_blank" rel="noopener">External link</a>` : "",
+    !url && doiUrl ? `<a href="${escapeHtml(doiUrl)}" target="_blank" rel="noopener">DOI</a>` : "",
   ].filter(Boolean).join("\n      ");
+  const title = titleUrl
+    ? `<a href="${escapeHtml(titleUrl)}"${titleUrl !== file ? ' target="_blank" rel="noopener"' : ""}>${escapeHtml(titleText)}</a>`
+    : escapeHtml(titleText);
 
   return `<article class="publication-card" id="publication-card-${escapeHtml(key)}">
   <div class="publication-card__topline">
@@ -199,7 +204,7 @@ function renderPublicationWidget(key) {
     ${actions ? `<div class="publication-card__actions">${actions}</div>` : ""}
   </div>
   ${renderBadgeRow(fields)}
-  <h3 class="publication-card__title"><a href="${escapeHtml(publicationUrl)}">${escapeHtml(title)}</a></h3>
+  <h3 class="publication-card__title">${title}</h3>
   ${authors ? `<div class="publication-card__authors">${escapeHtml(authors)}</div>` : ""}
   ${details ? `<div class="publication-card__details">${escapeHtml(details)}</div>` : ""}
 </article>`;

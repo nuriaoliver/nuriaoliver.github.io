@@ -10,8 +10,8 @@ test("publication widget renders a bibliography card from a key", () => {
 
   assert.match(html, /class="publication-card"/);
   assert.match(html, /Responsive portraits/i);
-  assert.match(html, /\/publications\/#sparacino1997responsive/);
   assert.match(html, /\/papers\/ResponsivePortraits\.pdf/);
+  assert.match(html, /<h3 class="publication-card__title"><a href="\/papers\/ResponsivePortraits\.pdf"/);
   assert.doesNotMatch(html, /View in publications/);
 });
 
@@ -36,4 +36,25 @@ test("publication widget renders highlight badges", () => {
   assert.match(citationHtml, /2,426 citations/);
   assert.match(altmetricHtml, /Altmetric top 5%/);
   assert.match(altmetricHtml, /What is Altmetric\?/);
+});
+
+test("publication title falls back to DOI when no PDF is available", () => {
+  const html = _test.renderPublicationWidget("lepri2025socialcontract");
+
+  assert.match(html, /<h3 class="publication-card__title"><a href="https:\/\/doi\.org\//);
+  assert.match(html, /target="_blank" rel="noopener"/);
+});
+
+test("publication title prefers URL over DOI", () => {
+  const html = _test.renderPublicationWidget("letouze2023aisdgs");
+
+  assert.match(html, /<h3 class="publication-card__title"><a href="https:\/\/unesdoc\.unesco\.org\//);
+  assert.doesNotMatch(html, /<h3 class="publication-card__title"><a href="https:\/\/doi\.org\//);
+});
+
+test("publication title is not clickable without a destination", () => {
+  const html = _test.renderPublicationWidget("oliver2017digitalerudites");
+
+  assert.match(html, /<h3 class="publication-card__title">Digital Erudites<\/h3>/);
+  assert.doesNotMatch(html, /<h3 class="publication-card__title"><a /);
 });
