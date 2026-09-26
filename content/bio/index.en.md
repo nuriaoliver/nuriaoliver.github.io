@@ -18,7 +18,7 @@ With more than 25 years of research experience, she has worked at the intersecti
 
 Oliver graduated at the top of her class in Telecommunications Engineering from the Universidad Politécnica de Madrid in 1994. She earned her PhD from the MIT Media Lab in 2000, where her research explored perceptual intelligence and systems capable of understanding human behavior.
 
-She joined Microsoft Research in Redmond in 2000. After returning to Spain, she helped establish and lead a research organization at Telefónica R&amp;D, serving as its first female Scientific Director. From 2017 to 2019, she was the first Director of Data Science Research at Vodafone globally. Across these roles, she built research teams and translated advances in AI, data science, and human-computer interaction into technologies used at scale.
+She joined Microsoft Research in Redmond in 2000. After returning to Spain, she helped establish and lead a new research organization at Telefónica R&amp;D, serving as its first female Scientific Director. From 2017 to 2019, she was the first Director of Data Science Research at Vodafone globally. Across these roles, she built research teams and translated advances in AI, data science, and human-computer interaction into technologies used at scale.
 
 Today, she leads [ELLIS Alicante](https://ellisalicante.org), an institute devoted to foundational and applied research in human-centered AI. She also serves as Chief Data Scientist at [Data-Pop Alliance](https://datapopalliance.org/), where data and AI are used to address social and humanitarian challenges.
 
