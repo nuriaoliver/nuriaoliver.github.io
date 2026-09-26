@@ -30,7 +30,7 @@ redirect_from:
 		<p class="home-section__label">New edition</p>
 		<h2 id="book-title"><cite>Inteligencia artificial, naturalmente</cite></h2>
 		<p>What AI can do, what it cannot do, and, above all, what we choose to make it do.</p>
-		<a class="home-book__link" href="https://www.amazon.es/INTELIGENCIA-ARTIFICIAL-naturalmente-Nuria-Oliver-ebook/dp/B0GX5YDFDM">Discover the book <span aria-hidden="true">→</span></a>
+		<a class="home-book__link" href="https://www.amazon.es/INTELIGENCIA-ARTIFICIAL-naturalmente-Nuria-Oliver-ebook/dp/B0GX5YDFDM?maas=maas_adg_DB8281296F255A08C4D0A7DCB2065B03_afap_abs&amp;ref_=aa_maas&amp;tag=maas">Discover the book <span aria-hidden="true">→</span></a>
 	</div>
 </section>
 

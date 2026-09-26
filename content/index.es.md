@@ -28,7 +28,7 @@ permalink: /es/
 		<p class="home-section__label">Nueva edición</p>
 		<h2 id="book-title"><cite>Inteligencia artificial, naturalmente</cite></h2>
 		<p>Qué puede hacer la IA, qué no puede hacer y, sobre todo, qué depende de nosotros que haga.</p>
-		<a class="home-book__link" href="https://www.amazon.es/INTELIGENCIA-ARTIFICIAL-naturalmente-Nuria-Oliver-ebook/dp/B0GX5YDFDM">Descubrir el libro <span aria-hidden="true">→</span></a>
+		<a class="home-book__link" href="https://www.amazon.es/INTELIGENCIA-ARTIFICIAL-naturalmente-Nuria-Oliver-ebook/dp/B0GX5YDFDM?maas=maas_adg_DB8281296F255A08C4D0A7DCB2065B03_afap_abs&amp;ref_=aa_maas&amp;tag=maas">Descubrir el libro <span aria-hidden="true">→</span></a>
 	</div>
 </section>
 
