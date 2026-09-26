@@ -30,6 +30,10 @@ In this project we develop hierarchical probabilistic representations for modeli
 
 [[publication:oliver2002hierarchical]]
 
+## Presentation
+
+- [Layered Representations for Human Activity Recognition (PDF, 1.0 MB)](seer-icmi-2002-presentation.pdf)
+
 ## Videos
 
 - [Live demonstration during Bill Gates' IJCAI 2001 keynote](cvpr2001video-short.mp4)

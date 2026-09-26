@@ -34,6 +34,10 @@ See also the successor system: [TripleBeat](/projects/triplebeat/).
 
 [[publication:oliver2006enhancing]]
 
+## Presentation
+
+- [Real-time Physiological and Contextual Monitoring on the Smartphone (PDF, 1.9 MB)](mptrain-presentation.pdf)
+
 ## Videos
 
 - [MPTrain demo](mptrain-v1-18.mp4)
