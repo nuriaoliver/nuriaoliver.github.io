@@ -3,39 +3,7 @@ const assert = require("node:assert/strict");
 const markdownIt = require("markdown-it");
 const {
   addResearchCountsWidget,
-  _test,
 } = require("../_11ty/research-counts-widget");
-
-test("renders localized publication and patent counts", () => {
-  const output = _test.renderResearchCounts(
-    { totalPubs: 173, totalPatents: 41 },
-    "es",
-  );
-
-  assert.match(
-    output,
-    /<span>Más de<\/span>\s*<strong>170<\/strong>\s*<span>Publicaciones<\/span>/,
-  );
-  assert.match(
-    output,
-    /<span>Más de<\/span>\s*<strong>40<\/strong>\s*<span>Patentes<\/span>/,
-  );
-  assert.match(output, /href="\/publications\/"/);
-  assert.match(output, /href="\/patents\/"/);
-});
-
-test("renders the widget from Markdown environment data", () => {
-  const md = markdownIt();
-  addResearchCountsWidget(md);
-
-  const output = md.render("[[research-counts]]", {
-    bib: { totalPubs: 173, totalPatents: 40 },
-    lang: "en",
-  });
-
-  assert.match(output, /<span>Publications<\/span>/);
-  assert.doesNotMatch(output, /\[\[research-counts\]\]/);
-});
 
 test("renders inline exact and floored research counts", () => {
   const md = markdownIt();
@@ -56,8 +24,14 @@ test("renders inline exact and floored research counts", () => {
 });
 
 test("fails when bibliography totals are unavailable", () => {
+  const md = markdownIt();
+  addResearchCountsWidget(md);
+
   assert.throws(
-    () => _test.renderResearchCounts({ totalPubs: 173 }, "es"),
+    () => md.render("[[publication-count-floor]]", {
+      bib: { totalPubs: 173 },
+      lang: "es",
+    }),
     /requires publication and patent totals/,
   );
 });

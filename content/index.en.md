@@ -22,8 +22,6 @@ Nuria Oliver is Director and cofounder of [ELLIS Alicante](https://ellisalicante
 - [View publications](/publications/)
 - [Contact](/summary/)
 
-[[research-counts]]
-
 [[featured-book]]
 
 ::: section cards columns=3

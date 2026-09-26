@@ -20,8 +20,6 @@ Nuria Oliver es directora y cofundadora de [ELLIS Alicante](https://ellisalicant
 - [Ver publicaciones](/publications/)
 - [Contacto](/summary/)
 
-[[research-counts]]
-
 [[featured-book]]
 
 ::: section cards columns=3

@@ -1,18 +1,3 @@
-const LOCALES = {
-  en: {
-    ariaLabel: "Research output",
-    moreThan: "More than",
-    publications: "Publications",
-    patents: "Patents",
-  },
-  es: {
-    ariaLabel: "Producción científica",
-    moreThan: "Más de",
-    publications: "Publicaciones",
-    patents: "Patentes",
-  },
-};
-
 function getResearchCounts(bib) {
   if (
     !Number.isInteger(bib?.totalPubs) ||
@@ -30,43 +15,8 @@ function getResearchCounts(bib) {
   };
 }
 
-function renderResearchCounts(bib, lang) {
-  const localized = LOCALES[lang];
-  if (!localized) {
-    throw new Error(`Research counts widget does not support language: ${lang || "(missing)"}`);
-  }
-  const counts = getResearchCounts(bib);
-
-  return `<section class="home-section home-research-counts" aria-label="${localized.ariaLabel}">
-  <a href="/publications/">
-    <span>${localized.moreThan}</span>
-    <strong>${counts.publicationFloor}</strong>
-    <span>${localized.publications}</span>
-  </a>
-  <a href="/patents/">
-    <span>${localized.moreThan}</span>
-    <strong>${counts.patentFloor}</strong>
-    <span>${localized.patents}</span>
-  </a>
-</section>`;
-}
-
 function addResearchCountsWidget(md) {
   md.core.ruler.after("inline", "research_counts_widget", (state) => {
-    for (let index = 0; index < state.tokens.length - 2; index++) {
-      const open = state.tokens[index];
-      const inline = state.tokens[index + 1];
-      const close = state.tokens[index + 2];
-      const isResearchCounts =
-        inline.type === "inline" && inline.content.trim() === "[[research-counts]]";
-
-      if (open.type === "paragraph_open" && isResearchCounts && close.type === "paragraph_close") {
-        const token = new state.Token("html_block", "", 0);
-        token.content = renderResearchCounts(state.env.bib, state.env.lang);
-        state.tokens.splice(index, 3, token);
-      }
-    }
-
     const hasInlineCounts = state.tokens.some(
       (token) =>
         token.type === "inline" &&
@@ -96,5 +46,5 @@ function addResearchCountsWidget(md) {
 
 module.exports = {
   addResearchCountsWidget,
-  _test: { getResearchCounts, renderResearchCounts },
+  _test: { getResearchCounts },
 };

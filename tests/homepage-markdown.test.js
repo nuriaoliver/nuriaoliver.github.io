@@ -34,13 +34,13 @@ test("renders unstyled standard sections", () => {
   assert.match(md.render("::: section\n## News"), /class="home-section home-standard"/);
 });
 
-test("places standalone homepage widgets outside sections", () => {
+test("places the featured book outside homepage sections", () => {
   const expanded = _test.expandHomepageSections(
-    "::: section hero\nIntroduction\n[[research-counts]]\n[[featured-book]]",
+    "::: section hero\nIntroduction\n[[featured-book]]",
   );
 
   assert.match(
     expanded,
-    /Introduction\n:::\n\[\[research-counts\]\]\n\[\[featured-book\]\]/,
+    /Introduction\n:::\n\[\[featured-book\]\]/,
   );
 });
