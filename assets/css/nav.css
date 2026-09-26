@@ -5,3 +5,16 @@ header > nav .menu { display:flex; gap:1rem; }
 header > nav .menu a { color:#666; text-decoration:none; font-size:0.95rem; }
 header > nav .menu a.active { color:#111; text-decoration:underline; }
 @media (max-width: 768px) { header > nav .menu { display:none; } header > nav .mobile-toggle { display:block; } }
+
+.site-breadcrumbs {
+  font-size: 0.875rem;
+  margin: 1.25rem 0 1.5rem;
+}
+
+.site-breadcrumbs .breadcrumb {
+  margin-bottom: 0;
+}
+
+.site-breadcrumbs .breadcrumb-item.active {
+  color: #68757d;
+}

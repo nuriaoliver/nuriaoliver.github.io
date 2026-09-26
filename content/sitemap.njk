@@ -13,6 +13,7 @@ eleventyExcludeFromCollections: true
     {%- if item.data.altpage %}
     <xhtml:link rel="alternate" hreflang="{{ item.data.lang }}" href="{{ site.url }}{{ item.url }}"/>
     <xhtml:link rel="alternate" hreflang="{{ item.data.altpage.lang }}" href="{{ site.url }}{{ item.data.altpage.url }}"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="{{ item.data.seo.xDefaultUrl }}"/>
     {%- endif %}
   </url>
   {%- endif %}

@@ -1,5 +1,6 @@
 ---
 title: Program Committees and Service
+description: Scientific leadership, advisory roles, program committees and professional service by Nuria Oliver.
 redirect_from:
   - /programcommittees.htm
 ---

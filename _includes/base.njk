@@ -3,11 +3,16 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>{% if title %}{{ title }} | Nuria Oliver{% else %}Nuria Oliver{% endif %}</title>
-    <link rel="canonical" href="{{ site.url }}{{ page.url }}">{% if altpage %}
+    <title>{{ seo.title }}</title>
+    {% if seo.description %}<meta name="description" content="{{ seo.description }}">{% endif %}
+    <link rel="canonical" href="{{ seo.canonicalUrl }}">{% if altpage %}
     <link rel="alternate" hreflang="{{ lang }}" href="{{ site.url }}{{ page.url }}">
     <link rel="alternate" hreflang="{{ altpage.lang }}" href="{{ site.url }}{{ altpage.url }}">
+    <link rel="alternate" hreflang="x-default" href="{{ seo.xDefaultUrl }}">
     {% endif %}
+    <link rel="icon" href="/favicons/favicon-96x96.png" sizes="96x96" type="image/png">
+    <link rel="icon" href="/favicons/favicon-32x32.png" sizes="32x32" type="image/png">
+    <link rel="apple-touch-icon" href="/favicons/apple-icon-180x180.png">
     <link rel="stylesheet" href="/css/bootstrap.min.css">
     <script src="/js/bootstrap.bundle.min.js" defer></script>
     <link rel="stylesheet" href="/css/nav.css">
@@ -28,17 +33,9 @@
     <link rel="stylesheet" href="/css/press.css">
     <script src="/js/press.js" defer></script>
     {% endif %}
-    {% if page.url and page.url.startsWith('/projects/') and page.url != '/projects/' %}
+    {% if seo.structuredData %}
     <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "BreadcrumbList",
-      "itemListElement": [
-        { "@type": "ListItem", "position": 1, "name": "Home",     "item": "{{ site.url }}/" },
-        { "@type": "ListItem", "position": 2, "name": "Projects", "item": "{{ site.url }}/projects/" },
-        { "@type": "ListItem", "position": 3, "name": {{ title | dump | safe }}, "item": "{{ site.url }}{{ page.url }}" }
-      ]
-    }
+    {{ seo.structuredData | jsonLd | safe }}
     </script>
     {% endif %}
   </head>
@@ -48,6 +45,17 @@
     </header>
     <main role="main" class="{% if home %}home-page{% endif %}{% if page.url == '/awards/' %} awards-page{% endif %}{% if page.url == '/programcommittees/' %} service-page{% endif %}{% if page.url == '/press/' %} press-page{% endif %}">
       <div class="container">
+        {% if seo.breadcrumbs.length %}
+        <nav class="site-breadcrumbs" aria-label="{{ seo.breadcrumbAriaLabel }}">
+          <ol class="breadcrumb">
+            {% for crumb in seo.breadcrumbs %}
+            <li class="breadcrumb-item{% if loop.last %} active{% endif %}"{% if loop.last %} aria-current="page"{% endif %}>
+              {% if loop.last %}{{ crumb.name }}{% else %}<a href="{{ crumb.url }}">{{ crumb.name }}</a>{% endif %}
+            </li>
+            {% endfor %}
+          </ol>
+        </nav>
+        {% endif %}
         {{ content | safe }}
       </div>
     </main>

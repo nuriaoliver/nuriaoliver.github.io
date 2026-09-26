@@ -1,5 +1,6 @@
 ---
 title: Biography
+description: Biography of Nuria Oliver, computer scientist and internationally recognized researcher in human-centered artificial intelligence.
 lang: en
 bio: true
 permalink: /bio/

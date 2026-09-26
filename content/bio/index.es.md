@@ -1,5 +1,6 @@
 ---
 title: Biografía
+description: Biografía de Nuria Oliver, científica informática e investigadora de referencia internacional en inteligencia artificial centrada en las personas.
 lang: es
 bio: true
 permalink: /es/bio/

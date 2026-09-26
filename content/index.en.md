@@ -1,5 +1,6 @@
 ---
 title: Nuria Oliver, PhD
+description: Official website of Nuria Oliver, computer scientist and researcher in human-centered artificial intelligence. Biography, publications, patents, projects and invited talks.
 lang: en
 home: true
 permalink: /
