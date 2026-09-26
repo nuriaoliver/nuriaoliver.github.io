@@ -17,6 +17,7 @@
     "@retorquere/bibtex-parser": "^11.0.0",
     "bootstrap": "^5.3.8",
     "markdown-it": "^15.0.2",
+    "markdown-it-container": "^4.0.0",
     "yaml": "^2.9.1"
   }
 }

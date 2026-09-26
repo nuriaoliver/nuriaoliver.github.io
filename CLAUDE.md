@@ -16,10 +16,10 @@ python fetch_orcid.py --add 1,3  # add individually validated candidates via bib
 
 This is an [Eleventy (11ty)](https://www.11ty.dev/) static site for Nuria Oliver's personal academic website.
 
-**Input → Output:** `content/` (Markdown or Nunjucks) → `_site/` (built HTML). Never edit `_site/` directly.
+**Input → Output:** `content/` (Markdown) → `_site/` (built HTML). Never edit `_site/` directly.
 
 **Key directories:**
-- `content/` — pages with YAML front matter, primarily Markdown; data-driven pages can use Nunjucks. Input root for Eleventy.
+- `content/` — all pages as Markdown with YAML front matter. Input root for Eleventy.
 - `_includes/` — Nunjucks templates: `base.njk` (HTML shell), `nav.njk`, `layouts/default.njk`, `layouts/publications.njk`
 - `_data/` — global data: `nav.json` (navigation links), `publications.json` (auto-generated from ORCID)
 - `assets/css/` — stylesheets, copied to `/css/` in output
@@ -31,7 +31,11 @@ This is an [Eleventy (11ty)](https://www.11ty.dev/) static site for Nuria Oliver
 
 **Navigation:** Driven entirely by `_data/nav.json`. To add/remove nav items, edit that file.
 
-**Translations:** Localized pages use sibling filenames such as `index.en.njk` and `index.es.njk` or `bio/index.en.md` and `bio/index.es.md`. The plugin in `_11ty/plugins/sibling-i18n/` supplies `lang`, `altpage`, and `translations`; `_data/languages.json` contains language-switch UI text. Keep existing public URLs stable with explicit `permalink` values.
+**Translations:** Localized pages use sibling filenames such as `index.en.md` and `index.es.md`. The plugin in `_11ty/plugins/sibling-i18n/` supplies `lang`, `altpage`, and `translations`; `_data/languages.json` contains language-switch UI text. Keep existing public URLs stable with explicit `permalink` values.
+
+**Featured book:** `_data/featuredBook.json` contains the shared metadata and localized copy. Add `[[featured-book]]` on its own line in a Markdown page to render the feature using that page's `lang`.
+
+**Homepage editing:** The localized index files contain ordinary Markdown divided by markers such as `::: home-intro` and `::: home-research`. A new marker, `[[featured-book]]`, or the end of the file automatically closes the previous section. `::: home-recognition` is nested into the preceding `::: home-profile` automatically. Keep the existing section order and list structure so `assets/css/home.css` can preserve the layout.
 
 **Project pages** live under `content/projects/<name>/index.md` (page bundle pattern). Images/PDFs co-located in the bundle are passed through to output automatically.
 

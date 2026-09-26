@@ -6,26 +6,26 @@ const { SiblingI18nIndex } = siblingI18nPlugin;
 
 test("pairs sibling home pages in both directions", () => {
   const english = {
-    inputPath: "./content/index.en.njk",
+    inputPath: "./content/index.en.md",
     url: "/",
     data: { lang: "en" },
   };
   const spanish = {
-    inputPath: "./content/index.es.njk",
+    inputPath: "./content/index.es.md",
     url: "/es/",
     data: { lang: "es" },
   };
-  const index = new SiblingI18nIndex({ extensions: ["md", "markdown", "njk"] });
+  const index = new SiblingI18nIndex();
 
   index.build([english, spanish]);
 
   assert.deepEqual(index.getAlternate(english.inputPath), {
-    inputPath: "content/index.es.njk",
+    inputPath: "content/index.es.md",
     lang: "es",
     url: "/es/",
   });
   assert.deepEqual(index.getAlternate(spanish.inputPath), {
-    inputPath: "content/index.en.njk",
+    inputPath: "content/index.en.md",
     lang: "en",
     url: "/",
   });

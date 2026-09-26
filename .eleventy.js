@@ -2,6 +2,8 @@ const markdownIt = require("markdown-it");
 const yaml = require("yaml");
 const redirectsPlugin = require("./_11ty/redirects");
 const siblingI18nPlugin = require("./_11ty/plugins/sibling-i18n");
+const { addFeaturedBookWidget } = require("./_11ty/featured-book-widget");
+const { addHomepageContainers } = require("./_11ty/homepage-markdown");
 const { addPublicationWidgets } = require("./_11ty/publication-widget");
 
 module.exports = function (eleventyConfig) {
@@ -9,7 +11,6 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPlugin(siblingI18nPlugin, {
     languages: ["en", "es"],
     defaultLanguage: "en",
-    extensions: ["md", "markdown", "njk"],
   });
   eleventyConfig.addDataExtension("yaml", (contents) => yaml.parse(contents));
 
@@ -118,6 +119,8 @@ module.exports = function (eleventyConfig) {
 
   // Markdown with raw HTML enabled
   const md = markdownIt({ html: true, linkify: true });
+  addHomepageContainers(md);
+  addFeaturedBookWidget(md);
   addPublicationWidgets(md);
   const defaultLinkOpen = md.renderer.rules.link_open || function (tokens, index, options, env, self) {
     return self.renderToken(tokens, index, options);
