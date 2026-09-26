@@ -47,16 +47,16 @@ permalink: /es/
 		<p class="home-section__label">Perfil</p>
 		<h2 id="profile-title">Investigación, liderazgo e impacto</h2>
 		<p>Su trayectoria incluye Microsoft Research, Telefónica I+D y Vodafone, donde fue la primera directora de investigación en ciencia de datos a nivel mundial. En la actualidad, su trabajo en <a href="https://ellisalicante.org">ELLIS Alicante</a> impulsa una inteligencia artificial centrada en las personas y socialmente responsable. También codirigió el equipo ganador del <a href="https://www.xprize.org/challenges/pandemicresponse">XPRIZE Pandemic Response Challenge</a>, que desarrolló modelos de IA basados en datos para apoyar la toma de decisiones durante una crisis global.</p>
-		<p>Es inventora de <a href="/patents/">40 patentes</a> y participa habitualmente en la conversación pública sobre inteligencia artificial responsable mediante <a href="/invitedtalks/">conferencias invitadas</a> y colaboraciones con <a href="/press/">los medios de comunicación</a>.</p>
+		<p>Figura como inventora en <a href="/patents/">40 patentes</a> y participa habitualmente en la conversación pública sobre inteligencia artificial responsable mediante <a href="/invitedtalks/">conferencias invitadas</a> y colaboraciones con <a href="/press/">los medios de comunicación</a>.</p>
 	</div>
 	<div class="home-recognition">
 		<p class="home-section__label">Reconocimientos destacados</p>
 		<ul>
-			<li><strong>2025</strong> <a href="https://ellisalicante.org/2026/05/05/pr-PNI.es/">Premio Nacional de Investigación en Matemáticas y Tecnologías de la Información y las Comunicaciones</a></li>
-			<li><strong>2025</strong> <a href="https://www.talgo.com/es/talgo-reconoce-la-innovacion-tecnologica-la-relevancia-de-la-mujer-en-la-fp-y-la-excelencia-de-la-mujer-en-la-ingenieria-en-sus-premios-talgo-2025">Premio Talgo a la Excelencia Profesional de la Mujer en la Ingeniería</a></li>
-			<li><strong>2024</strong> <a href="https://www.ae-info.org/ae/Acad_Main/Barcelona_Knowledge_Hub_Events/BARCELONA%20HYPATIA%20EUROPEAN%20SCIENCE%20PRIZE%202023">Premio Europeo de Ciencia Hipatia de Barcelona</a></li>
+			<li><strong>2025</strong> <a href="https://ellisalicante.org/2026/05/05/pr-PNI.es/">Premio Nacional de Investigación Julio Rey Pastor 2025, en el área de Matemáticas y Tecnologías de la Información y las Comunicaciones</a></li>
+			<li><strong>2025</strong> <a href="https://www.talgo.com/es/talgo-reconoce-la-innovacion-tecnologica-la-relevancia-de-la-mujer-en-la-fp-y-la-excelencia-de-la-mujer-en-la-ingenieria-en-sus-premios-talgo-2025">Premio Talgo a la Excelencia de la Mujer en la Ingeniería 2025</a></li>
+			<li><strong>2024</strong> <a href="https://www.ae-info.org/ae/Acad_Main/Barcelona_Knowledge_Hub_Events/BARCELONA%20HYPATIA%20EUROPEAN%20SCIENCE%20PRIZE%202023">Premio Europeo de Ciencia Hipatia de Barcelona 2023</a></li>
 			<li><strong>2021</strong> <a href="https://www.fpremiosreyjaimeprimero.org/premiados/nuria-oliver/">Premio Rei Jaume I de Nuevas Tecnologías</a></li>
-			<li><strong>2021</strong> <a href="https://anitab.org/profiles/abie-award-winners/nuria-oliver/">Premio Abie al Liderazgo Tecnológico</a></li>
+			<li><strong>2021</strong> <a href="https://anitab.org/profiles/abie-award-winners/nuria-oliver/">Abie Technology Leadership Award</a></li>
 		</ul>
 		<a href="/awards/">Todos los premios y reconocimientos</a>
 	</div>
@@ -65,7 +65,7 @@ permalink: /es/
 <section class="home-section home-credentials" aria-labelledby="credentials-title">
 	<p class="home-section__label">Trayectoria profesional</p>
 	<h2 id="credentials-title">Distinciones y academias</h2>
-	<p>ACM Fellow · IEEE Fellow · EurAI Fellow · ELLIS Fellow · AAIA Fellow · Real Academia de Ingeniería de España · CHI Academy · Academia Europaea · Academia de Ingeniería de México</p>
+	<p>ACM Fellow · IEEE Fellow · EurAI Fellow · ELLIS Fellow · AAIA Fellow · Real Academia de Ingeniería · CHI Academy · Academia Europaea · Academia de Ingeniería de México</p>
 	<nav class="home-external" aria-label="Perfiles externos">
 		<a href="https://ellisalicante.org/people/nuriaoliver/">Perfil en ELLIS Alicante</a>
 		<a href="https://orcid.org/0000-0001-5985-691X">ORCID</a>
