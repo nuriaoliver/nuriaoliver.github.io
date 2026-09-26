@@ -1,8 +1,5 @@
 ---
 title: Nuria Oliver, PhD
-lang: en
-home: true
-permalink: /
 redirect_from:
   - /index.htm
 ---
