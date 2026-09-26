@@ -6,16 +6,17 @@ redirect_from:
   - /projects.htm
 ---
 
-These projects trace my research career from the MIT Media Lab through Microsoft
-Research and Telefónica Research. The sections below are organized by career
-period, with research areas retained within each period. More recent work is
-represented in the [major ELLIS Alicante projects](#major-ellis-alicante-projects)
-and my [publications](/publications/).
+These projects trace Nuria Oliver's research career from the MIT Media Lab
+through Microsoft Research and Telefónica Research. The sections below are
+organized by career period, with research areas retained within each period.
+More recent work is represented in the
+[selected ELLIS Alicante projects](#selected-ellis-alicante-projects) and her
+[publications](/publications/).
 
-<h2 id="major-ellis-alicante-projects">Major ELLIS Alicante projects</h2>
+<h2 id="selected-ellis-alicante-projects">Selected ELLIS Alicante projects</h2>
 
-The following projects represent major recent work led or co-led by Nuria Oliver
-through ELLIS Alicante.
+The following selection highlights recent projects developed through ELLIS
+Alicante.
 
 <div class="featured-projects">
 	<a class="featured-project" href="https://ellisalicante.org/beautyverse/">
@@ -50,7 +51,7 @@ through ELLIS Alicante.
 	</a>
 	<a class="featured-project" href="https://ellisalicante.org/xprize">
 		<strong>XPRIZE Pandemic Response Challenge</strong>
-		<span>The winning $500,000 Cognizant-sponsored challenge team applying data science to pandemic response.</span>
+		<span>A data-driven pandemic-response project developed for the Cognizant-sponsored XPRIZE challenge, which the team won in 2021.</span>
 		<small>View project at ELLIS Alicante</small>
 	</a>
 </div>
