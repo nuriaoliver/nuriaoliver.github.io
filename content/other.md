@@ -22,7 +22,7 @@ redirect_from:
 Smart Clothes Fashion Show
 --------------------------
 
-I was able to combine my passion for technology and fashion in the First
-Smart Clothes Fashion Show that took place at the MIT 's Media Lab
+This smart-clothing fashion show at the MIT Media Lab brought together my
+interests in technology and fashion.
 
 ![](/assets/other/fashionshowbody.jpg)![](/assets/other/fashionshow1.gif)

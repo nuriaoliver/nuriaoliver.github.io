@@ -1,6 +1,6 @@
 ---
 title: Biography
-description: Biography of Nuria Oliver, computer scientist and internationally recognized researcher in human-centered artificial intelligence.
+description: Biography of Nuria Oliver, computer scientist and researcher in human-centered artificial intelligence.
 lang: en
 bio: true
 permalink: /bio/
@@ -10,7 +10,7 @@ redirect_from:
 
 <img src="NuriaOliverFaceShotBlue.jpg" class="bio-portrait img-fluid float-start me-3 mb-3" alt="Portrait of Nuria Oliver">
 
-Nuria Oliver is a computer scientist and a leading researcher in human-centered artificial intelligence. She is Director and cofounder of [ELLIS Alicante](https://ellisalicante.org), cofounder and vice-president of [ELLIS](https://ellis.eu), the European Laboratory for Learning and Intelligent Systems, and Chief Data Scientist at [Data-Pop Alliance](https://datapopalliance.org/). Her work focuses on developing artificial intelligence that understands people, works with people, and serves society.
+Nuria Oliver is a computer scientist specializing in human-centered artificial intelligence. She is Director and cofounder of [ELLIS Alicante](https://ellisalicante.org), cofounder and vice-president of [ELLIS](https://ellis.eu), the European Laboratory for Learning and Intelligent Systems, and Chief Data Scientist at [Data-Pop Alliance](https://datapopalliance.org/). Her work focuses on developing artificial intelligence that understands people, works with people, and serves society.
 
 With more than 25 years of research experience, she has worked at the intersection of artificial intelligence, human-computer interaction, mobile computing, and computational social science. Her research has helped advance computational models of individual and collective human behavior, intelligent and multimodal interfaces, context-aware systems, mobile data analysis, and AI for social good.
 
@@ -18,7 +18,7 @@ With more than 25 years of research experience, she has worked at the intersecti
 
 Oliver graduated at the top of her class in Telecommunications Engineering from the Universidad Politécnica de Madrid in 1994. She earned her PhD from the MIT Media Lab in 2000, where her research explored perceptual intelligence and systems capable of understanding human behavior.
 
-She joined Microsoft Research in Redmond in 2000. After returning to Spain, she helped establish and lead an internationally recognized research organization at Telefónica R&amp;D, serving as its first female Scientific Director. From 2017 to 2019, she was the first Director of Data Science Research at Vodafone globally. Across these roles, she built research teams and translated advances in AI, data science, and human-computer interaction into technologies used at scale.
+She joined Microsoft Research in Redmond in 2000. After returning to Spain, she helped establish and lead a research organization at Telefónica R&amp;D, serving as its first female Scientific Director. From 2017 to 2019, she was the first Director of Data Science Research at Vodafone globally. Across these roles, she built research teams and translated advances in AI, data science, and human-computer interaction into technologies used at scale.
 
 Today, she leads [ELLIS Alicante](https://ellisalicante.org), an institute devoted to foundational and applied research in human-centered AI. She also serves as Chief Data Scientist at [Data-Pop Alliance](https://datapopalliance.org/), where data and AI are used to address social and humanitarian challenges.
 
