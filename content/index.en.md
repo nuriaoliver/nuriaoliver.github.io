@@ -25,12 +25,12 @@ redirect_from:
 </section>
 
 <section class="home-section home-book" aria-labelledby="book-title">
-	<div>
+	<img class="home-book__cover" src="/img/inteligencia-artificial-naturalmente-cover.jpg" alt="Cover of Inteligencia artificial, naturalmente, second edition">
+	<div class="home-book__content">
 		<p class="home-section__label">New edition</p>
 		<h2 id="book-title"><cite>Inteligencia artificial, naturalmente</cite></h2>
-		<p>The second edition of a Spanish-language book about artificial intelligence and its role in our lives.</p>
+		<a class="home-book__link" href="https://www.amazon.es/INTELIGENCIA-ARTIFICIAL-naturalmente-Nuria-Oliver-ebook/dp/B0GX5YDFDM">Discover the book <span aria-hidden="true">→</span></a>
 	</div>
-	<a class="home-book__link" href="https://www.amazon.es/INTELIGENCIA-ARTIFICIAL-naturalmente-Nuria-Oliver-ebook/dp/B0GX5YDFDM">Discover the book <span aria-hidden="true">→</span></a>
 </section>
 
 <section class="home-section" aria-labelledby="research-title">

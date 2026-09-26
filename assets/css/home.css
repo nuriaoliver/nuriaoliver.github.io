@@ -126,10 +126,17 @@
 }
 
 .home-book {
-  align-items: end;
-  display: flex;
-  gap: 2rem;
-  justify-content: space-between;
+  align-items: center;
+  display: grid;
+  gap: clamp(1.75rem, 5vw, 3.5rem);
+  grid-template-columns: minmax(100px, 140px) minmax(0, 1fr);
+}
+
+.home-book__cover {
+  box-shadow: 0 12px 28px rgb(32 39 43 / 14%);
+  display: block;
+  height: auto;
+  width: 100%;
 }
 
 .home-book h2 {
@@ -149,8 +156,9 @@
 .home-book__link {
   border-bottom: 1px solid #9dafb8;
   color: #174f72;
-  flex: 0 0 auto;
+  display: inline-block;
   font-weight: 600;
+  margin-top: 1.25rem;
   padding-bottom: 0.2rem;
   text-decoration: none;
 }
@@ -270,8 +278,16 @@
   }
 
   .home-book {
-    align-items: start;
-    flex-direction: column;
+    gap: 1.25rem;
+    grid-template-columns: 1fr;
+  }
+
+  .home-book__cover {
+    width: 120px;
+  }
+
+  .home-book h2 {
+    font-size: 2rem;
   }
 
   .home-section {

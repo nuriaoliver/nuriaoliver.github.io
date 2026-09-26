@@ -23,12 +23,12 @@ permalink: /es/
 </section>
 
 <section class="home-section home-book" aria-labelledby="book-title">
-	<div>
+	<img class="home-book__cover" src="/img/inteligencia-artificial-naturalmente-cover.jpg" alt="Portada de Inteligencia artificial, naturalmente, segunda edición">
+	<div class="home-book__content">
 		<p class="home-section__label">Nueva edición</p>
 		<h2 id="book-title"><cite>Inteligencia artificial, naturalmente</cite></h2>
-		<p>La segunda edición de una obra sobre inteligencia artificial y su papel en nuestras vidas.</p>
+		<a class="home-book__link" href="https://www.amazon.es/INTELIGENCIA-ARTIFICIAL-naturalmente-Nuria-Oliver-ebook/dp/B0GX5YDFDM">Descubrir el libro <span aria-hidden="true">→</span></a>
 	</div>
-	<a class="home-book__link" href="https://www.amazon.es/INTELIGENCIA-ARTIFICIAL-naturalmente-Nuria-Oliver-ebook/dp/B0GX5YDFDM">Descubrir el libro <span aria-hidden="true">→</span></a>
 </section>
 
 <section class="home-section" aria-labelledby="research-title">
