@@ -7,6 +7,10 @@ const { addHomepageContainers } = require("./_11ty/homepage-markdown");
 const { addPublicationWidgets } = require("./_11ty/publication-widget");
 const { addResearchCountsWidget } = require("./_11ty/research-counts-widget");
 const { buildSeoData, serializeJsonLd } = require("./_11ty/seo");
+const {
+  buildSitemapAlternates,
+  includeInSitemap,
+} = require("./_11ty/sitemap");
 
 module.exports = function (eleventyConfig) {
   eleventyConfig.addPlugin(redirectsPlugin);
@@ -15,6 +19,8 @@ module.exports = function (eleventyConfig) {
     defaultLanguage: "en",
   });
   eleventyConfig.addGlobalData("eleventyComputed.seo", () => data => buildSeoData(data));
+  eleventyConfig.addFilter("sitemapAlternates", buildSitemapAlternates);
+  eleventyConfig.addFilter("includeInSitemap", includeInSitemap);
   eleventyConfig.addDataExtension("yaml", (contents) => yaml.parse(contents));
 
   // Copy static/ to output root
