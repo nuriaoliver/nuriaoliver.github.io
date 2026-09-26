@@ -27,8 +27,7 @@ into Braille. More information is available on the dedicated
 [WearASL project page](/projects/wearasl/).
 
 Alongside her technical contribution, Oliver also took part in the show itself,
-wearing one of the featured outfits. The photographs below capture that
-experience.
+wearing one of the featured outfits. 
 
 ![Nuria Oliver at the Smart Clothes Fashion Show](/assets/other/fashionshowbody.jpg)
 
