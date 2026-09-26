@@ -24,9 +24,9 @@ permalink: /es/
 
 <section class="home-section home-book" aria-labelledby="book-title">
 	<div>
-		<p class="home-section__label">Nuevo libro</p>
+		<p class="home-section__label">Nueva edición</p>
 		<h2 id="book-title"><cite>Inteligencia artificial, naturalmente</cite></h2>
-		<p>Una nueva obra sobre inteligencia artificial y su papel en nuestras vidas.</p>
+		<p>La segunda edición de una obra sobre inteligencia artificial y su papel en nuestras vidas.</p>
 	</div>
 	<a class="home-book__link" href="https://www.amazon.es/INTELIGENCIA-ARTIFICIAL-naturalmente-Nuria-Oliver-ebook/dp/B0GX5YDFDM">Descubrir el libro <span aria-hidden="true">→</span></a>
 </section>

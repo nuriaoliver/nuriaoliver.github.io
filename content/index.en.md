@@ -26,9 +26,9 @@ redirect_from:
 
 <section class="home-section home-book" aria-labelledby="book-title">
 	<div>
-		<p class="home-section__label">New book</p>
+		<p class="home-section__label">New edition</p>
 		<h2 id="book-title"><cite>Inteligencia artificial, naturalmente</cite></h2>
-		<p>A new Spanish-language book about artificial intelligence and its role in our lives.</p>
+		<p>The second edition of a Spanish-language book about artificial intelligence and its role in our lives.</p>
 	</div>
 	<a class="home-book__link" href="https://www.amazon.es/INTELIGENCIA-ARTIFICIAL-naturalmente-Nuria-Oliver-ebook/dp/B0GX5YDFDM">Discover the book <span aria-hidden="true">→</span></a>
 </section>
