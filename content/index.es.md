@@ -14,7 +14,7 @@ permalink: /es/
 
 > Investigo una inteligencia artificial que comprenda a las personas, colabore con ellas y esté al servicio de la sociedad.
 
-Nuria Oliver es directora y cofundadora de [ELLIS Alicante](https://ellisalicante.org), cofundadora y vicepresidenta de [ELLIS](https://ellis.eu), y Chief Data Scientist en [Data-Pop Alliance](https://datapopalliance.org/). Es doctora por el MIT Media Lab y cuenta con más de 25 años de experiencia investigadora tanto en el ámbito académico como en la industria.
+Nuria Oliver es directora y cofundadora de [ELLIS Alicante](https://ellisalicante.org). Es cofundadora y vicepresidenta de [ELLIS](https://ellis.eu). Tiene un doctorado por el Media Lab del MIT y también es científica jefa de datos en [Data-Pop Alliance](https://datapopalliance.org/).
 
 - [Leer biografía](/es/bio/)
 - [Ver publicaciones](/publications/)
@@ -46,9 +46,9 @@ Nuria Oliver es directora y cofundadora de [ELLIS Alicante](https://ellisalicant
 
 ## Investigación, liderazgo e impacto
 
-Su trayectoria incluye Microsoft Research, Telefónica I+D y Vodafone, donde fue la primera directora de investigación en ciencia de datos a nivel mundial. En la actualidad, su trabajo en [ELLIS Alicante](https://ellisalicante.org) impulsa una inteligencia artificial centrada en las personas y socialmente responsable. También codirigió el equipo ganador del [XPRIZE Pandemic Response Challenge](https://www.xprize.org/challenges/pandemicresponse), que desarrolló modelos de IA basados en datos para apoyar la toma de decisiones durante una crisis global.
+Anteriormente, fue asesora científica jefe del Instituto Vodafone, directora de Investigación en Ciencia de Datos en Vodafone, directora científica en Telefónica e investigadora en Microsoft Research. Durante la pandemia de COVID-19, ocupó el cargo honorífico de comisionada para la Presidencia de la Generalitat Valenciana en IA y Ciencias de Datos en la lucha contra la COVID-19. Asesora a numerosas instituciones, universidades y empresas.
 
-Figura como inventora en [40 patentes](/patents/) y participa habitualmente en la conversación pública sobre inteligencia artificial responsable mediante [conferencias invitadas](/invitedtalks/) y colaboraciones con [los medios de comunicación](/press/).
+Es conocida por su trabajo en modelos computacionales de comportamiento humano, interacción persona-máquina, computación móvil y el uso del big data y la inteligencia artificial para el bien social. Figura como inventora en [40 patentes](/patents/).
 
 ::: aside list
 **Reconocimientos destacados**
