@@ -16,10 +16,10 @@ python fetch_orcid.py --add 1,3  # add individually validated candidates via bib
 
 This is an [Eleventy (11ty)](https://www.11ty.dev/) static site for Nuria Oliver's personal academic website.
 
-**Input → Output:** `content/` (Markdown) → `_site/` (built HTML). Never edit `_site/` directly.
+**Input → Output:** `content/` (Markdown or Nunjucks) → `_site/` (built HTML). Never edit `_site/` directly.
 
 **Key directories:**
-- `content/` — all pages as Markdown with YAML front matter. Input root for Eleventy.
+- `content/` — pages with YAML front matter, primarily Markdown; data-driven pages can use Nunjucks. Input root for Eleventy.
 - `_includes/` — Nunjucks templates: `base.njk` (HTML shell), `nav.njk`, `layouts/default.njk`, `layouts/publications.njk`
 - `_data/` — global data: `nav.json` (navigation links), `publications.json` (auto-generated from ORCID)
 - `assets/css/` — stylesheets, copied to `/css/` in output
@@ -31,7 +31,7 @@ This is an [Eleventy (11ty)](https://www.11ty.dev/) static site for Nuria Oliver
 
 **Navigation:** Driven entirely by `_data/nav.json`. To add/remove nav items, edit that file.
 
-**Translations:** Localized pages use sibling filenames such as `index.en.md` and `index.es.md`. The plugin in `_11ty/plugins/sibling-i18n/` supplies `lang`, `altpage`, and `translations`; `_data/languages.json` contains language-switch UI text. Keep existing public URLs stable with explicit `permalink` values.
+**Translations:** Localized pages use sibling filenames such as `index.en.njk` and `index.es.njk` or `bio/index.en.md` and `bio/index.es.md`. The plugin in `_11ty/plugins/sibling-i18n/` supplies `lang`, `altpage`, and `translations`; `_data/languages.json` contains language-switch UI text. Keep existing public URLs stable with explicit `permalink` values.
 
 **Project pages** live under `content/projects/<name>/index.md` (page bundle pattern). Images/PDFs co-located in the bundle are passed through to output automatically.
 

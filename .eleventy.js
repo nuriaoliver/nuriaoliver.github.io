@@ -9,6 +9,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPlugin(siblingI18nPlugin, {
     languages: ["en", "es"],
     defaultLanguage: "en",
+    extensions: ["md", "markdown", "njk"],
   });
   eleventyConfig.addDataExtension("yaml", (contents) => yaml.parse(contents));
 
