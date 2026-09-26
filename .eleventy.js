@@ -5,6 +5,7 @@ const siblingI18nPlugin = require("./_11ty/plugins/sibling-i18n");
 const { addFeaturedBookWidget } = require("./_11ty/featured-book-widget");
 const { addHomepageContainers } = require("./_11ty/homepage-markdown");
 const { addPublicationWidgets } = require("./_11ty/publication-widget");
+const { addResearchCountsWidget } = require("./_11ty/research-counts-widget");
 
 module.exports = function (eleventyConfig) {
   eleventyConfig.addPlugin(redirectsPlugin);
@@ -121,6 +122,7 @@ module.exports = function (eleventyConfig) {
   const md = markdownIt({ html: true, linkify: true });
   addHomepageContainers(md);
   addFeaturedBookWidget(md);
+  addResearchCountsWidget(md);
   addPublicationWidgets(md);
   const defaultLinkOpen = md.renderer.rules.link_open || function (tokens, index, options, env, self) {
     return self.renderToken(tokens, index, options);

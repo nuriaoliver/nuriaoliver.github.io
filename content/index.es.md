@@ -20,6 +20,8 @@ Nuria Oliver es directora y cofundadora de [ELLIS Alicante](https://ellisalicant
 - [Ver publicaciones](/publications/)
 - [Contacto](/summary/)
 
+[[research-counts]]
+
 [[featured-book]]
 
 ::: section cards columns=3
@@ -48,7 +50,7 @@ Nuria Oliver es directora y cofundadora de [ELLIS Alicante](https://ellisalicant
 
 Anteriormente, fue asesora científica jefe del Instituto Vodafone, directora de Investigación en Ciencia de Datos en Vodafone, directora científica en Telefónica e investigadora en Microsoft Research. Durante la pandemia de COVID-19, ocupó el cargo honorífico de comisionada para la Presidencia de la Generalitat Valenciana en IA y Ciencias de Datos en la lucha contra la COVID-19. Asesora a numerosas instituciones, universidades y empresas.
 
-Es conocida por su trabajo en modelos computacionales de comportamiento humano, interacción persona-máquina, computación móvil y el uso del big data y la inteligencia artificial para el bien social. Figura como inventora en [40 patentes](/patents/).
+Es conocida por su trabajo en modelos computacionales de comportamiento humano, interacción persona-máquina, computación móvil y el uso del big data y la inteligencia artificial para el bien social. Figura como inventora en más de [[patent-count-floor]] [patentes](/patents/).
 
 ::: aside list
 **Reconocimientos destacados**

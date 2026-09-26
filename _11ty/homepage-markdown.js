@@ -32,7 +32,7 @@ function expandHomepageSections(source) {
     );
     const aside = line.match(/^::: aside(?: +list)?\s*$/);
 
-    if (line.trim() === "[[featured-book]]") {
+    if (/^\[\[(?:featured-book|research-counts)\]\]$/.test(line.trim())) {
       closeCurrent();
       output.push(line);
       continue;

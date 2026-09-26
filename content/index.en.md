@@ -22,6 +22,8 @@ Nuria Oliver is Director and cofounder of [ELLIS Alicante](https://ellisalicante
 - [View publications](/publications/)
 - [Contact](/summary/)
 
+[[research-counts]]
+
 [[featured-book]]
 
 ::: section cards columns=3
@@ -50,7 +52,7 @@ Nuria Oliver is Director and cofounder of [ELLIS Alicante](https://ellisalicante
 
 Her career includes Microsoft Research, Telefónica R&D, and Vodafone, where she was the first Director of Data Science Research globally. Today, her work at [ELLIS Alicante](https://ellisalicante.org) advances human-centered, socially responsible AI. She also co-led the winning team of the [XPRIZE Pandemic Response Challenge](https://www.xprize.org/challenges/pandemicresponse), developing data-driven AI models to support decision-making during a global crisis.
 
-She is the named inventor of [40 patents](/patents/) and regularly contributes to the public conversation about responsible AI through [invited talks](/invitedtalks/) and [the media](/press/).
+She is the named inventor of more than [[patent-count-floor]] [patents](/patents/) and regularly contributes to the public conversation about responsible AI through [invited talks](/invitedtalks/) and [the media](/press/).
 
 ::: aside list
 **Selected recognitions**
