@@ -8,6 +8,7 @@ redirect_from:
 # Section markers close automatically when the next section begins.
 ---
 
+[editor-note-hero]: # "Main introduction: portrait, field, name, summary, and action links."
 ::: section hero
 ![Portrait of Nuria Oliver](/bio/NuriaOliverFaceShotBlue.jpg)
 
@@ -22,8 +23,11 @@ Nuria Oliver is Director and cofounder of [ELLIS Alicante](https://ellisalicante
 - [Read biography](/bio/)
 - [View publications](/publications/)
 - [Contact](/summary/)
+
+[editor-note-book]: # "Featured book: edit its copy, cover, and URL in _data/featuredBook.json."
 [[featured-book]]
 
+[editor-note-research]: # "Research grid: each top-level list item is a card; columns controls the desktop column count."
 ::: section cards columns=3
 **Research**
 
@@ -42,6 +46,8 @@ Nuria Oliver is Director and cofounder of [ELLIS Alicante](https://ellisalicante
   Algorithmic fairness, privacy, transparency, interpretability, and the societal impact of generative AI.
 
 [Explore research projects](/projects/)
+
+[editor-note-profile]: # "Two-column section: the following content fills the main column until the aside begins."
 ::: section split
 **Profile**
 
@@ -50,6 +56,8 @@ Nuria Oliver is Director and cofounder of [ELLIS Alicante](https://ellisalicante
 Her career includes Microsoft Research, Telefónica R&D, and Vodafone, where she was the first Director of Data Science Research globally. Today, her work at [ELLIS Alicante](https://ellisalicante.org) advances human-centered, socially responsible AI. She also co-led the winning team of the [XPRIZE Pandemic Response Challenge](https://www.xprize.org/challenges/pandemicresponse), developing data-driven AI models to support decision-making during a global crisis.
 
 She is the named inventor of [40 patents](/patents/) and regularly contributes to the public conversation about responsible AI through [invited talks](/invitedtalks/) and [the media](/press/).
+
+[editor-note-recognitions]: # "Secondary column for the preceding section: each list item is one recognition."
 ::: aside list
 **Selected recognitions**
 
@@ -60,6 +68,8 @@ She is the named inventor of [40 patents](/patents/) and regularly contributes t
 - **2021** [Abie Technology Leadership Award](https://anitab.org/profiles/abie-award-winners/nuria-oliver/)
 
 [All awards and honors](/awards/)
+
+[editor-note-links]: # "Closing section: professional-standing text followed by a list of external links."
 ::: section links
 **Professional standing**
 

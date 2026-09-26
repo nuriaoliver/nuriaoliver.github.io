@@ -6,6 +6,7 @@ permalink: /es/
 # Los marcadores de sección se cierran al comenzar la siguiente sección.
 ---
 
+[comentario-presentacion]: # "Presentación principal: imagen, especialidad, nombre, resumen y enlaces de acción."
 ::: section hero
 ![Retrato de Nuria Oliver](/bio/NuriaOliverFaceShotBlue.jpg)
 
@@ -20,8 +21,11 @@ Nuria Oliver es directora y cofundadora de [ELLIS Alicante](https://ellisalicant
 - [Leer biografía](/es/bio/)
 - [Ver publicaciones](/publications/)
 - [Contacto](/summary/)
+
+[comentario-libro]: # "Libro destacado: el contenido, la portada y el enlace se editan en _data/featuredBook.json."
 [[featured-book]]
 
+[comentario-investigacion]: # "Cuadrícula de investigación: cada elemento principal de la lista es una tarjeta; columns controla el número de columnas en pantallas grandes."
 ::: section cards columns=3
 **Investigación**
 
@@ -40,6 +44,8 @@ Nuria Oliver es directora y cofundadora de [ELLIS Alicante](https://ellisalicant
   Equidad algorítmica, privacidad, transparencia, interpretabilidad e impacto social de la inteligencia artificial generativa.
 
 [Explorar proyectos de investigación](/projects/)
+
+[comentario-perfil]: # "Sección a dos columnas: el contenido siguiente ocupa la columna principal hasta que comienza el aside."
 ::: section split
 **Perfil**
 
@@ -48,6 +54,8 @@ Nuria Oliver es directora y cofundadora de [ELLIS Alicante](https://ellisalicant
 Su trayectoria incluye Microsoft Research, Telefónica I+D y Vodafone, donde fue la primera directora de investigación en ciencia de datos a nivel mundial. En la actualidad, su trabajo en [ELLIS Alicante](https://ellisalicante.org) impulsa una inteligencia artificial centrada en las personas y socialmente responsable. También codirigió el equipo ganador del [XPRIZE Pandemic Response Challenge](https://www.xprize.org/challenges/pandemicresponse), que desarrolló modelos de IA basados en datos para apoyar la toma de decisiones durante una crisis global.
 
 Figura como inventora en [40 patentes](/patents/) y participa habitualmente en la conversación pública sobre inteligencia artificial responsable mediante [conferencias invitadas](/invitedtalks/) y colaboraciones con [los medios de comunicación](/press/).
+
+[comentario-reconocimientos]: # "Columna secundaria de la sección anterior: cada elemento de la lista es un reconocimiento."
 ::: aside list
 **Reconocimientos destacados**
 
@@ -58,6 +66,8 @@ Figura como inventora en [40 patentes](/patents/) y participa habitualmente en l
 - **2021** [Abie Technology Leadership Award](https://anitab.org/profiles/abie-award-winners/nuria-oliver/)
 
 [Todos los premios y reconocimientos](/awards/)
+
+[comentario-enlaces]: # "Sección final: texto de trayectoria seguido de una lista de enlaces externos."
 ::: section links
 **Trayectoria profesional**
 
