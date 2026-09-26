@@ -23,3 +23,7 @@ We built a prototype named SWISH that: (1) constantly monitors desktop activity 
 ## Publications
 
 [[publication:oliver2006swish]]
+
+## Presentation
+
+- [SWISH at IUI 2006 (PDF, 3.0 MB)](swish-iui-2006-presentation.pdf)
