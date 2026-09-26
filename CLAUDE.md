@@ -7,6 +7,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 ```bash
 npm start          # dev server with live reload (http://localhost:8080)
 npm run build      # build to _site/
+npm test           # run Node.js tests
 python fetch_orcid.py  # compare Nuria's ORCID works with data/nuriabib.bib
 python fetch_orcid.py --add 1,3  # add individually validated candidates via bibtexparser
 ```
@@ -29,6 +30,12 @@ This is an [Eleventy (11ty)](https://www.11ty.dev/) static site for Nuria Oliver
 **Publications system:** `data/nuriabib.bib` is the canonical source. `_data/bib.mjs` parses it for the publications and patents layouts. `fetch_orcid.py` downloads Nuria's ORCID works, compares them by DOI and normalized title, quarantines possible preprint/venue duplicates, and can add only explicitly selected candidates through `bibtexparser`.
 
 **Navigation:** Driven entirely by `_data/nav.json`. To add/remove nav items, edit that file.
+
+**Translations:** Localized pages use sibling filenames such as `index.en.md` and `index.es.md`. The plugin in `_11ty/plugins/sibling-i18n/` supplies `lang`, `altpage`, and `translations`; `_data/languages.json` contains language-switch UI text. Keep existing public URLs stable with explicit `permalink` values.
+
+**Featured book:** `_data/featuredBook.json` contains the shared metadata and localized copy. Add `[[featured-book]]` on its own line in a Markdown page to render the feature using that page's `lang`.
+
+**Homepage editing:** The localized index files contain ordinary Markdown divided by generic, implicitly closed markers. Use `::: section` for a standard section or add a style parameter: `hero`, `cards`, `split`, or `links`. Card sections accept a column count, for example `::: section cards columns=3`. Use `::: aside list` after a split section for its second column. A new section, `[[featured-book]]`, or the end of the file closes the current section automatically. Keep the expected list structure within styled sections so `assets/css/home.css` can preserve the layout.
 
 **Project pages** live under `content/projects/<name>/index.md` (page bundle pattern). Images/PDFs co-located in the bundle are passed through to output automatically.
 

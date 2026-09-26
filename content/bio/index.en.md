@@ -1,5 +1,8 @@
 ---
 title: Biography
+lang: en
+bio: true
+permalink: /bio/
 redirect_from:
   - /bio.htm
 ---
@@ -22,13 +25,13 @@ Today, she leads [ELLIS Alicante](https://ellisalicante.org), an institute devot
 
 Oliver's research examines how artificial intelligence can model human behavior, support human decision-making, and contribute to the public good. Her current interests include human-AI interaction, algorithmic fairness, privacy, transparency, interpretability, educational AI, computational social science, and the societal impact of generative AI.
 
-She has authored more than 160 scientific [publications](/publications/) and is the named inventor of [40 patents](/patents/). Her work has received best-paper and long-term-impact recognition and has influenced research in ubiquitous computing, personalized systems, mobile data analysis, and computational models of behavior.
+She has authored more than [[publication-count-floor]] scientific [publications](/publications/) and is the named inventor of more than [[patent-count-floor]] [patents](/patents/). Her work has received best-paper and long-term-impact recognition and has influenced research in ubiquitous computing, personalized systems, mobile data analysis, and computational models of behavior.
 
 In 2021, she co-led the winning team of the [XPRIZE Pandemic Response Challenge](https://www.xprize.org/challenges/pandemicresponse). The team developed data-driven AI models designed to help decision-makers compare intervention strategies during a global crisis.
 
 ## Scientific leadership
 
-Oliver is a Fellow of the ACM, IEEE, the European Association for Artificial Intelligence, ELLIS, and the Asia-Pacific Artificial Intelligence Association. She is a member of the Spanish Royal Academy of Engineering, Academia Europaea, and the CHI Academy, and a corresponding member of the Academy of Engineering of Mexico.
+Oliver is a Fellow of the ACM, IEEE, the European Association for Artificial Intelligence, ELLIS, and the Asia-Pacific Artificial Intelligence Association. She is an elected permanent member of the Spanish Royal Academy of Engineering, a member of Academia Europaea and the CHI Academy, and a corresponding member of the Academy of Engineering of Mexico.
 
 She has contributed extensively to the international scientific community through editorial boards, conference leadership, advisory committees, and the evaluation and mentoring of researchers. She has chaired or co-chaired major conferences in artificial intelligence, data science, multimedia, human-computer interaction, and digital health. A detailed record is available on the [Program Committees and Professional Service](/programcommittees/) page.
 
@@ -46,4 +49,4 @@ She is committed to making science and technology accessible to the public and t
 
 ## Short biography
 
-Nuria Oliver is Director and cofounder of [ELLIS Alicante](https://ellisalicante.org), cofounder and vice-president of [ELLIS](https://ellis.eu), and Chief Data Scientist at [Data-Pop Alliance](https://datapopalliance.org/). She holds a PhD from the MIT Media Lab and has more than 25 years of research experience in artificial intelligence, human-computer interaction, mobile computing, and computational social science. Her career includes Microsoft Research, Telefónica R&amp;D, and Vodafone, where she was the first Director of Data Science Research globally. Her work focuses on human-centered and socially responsible AI. She has authored more than 160 scientific publications, is the named inventor of 40 patents, and co-led the winning team of the XPRIZE Pandemic Response Challenge. She is a Fellow of the ACM, IEEE, EurAI, ELLIS, and AAIA, and a member of the Spanish Royal Academy of Engineering, Academia Europaea, and the CHI Academy.
+Nuria Oliver is Director and cofounder of [ELLIS Alicante](https://ellisalicante.org), cofounder and vice-president of [ELLIS](https://ellis.eu), and Chief Data Scientist at [Data-Pop Alliance](https://datapopalliance.org/). She holds a PhD from the MIT Media Lab and has more than 25 years of research experience in artificial intelligence, human-computer interaction, mobile computing, and computational social science. Her career includes Microsoft Research, Telefónica R&amp;D, and Vodafone, where she was the first Director of Data Science Research globally. Her work focuses on human-centered and socially responsible AI. She has authored more than [[publication-count-floor]] scientific publications, is the named inventor of more than [[patent-count-floor]] patents, and co-led the winning team of the XPRIZE Pandemic Response Challenge. She is a Fellow of the ACM, IEEE, EurAI, ELLIS, and AAIA, an elected permanent member of the Spanish Royal Academy of Engineering, and a member of Academia Europaea and the CHI Academy.

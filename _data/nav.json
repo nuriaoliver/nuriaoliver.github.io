@@ -1,12 +1,72 @@
 [
-  { "name": "Bio",                 "url": "/bio/" },
-  { "name": "Invited Talks",       "url": "/invitedtalks/" },
-  { "name": "Awards",              "url": "/awards/" },
-  { "name": "Publications",        "url": "/publications/" },
-  { "name": "Projects",            "url": "/projects/" },
-  { "name": "Patents",             "url": "/patents/" },
-  { "name": "Program Committees",  "url": "/programcommittees/" },
-  { "name": "Press",               "url": "/press/" },
-  { "name": "Photos",              "url": "/pictures/" },
-  { "name": "Contact",             "url": "/summary/" }
+  {
+    "name": "Bio",
+    "url": "/bio/",
+    "locales": {
+      "es": { "name": "Biografía", "url": "/es/bio/" }
+    }
+  },
+  {
+    "name": "Invited Talks",
+    "url": "/invitedtalks/",
+    "locales": {
+      "es": { "name": "Conferencias invitadas", "url": "/invitedtalks/" }
+    }
+  },
+  {
+    "name": "Awards",
+    "url": "/awards/",
+    "locales": {
+      "es": { "name": "Premios", "url": "/awards/" }
+    }
+  },
+  {
+    "name": "Publications",
+    "url": "/publications/",
+    "locales": {
+      "es": { "name": "Publicaciones", "url": "/publications/" }
+    }
+  },
+  {
+    "name": "Projects",
+    "url": "/projects/",
+    "locales": {
+      "es": { "name": "Proyectos", "url": "/projects/" }
+    }
+  },
+  {
+    "name": "Patents",
+    "url": "/patents/",
+    "locales": {
+      "es": { "name": "Patentes", "url": "/patents/" }
+    }
+  },
+  {
+    "name": "Program Committees",
+    "url": "/programcommittees/",
+    "locales": {
+      "es": { "name": "Comités de programa", "url": "/programcommittees/" }
+    }
+  },
+  {
+    "name": "Press",
+    "url": "/press/",
+    "locales": {
+      "es": { "name": "Prensa", "url": "/press/" }
+    }
+  },
+  {
+    "name": "Photos",
+    "url": "/pictures/",
+    "locales": {
+      "es": { "name": "Fotos", "url": "/pictures/" }
+    }
+  },
+  {
+    "name": "Contact",
+    "url": "/summary/",
+    "locales": {
+      "es": { "name": "Contacto", "url": "/summary/" }
+    }
+  }
 ]

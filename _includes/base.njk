@@ -4,12 +4,15 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>{% if title %}{{ title }} | Nuria Oliver{% else %}Nuria Oliver{% endif %}</title>
-    <link rel="canonical" href="{{ site.url }}{{ page.url }}">
+    <link rel="canonical" href="{{ site.url }}{{ page.url }}">{% if altpage %}
+    <link rel="alternate" hreflang="{{ lang }}" href="{{ site.url }}{{ page.url }}">
+    <link rel="alternate" hreflang="{{ altpage.lang }}" href="{{ site.url }}{{ altpage.url }}">
+    {% endif %}
     <link rel="stylesheet" href="/css/bootstrap.min.css">
     <script src="/js/bootstrap.bundle.min.js" defer></script>
     <link rel="stylesheet" href="/css/nav.css">
-    {% if page.url == '/' %}<link rel="stylesheet" href="/css/home.css">{% endif %}
-    {% if page.url == '/bio/' %}<link rel="stylesheet" href="/css/bio.css">{% endif %}
+    {% if home %}<link rel="stylesheet" href="/css/home.css">{% endif %}
+    {% if bio %}<link rel="stylesheet" href="/css/bio.css">{% endif %}
     {% if page.url == '/summary/' %}<script src="/js/contact.js" defer></script>{% endif %}
     {% if page.url == '/pictures/' %}<link rel="stylesheet" href="/css/photos.css">{% endif %}
     {% if page.url == '/awards/' %}<link rel="stylesheet" href="/css/awards.css">{% endif %}
@@ -43,7 +46,7 @@
     <header>
       {% include "nav.njk" %}
     </header>
-    <main role="main" class="{% if page.url == '/' %}home-page{% endif %}{% if page.url == '/awards/' %} awards-page{% endif %}{% if page.url == '/programcommittees/' %} service-page{% endif %}{% if page.url == '/press/' %} press-page{% endif %}">
+    <main role="main" class="{% if home %}home-page{% endif %}{% if page.url == '/awards/' %} awards-page{% endif %}{% if page.url == '/programcommittees/' %} service-page{% endif %}{% if page.url == '/press/' %} press-page{% endif %}">
       <div class="container">
         {{ content | safe }}
       </div>
