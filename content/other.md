@@ -18,11 +18,3 @@ redirect_from:
   Journal on Pattern Analysis and Machine Intelligence, PAMI (Sept
   2000)"](/papers/PAMI_visual_surveillance-109636-1.pdf)
 * ["Redes de Bayes y Modelos Graficos"](ftp://ftp.research.microsoft.com/users/nuria/invitedTalks/INTERMEDIA2001/bayesNets.zip)
-
-Smart Clothes Fashion Show
---------------------------
-
-This smart-clothing fashion show at the MIT Media Lab brought together my
-interests in technology and fashion.
-
-![](/assets/other/fashionshowbody.jpg)![](/assets/other/fashionshow1.gif)
