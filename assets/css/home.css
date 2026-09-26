@@ -125,6 +125,42 @@
   max-width: 18em;
 }
 
+.home-book {
+  align-items: end;
+  display: flex;
+  gap: 2rem;
+  justify-content: space-between;
+}
+
+.home-book h2 {
+  margin-bottom: 0.75rem;
+}
+
+.home-book cite {
+  font-style: italic;
+}
+
+.home-book p:not(.home-section__label) {
+  color: #526872;
+  line-height: 1.7;
+  margin: 0;
+}
+
+.home-book__link {
+  border-bottom: 1px solid #9dafb8;
+  color: #174f72;
+  flex: 0 0 auto;
+  font-weight: 600;
+  padding-bottom: 0.2rem;
+  text-decoration: none;
+}
+
+.home-book__link:hover,
+.home-book__link:focus-visible {
+  border-color: #174f72;
+  color: #103d59;
+}
+
 .home-research {
   display: grid;
   gap: 2.25rem;
@@ -231,6 +267,11 @@
   .home-research,
   .home-profile {
     grid-template-columns: 1fr;
+  }
+
+  .home-book {
+    align-items: start;
+    flex-direction: column;
   }
 
   .home-section {
