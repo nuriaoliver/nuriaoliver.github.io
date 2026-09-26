@@ -48,6 +48,8 @@ layout: base.njk
   cursor: help;
   font-family: inherit;
   line-height: inherit;
+  position: relative;
+  z-index: 1;
 }
 .pb-altmetric:hover { background: #fce7f3; }
 .pb-altmetric:focus-visible { outline: 2px solid #be185d; outline-offset: 2px; }
@@ -60,7 +62,23 @@ layout: base.njk
   color: #1a1a2e;
   text-decoration: none;
 }
-.publication-card__title a:hover { color: #0969da; text-decoration: underline; }
+.publication-card__primary-link::after {
+  content: "";
+  inset: 0;
+  position: absolute;
+}
+.publication-card__primary-link:focus-visible {
+  outline: none;
+}
+.publication-card__primary-link:focus-visible::after {
+  border-radius: 8px;
+  outline: 2px solid #0969da;
+  outline-offset: 2px;
+}
+.publication-card:hover .publication-card__title a {
+  color: #0969da;
+  text-decoration: underline;
+}
 .publication-card__authors,
 .publication-card__details {
   color: #57606a;
@@ -75,6 +93,7 @@ layout: base.njk
   position: absolute;
   right: 0.75rem;
   top: 0.6rem;
+  z-index: 1;
 }
 .publication-card__actions a {
   border: 1px solid #54aeff;

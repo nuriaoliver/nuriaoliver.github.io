@@ -195,7 +195,7 @@ function renderPublicationWidget(key) {
     !url && doiUrl ? `<a href="${escapeHtml(doiUrl)}" target="_blank" rel="noopener">DOI</a>` : "",
   ].filter(Boolean).join("\n      ");
   const title = titleUrl
-    ? `<a href="${escapeHtml(titleUrl)}"${titleUrl !== file ? ' target="_blank" rel="noopener"' : ""}>${escapeHtml(titleText)}</a>`
+    ? `<a class="publication-card__primary-link" href="${escapeHtml(titleUrl)}"${titleUrl !== file ? ' target="_blank" rel="noopener"' : ""}>${escapeHtml(titleText)}</a>`
     : escapeHtml(titleText);
 
   return `<article class="publication-card" id="publication-card-${escapeHtml(key)}">

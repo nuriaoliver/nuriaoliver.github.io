@@ -3,19 +3,25 @@ layout: false
 permalink: /sitemap.xml
 eleventyExcludeFromCollections: true
 ---
-<?xml version="1.0" encoding="utf-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns:xhtml="http://www.w3.org/1999/xhtml"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd"
+        xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 {%- for item in collections.all %}
-  {%- if item.url %}
+  {%- if item | includeInSitemap %}
+  {%- set alternates = item | sitemapAlternates(site.url, "en") %}
   <url>
     <loc>{{ site.url }}{{ item.url }}</loc>
-    {%- if item.data.altpage %}
-    <xhtml:link rel="alternate" hreflang="{{ item.data.lang }}" href="{{ site.url }}{{ item.url }}"/>
-    <xhtml:link rel="alternate" hreflang="{{ item.data.altpage.lang }}" href="{{ site.url }}{{ item.data.altpage.url }}"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="{{ item.data.seo.xDefaultUrl }}"/>
-    {%- endif %}
+    {%- for alternate in alternates %}
+    <xhtml:link rel="alternate" hreflang="{{ alternate.lang }}" href="{{ alternate.href }}"/>
+    {%- endfor %}
   </url>
   {%- endif %}
+{%- endfor %}
+{%- for pdfUrl in sitemapPdfs %}
+  <url>
+    <loc>{{ site.url }}{{ pdfUrl }}</loc>
+  </url>
 {%- endfor %}
 </urlset>

@@ -11,7 +11,10 @@ test("publication widget renders a bibliography card from a key", () => {
   assert.match(html, /class="publication-card"/);
   assert.match(html, /Responsive portraits/i);
   assert.match(html, /\/papers\/ResponsivePortraits\.pdf/);
-  assert.match(html, /<h3 class="publication-card__title"><a href="\/papers\/ResponsivePortraits\.pdf"/);
+  assert.match(
+    html,
+    /<h3 class="publication-card__title"><a class="publication-card__primary-link" href="\/papers\/ResponsivePortraits\.pdf"/,
+  );
   assert.doesNotMatch(html, /View in publications/);
 });
 
@@ -41,15 +44,24 @@ test("publication widget renders highlight badges", () => {
 test("publication title falls back to DOI when no PDF is available", () => {
   const html = _test.renderPublicationWidget("lepri2025socialcontract");
 
-  assert.match(html, /<h3 class="publication-card__title"><a href="https:\/\/doi\.org\//);
+  assert.match(
+    html,
+    /<h3 class="publication-card__title"><a class="publication-card__primary-link" href="https:\/\/doi\.org\//,
+  );
   assert.match(html, /target="_blank" rel="noopener"/);
 });
 
 test("publication title prefers URL over DOI", () => {
   const html = _test.renderPublicationWidget("letouze2023aisdgs");
 
-  assert.match(html, /<h3 class="publication-card__title"><a href="https:\/\/unesdoc\.unesco\.org\//);
-  assert.doesNotMatch(html, /<h3 class="publication-card__title"><a href="https:\/\/doi\.org\//);
+  assert.match(
+    html,
+    /<h3 class="publication-card__title"><a class="publication-card__primary-link" href="https:\/\/unesdoc\.unesco\.org\//,
+  );
+  assert.doesNotMatch(
+    html,
+    /<h3 class="publication-card__title"><a class="publication-card__primary-link" href="https:\/\/doi\.org\//,
+  );
 });
 
 test("publication title is not clickable without a destination", () => {
