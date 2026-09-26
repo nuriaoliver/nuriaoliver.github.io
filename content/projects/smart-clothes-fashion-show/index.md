@@ -20,17 +20,20 @@ displays, sensors, input devices, and electrical connections into clothing and
 accessories. Some garments included working technology, while others presented
 speculative ideas about the future of wearable computing.
 
-## Nuria Oliver's contribution
-
 Nuria Oliver was a technology collaborator on **Van and WearASL**, together
 with Joshua Weaver and Barbara Rosario. The concept combined cameras and
 wearable computers to translate American Sign Language into speech and speech
 into Braille. More information is available on the dedicated
 [WearASL project page](/projects/wearasl/).
 
+Alongside her technical contribution, Oliver also took part in the show itself,
+wearing one of the featured outfits. The photographs below capture that
+experience.
+
 ![Nuria Oliver at the Smart Clothes Fashion Show](/assets/other/fashionshowbody.jpg)
 
-*Nuria Oliver at the Smart Clothes Fashion Show.*
+*Nuria Oliver wearing one of the featured outfits at the Smart Clothes Fashion
+Show.*
 
 ![A smart-clothing design presented at the fashion show](/assets/other/fashionshow1.gif)
 
