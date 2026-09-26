@@ -1,11 +1,13 @@
 {
   "en": {
     "label": "English",
+    "navToggle": "Toggle navigation",
     "switchPrompt": "It looks like you prefer English.",
     "dismiss": "Dismiss language suggestion"
   },
   "es": {
     "label": "Español",
+    "navToggle": "Mostrar u ocultar la navegación",
     "switchPrompt": "Parece que prefieres español.",
     "dismiss": "Cerrar la sugerencia de idioma"
   }
