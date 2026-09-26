@@ -1,5 +1,5 @@
 ---
 layout: base.njk
 ---
-{% if title and page.url != '/' %}<h1>{{ title }}</h1>{% endif %}
+{% if title and not home %}<h1>{{ title }}</h1>{% endif %}
 {{ content | safe }}

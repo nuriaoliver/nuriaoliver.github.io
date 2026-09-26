@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <div class="container-fluid">
-    <a class="navbar-brand" href="/">Nuria Oliver</a>
+    <a class="navbar-brand" href="{% if home and lang == 'es' %}/es/{% else %}/{% endif %}">Nuria Oliver</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
       aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -12,7 +12,38 @@
             <a class="nav-link{% if page.url == item.url %} active{% endif %}" href="{{ item.url }}">{{ item.name }}</a>
           </li>
         {% endfor %}
-      </ul>
+      </ul>{% if altpage %}
+        <a class="btn btn-outline-secondary ms-lg-3" href="{{ altpage.url }}" hreflang="{{ altpage.lang }}" lang="{{ altpage.lang }}">
+          {{ languages[altpage.lang].label }}
+        </a>
+      {% endif %}
     </div>
   </div>
-</nav>
+</nav>{% if altpage %}
+  <div class="container mt-2">
+    <div id="language-switch" class="alert alert-info alert-dismissible fade d-none" role="status">
+      {{ languages[altpage.lang].switchPrompt }}
+      <a class="alert-link" href="{{ altpage.url }}" hreflang="{{ altpage.lang }}" lang="{{ altpage.lang }}">
+        {{ languages[altpage.lang].label }}
+      </a>
+      <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="{{ languages[lang].dismiss }}"></button>
+    </div>
+  </div>
+  <script>
+  (() => {
+    const languageSwitch = document.getElementById("language-switch");
+    const preferredLanguage = navigator.language || navigator.userLanguage || "";
+    const prefersAlternate =
+      preferredLanguage.toLowerCase().split("-")[0] === "{{ altpage.lang }}";
+
+    languageSwitch.addEventListener("close.bs.alert", () => {
+      window.sessionStorage.setItem("noLanguageSwitch", "true");
+    });
+
+    if (prefersAlternate && window.sessionStorage.getItem("noLanguageSwitch") !== "true") {
+      languageSwitch.classList.remove("d-none");
+      languageSwitch.classList.add("show");
+    }
+  })();
+  </script>
+{% endif %}
