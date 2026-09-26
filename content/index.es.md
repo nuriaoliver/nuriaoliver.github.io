@@ -12,7 +12,7 @@ permalink: /es/
 		<p class="home-lead">Investigo una inteligencia artificial que comprenda a las personas, colabore con ellas y esté al servicio de la sociedad.</p>
 		<p>Nuria Oliver es directora y cofundadora de <a href="https://ellisalicante.org">ELLIS Alicante</a>, cofundadora y vicepresidenta de <a href="https://ellis.eu">ELLIS</a>, y Chief Data Scientist en <a href="https://datapopalliance.org/">Data-Pop Alliance</a>. Es doctora por el MIT Media Lab y cuenta con más de 25 años de experiencia investigadora tanto en el ámbito académico como en la industria.</p>
 		<div class="home-actions" aria-label="Enlaces profesionales">
-			<a class="home-action home-action--primary" href="/bio/">Leer biografía</a>
+			<a class="home-action home-action--primary" href="/es/bio/">Leer biografía</a>
 			<a class="home-action" href="/publications/">Ver publicaciones</a>
 			<a class="home-action" href="/summary/">Contacto</a>
 		</div>

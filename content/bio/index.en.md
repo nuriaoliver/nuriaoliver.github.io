@@ -1,5 +1,8 @@
 ---
 title: Biography
+lang: en
+bio: true
+permalink: /bio/
 redirect_from:
   - /bio.htm
 ---

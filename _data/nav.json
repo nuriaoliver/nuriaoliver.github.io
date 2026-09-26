@@ -1,5 +1,11 @@
 [
-  { "name": "Bio",                 "url": "/bio/" },
+  {
+    "name": "Bio",
+    "url": "/bio/",
+    "locales": {
+      "es": { "name": "Biografía", "url": "/es/bio/" }
+    }
+  },
   { "name": "Invited Talks",       "url": "/invitedtalks/" },
   { "name": "Awards",              "url": "/awards/" },
   { "name": "Publications",        "url": "/publications/" },
