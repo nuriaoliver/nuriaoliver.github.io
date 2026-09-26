@@ -6,7 +6,7 @@ permalink: /es/
 # Los marcadores de sección se cierran al comenzar la siguiente sección.
 ---
 
-::: home-intro
+::: section hero
 ![Retrato de Nuria Oliver](/bio/NuriaOliverFaceShotBlue.jpg)
 
 **Científica informática · Inteligencia artificial centrada en las personas**
@@ -22,7 +22,7 @@ Nuria Oliver es directora y cofundadora de [ELLIS Alicante](https://ellisalicant
 - [Contacto](/summary/)
 [[featured-book]]
 
-::: home-research
+::: section cards columns=3
 **Investigación**
 
 ## Inteligencia artificial centrada en la humanidad
@@ -40,7 +40,7 @@ Nuria Oliver es directora y cofundadora de [ELLIS Alicante](https://ellisalicant
   Equidad algorítmica, privacidad, transparencia, interpretabilidad e impacto social de la inteligencia artificial generativa.
 
 [Explorar proyectos de investigación](/projects/)
-::: home-profile
+::: section split
 **Perfil**
 
 ## Investigación, liderazgo e impacto
@@ -48,7 +48,7 @@ Nuria Oliver es directora y cofundadora de [ELLIS Alicante](https://ellisalicant
 Su trayectoria incluye Microsoft Research, Telefónica I+D y Vodafone, donde fue la primera directora de investigación en ciencia de datos a nivel mundial. En la actualidad, su trabajo en [ELLIS Alicante](https://ellisalicante.org) impulsa una inteligencia artificial centrada en las personas y socialmente responsable. También codirigió el equipo ganador del [XPRIZE Pandemic Response Challenge](https://www.xprize.org/challenges/pandemicresponse), que desarrolló modelos de IA basados en datos para apoyar la toma de decisiones durante una crisis global.
 
 Figura como inventora en [40 patentes](/patents/) y participa habitualmente en la conversación pública sobre inteligencia artificial responsable mediante [conferencias invitadas](/invitedtalks/) y colaboraciones con [los medios de comunicación](/press/).
-::: home-recognition
+::: aside list
 **Reconocimientos destacados**
 
 - **2025** [Premio Nacional de Investigación Julio Rey Pastor 2025, en el área de Matemáticas y Tecnologías de la Información y las Comunicaciones](https://ellisalicante.org/2026/05/05/pr-PNI.es/)
@@ -58,7 +58,7 @@ Figura como inventora en [40 patentes](/patents/) y participa habitualmente en l
 - **2021** [Abie Technology Leadership Award](https://anitab.org/profiles/abie-award-winners/nuria-oliver/)
 
 [Todos los premios y reconocimientos](/awards/)
-::: home-credentials
+::: section links
 **Trayectoria profesional**
 
 ## Distinciones y academias

@@ -23,7 +23,8 @@
 .home-research-section > p:first-child > strong,
 .home-profile__main > p:first-child > strong,
 .home-recognition > p:first-child > strong,
-.home-credentials > p:first-child > strong {
+.home-credentials > p:first-child > strong,
+.home-standard > p:first-child > strong {
   color: #526872;
   font-size: 0.76rem;
   font-weight: 700;
@@ -194,7 +195,7 @@
 .home-research-section > ul {
   display: grid;
   gap: 2.25rem;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-columns: repeat(var(--home-columns, 3), minmax(0, 1fr));
   list-style: none;
   margin: 0;
   padding: 0;

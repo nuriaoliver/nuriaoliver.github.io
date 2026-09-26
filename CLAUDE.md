@@ -35,7 +35,7 @@ This is an [Eleventy (11ty)](https://www.11ty.dev/) static site for Nuria Oliver
 
 **Featured book:** `_data/featuredBook.json` contains the shared metadata and localized copy. Add `[[featured-book]]` on its own line in a Markdown page to render the feature using that page's `lang`.
 
-**Homepage editing:** The localized index files contain ordinary Markdown divided by markers such as `::: home-intro` and `::: home-research`. A new marker, `[[featured-book]]`, or the end of the file automatically closes the previous section. `::: home-recognition` is nested into the preceding `::: home-profile` automatically. Keep the existing section order and list structure so `assets/css/home.css` can preserve the layout.
+**Homepage editing:** The localized index files contain ordinary Markdown divided by generic, implicitly closed markers. Use `::: section` for a standard section or add a style parameter: `hero`, `cards`, `split`, or `links`. Card sections accept a column count, for example `::: section cards columns=3`. Use `::: aside list` after a split section for its second column. A new section, `[[featured-book]]`, or the end of the file closes the current section automatically. Keep the expected list structure within styled sections so `assets/css/home.css` can preserve the layout.
 
 **Project pages** live under `content/projects/<name>/index.md` (page bundle pattern). Images/PDFs co-located in the bundle are passed through to output automatically.
 

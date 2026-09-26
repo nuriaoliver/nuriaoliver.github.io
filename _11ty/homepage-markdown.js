@@ -7,6 +7,7 @@ const CONTAINERS = {
   "home-profile-main": { tag: "div", className: "home-profile__main" },
   "home-recognition": { tag: "div", className: "home-recognition" },
   "home-credentials": { tag: "section", className: "home-section home-credentials" },
+  "home-standard": { tag: "section", className: "home-section home-standard" },
 };
 
 function expandHomepageSections(source) {
@@ -26,7 +27,10 @@ function expandHomepageSections(source) {
   }
 
   for (const line of lines) {
-    const marker = line.match(/^::: (home-intro|home-research|home-profile|home-recognition|home-credentials)\s*$/);
+    const section = line.match(
+      /^::: section(?: +(hero|cards|split|links))?(?: +columns=(\d+))?\s*$/,
+    );
+    const aside = line.match(/^::: aside(?: +list)?\s*$/);
 
     if (line.trim() === "[[featured-book]]") {
       closeCurrent();
@@ -34,27 +38,34 @@ function expandHomepageSections(source) {
       continue;
     }
 
-    if (!marker) {
+    if (aside) {
+      if (current !== "home-profile-main") {
+        throw new Error("A homepage aside must follow a split section");
+      }
+      output.push(":::", "::: home-recognition");
+      current = "home-recognition";
+      continue;
+    }
+
+    if (!section) {
       output.push(line);
       continue;
     }
 
-    const name = marker[1];
-    if (name === "home-recognition") {
-      if (current !== "home-profile-main") {
-        throw new Error("home-recognition must follow home-profile");
-      }
-      output.push(":::", "::: home-recognition");
-      current = name;
-      continue;
-    }
-
     closeCurrent();
-    if (name === "home-profile") {
+    const [, variant = "standard", columns] = section;
+    if (variant === "split") {
       output.push(":::: home-profile", "::: home-profile-main");
       current = "home-profile-main";
     } else {
-      output.push(`::: ${name}`);
+      const name = {
+        hero: "home-intro",
+        cards: "home-research",
+        links: "home-credentials",
+        standard: "home-standard",
+      }[variant];
+      const options = variant === "cards" && columns ? ` columns=${columns}` : "";
+      output.push(`::: ${name}${options}`);
       current = name;
     }
   }
@@ -71,9 +82,12 @@ function addHomepageContainers(md) {
   for (const [name, { tag, className }] of Object.entries(CONTAINERS)) {
     md.use(markdownItContainer, name, {
       render(tokens, index) {
-        return tokens[index].nesting === 1
-          ? `<${tag} class="${className}">\n`
-          : `</${tag}>\n`;
+        if (tokens[index].nesting !== 1) {
+          return `</${tag}>\n`;
+        }
+        const columns = tokens[index].info.match(/\bcolumns=(\d+)\b/)?.[1];
+        const style = columns ? ` style="--home-columns: ${columns}"` : "";
+        return `<${tag} class="${className}"${style}>\n`;
       },
     });
   }
