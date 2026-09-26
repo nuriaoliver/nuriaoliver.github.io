@@ -1,5 +1,6 @@
 ---
 title: Contact
+description: Contact information and professional profile links for Nuria Oliver.
 redirect_from:
   - /summary.htm
 ---

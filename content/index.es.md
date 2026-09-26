@@ -1,5 +1,6 @@
 ---
 title: Nuria Oliver, PhD
+description: Sitio web oficial de Nuria Oliver, científica informática e investigadora en inteligencia artificial centrada en las personas. Biografía, publicaciones, patentes, proyectos y conferencias.
 lang: es
 home: true
 permalink: /es/

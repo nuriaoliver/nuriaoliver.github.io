@@ -6,6 +6,7 @@ const { addFeaturedBookWidget } = require("./_11ty/featured-book-widget");
 const { addHomepageContainers } = require("./_11ty/homepage-markdown");
 const { addPublicationWidgets } = require("./_11ty/publication-widget");
 const { addResearchCountsWidget } = require("./_11ty/research-counts-widget");
+const { buildSeoData, serializeJsonLd } = require("./_11ty/seo");
 
 module.exports = function (eleventyConfig) {
   eleventyConfig.addPlugin(redirectsPlugin);
@@ -13,6 +14,7 @@ module.exports = function (eleventyConfig) {
     languages: ["en", "es"],
     defaultLanguage: "en",
   });
+  eleventyConfig.addGlobalData("eleventyComputed.seo", () => data => buildSeoData(data));
   eleventyConfig.addDataExtension("yaml", (contents) => yaml.parse(contents));
 
   // Copy static/ to output root
@@ -152,6 +154,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addFilter("markdownInline", function (content) {
     return md.renderInline(content || "");
   });
+  eleventyConfig.addFilter("jsonLd", serializeJsonLd);
   eleventyConfig.addFilter("archiveByDecade", function (archive, category) {
     const decades = new Map();
 

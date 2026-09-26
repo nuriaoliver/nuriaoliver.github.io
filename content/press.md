@@ -1,5 +1,6 @@
 ---
 title: Press Coverage
+description: Selected interviews, profiles and press coverage featuring computer scientist Nuria Oliver.
 redirect_from:
   - /press.htm
   - /videos.htm

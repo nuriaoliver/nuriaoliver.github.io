@@ -1,5 +1,6 @@
 ---
 title: Projects
+description: Research projects by Nuria Oliver spanning human-centered artificial intelligence, mobile computing, multimedia and computational modeling.
 layout: projects
 redirect_from:
   - /projects.htm

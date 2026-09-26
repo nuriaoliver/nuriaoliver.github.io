@@ -1,5 +1,6 @@
 ---
 title: Awards and Honors
+description: Awards, honors, fellowships and professional distinctions received by computer scientist Nuria Oliver.
 redirect_from:
   - /awards.htm
 ---

@@ -1,5 +1,6 @@
 ---
 title: Press & Media Photos
+description: Press and media photographs of Nuria Oliver available for editorial use.
 redirect_from:
   - /pictures.htm
 ---

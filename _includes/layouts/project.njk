@@ -90,14 +90,6 @@ layout: base.njk
 .publication-card__actions a:hover { background: #ddf4ff; color: #0550ae; }
 </style>
 
-<nav aria-label="breadcrumb">
-  <ol class="breadcrumb">
-    <li class="breadcrumb-item"><a href="/">Home</a></li>
-    <li class="breadcrumb-item"><a href="/projects/">Projects</a></li>
-    <li class="breadcrumb-item active" aria-current="page">{{ shortTitle or title }}</li>
-  </ol>
-</nav>
-
 <h1>{{ title }}</h1>
 
 {{ content | safe }}
