@@ -3,10 +3,8 @@ title: Nuria Oliver, PhD
 lang: es
 home: true
 permalink: /es/
-# Los marcadores de sección se cierran al comenzar la siguiente sección.
 ---
 
-[comentario-presentacion]: # "Presentación principal: imagen, especialidad, nombre, resumen y enlaces de acción."
 ::: section hero
 ![Retrato de Nuria Oliver](/bio/NuriaOliverFaceShotBlue.jpg)
 
@@ -22,10 +20,8 @@ Nuria Oliver es directora y cofundadora de [ELLIS Alicante](https://ellisalicant
 - [Ver publicaciones](/publications/)
 - [Contacto](/summary/)
 
-[comentario-libro]: # "Libro destacado: el contenido, la portada y el enlace se editan en _data/featuredBook.json."
 [[featured-book]]
 
-[comentario-investigacion]: # "Cuadrícula de investigación: cada elemento principal de la lista es una tarjeta; columns controla el número de columnas en pantallas grandes."
 ::: section cards columns=3
 **Investigación**
 
@@ -45,7 +41,6 @@ Nuria Oliver es directora y cofundadora de [ELLIS Alicante](https://ellisalicant
 
 [Explorar proyectos de investigación](/projects/)
 
-[comentario-perfil]: # "Sección a dos columnas: el contenido siguiente ocupa la columna principal hasta que comienza el aside."
 ::: section split
 **Perfil**
 
@@ -55,7 +50,6 @@ Su trayectoria incluye Microsoft Research, Telefónica I+D y Vodafone, donde fue
 
 Figura como inventora en [40 patentes](/patents/) y participa habitualmente en la conversación pública sobre inteligencia artificial responsable mediante [conferencias invitadas](/invitedtalks/) y colaboraciones con [los medios de comunicación](/press/).
 
-[comentario-reconocimientos]: # "Columna secundaria de la sección anterior: cada elemento de la lista es un reconocimiento."
 ::: aside list
 **Reconocimientos destacados**
 
@@ -67,7 +61,6 @@ Figura como inventora en [40 patentes](/patents/) y participa habitualmente en l
 
 [Todos los premios y reconocimientos](/awards/)
 
-[comentario-enlaces]: # "Sección final: texto de trayectoria seguido de una lista de enlaces externos."
 ::: section links
 **Trayectoria profesional**
 
